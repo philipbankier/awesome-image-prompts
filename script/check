@@ -1,0 +1,176 @@
+#!/usr/bin/env python3
+
+import json
+import re
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+REQUIRED_RECIPE_KEYS = {
+    "schema_version",
+    "id",
+    "record_version",
+    "status",
+    "title",
+    "task_family",
+    "source_posture",
+    "source_record",
+    "recipe_markdown",
+    "evidence_manifest",
+    "profiles",
+    "evidence_status",
+}
+ALLOWED_POSTURES = {"attributed-rebuild", "translation", "frozen-source"}
+ALLOWED_EVIDENCE = {"placeholder", "recorded"}
+MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+
+
+def fail(message: str) -> None:
+    print(f"ERROR: {message}", file=sys.stderr)
+    raise SystemExit(1)
+
+
+def load_json(path: Path) -> dict:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        fail(f"missing file: {path.relative_to(ROOT)}")
+    except json.JSONDecodeError as error:
+        fail(f"invalid JSON in {path.relative_to(ROOT)}: {error}")
+
+
+def require_relative_file(base: Path, value: str, label: str) -> Path:
+    path = (base / value).resolve()
+    try:
+        path.relative_to(ROOT)
+    except ValueError:
+        fail(f"{label} escapes repository: {value}")
+    if not path.is_file():
+        fail(f"missing {label}: {path.relative_to(ROOT)}")
+    return path
+
+
+def check_skill() -> None:
+    skill = ROOT / "skills/image-recipe-library/SKILL.md"
+    text = skill.read_text(encoding="utf-8")
+    if not text.startswith("---\n"):
+        fail("skill frontmatter is missing")
+    parts = text.split("---\n", 2)
+    if len(parts) != 3:
+        fail("skill frontmatter is not closed")
+    frontmatter: dict[str, str] = {}
+    for line in parts[1].splitlines():
+        if ":" not in line:
+            fail(f"invalid skill frontmatter line: {line}")
+        key, value = line.split(":", 1)
+        frontmatter[key.strip()] = value.strip()
+    if set(frontmatter) != {"name", "description"}:
+        fail("skill frontmatter must contain only name and description")
+    name = frontmatter["name"]
+    description = frontmatter["description"]
+    if name != "image-recipe-library":
+        fail("skill name is missing or incorrect")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name) or len(name) > 64:
+        fail("skill name is not valid hyphen-case")
+    if not description or len(description) > 1024 or "<" in description or ">" in description:
+        fail("skill description is missing or invalid")
+    if "[TODO:" in parts[2]:
+        fail("skill instructions contain an unfinished TODO placeholder")
+
+    expected = Path("../../skills/image-recipe-library")
+    for link_name in (
+        ".agents/skills/image-recipe-library",
+        ".claude/skills/image-recipe-library",
+    ):
+        link = ROOT / link_name
+        if not link.is_symlink():
+            fail(f"runtime discovery path is not a symlink: {link_name}")
+        if Path(link.readlink()) != expected:
+            fail(f"runtime discovery link has unexpected target: {link_name}")
+
+
+def check_local_markdown_links() -> None:
+    ignored_parts = {".agents", ".claude", ".git"}
+    for markdown in ROOT.rglob("*.md"):
+        relative = markdown.relative_to(ROOT)
+        if ignored_parts.intersection(relative.parts):
+            continue
+        text = markdown.read_text(encoding="utf-8")
+        for target in MARKDOWN_LINK.findall(text):
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            local_target = target.split("#", 1)[0]
+            if not local_target:
+                continue
+            path = (markdown.parent / local_target).resolve()
+            try:
+                path.relative_to(ROOT)
+            except ValueError:
+                fail(f"Markdown link escapes repository in {relative}: {target}")
+            if not path.exists():
+                fail(f"broken Markdown link in {relative}: {target}")
+
+
+def main() -> None:
+    for required_file in ("LICENSE", "THIRD_PARTY_NOTICES.md"):
+        if not (ROOT / required_file).is_file():
+            fail(f"missing repository rights file: {required_file}")
+
+    catalog = load_json(ROOT / "catalog.json")
+    if catalog.get("schema_version") != 1:
+        fail("catalog schema_version must be 1")
+
+    recipes = catalog.get("recipes")
+    if not isinstance(recipes, list) or not recipes:
+        fail("catalog recipes must be a non-empty list")
+
+    seen_ids: set[str] = set()
+    for entry in recipes:
+        recipe_path = require_relative_file(ROOT, entry.get("path", ""), "Recipe record")
+        record = load_json(recipe_path)
+        missing = REQUIRED_RECIPE_KEYS - record.keys()
+        if missing:
+            fail(f"{recipe_path.relative_to(ROOT)} missing keys: {', '.join(sorted(missing))}")
+        if record["schema_version"] != 1:
+            fail(f"{record['id']} schema_version must be 1")
+        if record["id"] != entry.get("id"):
+            fail(f"catalog id does not match {recipe_path.relative_to(ROOT)}")
+        if record["id"] in seen_ids:
+            fail(f"duplicate Recipe id: {record['id']}")
+        seen_ids.add(record["id"])
+        if record["source_posture"] not in ALLOWED_POSTURES:
+            fail(f"{record['id']} has invalid source_posture")
+        if record["evidence_status"] not in ALLOWED_EVIDENCE:
+            fail(f"{record['id']} has invalid evidence_status")
+        profiles = record["profiles"]
+        if not isinstance(profiles, dict) or set(profiles) != {
+            "conversational",
+            "gpt-image-2-api",
+        }:
+            fail(f"{record['id']} must declare both version-one profiles")
+        if not all(isinstance(value, str) and value for value in profiles.values()):
+            fail(f"{record['id']} profile ids must be non-empty strings")
+
+        base = recipe_path.parent
+        require_relative_file(base, record["source_record"], "source record")
+        require_relative_file(base, record["recipe_markdown"], "Recipe Markdown")
+        evidence_path = require_relative_file(base, record["evidence_manifest"], "evidence manifest")
+        evidence = load_json(evidence_path)
+        if evidence.get("recipe_id") != record["id"]:
+            fail(f"evidence recipe_id mismatch for {record['id']}")
+        if evidence.get("status") != record["evidence_status"]:
+            fail(f"evidence status mismatch for {record['id']}")
+        runs = evidence.get("runs")
+        if not isinstance(runs, list):
+            fail(f"evidence runs must be a list for {record['id']}")
+        if evidence["status"] == "placeholder" and runs:
+            fail(f"placeholder evidence cannot contain runs for {record['id']}")
+
+    check_skill()
+    check_local_markdown_links()
+    print(f"Check passed: {len(recipes)} Recipes and portable skill structure are valid.")
+
+
+if __name__ == "__main__":
+    main()

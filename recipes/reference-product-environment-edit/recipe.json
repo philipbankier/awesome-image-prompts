@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "reference-product-environment-edit",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Reference Product Environment Edit",
+  "task_family": "reference-based-edit",
+  "source_posture": "attributed-rebuild",
+  "source_record": "../../sources/case-519.md",
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "placeholder"
+}
