@@ -4,7 +4,7 @@
 - Record version: 1
 - Task family: Reference-based edit
 - Source posture: Attributed Rebuild
-- Evidence status: Placeholder
+- Evidence status: Recorded illustrative run, not promotion evidence
 - Canonical source record: [case-519](../../sources/case-519.md)
 - Default outcome: Production Candidate, subject to final QA
 
@@ -135,7 +135,7 @@ DO NOT
 Do not create extra bottles, duplicate caps, new packaging, new text, new logos, new claims, label occlusion, product deformation, watermarks, or unrelated props. If an environmental instruction conflicts with product preservation, preserve the product.
 ```
 
-For a promotion evaluation, record the request date, model identifier, endpoint, full parameter set, input checksum, exact completed prompt, response request ID, latency, output checksum, and inspection result. The current evidence manifest contains no runs.
+For a promotion evaluation, record the request date, model identifier, endpoint, full parameter set, input checksum, exact completed prompt, response request ID, latency, output checksum, and inspection result. The current evidence manifest contains one supporting-input run and one illustrative edit run, neither of which is promotion evidence.
 
 ## Critical Invariants
 
@@ -227,15 +227,24 @@ Brief B, materially different nocturnal fragrance:
 - Environment replacement: a rain-dark basalt plinth, sparse eucalyptus leaves behind the bottle, cool moonlit rim light, a deep blue-gray background, restrained wet reflections, and crisp product focus.
 - Composition: one complete bottle on the lower third of a `2048x3072` portrait frame, with asymmetric negative space above-left and safe margins on every edge.
 
-The briefs differ in bottle geometry, glass behavior, cap material, label treatment, props, surface, palette, light, and composition while testing the same narrow preservation contract. A future promotion evaluation requires two API runs per brief plus one disclosed Conversational Profile smoke run. None have been run.
+The briefs differ in bottle geometry, glass behavior, cap material, label treatment, props, surface, palette, light, and composition while testing the same narrow preservation contract. A future promotion evaluation requires two API runs per brief plus one disclosed Conversational Profile smoke run. No promotion evaluation run has been completed.
 
-## Placeholder Preview
+## Rendered Sample
 
-Text-only placeholder, not generated output and not evaluation evidence:
+| Project-generated reference | Environment edit |
+| :---: | :---: |
+| ![Fictional FIELD NOTE perfume bottle on a neutral studio background](samples/field-note-reference.png) | ![The same FIELD NOTE perfume bottle on limestone with a cobalt arc and oat stems](samples/field-note-environment-edit.png) |
 
-> A single authorized perfume bottle remains visually identical to its reference in a vertical e-commerce frame. The old environment is fully replaced by the brief's declared surface, props, background, and directional light. The complete cap and label remain visible, the exact label text is unchanged, and clear negative space supports downstream page layout.
+The left image is a project-generated fictional reference. The right image is one real environment edit made with the Codex built-in image generation tool on 2026-08-25. Manual comparison found the oval amber bottle, rectangular cap, cream label, and exact `FIELD NOTE / 01` text preserved.
 
-No image accompanies this placeholder. Replace it only with a Rendered Sample tied to recorded run evidence.
+- [Reference-generation prompt](samples/field-note-reference.prompt.txt)
+- [Environment-edit prompt](samples/field-note-environment-edit.prompt.txt)
+- [Generation Run records](evidence.json)
+- Model, model version, seed, request parameters, and request ID: `not_exposed`
+- Reference and output: `1024x1536` PNG, below the API profile's `2048x3072` target
+- Promotion evidence: no
+
+The pair demonstrates one edit, not repeatability, GPT Image 2 API conformance, a complete invariant pass, or publication readiness.
 
 ## Provenance and rights boundary
 

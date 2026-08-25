@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+import hashlib
 import json
 import re
+import struct
 import sys
 from pathlib import Path
 
@@ -23,7 +25,48 @@ REQUIRED_RECIPE_KEYS = {
 }
 ALLOWED_POSTURES = {"attributed-rebuild", "translation", "frozen-source"}
 ALLOWED_EVIDENCE = {"placeholder", "recorded"}
+REQUIRED_EVIDENCE_KEYS = {
+    "schema_version",
+    "recipe_id",
+    "recipe_record_version",
+    "status",
+    "runs",
+}
+REQUIRED_RUN_KEYS = {
+    "id",
+    "kind",
+    "generated_at",
+    "surface",
+    "model",
+    "model_version",
+    "seed",
+    "request_parameters",
+    "request_id",
+    "prompt_file",
+    "profile_id",
+    "inputs",
+    "output",
+    "inspection",
+    "promotion_evidence",
+    "featured_in_readme",
+    "rights",
+}
+REQUIRED_ASSET_KEYS = {"path", "sha256", "width", "height", "format"}
+REQUIRED_RIGHTS_KEYS = {
+    "input_rights",
+    "creator_or_authorized_licensor",
+    "license",
+}
+PROMOTION_METADATA_KEYS = {
+    "model",
+    "model_version",
+    "seed",
+    "request_parameters",
+    "request_id",
+}
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+SHA256 = re.compile(r"[0-9a-f]{64}")
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 
 
 def fail(message: str) -> None:
@@ -33,11 +76,14 @@ def fail(message: str) -> None:
 
 def load_json(path: Path) -> dict:
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        value = json.loads(path.read_text(encoding="utf-8"))
     except FileNotFoundError:
         fail(f"missing file: {path.relative_to(ROOT)}")
     except json.JSONDecodeError as error:
         fail(f"invalid JSON in {path.relative_to(ROOT)}: {error}")
+    if not isinstance(value, dict):
+        fail(f"JSON root must be an object: {path.relative_to(ROOT)}")
+    return value
 
 
 def require_relative_file(base: Path, value: str, label: str) -> Path:
@@ -49,6 +95,200 @@ def require_relative_file(base: Path, value: str, label: str) -> Path:
     if not path.is_file():
         fail(f"missing {label}: {path.relative_to(ROOT)}")
     return path
+
+
+def require_keys(value: object, required: set[str], label: str) -> dict:
+    if not isinstance(value, dict):
+        fail(f"{label} must be an object")
+    missing = required - value.keys()
+    if missing:
+        fail(f"{label} missing keys: {', '.join(sorted(missing))}")
+    return value
+
+
+def require_nonempty_string(value: object, label: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        fail(f"{label} must be a non-empty string")
+    return value
+
+
+def check_asset(base: Path, value: object, label: str) -> Path:
+    asset = require_keys(value, REQUIRED_ASSET_KEYS, label)
+    asset_path_value = require_nonempty_string(asset["path"], f"{label} path")
+    asset_path = require_relative_file(base, asset_path_value, f"{label} asset")
+
+    checksum = asset["sha256"]
+    if not isinstance(checksum, str) or not SHA256.fullmatch(checksum):
+        fail(f"{label} sha256 must be 64 lowercase hexadecimal characters")
+    actual_checksum = hashlib.sha256(asset_path.read_bytes()).hexdigest()
+    if actual_checksum != checksum:
+        fail(f"{label} sha256 does not match {asset_path.relative_to(ROOT)}")
+
+    if asset["format"] != "png":
+        fail(f"{label} format must be png")
+    for dimension in ("width", "height"):
+        if (
+            isinstance(asset[dimension], bool)
+            or not isinstance(asset[dimension], int)
+            or asset[dimension] <= 0
+        ):
+            fail(f"{label} {dimension} must be a positive integer")
+
+    header = asset_path.read_bytes()[:24]
+    if header[:8] != PNG_SIGNATURE:
+        fail(f"{label} is not a PNG: {asset_path.relative_to(ROOT)}")
+    if len(header) < 24 or header[8:12] != b"\x00\x00\x00\r" or header[12:16] != b"IHDR":
+        fail(f"{label} has an invalid PNG IHDR: {asset_path.relative_to(ROOT)}")
+    actual_width, actual_height = struct.unpack(">II", header[16:24])
+    if (actual_width, actual_height) != (asset["width"], asset["height"]):
+        fail(f"{label} dimensions do not match {asset_path.relative_to(ROOT)}")
+    return asset_path
+
+
+def check_evidence(
+    record: dict,
+    base: Path,
+    evidence_path: Path,
+    readme_text: str,
+) -> None:
+    relative_evidence = evidence_path.relative_to(ROOT)
+    evidence = require_keys(
+        load_json(evidence_path),
+        REQUIRED_EVIDENCE_KEYS,
+        str(relative_evidence),
+    )
+    if evidence["schema_version"] != 1:
+        fail(f"{relative_evidence} schema_version must be 1")
+    if evidence["recipe_id"] != record["id"]:
+        fail(f"evidence recipe_id mismatch for {record['id']}")
+    if evidence["recipe_record_version"] != record["record_version"]:
+        fail(f"evidence recipe_record_version mismatch for {record['id']}")
+
+    runs = evidence["runs"]
+    if not isinstance(runs, list):
+        fail(f"evidence runs must be a list for {record['id']}")
+    expected_status = "recorded" if runs else "placeholder"
+    if evidence["status"] != expected_status:
+        fail(f"evidence status must be {expected_status} for {record['id']}")
+    if evidence["status"] != record["evidence_status"]:
+        fail(f"evidence status mismatch for {record['id']}")
+
+    profile_ids = set(record["profiles"].values())
+    seen_run_ids: set[str] = set()
+    for index, value in enumerate(runs, start=1):
+        run_label = f"{relative_evidence} run {index}"
+        run = require_keys(value, REQUIRED_RUN_KEYS, run_label)
+
+        run_id = require_nonempty_string(run["id"], f"{run_label} id")
+        if run_id in seen_run_ids:
+            fail(f"duplicate run id in {relative_evidence}: {run_id}")
+        seen_run_ids.add(run_id)
+        for key in (
+            "kind",
+            "generated_at",
+            "surface",
+            "model",
+            "model_version",
+            "request_id",
+        ):
+            require_nonempty_string(run[key], f"{run_label} {key}")
+
+        seed = run["seed"]
+        if (
+            isinstance(seed, bool)
+            or not isinstance(seed, (int, str))
+            or (isinstance(seed, str) and not seed.strip())
+        ):
+            fail(f"{run_label} seed must be an integer or non-empty string")
+        if not isinstance(run["request_parameters"], dict) and run["request_parameters"] != "not_exposed":
+            fail(f"{run_label} request_parameters must be an object or not_exposed")
+
+        prompt_file_value = require_nonempty_string(
+            run["prompt_file"],
+            f"{run_label} prompt_file",
+        )
+        prompt_path = require_relative_file(base, prompt_file_value, f"{run_label} prompt file")
+        try:
+            prompt_text = prompt_path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            fail(f"{run_label} prompt file must be UTF-8 text")
+        if not prompt_text.strip():
+            fail(f"{run_label} prompt file must contain the exact prompt")
+
+        profile_id = run["profile_id"]
+        if profile_id is not None:
+            profile_id = require_nonempty_string(profile_id, f"{run_label} profile_id")
+            if profile_id not in profile_ids:
+                fail(f"{run_label} profile_id does not match recipe.json")
+
+        inputs = run["inputs"]
+        if not isinstance(inputs, list):
+            fail(f"{run_label} inputs must be an array")
+        for input_index, input_value in enumerate(inputs, start=1):
+            input_label = f"{run_label} input {input_index}"
+            input_asset = require_keys(
+                input_value,
+                REQUIRED_ASSET_KEYS | {"authorization"},
+                input_label,
+            )
+            require_nonempty_string(
+                input_asset["authorization"],
+                f"{input_label} authorization",
+            )
+            check_asset(base, input_asset, input_label)
+
+        output_path = check_asset(base, run["output"], f"{run_label} output")
+
+        inspection = require_keys(
+            run["inspection"],
+            {"status", "notes"},
+            f"{run_label} inspection",
+        )
+        require_nonempty_string(
+            inspection["status"],
+            f"{run_label} inspection status",
+        )
+        notes = inspection["notes"]
+        if not isinstance(notes, list) or not notes:
+            fail(f"{run_label} inspection notes must be a non-empty array")
+        for note_index, note in enumerate(notes, start=1):
+            require_nonempty_string(
+                note,
+                f"{run_label} inspection note {note_index}",
+            )
+
+        for key in ("promotion_evidence", "featured_in_readme"):
+            if not isinstance(run[key], bool):
+                fail(f"{run_label} {key} must be a boolean")
+
+        rights = require_keys(
+            run["rights"],
+            REQUIRED_RIGHTS_KEYS,
+            f"{run_label} rights",
+        )
+        for key in REQUIRED_RIGHTS_KEYS:
+            require_nonempty_string(rights[key], f"{run_label} rights {key}")
+
+        if run["promotion_evidence"]:
+            if run["kind"] == "supporting-input-generation":
+                fail(f"{run_label} supporting input cannot be promotion evidence")
+            if profile_id is None:
+                fail(f"{run_label} promotion evidence requires a profile_id")
+            hidden = sorted(
+                key for key in PROMOTION_METADATA_KEYS if run[key] == "not_exposed"
+            )
+            if hidden:
+                fail(
+                    f"{run_label} promotion evidence has not_exposed metadata: "
+                    f"{', '.join(hidden)}"
+                )
+
+        if run["featured_in_readme"]:
+            output_reference = output_path.relative_to(ROOT).as_posix()
+            evidence_reference = relative_evidence.as_posix()
+            for reference in (output_reference, evidence_reference):
+                if reference not in readme_text:
+                    fail(f"README.md must reference featured evidence path: {reference}")
 
 
 def check_skill() -> None:
@@ -125,6 +365,7 @@ def main() -> None:
     if not isinstance(recipes, list) or not recipes:
         fail("catalog recipes must be a non-empty list")
 
+    readme_text = (ROOT / "README.md").read_text(encoding="utf-8")
     seen_ids: set[str] = set()
     for entry in recipes:
         recipe_path = require_relative_file(ROOT, entry.get("path", ""), "Recipe record")
@@ -156,16 +397,7 @@ def main() -> None:
         require_relative_file(base, record["source_record"], "source record")
         require_relative_file(base, record["recipe_markdown"], "Recipe Markdown")
         evidence_path = require_relative_file(base, record["evidence_manifest"], "evidence manifest")
-        evidence = load_json(evidence_path)
-        if evidence.get("recipe_id") != record["id"]:
-            fail(f"evidence recipe_id mismatch for {record['id']}")
-        if evidence.get("status") != record["evidence_status"]:
-            fail(f"evidence status mismatch for {record['id']}")
-        runs = evidence.get("runs")
-        if not isinstance(runs, list):
-            fail(f"evidence runs must be a list for {record['id']}")
-        if evidence["status"] == "placeholder" and runs:
-            fail(f"placeholder evidence cannot contain runs for {record['id']}")
+        check_evidence(record, base, evidence_path, readme_text)
 
     check_skill()
     check_local_markdown_links()

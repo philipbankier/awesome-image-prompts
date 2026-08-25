@@ -1,0 +1,34 @@
+Use case: ads-marketing
+Asset type: generated example for an open-source image-prompt Recipe README
+Primary request: Create one finished commercial product advertisement, not a moodboard, contact sheet, package mockup board, or set of alternatives.
+
+PRODUCT
+- Fictional product: CITRA SUN, a sparkling lemon and yuzu drink.
+- Container: one transparent 500 mL PET bottle with straight cylindrical walls, a shallow shoulder, a white tamper-evident cap, pale-yellow carbonated liquid, and one cream paper label.
+- Keep the bottle geometry, closure, liquid level, and declared volume physically coherent.
+
+EXACT DISPLAY TEXT
+- Render only these strings, each exactly once:
+  1. "CITRA SUN" centered on the label.
+  2. "LEMON + YUZU" below the brand on the label.
+  3. "SPARKLING CITRUS DRINK" in the upper-left negative space.
+  4. "500 mL" at the label base.
+- Preserve every character, space, punctuation mark, capital letter, and unit exactly.
+- Add no other letters, numbers, logos, signatures, watermarks, prices, claims, or fine print.
+
+SCENE AND COMPOSITION
+- Warm ivory stone plinth with one restrained lemon half, one yuzu peel curl, and soft pool-light caustics.
+- Eye-level three-quarter bottle view, product centered slightly right, complete silhouette visible, clean upper-left copy area.
+- Portrait 3:4 composition with safe margins around the full bottle, cap, label, base, and all text.
+
+ART DIRECTION
+- Premium photorealistic commercial product photography.
+- Lemon yellow, warm ivory, and leaf green palette.
+- Hard summer key light from upper left with soft fill.
+- Credible PET edges, coherent reflections, realistic condensation, believable liquid, grounded contact shadow.
+- Citrus props remain secondary to the bottle.
+
+CONSTRAINTS
+- One finished advertisement only.
+- No extra bottles or labels, splashing liquid, tropical fruit, blue caps, deformed packaging, duplicated fruit, clipped copy, clutter, UI chrome, comparison panels, third-party marks, or watermark.
+- Treat the exact display text and complete product silhouette as hard constraints.

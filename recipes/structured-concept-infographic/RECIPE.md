@@ -3,7 +3,7 @@
 - Record version: 2
 - Status: Draft
 - Source posture: External Frozen Source reference with a separately authored Recipe wrapper
-- Evidence status: Placeholder
+- Evidence status: Recorded illustrative run, not promotion evidence
 - Profiles: `conversational-v1`, `gpt-image-2-api-v1`
 
 This Recipe turns an approved facts block into one structured educational infographic. The facts block, not the image model, is the authority. A generated output can become a Production Candidate only after it passes every Critical Invariant and the complete rubric below.
@@ -329,24 +329,19 @@ SOURCE_OWNER: Evaluation fact owner
 SOURCE_REVIEW_DATE: Must be set before a run.
 ```
 
-## Placeholder Preview
+## Rendered Sample
 
-Text-only Placeholder Preview. This is a layout description, not an image, Rendered Sample, provider output, or evaluation evidence.
+![Bayes theorem infographic showing 1,000 components split into defective and good groups, then recombined into 135 flagged components](samples/bayes-flagged-group.png)
 
-```text
-┌────────────────────────────────────────────┐
-│ BAYES TITLE                                │
-├────────────────────┬───────────────────────┤
-│ 100 defective      │ 900 good              │
-│ 90 flagged         │ 45 flagged            │
-├────────────────────┴───────────────────────┤
-│ FLAGGED GROUP: 90 + 45 = 135               │
-├────────────────────────────────────────────┤
-│ P(defective | flagged) = 90 / 135 = 66.7% │
-└────────────────────────────────────────────┘
-```
+This is one real output generated from Evaluation Brief B with the Codex built-in image generation tool on 2026-08-25. Manual review found the population split, flagged counts, denominator, Bayes substitution, and `66.7%` result visibly consistent with the supplied facts.
 
-Evidence remains `placeholder` with no Generation Runs. No claim about prompt behavior, image quality, or repeatability is supported yet.
+- [Exact submitted prompt](samples/bayes-flagged-group.prompt.txt)
+- [Generation Run record](evidence.json)
+- Model, model version, seed, request parameters, and request ID: `not_exposed`
+- Output: `1024x1536` PNG
+- Promotion evidence: no
+
+The sample demonstrates one result, not repeatability, GPT Image 2 API conformance, a fully scored rubric pass, factual sign-off, or publication readiness.
 
 ## Provenance and rights boundary
 

@@ -2,7 +2,89 @@
   "schema_version": 1,
   "recipe_id": "reference-product-environment-edit",
   "recipe_record_version": 1,
-  "status": "placeholder",
-  "summary": "No conversational or provider-connected evaluation has been run for this Recipe.",
-  "runs": []
+  "status": "recorded",
+  "summary": "One project-generated reference and one built-in-tool environment edit are recorded for illustration. They are not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-25-01",
+      "kind": "supporting-input-generation",
+      "generated_at": "2026-08-25T18:49:14Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/field-note-reference.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/field-note-reference.png",
+        "sha256": "e1719e9330b4e896323541affb987b7d19a46765e1a71197e74e19cae4ee5a84",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_as_authorized_input",
+        "notes": [
+          "The fictional bottle is fully visible with one cap and one cream label.",
+          "The exact label text FIELD NOTE / 01 is legible and no other text appears.",
+          "This supporting run creates the project-owned reference; it is not a Recipe result."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-25-02",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-25T18:49:45Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/field-note-environment-edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/field-note-reference.png",
+          "sha256": "e1719e9330b4e896323541affb987b7d19a46765e1a71197e74e19cae4ee5a84",
+          "width": 1024,
+          "height": 1536,
+          "format": "png",
+          "authorization": "Project-generated fictional reference from run codex-built-in-2026-08-25-01."
+        }
+      ],
+      "output": {
+        "path": "samples/field-note-environment-edit.png",
+        "sha256": "c0e804ee830782dd61b33c5cea99a40656fc57c040238dea27ddc57fca402c66",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "The before-and-after pair keeps one oval amber bottle, rectangular cap, cream label, and exact FIELD NOTE / 01 text.",
+          "The environment changes to the requested limestone, cobalt arc, oat stems, warm light, and lower-right composition.",
+          "The output is 1024x1536 rather than the API profile's 2048x3072 target, and hidden generation metadata was not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-generated fictional reference licensed with this repository; no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
 }

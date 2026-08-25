@@ -1,6 +1,6 @@
 ---
 name: image-recipe-library
-description: Select, adapt, inspect, and repair evidence-backed image-generation Recipes when a user needs a product ad, reference-based edit, or structured infographic.
+description: Select, adapt, inspect, and repair evidence-tracked image-generation Recipes when a user needs a product ad, reference-based edit, or structured infographic.
 ---
 
 # Image Recipe Library

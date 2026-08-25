@@ -2,6 +2,44 @@
   "schema_version": 1,
   "recipe_id": "summer-citrus-product-ad",
   "recipe_record_version": 1,
-  "status": "placeholder",
-  "runs": []
+  "status": "recorded",
+  "summary": "One built-in-tool sample is recorded for illustration. It is not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-25-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-25T18:48:42Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/citra-sun.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/citra-sun.png",
+        "sha256": "ea67e9e7a6dd7004e32b02dc3834b8dccea196c2d08da7e23e9b7ab341832bb7",
+        "width": 1086,
+        "height": 1448,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "All four required strings are visibly correct and appear once.",
+          "The single bottle, cap, label, liquid, citrus props, and crop are visually coherent.",
+          "The output is 1086x1448 rather than the API brief's 1200x1600 target, and hidden generation metadata was not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
 }

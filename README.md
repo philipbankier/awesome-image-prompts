@@ -1,46 +1,83 @@
 # Awesome Image Prompts
 
-An English-first library of evidence-backed image-generation Recipes for Creative Operators and agent-native users.
+English-first, evidence-tracked image-generation workflows for product ads, reference edits, and structured infographics.
 
-This repository starts with a three-Recipe vertical slice:
+Each Recipe turns a Creative Brief into a complete generation workflow: prepared inputs, an adaptable prompt, GPT Image 2 conversational and API profiles, pass/fail checks, targeted repair guidance, and an evidence record. This is a working library for Creative Operators and agent-native users, not a dump of prompt snippets.
 
-- Product advertisement with exact text
-- Reference-based product edit
-- Structured infographic or diagram
+> Early pilot: all three Recipes are drafts. The images below are real single-run outputs from the Codex built-in image generation tool. They are not GPT Image 2 API results, repeatability evidence, promoted Recipes, or automatically publish-ready assets. The exact model and hidden request settings were not exposed.
 
-Each Recipe connects a Creative Brief to prompting guidance, GPT Image 2 conversational and API profiles, inspection criteria, repair steps, and evidence status. A successful run produces a Production Candidate, not an automatically publish-ready asset.
+## Recipes and rendered samples
 
-## Pilot Recipes
+| Product advertisement | Reference product edit | Structured infographic |
+| :---: | :---: | :---: |
+| [![CITRA SUN sparkling citrus drink advertisement](recipes/summer-citrus-product-ad/samples/citra-sun.png)](recipes/summer-citrus-product-ad/RECIPE.md) | [![FIELD NOTE perfume bottle after an environment edit](recipes/reference-product-environment-edit/samples/field-note-environment-edit.png)](recipes/reference-product-environment-edit/RECIPE.md) | [![Bayes theorem infographic about the flagged group](recipes/structured-concept-infographic/samples/bayes-flagged-group.png)](recipes/structured-concept-infographic/RECIPE.md) |
+| Exact display text, product geometry, art direction, inspection, and repair. | Preserve an authorized product while changing only its environment. | Turn approved facts and relationships into one bounded visual explanation. |
+| [Open Recipe](recipes/summer-citrus-product-ad/RECIPE.md) · [Run record](recipes/summer-citrus-product-ad/evidence.json) | [Open Recipe](recipes/reference-product-environment-edit/RECIPE.md) · [Run records](recipes/reference-product-environment-edit/evidence.json) | [Open Recipe](recipes/structured-concept-infographic/RECIPE.md) · [Run record](recipes/structured-concept-infographic/evidence.json) |
 
-- [Summer Citrus Product Advertisement](recipes/summer-citrus-product-ad/RECIPE.md)
-- [Reference Product Environment Edit](recipes/reference-product-environment-edit/RECIPE.md)
-- [Structured Concept Infographic](recipes/structured-concept-infographic/RECIPE.md)
+## Reference edit before and after
 
-## Current status
+| Project-generated reference | Environment edit |
+| :---: | :---: |
+| ![Fictional FIELD NOTE perfume bottle on a neutral studio background](recipes/reference-product-environment-edit/samples/field-note-reference.png) | ![The same FIELD NOTE bottle on limestone with a cobalt arc and oat stems](recipes/reference-product-environment-edit/samples/field-note-environment-edit.png) |
 
-The three pilot Recipes are drafts with Placeholder Previews. Placeholders explain the intended result but do not claim that a prompt was generated or tested. Promotion requires the recorded evaluation gate described in each Recipe.
+The reference is fictional and project-generated. The edit preserves one oval amber bottle, its rectangular cap, cream label, and exact `FIELD NOTE / 01` text while replacing the surrounding set. See the [input and edit records](recipes/reference-product-environment-edit/evidence.json).
 
-No upstream application code, prompt bodies, literal translations, or images are included. Approved upstream entries are retained as pinned links, checksums, attribution, and project-authored public summaries.
+## What a Recipe contains
 
-## Repository map
+Every Recipe defines:
+
+1. Task fit and the cases it should reject.
+2. Required Creative Brief fields and rights checks.
+3. A portable prompt with no unresolved decisions hidden inside it.
+4. Conversational and GPT Image 2 API execution profiles.
+5. Critical Invariants that block a candidate when they fail.
+6. A Production Candidate Rubric for quality review.
+7. Targeted repair steps that preserve failed runs.
+8. A final-QA handoff and a linked evidence manifest.
+
+Start with one of the three Recipes above. The [machine-readable catalog](catalog.json) is intended for tools and agents.
+
+## Use with an agent
+
+The canonical [`image-recipe-library` skill](skills/image-recipe-library/SKILL.md) selects the narrowest matching Recipe and loads its guidance progressively. It links to canonical Recipe files instead of duplicating their prompts.
+
+This repository includes discovery links for:
+
+- Codex-style hosts: [`.agents/skills/image-recipe-library`](.agents/skills/image-recipe-library)
+- Claude Code-style hosts: [`.claude/skills/image-recipe-library`](.claude/skills/image-recipe-library)
+
+Host discovery and tool behavior still require independent validation. The shared skill layout alone is not a compatibility guarantee.
+
+## Evidence status
+
+| Recipe | Recorded sample | Promotion status |
+| --- | --- | --- |
+| [Summer Citrus Product Advertisement](recipes/summer-citrus-product-ad/RECIPE.md) | One illustrative built-in-tool run | Draft, not promoted |
+| [Reference Product Environment Edit](recipes/reference-product-environment-edit/RECIPE.md) | One supporting-input run and one illustrative edit | Draft, not promoted |
+| [Structured Concept Infographic](recipes/structured-concept-infographic/RECIPE.md) | One illustrative built-in-tool run | Draft, not promoted |
+
+`recorded` means an output resolves to an exact prompt, local asset, checksum, dimensions, inspection notes, and rights statement. It does not mean the Recipe passed promotion.
+
+Promotion requires four scored GPT Image 2 API runs across two materially different briefs, all Critical Invariants passing, at least three full-rubric passes, and one additional conversational smoke run. None of the current samples count toward that gate.
+
+See the [Recipe and evidence format](docs/RECIPE_FORMAT.md) for the record contract.
+
+## Repository structure
 
 ```text
 catalog.json                         Machine-readable Recipe index
-recipes/                             Human and machine Recipe records
+recipes/<recipe-id>/RECIPE.md        Canonical workflow and prompt
+recipes/<recipe-id>/recipe.json      Small routing record
+recipes/<recipe-id>/evidence.json    Run metadata and evidence status
+recipes/<recipe-id>/samples/         Recorded prompts and local outputs
 sources/                             Pinned provenance records
 skills/image-recipe-library/         Canonical agent skill
-.agents/skills/                      Codex-compatible discovery path
-.claude/skills/                      Claude Code-compatible discovery path
+.agents/skills/                      Codex-style discovery path
+.claude/skills/                      Claude Code-style discovery path
 LICENSE                              License for project-authored material
-THIRD_PARTY_NOTICES.md               Third-party exclusions and rights boundary
+THIRD_PARTY_NOTICES.md               Third-party and evidence rights boundary
 script/check                         Dependency-free validation
 ```
-
-## Use the library
-
-Human users can start with the Recipe list in [catalog.json](catalog.json), then open the corresponding `RECIPE.md`.
-
-Agent-native users can invoke or allow discovery of the packaged `image-recipe-library` skill. The skill routes to the relevant canonical Recipe without copying the prompt corpus.
 
 ## Validate
 
@@ -50,12 +87,12 @@ Run:
 ./script/check
 ```
 
-The command validates the catalog, Recipe metadata, evidence labels, source links, skill frontmatter, and runtime discovery links.
+The command validates the catalog, Recipe metadata, evidence records, sample assets and checksums, local links, skill frontmatter, and runtime discovery links.
 
-## License and third-party material
+## Provenance and license
 
-Project-authored code, Recipes, documentation, metadata, validation scripts, and packaged-skill material are available under the [MIT License](LICENSE).
+No upstream application code, prompt bodies, literal translations, or images are bundled. Approved upstream entries remain pinned links, checksums, attribution, and project-authored public summaries under [`sources/`](sources/).
 
-Content available through third-party links and future evidence without an explicit item-level rights statement are outside that grant. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the current boundary.
+Project-authored code, Recipes, documentation, metadata, validation scripts, skill material, and expressly identified sample rights are covered by the [MIT License](LICENSE). Third-party links and any material without an item-level rights grant remain outside that license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 See [AGENTS.md](AGENTS.md) for repository-specific agent instructions.

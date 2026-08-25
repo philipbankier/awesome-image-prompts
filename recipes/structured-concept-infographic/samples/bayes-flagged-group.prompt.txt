@@ -1,0 +1,63 @@
+Use case: infographic-diagram
+Asset type: generated example for an open-source structured-infographic Recipe
+Primary request: Create one self-contained educational infographic using only the authoritative content below.
+
+PURPOSE
+- Topic: Bayes' theorem and conditional probability.
+- Exact title: "Bayes' Theorem: Read the Flagged Group Correctly"
+- Audience: introductory statistics learners who understand percentages.
+- Learning goal: show why a positive signal must be interpreted using the base rate and the full flagged group.
+
+FACTUAL BOUNDARY
+Treat the facts, relationships, exact labels, visuals, and summary below as the complete factual universe. Do not add facts, examples, formulas, citations, claims, or terminology.
+
+AUTHORITATIVE FACTS
+- Consider 1,000 components: 100 are defective and 900 are good.
+- The sensor flags 90 of the 100 defective components.
+- The sensor flags 45 of the 900 good components.
+- The flagged group contains 135 components: 90 defective and 45 good.
+- P(defective) = 10%.
+- P(flagged | defective) = 90%.
+- P(flagged | good) = 5%.
+- P(flagged) = 135 / 1,000 = 13.5%.
+- P(defective | flagged) = 90 / 135 = 2 / 3 ≈ 66.7%.
+- Bayes' theorem is P(D | +) = P(+ | D)P(D) / P(+).
+
+REQUIRED RELATIONSHIPS
+- Split 1,000 components into 100 defective and 900 good.
+- From the defective branch, 90 enter the flagged group. From the good branch, 45 enter the flagged group.
+- The posterior denominator is the full flagged group of 135, not the 100 defective components.
+- Substitute 90%, 10%, and 13.5% into Bayes' theorem to obtain approximately 66.7%.
+
+EXACT LABELS
+Render these exact strings:
+- "Base rate: 10%"
+- "Flagged defective: 90"
+- "Flagged good: 45"
+- "Total flagged: 135"
+- "P(defective | flagged) = 90 / 135 ≈ 66.7%"
+- "P(D | +) = P(+ | D)P(D) / P(+)"
+
+REQUIRED VISUALS
+- A two-level count tree beginning with 1,000 components.
+- A horizontal flagged band containing 90 defective and 45 good components.
+- A three-row equation stack for the Bayes substitution.
+- One heavy bracket joining both flagged branches to the denominator 135.
+
+SUMMARY
+Render exactly: "A positive flag changes the comparison group: 90 of the 135 flagged components are defective, so the posterior probability is about 66.7%."
+
+LAYOUT AND VISUAL SYSTEM
+- Portrait 2:3 infographic.
+- Top-to-bottom flow.
+- Population matrix in the top half.
+- One horizontal flagged band joining both branches.
+- Calculation strip in the bottom quarter.
+- Light-gray field, black type, orange for defective components, cyan for good components, square count markers, monospaced numerals, heavy brackets for group totals.
+- Strong hierarchy, generous whitespace, high contrast, readable typography.
+
+CONSTRAINTS
+- Preserve every number, percentage, operator, parenthesis, and exact label.
+- Keep text horizontal and every required item inside the canvas.
+- Do not add medical framing, sensor metrics, equipment claims, citations, decorative pseudo-writing, logos, signatures, watermarks, or unsupported values.
+- Return one finished infographic, not a slide mockup or option sheet.

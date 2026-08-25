@@ -1,0 +1,35 @@
+Use case: precise-object-edit
+Asset type: generated before-and-after example for an open-source reference-product editing Recipe
+Input images: Image 1 is the authorized fictional product reference and the sole source of truth for the bottle.
+
+TASK
+Edit Image 1 into one vertical e-commerce hero image by replacing only the environment around the perfume bottle.
+
+MUST PRESERVE
+- Keep exactly one bottle.
+- Preserve the bottle's oval silhouette, shoulder curve, proportions, front-facing orientation, amber glass density and transparency, visible liquid level, brushed-aluminum rectangular cap, cap scale and placement, cream label shape and position, and distinctive edge highlights.
+- Preserve the exact visible label text: "FIELD NOTE / 01".
+- Do not redraw, translate, replace, add, remove, misspell, or restyle label text.
+- Keep the complete bottle and cap visible and unobscured.
+
+MAY CHANGE
+- Change only the neutral studio environment outside the product boundary.
+- You may create a new support surface, background, project-owned props, environmental lighting, contact shadow, reflection, canvas extension, and crop, provided the bottle remains unchanged.
+
+ENVIRONMENT REPLACEMENT
+- Place the bottle on a ribbed limestone plinth.
+- Add one cobalt-blue paper arc behind the bottle.
+- Add exactly two dry oat stems behind and outside the product boundary.
+- Use warm side light, crisp controlled shadows, and a matte editorial finish.
+- No other props.
+
+COMPOSITION
+- One complete bottle on the lower-right third of a portrait frame.
+- Clear safe margins around every edge.
+- Generous negative space above-left.
+- Product remains the dominant focal point.
+
+EXCLUSIONS
+- No extra bottles, duplicate caps, invented packaging, new logos, new claims, new text, altered label text, label occlusion, product deformation, flowers, splashes, boxes, watermarks, or unrelated props.
+- If any environmental instruction conflicts with product preservation, preserve the product.
+- Return one finished image, not a comparison board.

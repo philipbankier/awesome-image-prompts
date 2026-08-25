@@ -1,0 +1,32 @@
+Use case: product-mockup
+Asset type: authorized fictional reference input for an open-source image-edit Recipe
+Primary request: Create one clean studio reference photograph of a fictional perfume bottle. This image will be used as the sole authorized edit target in a later environment-replacement demonstration.
+
+SUBJECT
+- Exactly one oval amber-glass perfume bottle.
+- Smooth symmetrical oval silhouette with a gentle shoulder curve.
+- Visible warm amber liquid level.
+- One brushed-aluminum rectangular cap, centered and correctly seated.
+- One small cream paper label centered on the front.
+
+EXACT LABEL TEXT
+- Render exactly: "FIELD NOTE / 01"
+- One line only, centered on the cream label.
+- Preserve every character and space exactly.
+- No other visible text, letters, numbers, logos, marks, signatures, or watermarks.
+
+SCENE AND COMPOSITION
+- Plain seamless light-gray studio sweep.
+- Bottle centered, front-facing with a very slight three-quarter view.
+- Entire bottle and cap visible with generous safe margins.
+- Soft neutral studio lighting, controlled contact shadow, minimal reflection.
+- Portrait composition.
+
+STYLE
+- Photorealistic premium product reference photo.
+- Crisp bottle edges, believable glass thickness, coherent amber transparency, subtle surface detail, sharp readable label.
+
+CONSTRAINTS
+- No props, extra bottles, boxes, flowers, foliage, splash, decorative graphics, brand marks, or watermark.
+- Do not crop the cap, bottle, base, or label.
+- The bottle must be easy to compare before and after an environment edit.

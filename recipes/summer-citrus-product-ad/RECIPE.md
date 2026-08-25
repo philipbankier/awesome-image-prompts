@@ -1,6 +1,6 @@
 # Summer Citrus Product Advertisement
 
-Status: Draft Recipe with placeholder evidence. No image-generation run has been performed for this Recipe.
+Status: Draft Recipe with one recorded illustrative sample. The sample is not promotion evidence.
 
 Outcome: one Production Candidate for a fictional summer citrus beverage advertisement. Generation alone does not make the result publish-ready.
 
@@ -137,7 +137,7 @@ Profile rules:
 - Before any provider-connected run, approve an exact run manifest, credential source, spend ceiling, retention policy, evidence location, and stop condition.
 - A blocked or failed request is a recorded failure. Retry transient errors only within the approved run manifest. Do not silently rewrite a user-correctable prompt or safety failure.
 
-The request shape and output options were checked against the [official OpenAI image-generation guide](https://developers.openai.com/api/docs/guides/image-generation) on 2026-08-25. No provider request has been made for this Recipe. Official documentation notes that precise text rendering and layout-sensitive composition can still fail, so both remain explicit evaluation criteria rather than assumed capabilities.
+The request shape and output options were checked against the [official OpenAI image-generation guide](https://developers.openai.com/api/docs/guides/image-generation) on 2026-08-25. No OpenAI Image API request has been made for this Recipe. Official documentation notes that precise text rendering and layout-sensitive composition can still fail, so both remain explicit evaluation criteria rather than assumed capabilities.
 
 ## Critical Invariants
 
@@ -231,30 +231,19 @@ Evaluation Brief B, `twilight-slim-can`:
 - Must avoid: bottles, beach-party crowds, neon signage, extra cans, ice buckets, prices, wellness claims, third-party logos, and fine print.
 - Rights confirmation: all brand, copy, packaging, and claims are fictional for evaluation.
 
-## Placeholder Preview
+## Rendered Sample
 
-Status: text-only Placeholder Preview. No image has been generated, inspected, or scored. This block communicates intended hierarchy only and is not a Rendered Sample or evidence of model behavior.
+![CITRA SUN sparkling citrus drink advertisement with a lemon and yuzu bottle on an ivory stone plinth](samples/citra-sun.png)
 
-```text
-BRIEF A, 3:4 PORTRAIT
+This is one real output generated from Evaluation Brief A with the Codex built-in image generation tool on 2026-08-25. Manual review found all four exact strings visibly correct and the single bottle coherent.
 
-┌──────────────────────────────────┐
-│ SPARKLING CITRUS DRINK           │
-│                                  │
-│                         ☀        │
-│          ┌────────────┐          │
-│          │ CITRA SUN  │          │
-│          │LEMON + YUZU│          │
-│          │            │          │
-│          │            │          │
-│          │            │          │
-│          │   500 mL   │          │
-│          └────────────┘          │
-│              ○   ◒               │
-└──────────────────────────────────┘
+- [Exact submitted prompt](samples/citra-sun.prompt.txt)
+- [Generation Run record](evidence.json)
+- Model, model version, seed, request parameters, and request ID: `not_exposed`
+- Output: `1086x1448` PNG, not the API profile's `1200x1600` target
+- Promotion evidence: no
 
-Text-only layout placeholder. No generated pixels.
-```
+The sample demonstrates one result, not repeatability, GPT Image 2 API conformance, a full rubric pass, or publication readiness.
 
 ## Provenance and rights boundary
 
