@@ -97,16 +97,17 @@ Use the Image Edit endpoint with one authorized reference image and the same com
 | Request field | Value |
 | --- | --- |
 | Endpoint | `POST /v1/images/edits` |
-| Model | `gpt-image-2` |
+| Model | `gpt-image-2-2026-04-21` |
 | Image input | One authorized product reference |
 | Prompt | Completed profile prompt below |
 | Size | `2048x3072` for the declared 2:3 portrait evaluation target |
 | Quality | `high` |
 | Output format | `png` |
 | Background | `opaque` |
-| Moderation | `auto` |
 | Mask | Omit for the baseline evaluation |
-| Input fidelity | Omit. GPT Image 2 applies high-fidelity image input handling automatically |
+| Input fidelity | Omit. GPT Image 2 processes every image input at high fidelity and does not allow this setting to be changed |
+
+The request fields follow the official [OpenAI Image Edit API reference](https://developers.openai.com/api/reference/python/resources/images/methods/edit). The model-specific [image-generation guide](https://developers.openai.com/api/docs/guides/image-generation) controls the `input_fidelity` exception for GPT Image 2.
 
 The `2048x3072` output satisfies GPT Image 2's documented flexible-size constraints but falls within the documentation's experimental 2K range. Record any size rejection or quality instability as a failed run. Use `1024x1536` only for explicitly labeled drafts or repair trials, not as proof of the declared high-resolution target.
 

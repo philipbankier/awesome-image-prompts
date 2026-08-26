@@ -2,7 +2,7 @@
 
 English-first, evidence-tracked image-generation workflows for product ads, reference edits, and structured infographics.
 
-Each Recipe turns a Creative Brief into a complete generation workflow: prepared inputs, an adaptable prompt, GPT Image 2 conversational and API profiles, pass/fail checks, targeted repair guidance, and an evidence record. This is a working library for Creative Operators and agent-native users, not a dump of prompt snippets.
+Each Recipe turns a Creative Brief into a complete generation workflow: prepared inputs, an adaptable prompt, a conversational profile, a pinned GPT Image 2 API profile, pass/fail checks, targeted repair guidance, and an evidence record. This is a working library for Creative Operators and agent-native users, not a dump of prompt snippets.
 
 > Early pilot: all three Recipes are drafts. The images below are real single-run outputs from the Codex built-in image generation tool. They are not GPT Image 2 API results, repeatability evidence, promoted Recipes, or automatically publish-ready assets. The exact model and hidden request settings were not exposed.
 

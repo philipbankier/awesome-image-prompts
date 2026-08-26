@@ -110,13 +110,13 @@ This profile is for operator use and one required smoke run. It cannot replace A
 
 Surface: OpenAI Image API, `POST /v1/images/generations`.
 
-Model: `gpt-image-2`.
+Model: `gpt-image-2-2026-04-21`.
 
 Profile request:
 
 ```json
 {
-  "model": "gpt-image-2",
+  "model": "gpt-image-2-2026-04-21",
   "prompt": "<completed portable first-generation prompt>",
   "n": 1,
   "size": "<exact pixel size from the evaluation brief>",

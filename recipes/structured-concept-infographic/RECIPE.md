@@ -140,12 +140,13 @@ Do not imply that the conversational surface used `gpt-image-2` unless the surfa
 
 Profile ID: `gpt-image-2-api-v1`
 
+Endpoint: OpenAI Image API, `POST /v1/images/generations`.
+
 The reproducible generation profile is:
 
 ```json
 {
-  "endpoint": "POST /v1/images/generations",
-  "model": "gpt-image-2",
+  "model": "gpt-image-2-2026-04-21",
   "prompt": "<rendered Canonical Recipe prompt>",
   "n": 1,
   "size": "1024x1536",
@@ -220,7 +221,7 @@ Do not add new content or reinterpret the authoritative facts.
 Return one corrected complete image.
 ```
 
-For an API repair, use `gpt-image-2` through the image-edit endpoint with the candidate image as the authorized input and otherwise retain the declared size, quality, background, and output format. Record the edit as a new run. If there are multiple semantic failures, a global hierarchy failure, or repeated edit drift, regenerate from the original approved brief instead of stacking repairs.
+For an API repair, use `gpt-image-2-2026-04-21` through the image-edit endpoint with the candidate image as the authorized input, omit `input_fidelity` because GPT Image 2 always processes image inputs at high fidelity, and otherwise retain the declared size, quality, background, and output format. Record the edit as a new run. If there are multiple semantic failures, a global hierarchy failure, or repeated edit drift, regenerate from the original approved brief instead of stacking repairs.
 
 After any repair, rescore the whole image. A repaired area can disturb previously correct content, so no previous pass carries forward automatically.
 

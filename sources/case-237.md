@@ -6,6 +6,10 @@
 - Pinned entry: [case 237, lines 2461-2477](https://github.com/freestylefly/awesome-gpt-image-2/blob/de6a8ad89b6308dc49b316fcd9f7a56bf2a73273/docs/gallery-part-2.md#L2461-L2477)
 - Original source post: [@old_pgmrs_will on X](https://x.com/old_pgmrs_will/status/2045852114673635507)
 - Upstream image: [linked provenance reference only](https://github.com/freestylefly/awesome-gpt-image-2/blob/de6a8ad89b6308dc49b316fcd9f7a56bf2a73273/data/images/case237.jpg)
+- Source language: Chinese and English prompt variants
+- Chinese prompt SHA-256: `edf1cb46b7190ae038555023a8ea8a51275c3147dba7035f2ce27fae7aee856c`
+- English prompt SHA-256: `32275d927224d2d5503b9228d7b49d5fc4b25008aba066421eb86345610fe559`
+- Checksum normalization: exact UTF-8 prompt variant followed by one LF
 - Prompt body included: `no`
 - Image included: `no`
 
