@@ -7,3 +7,5 @@ Select one Recipe based on the requested deliverable:
 - Structured educational infographic or diagram: [Structured Concept Infographic](../../../recipes/structured-concept-infographic/RECIPE.md)
 
 If none fits, explain the mismatch. Do not stretch a pilot Recipe into a generic image workflow.
+
+See [Coverage](../../../docs/COVERAGE.md) for available draft Recipes, operation modes, and known gaps.

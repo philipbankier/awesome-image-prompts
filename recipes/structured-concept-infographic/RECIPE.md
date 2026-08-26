@@ -209,7 +209,7 @@ Inspect at full resolution, then at a reduced overview size.
 4. Check the title, sections, summary, reading order, crop, contrast, spacing, and legibility against the rubric.
 5. Record every failure before repair. Do not silently replace a failed run in an evidence package.
 
-Use one repair instruction per localized issue class:
+Use one repair instruction per specific issue class:
 
 ```text
 Repair only the identified defect in the supplied candidate image.
@@ -346,6 +346,6 @@ The sample demonstrates one result, not repeatability, GPT Image 2 API conforman
 
 ## Provenance and rights boundary
 
-This workflow is a separately authored Recipe informed by the general task pattern in the pinned [case-341 Source Reference](../../sources/case-341.md). The upstream prompt body is represented only by an external link and checksum. It is not reproduced or presented as project writing.
+This workflow is a separately authored Recipe informed by the general task pattern in the pinned [case-341 Source Entry](../../sources/case-341.md). The upstream prompt body is represented only by an external link and checksum. It is not reproduced or presented as project writing.
 
 The upstream image remains a linked provenance reference and is not part of this Recipe. Use only fictional, project-owned, or otherwise authorized Creative Brief inputs for future Rendered Samples, and complete item-level rights review for those inputs before external publication.

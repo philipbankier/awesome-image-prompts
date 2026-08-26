@@ -1,12 +1,26 @@
 # Awesome Image Prompts
 
-English-first, evidence-tracked image-generation workflows for product ads, reference edits, and structured infographics.
+Reusable, evidence-tracked workflows for generating and editing images.
 
-Each Recipe turns a Creative Brief into a complete generation workflow: prepared inputs, an adaptable prompt, a conversational profile, a pinned GPT Image 2 API profile, pass/fail checks, targeted repair guidance, and an evidence record. This is a working library for Creative Operators and agent-native users, not a dump of prompt snippets.
+Each Recipe turns a structured Creative Brief into an end-to-end workflow: prepared inputs, an adaptable prompt, conversational and API execution profiles, pass/fail checks, targeted repair guidance, and a linked run record. It is built for people and agents who need more than a one-shot prompt.
 
-> Early pilot: all three Recipes are drafts. The images below are real single-run outputs from the Codex built-in image generation tool. They are not GPT Image 2 API results, repeatability evidence, promoted Recipes, or automatically publish-ready assets. The exact model and hidden request settings were not exposed.
+> Pilot status: all three Recipes are drafts. The images below are real single-run outputs from the Codex built-in image generation tool. They are not GPT Image 2 API results, repeatability evidence, promoted Recipes, or automatically publish-ready assets. The exact model and hidden request settings were not exposed.
 
-> Looking for more? [PromptCache](https://promptcache.live/) is a free prompt discovery tool with image, video, text, flow, and skill prompts, plus practical tips and tricks.
+## Start here
+
+1. Choose the narrowest matching Recipe from the Current coverage section.
+2. Complete its Required Creative Brief, including any required rights and exact-text fields.
+3. Confirm authority for the exact provider action and inputs.
+4. Use the conversational profile. Use the API profile only after satisfying the exact [provider boundary](AGENTS.md#provider-boundary) for that run.
+5. Check the output against the Critical Invariants and rubric, then repair or reject it before final QA.
+
+## Current coverage
+
+- Generate one fictional or authorized citrus-beverage advertisement from a structured brief.
+- Edit one authorized perfume-bottle reference while preserving the product and replacing only its environment.
+- Generate one bounded mathematical, technical, scientific, or process infographic from approved facts.
+
+These three detailed draft workflows map to two of the upstream collection's 13 primary categories: Products & E-commerce and Charts & Infographics. The pilot is not yet as broad as the upstream collection. See [Coverage](docs/COVERAGE.md) for the exact input and output modes, current gaps, and a dated comparison.
 
 ## Recipes and rendered samples
 
@@ -37,7 +51,7 @@ Every Recipe defines:
 7. Targeted repair steps that preserve failed runs.
 8. A final-QA handoff and a linked evidence manifest.
 
-Start with one of the three Recipes above. The [machine-readable catalog](catalog.json) is intended for tools and agents.
+The [machine-readable catalog](catalog.json) routes tools and agents to the same canonical Recipe files.
 
 ## Use with an agent
 
@@ -62,7 +76,17 @@ Host discovery and tool behavior still require independent validation. The share
 
 Promotion requires four scored GPT Image 2 API runs across two materially different briefs, all Critical Invariants passing, at least three full-rubric passes, and one additional conversational smoke run. None of the current samples count toward that gate.
 
-See the [Recipe and evidence format](docs/RECIPE_FORMAT.md) for the record contract.
+See the [Recipe format](docs/RECIPE_FORMAT.md) for the record and evidence contract.
+
+## Source archive and provenance
+
+Each Recipe links to a pinned Source Entry that records provenance without bundling upstream prompt bodies, literal translations of those bodies, or images. The current Source Archive contains:
+
+- [case 237](sources/case-237.md), design evidence for the product-advertisement Recipe.
+- [case 519](sources/case-519.md), design evidence for the reference-edit Recipe.
+- [case 341](sources/case-341.md), an external Frozen Source reference for the infographic Recipe.
+
+These records document the origins of the three current Recipes. They do not add more mapped Recipe categories, endorse the linked material, or count as generation evidence.
 
 ## Repository structure
 
@@ -73,6 +97,7 @@ recipes/<recipe-id>/recipe.json      Small routing record
 recipes/<recipe-id>/evidence.json    Run metadata and evidence status
 recipes/<recipe-id>/samples/         Recorded prompts and local outputs
 sources/                             Pinned provenance records
+docs/                                Coverage and record-format documentation
 skills/image-recipe-library/         Canonical agent skill
 .agents/skills/                      Codex-style discovery path
 .claude/skills/                      Claude Code-style discovery path
@@ -91,11 +116,12 @@ Run:
 
 The command validates the catalog, Recipe metadata, evidence records, sample assets and checksums, local links, skill frontmatter, and runtime discovery links.
 
-## Provenance and license
+## Related resources
 
-No upstream application code, prompt bodies, literal translations, or images are bundled. Approved upstream entries remain pinned links, checksums, attribution, and project-authored public summaries under [`sources/`](sources/).
+- [PromptCache](https://promptcache.live/) is a free prompt discovery tool with image, video, text, flow, and skill prompts, plus practical tips and tricks.
+- This independently authored library was inspired by the original [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) collection.
 
-Shoutout to the original [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2), whose collection inspired this independently authored English-first library.
+## License
 
 Project-authored code, Recipes, documentation, metadata, validation scripts, skill material, and expressly identified sample rights are covered by the [MIT License](LICENSE). Third-party links and any material without an item-level rights grant remain outside that license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 

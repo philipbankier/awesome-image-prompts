@@ -1,4 +1,4 @@
-# Source Reference: case-341
+# Source Entry: case-341
 
 - Source posture: `frozen-source`
 - Upstream repository: [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)

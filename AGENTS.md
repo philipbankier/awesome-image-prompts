@@ -4,17 +4,18 @@ These instructions apply to the Awesome Image Prompts repository.
 
 ## Purpose
 
-Build a static, English-first Recipe Library and Source Archive for Creative Operators. Keep the repository useful to humans and agent-native users without adding a website, hosted generator, accounts, billing, or duplicated skill content.
+Build a static Recipe Library and Source Archive for Creative Operators. Keep the repository useful to humans and agent-native users without adding a website, hosted generator, accounts, billing, or duplicated skill content.
 
 ## Read order
 
 Before material changes, read:
 
 1. `README.md`
-2. `docs/RECIPE_FORMAT.md`
-3. `catalog.json`
-4. The target Recipe's `recipe.json`, `RECIPE.md`, and `evidence.json`
-5. The linked record under `sources/`
+2. `docs/COVERAGE.md`
+3. `docs/RECIPE_FORMAT.md`
+4. `catalog.json`
+5. The target Recipe's `recipe.json`, `RECIPE.md`, and `evidence.json`
+6. The linked record under `sources/`
 
 ## Content boundaries
 

@@ -1,12 +1,16 @@
 # Recipe format
 
-The pilot uses a folder as the smallest complete Recipe record:
+A Recipe is the smallest end-to-end workflow record in this library. It connects task fit, inputs, prompt construction, execution profiles, inspection, repair, provenance, and run evidence without duplicating the canonical prompt across files.
+
+See [Coverage](COVERAGE.md) for the available draft task families and operation modes.
+
+Each Recipe uses one folder:
 
 ```text
 recipes/<recipe-id>/
 |-- RECIPE.md       Canonical human and agent workflow
 |-- recipe.json     Small machine-readable routing metadata
-|-- evidence.json   Placeholder or recorded run evidence
+|-- evidence.json   Evidence status and optional Generation Runs
 `-- samples/        Optional exact prompts and PNG inputs or outputs
 ```
 
@@ -48,6 +52,16 @@ The metadata record contains:
 
 Version one uses direct integer record versions. It does not implement semantic-version automation or an invalidation graph.
 
+## Source posture
+
+`source_posture` describes how the Recipe relates to its linked Source Entry:
+
+- `attributed-rebuild`: an external source informed the task selection, but the Recipe workflow and prompt are independently authored.
+- `frozen-source`: the external material remains a linked provenance reference while the Recipe wrapper is separately authored.
+- `translation`: the Recipe includes translated source expression. This repository publishes a Translation only when item-level redistribution rights are documented and the material is clearly labeled as derivative.
+
+Source posture records provenance. It does not indicate Recipe quality, promotion status, or permission to reuse material at an external link.
+
 ## evidence.json
 
 The evidence record uses `schema_version: 1`, names the `recipe_id`, and binds to the exact `recipe.json` integer through `recipe_record_version`. Its `status` and `runs` must agree:
@@ -81,4 +95,8 @@ A `supporting-input-generation` run cannot be promotion evidence. Promotion evid
 
 `recorded` does not mean promoted. It means the repository contains at least one validated run record. A single illustrative or conversational sample may remain unscored and must set `promotion_evidence: false`.
 
-A promoted Recipe eventually requires four API evaluation runs across two materially different briefs and one conversational smoke run. All four API runs must pass Critical Invariants, and at least three must pass the full Production Candidate Rubric.
+Promotion requires four API evaluation runs across two materially different briefs and one conversational smoke run. All four API runs must pass Critical Invariants, and at least three must pass the full Production Candidate Rubric.
+
+## Example records
+
+Use the [Structured Concept Infographic](../recipes/structured-concept-infographic/RECIPE.md) for a generation example and the [Reference Product Environment Edit](../recipes/reference-product-environment-edit/RECIPE.md) for an edit example with one supporting-input run. Their adjacent `recipe.json` and `evidence.json` files show the complete record relationships.
