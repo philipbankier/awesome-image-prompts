@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "structured-concept-infographic",
+  "record_version": 2,
+  "status": "draft",
+  "title": "Structured Concept Infographic",
+  "task_family": "structured-infographic",
+  "source_posture": "frozen-source",
+  "source_record": "../../sources/case-341.md",
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

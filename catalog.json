@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "title": "Awesome Image Prompts",
+  "recipes": [
+    {
+      "id": "summer-citrus-product-ad",
+      "title": "Summer Citrus Product Advertisement",
+      "task_family": "product-advertisement",
+      "path": "recipes/summer-citrus-product-ad/recipe.json"
+    },
+    {
+      "id": "reference-product-environment-edit",
+      "title": "Reference Product Environment Edit",
+      "task_family": "reference-based-edit",
+      "path": "recipes/reference-product-environment-edit/recipe.json"
+    },
+    {
+      "id": "structured-concept-infographic",
+      "title": "Structured Concept Infographic",
+      "task_family": "structured-infographic",
+      "path": "recipes/structured-concept-infographic/recipe.json"
+    }
+  ]
+}

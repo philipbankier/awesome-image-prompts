@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recipe_id": "structured-concept-infographic",
+  "recipe_record_version": 2,
+  "status": "recorded",
+  "summary": "One built-in-tool Bayes infographic sample is recorded for illustration. It is not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-25-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-25T18:50:51Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/bayes-flagged-group.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/bayes-flagged-group.png",
+        "sha256": "e983841841d468d48cabc196635fa558c9d7c0529a0f79454d1978a43a1d856f",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "The population split, flagged counts, denominator 135, Bayes substitution, and 66.7 percent result are visibly consistent with the supplied facts.",
+          "The required title, labels, formula, and summary are legible in a top-to-bottom flow.",
+          "This is one unscored output from a surface with hidden model and request metadata, so it does not establish repeatability or promotion."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional evaluation facts and visual system with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}
