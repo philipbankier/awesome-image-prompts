@@ -6,6 +6,8 @@ Each Recipe turns a Creative Brief into a complete generation workflow: prepared
 
 > Early pilot: all three Recipes are drafts. The images below are real single-run outputs from the Codex built-in image generation tool. They are not GPT Image 2 API results, repeatability evidence, promoted Recipes, or automatically publish-ready assets. The exact model and hidden request settings were not exposed.
 
+> Looking for more? [PromptCache](https://promptcache.live/) is a free prompt discovery tool with image, video, text, flow, and skill prompts, plus practical tips and tricks.
+
 ## Recipes and rendered samples
 
 | Product advertisement | Reference product edit | Structured infographic |
@@ -92,6 +94,8 @@ The command validates the catalog, Recipe metadata, evidence records, sample ass
 ## Provenance and license
 
 No upstream application code, prompt bodies, literal translations, or images are bundled. Approved upstream entries remain pinned links, checksums, attribution, and project-authored public summaries under [`sources/`](sources/).
+
+Shoutout to the original [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2), whose collection inspired this independently authored English-first library.
 
 Project-authored code, Recipes, documentation, metadata, validation scripts, skill material, and expressly identified sample rights are covered by the [MIT License](LICENSE). Third-party links and any material without an item-level rights grant remain outside that license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
