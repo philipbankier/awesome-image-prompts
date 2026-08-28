@@ -1,0 +1,16 @@
+Create one finished cinematic narrative keyframe, not a storyboard, poster, game screenshot, moodboard, or set of alternatives.
+
+SCENE
+Stage Willowwake Landing, a wholly fictional narrow river dock at blue-hour dusk during light rain. View the scene in a 16:9 landscape frame from low on the shore, looking diagonally along the wet dock. A line of five amber hooded lanterns leads from the lower left toward one small dark-green wooden ferry on the right. Cool mist hangs over the river; warm lantern reflections fall down and slightly right across the water.
+
+SUBJECT
+Show exactly two fictional people. The traveler stands near the final lantern, wearing a moss-green rain cape, cream trousers, and brown ankle boots, with short black hair and one canvas satchel across the left shoulder. The traveler extends a folded cream map toward the ferryperson while stepping onto the narrow boarding plank. The ferryperson stands inside the ferry in a rust-red oilskin coat and charcoal cap, reaching with the right hand to accept the map while holding the tiller with the left.
+
+DETAILS
+Include exactly one ferry, one boarding plank, five hooded lanterns, one canvas satchel, one folded map, and one coiled rope at the ferry bow. Keep the traveler on the left third and the ferry on the right two-thirds. Preserve clear eye lines and hand-to-map contact. Use deep teal, moss green, rust red, charcoal, warm cream, and amber. Keep rain, lantern light, reflections, and shadows physically coherent.
+
+CONSTRAINTS
+Do not add people, boats, luggage, animals, buildings, text, flags, logos, celebrity likenesses, franchise cues, supernatural effects, extra limbs, signatures, or watermarks. Do not obscure the map exchange or reverse the ferry's departure direction toward the open river at right.
+
+OUTPUT INTENT
+Return one 16:9 cinematic frame in which the map handoff and imminent departure read immediately without a caption.

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "fictional-bronze-age-harbor-market",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Fictional Bronze Age Harbor Market",
+  "task_family": "fact-bounded-historical-reconstruction",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

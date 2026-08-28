@@ -1,0 +1,21 @@
+Create one finished schematic route map, not a geographic map, application screen, timetable, or option sheet.
+
+SCENE
+Use a warm off-white field in a 3:2 landscape canvas. Place the exact title "TIDEGLASS METRO" at the upper left and a compact legend at the lower right.
+
+SUBJECT
+Diagram this wholly fictional three-line network:
+- Amber Line, in order: North Quay, Lantern Market, Old Basin, Cedar Steps, Observatory Gate.
+- Teal Line, in order: Glassworks, Old Basin, Juniper Hall, South Ferry.
+- Violet Line, in order: West Orchard, Cedar Steps, Archive Square, East Loom.
+- Transfers: Old Basin joins Amber and Teal. Cedar Steps joins Amber and Violet.
+- Terminals: North Quay, Observatory Gate, Glassworks, South Ferry, West Orchard, East Loom.
+
+DETAILS
+Render every station label exactly once. Use circular station nodes, double-ring transfer nodes, a small diamond inside every terminal node, and a short line sample plus exact route name in the legend. Keep labels horizontal and route corners limited to 45 or 90 degrees. Use amber, deep teal, and violet lines with distinct dash or node treatments so the routes remain distinguishable without color.
+
+CONSTRAINTS
+Do not add, remove, rename, reorder, merge, or reconnect stations. Add no fares, times, geography, real transit identity, logos, signatures, watermarks, decorative pseudo-writing, or extra text. Keep all lines, nodes, labels, title, and legend fully inside the canvas.
+
+OUTPUT INTENT
+Return one clean 3:2 landscape transit schematic with correct topology, exact labels, generous margins, and enough spacing for a route-by-route audit.

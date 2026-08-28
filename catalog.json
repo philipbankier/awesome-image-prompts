@@ -1,24 +1,1609 @@
 {
   "schema_version": 1,
   "title": "Awesome Image Prompts",
+  "categories": [
+    {
+      "id": "ui-interfaces",
+      "title": "UI & Interfaces"
+    },
+    {
+      "id": "charts-infographics",
+      "title": "Charts & Infographics"
+    },
+    {
+      "id": "posters-typography",
+      "title": "Posters & Typography"
+    },
+    {
+      "id": "products-ecommerce",
+      "title": "Products & E-commerce"
+    },
+    {
+      "id": "brand-logos",
+      "title": "Brand & Logos"
+    },
+    {
+      "id": "architecture-spaces",
+      "title": "Architecture & Spaces"
+    },
+    {
+      "id": "photography-realism",
+      "title": "Photography & Realism"
+    },
+    {
+      "id": "illustration-art",
+      "title": "Illustration & Art"
+    },
+    {
+      "id": "characters-people",
+      "title": "Characters & People"
+    },
+    {
+      "id": "scenes-storytelling",
+      "title": "Scenes & Storytelling"
+    },
+    {
+      "id": "history-classical-themes",
+      "title": "History & Classical Themes"
+    },
+    {
+      "id": "documents-publishing",
+      "title": "Documents & Publishing"
+    },
+    {
+      "id": "other-use-cases",
+      "title": "Other Use Cases"
+    }
+  ],
   "recipes": [
+    {
+      "id": "structured-concept-infographic",
+      "title": "Structured Concept Infographic",
+      "task_family": "structured-infographic",
+      "category": "charts-infographics",
+      "path": "recipes/structured-concept-infographic/recipe.json"
+    },
     {
       "id": "summer-citrus-product-ad",
       "title": "Summer Citrus Product Advertisement",
       "task_family": "product-advertisement",
+      "category": "products-ecommerce",
       "path": "recipes/summer-citrus-product-ad/recipe.json"
     },
     {
       "id": "reference-product-environment-edit",
       "title": "Reference Product Environment Edit",
       "task_family": "reference-based-edit",
+      "category": "products-ecommerce",
       "path": "recipes/reference-product-environment-edit/recipe.json"
     },
     {
-      "id": "structured-concept-infographic",
-      "title": "Structured Concept Infographic",
-      "task_family": "structured-infographic",
-      "path": "recipes/structured-concept-infographic/recipe.json"
+      "id": "habitat-survey-mobile-dashboard",
+      "title": "Habitat Survey Mobile Dashboard",
+      "task_family": "single-screen-mobile-interface",
+      "category": "ui-interfaces",
+      "path": "recipes/habitat-survey-mobile-dashboard/recipe.json"
+    },
+    {
+      "id": "fictional-metro-route-map",
+      "title": "Fictional Metro Route Map",
+      "task_family": "schematic-route-map",
+      "category": "charts-infographics",
+      "path": "recipes/fictional-metro-route-map/recipe.json"
+    },
+    {
+      "id": "library-after-dark-event-poster",
+      "title": "Library After Dark Event Poster",
+      "task_family": "exact-text-event-poster",
+      "category": "posters-typography",
+      "path": "recipes/library-after-dark-event-poster/recipe.json"
+    },
+    {
+      "id": "modular-desk-lamp-listing-hero",
+      "title": "Modular Desk Lamp Listing Hero",
+      "task_family": "hard-surface-product-listing",
+      "category": "products-ecommerce",
+      "path": "recipes/modular-desk-lamp-listing-hero/recipe.json"
+    },
+    {
+      "id": "vespercairn-observatory-logo",
+      "title": "Vespercairn Observatory Logo",
+      "task_family": "symbol-wordmark-lockup",
+      "category": "brand-logos",
+      "path": "recipes/vespercairn-observatory-logo/recipe.json"
+    },
+    {
+      "id": "courtyard-micro-library",
+      "title": "Courtyard Micro-Library",
+      "task_family": "architectural-exterior-visualization",
+      "category": "architecture-spaces",
+      "path": "recipes/courtyard-micro-library/recipe.json"
+    },
+    {
+      "id": "rainy-window-breakfast-still-life",
+      "title": "Rainy-Window Breakfast Still Life",
+      "task_family": "photoreal-editorial-still-life",
+      "category": "photography-realism",
+      "path": "recipes/rainy-window-breakfast-still-life/recipe.json"
+    },
+    {
+      "id": "paper-cut-tidal-ecosystem",
+      "title": "Paper-Cut Tidal Ecosystem",
+      "task_family": "layered-paper-cut-illustration",
+      "category": "illustration-art",
+      "path": "recipes/paper-cut-tidal-ecosystem/recipe.json"
+    },
+    {
+      "id": "deep-sea-cartographer-character-sheet",
+      "title": "Deep-Sea Cartographer Character Sheet",
+      "task_family": "fictional-character-turnaround",
+      "category": "characters-people",
+      "path": "recipes/deep-sea-cartographer-character-sheet/recipe.json"
+    },
+    {
+      "id": "lantern-ferry-departure",
+      "title": "Lantern Ferry Departure",
+      "task_family": "single-frame-narrative-scene",
+      "category": "scenes-storytelling",
+      "path": "recipes/lantern-ferry-departure/recipe.json"
+    },
+    {
+      "id": "fictional-bronze-age-harbor-market",
+      "title": "Fictional Bronze Age Harbor Market",
+      "task_family": "fact-bounded-historical-reconstruction",
+      "category": "history-classical-themes",
+      "path": "recipes/fictional-bronze-age-harbor-market/recipe.json"
+    },
+    {
+      "id": "fictional-naturalist-field-guide-spread",
+      "title": "Fictional Naturalist Field Guide Spread",
+      "task_family": "illustrated-field-guide-spread",
+      "category": "documents-publishing",
+      "path": "recipes/fictional-naturalist-field-guide-spread/recipe.json"
+    },
+    {
+      "id": "seamless-moth-fern-pattern-tile",
+      "title": "Seamless Moth and Fern Pattern Tile",
+      "task_family": "seamless-surface-pattern",
+      "category": "other-use-cases",
+      "path": "recipes/seamless-moth-fern-pattern-tile/recipe.json"
+    }
+  ],
+  "prompt_cards": [
+    {
+      "id": "habitat-survey-mobile-dashboard",
+      "title": "Habitat Survey Mobile Dashboard",
+      "category": "ui-interfaces",
+      "task_family": "mobile-dashboard",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "mobile interface",
+      "aspect_ratio": "9:16",
+      "text_density": "medium",
+      "tags": [
+        "ui-interfaces",
+        "mobile-dashboard"
+      ],
+      "path": "prompt-cards/ui-interfaces/habitat-survey-mobile-dashboard.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "habitat-survey-mobile-dashboard"
+    },
+    {
+      "id": "focus-timer-session-screen",
+      "title": "Focus Timer Session Screen",
+      "category": "ui-interfaces",
+      "task_family": "session-screen",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "mobile interface",
+      "aspect_ratio": "9:16",
+      "text_density": "low",
+      "tags": [
+        "ui-interfaces",
+        "session-screen"
+      ],
+      "path": "prompt-cards/ui-interfaces/focus-timer-session-screen.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "ferry-network-operations-dashboard",
+      "title": "Ferry Network Operations Dashboard",
+      "category": "ui-interfaces",
+      "task_family": "operations-dashboard",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "desktop dashboard",
+      "aspect_ratio": "16:9",
+      "text_density": "high",
+      "tags": [
+        "ui-interfaces",
+        "operations-dashboard"
+      ],
+      "path": "prompt-cards/ui-interfaces/ferry-network-operations-dashboard.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "room-by-room-home-control-panel",
+      "title": "Room-by-Room Home Control Panel",
+      "category": "ui-interfaces",
+      "task_family": "control-panel",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "tablet interface",
+      "aspect_ratio": "4:3",
+      "text_density": "medium",
+      "tags": [
+        "ui-interfaces",
+        "control-panel"
+      ],
+      "path": "prompt-cards/ui-interfaces/room-by-room-home-control-panel.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "observatory-event-checkout",
+      "title": "Observatory Event Checkout",
+      "category": "ui-interfaces",
+      "task_family": "checkout-interface",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "mobile checkout interface",
+      "aspect_ratio": "9:16",
+      "text_density": "high",
+      "tags": [
+        "ui-interfaces",
+        "checkout-interface"
+      ],
+      "path": "prompt-cards/ui-interfaces/observatory-event-checkout.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-metro-route-map",
+      "title": "Fictional Metro Route Map",
+      "category": "charts-infographics",
+      "task_family": "schematic-route-map",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "schematic transit map",
+      "aspect_ratio": "3:2",
+      "text_density": "medium",
+      "tags": [
+        "charts-infographics",
+        "schematic-route-map"
+      ],
+      "path": "prompt-cards/charts-infographics/fictional-metro-route-map.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "fictional-metro-route-map"
+    },
+    {
+      "id": "orchard-yield-small-multiples",
+      "title": "Orchard Yield Small Multiples",
+      "category": "charts-infographics",
+      "task_family": "small-multiple-chart",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "small-multiple chart",
+      "aspect_ratio": "4:3",
+      "text_density": "high",
+      "tags": [
+        "charts-infographics",
+        "small-multiple-chart"
+      ],
+      "path": "prompt-cards/charts-infographics/orchard-yield-small-multiples.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "rain-garden-water-cycle",
+      "title": "Rain Garden Water Cycle",
+      "category": "charts-infographics",
+      "task_family": "process-infographic",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "process infographic",
+      "aspect_ratio": "4:5",
+      "text_density": "medium",
+      "tags": [
+        "charts-infographics",
+        "process-infographic"
+      ],
+      "path": "prompt-cards/charts-infographics/rain-garden-water-cycle.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "night-train-journey-timeline",
+      "title": "Night Train Journey Timeline",
+      "category": "charts-infographics",
+      "task_family": "journey-timeline",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "horizontal timeline",
+      "aspect_ratio": "16:9",
+      "text_density": "medium",
+      "tags": [
+        "charts-infographics",
+        "journey-timeline"
+      ],
+      "path": "prompt-cards/charts-infographics/night-train-journey-timeline.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "shared-studio-energy-breakdown",
+      "title": "Shared Studio Energy Breakdown",
+      "category": "charts-infographics",
+      "task_family": "categorical-breakdown",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "categorical chart",
+      "aspect_ratio": "1:1",
+      "text_density": "medium",
+      "tags": [
+        "charts-infographics",
+        "categorical-breakdown"
+      ],
+      "path": "prompt-cards/charts-infographics/shared-studio-energy-breakdown.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "library-after-dark-event-poster",
+      "title": "Library After Dark Event Poster",
+      "category": "posters-typography",
+      "task_family": "event-poster",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "event poster",
+      "aspect_ratio": "2:3",
+      "text_density": "medium",
+      "tags": [
+        "posters-typography",
+        "event-poster"
+      ],
+      "path": "prompt-cards/posters-typography/library-after-dark-event-poster.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "library-after-dark-event-poster"
+    },
+    {
+      "id": "midnight-meteor-film-poster",
+      "title": "Midnight Meteor Film Poster",
+      "category": "posters-typography",
+      "task_family": "film-poster",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "film poster",
+      "aspect_ratio": "2:3",
+      "text_density": "low",
+      "tags": [
+        "posters-typography",
+        "film-poster"
+      ],
+      "path": "prompt-cards/posters-typography/midnight-meteor-film-poster.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "canopy-current-music-festival-poster",
+      "title": "Canopy Current Music Festival Poster",
+      "category": "posters-typography",
+      "task_family": "festival-poster",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "music festival poster",
+      "aspect_ratio": "4:5",
+      "text_density": "high",
+      "tags": [
+        "posters-typography",
+        "festival-poster"
+      ],
+      "path": "prompt-cards/posters-typography/canopy-current-music-festival-poster.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "kinetic-word-poem-poster",
+      "title": "Kinetic Word Poem Poster",
+      "category": "posters-typography",
+      "task_family": "typographic-poster",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "typographic poster",
+      "aspect_ratio": "3:4",
+      "text_density": "high",
+      "tags": [
+        "posters-typography",
+        "typographic-poster"
+      ],
+      "path": "prompt-cards/posters-typography/kinetic-word-poem-poster.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "seasonal-letterform-specimen",
+      "title": "Seasonal Letterform Specimen",
+      "category": "posters-typography",
+      "task_family": "type-specimen",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "letterform specimen",
+      "aspect_ratio": "1:1",
+      "text_density": "high",
+      "tags": [
+        "posters-typography",
+        "type-specimen"
+      ],
+      "path": "prompt-cards/posters-typography/seasonal-letterform-specimen.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "modular-desk-lamp-listing-hero",
+      "title": "Modular Desk Lamp Listing Hero",
+      "category": "products-ecommerce",
+      "task_family": "product-listing-hero",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "product listing image",
+      "aspect_ratio": "4:5",
+      "text_density": "low",
+      "tags": [
+        "products-ecommerce",
+        "product-listing-hero"
+      ],
+      "path": "prompt-cards/products-ecommerce/modular-desk-lamp-listing-hero.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "modular-desk-lamp-listing-hero"
+    },
+    {
+      "id": "stoneware-breakfast-set-flat-lay",
+      "title": "Stoneware Breakfast Set Flat Lay",
+      "category": "products-ecommerce",
+      "task_family": "catalog-flat-lay",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "catalog flat lay",
+      "aspect_ratio": "1:1",
+      "text_density": "none",
+      "tags": [
+        "products-ecommerce",
+        "catalog-flat-lay"
+      ],
+      "path": "prompt-cards/products-ecommerce/stoneware-breakfast-set-flat-lay.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "travel-flask-colorway-grid",
+      "title": "Travel Flask Colorway Grid",
+      "category": "products-ecommerce",
+      "task_family": "colorway-grid",
+      "input_modes": [
+        "text",
+        "reference-image"
+      ],
+      "output_type": "product colorway grid",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "products-ecommerce",
+        "colorway-grid"
+      ],
+      "path": "prompt-cards/products-ecommerce/travel-flask-colorway-grid.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "folding-stool-feature-callout",
+      "title": "Folding Stool Feature Callout",
+      "category": "products-ecommerce",
+      "task_family": "feature-callout",
+      "input_modes": [
+        "text",
+        "sketch"
+      ],
+      "output_type": "product feature card",
+      "aspect_ratio": "3:2",
+      "text_density": "medium",
+      "tags": [
+        "products-ecommerce",
+        "feature-callout"
+      ],
+      "path": "prompt-cards/products-ecommerce/folding-stool-feature-callout.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "botanical-soap-gift-box-mockup",
+      "title": "Botanical Soap Gift Box Mockup",
+      "category": "products-ecommerce",
+      "task_family": "packaging-mockup",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "packaging presentation",
+      "aspect_ratio": "4:5",
+      "text_density": "medium",
+      "tags": [
+        "products-ecommerce",
+        "packaging-mockup"
+      ],
+      "path": "prompt-cards/products-ecommerce/botanical-soap-gift-box-mockup.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "vespercairn-observatory-logo",
+      "title": "Vespercairn Observatory Logo",
+      "category": "brand-logos",
+      "task_family": "symbol-wordmark-lockup",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "logo lockup",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "brand-logos",
+        "symbol-wordmark-lockup"
+      ],
+      "path": "prompt-cards/brand-logos/vespercairn-observatory-logo.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "vespercairn-observatory-logo"
+    },
+    {
+      "id": "bramblesignal-refill-shop-emblem",
+      "title": "Bramblesignal Refill Shop Emblem",
+      "category": "brand-logos",
+      "task_family": "brand-emblem",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "brand emblem",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "brand-logos",
+        "brand-emblem"
+      ],
+      "path": "prompt-cards/brand-logos/bramblesignal-refill-shop-emblem.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "larkglass-monogram",
+      "title": "Larkglass Monogram",
+      "category": "brand-logos",
+      "task_family": "monogram",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "monogram",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "brand-logos",
+        "monogram"
+      ],
+      "path": "prompt-cards/brand-logos/larkglass-monogram.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "papercomet-podcast-mark",
+      "title": "Papercomet Podcast Mark",
+      "category": "brand-logos",
+      "task_family": "cover-mark",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "podcast cover mark",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "brand-logos",
+        "cover-mark"
+      ],
+      "path": "prompt-cards/brand-logos/papercomet-podcast-mark.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "emberferry-trail-club-badge",
+      "title": "Emberferry Trail Club Badge",
+      "category": "brand-logos",
+      "task_family": "embroidered-badge",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "embroidered badge",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "brand-logos",
+        "embroidered-badge"
+      ],
+      "path": "prompt-cards/brand-logos/emberferry-trail-club-badge.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "courtyard-micro-library",
+      "title": "Courtyard Micro-Library",
+      "category": "architecture-spaces",
+      "task_family": "exterior-visualization",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "architectural exterior visualization",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "architecture-spaces",
+        "exterior-visualization"
+      ],
+      "path": "prompt-cards/architecture-spaces/courtyard-micro-library.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "courtyard-micro-library"
+    },
+    {
+      "id": "cliffside-reading-room-interior",
+      "title": "Cliffside Reading Room Interior",
+      "category": "architecture-spaces",
+      "task_family": "interior-visualization",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "architectural interior visualization",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "architecture-spaces",
+        "interior-visualization"
+      ],
+      "path": "prompt-cards/architecture-spaces/cliffside-reading-room-interior.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "rainwater-garden-pavilion",
+      "title": "Rainwater Garden Pavilion",
+      "category": "architecture-spaces",
+      "task_family": "landscape-pavilion",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "landscape pavilion visualization",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "architecture-spaces",
+        "landscape-pavilion"
+      ],
+      "path": "prompt-cards/architecture-spaces/rainwater-garden-pavilion.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "compact-bakery-axonometric",
+      "title": "Compact Bakery Axonometric",
+      "category": "architecture-spaces",
+      "task_family": "cutaway-axonometric",
+      "input_modes": [
+        "text",
+        "sketch"
+      ],
+      "output_type": "cutaway axonometric",
+      "aspect_ratio": "4:3",
+      "text_density": "low",
+      "tags": [
+        "architecture-spaces",
+        "cutaway-axonometric"
+      ],
+      "path": "prompt-cards/architecture-spaces/compact-bakery-axonometric.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "desert-train-platform-at-dusk",
+      "title": "Desert Train Platform at Dusk",
+      "category": "architecture-spaces",
+      "task_family": "transit-concept",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "transit concept visualization",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "architecture-spaces",
+        "transit-concept"
+      ],
+      "path": "prompt-cards/architecture-spaces/desert-train-platform-at-dusk.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "rainy-window-breakfast-still-life",
+      "title": "Rainy-Window Breakfast Still Life",
+      "category": "photography-realism",
+      "task_family": "editorial-still-life",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "editorial photograph",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "photography-realism",
+        "editorial-still-life"
+      ],
+      "path": "prompt-cards/photography-realism/rainy-window-breakfast-still-life.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "rainy-window-breakfast-still-life"
+    },
+    {
+      "id": "noon-shadow-ceramic-study",
+      "title": "Noon-Shadow Ceramic Study",
+      "category": "photography-realism",
+      "task_family": "studio-still-life",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "studio photograph",
+      "aspect_ratio": "4:5",
+      "text_density": "none",
+      "tags": [
+        "photography-realism",
+        "studio-still-life"
+      ],
+      "path": "prompt-cards/photography-realism/noon-shadow-ceramic-study.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "blue-hour-bicycle-courtyard",
+      "title": "Blue-Hour Bicycle Courtyard",
+      "category": "photography-realism",
+      "task_family": "lifestyle-photograph",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "lifestyle photograph",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "photography-realism",
+        "lifestyle-photograph"
+      ],
+      "path": "prompt-cards/photography-realism/blue-hour-bicycle-courtyard.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "winter-greenhouse-morning",
+      "title": "Winter Greenhouse Morning",
+      "category": "photography-realism",
+      "task_family": "documentary-interior",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "documentary photograph",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "photography-realism",
+        "documentary-interior"
+      ],
+      "path": "prompt-cards/photography-realism/winter-greenhouse-morning.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "kitchen-table-seed-catalog-still-life",
+      "title": "Kitchen-Table Seed Catalog Still Life",
+      "category": "photography-realism",
+      "task_family": "overhead-still-life",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "overhead photograph",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "photography-realism",
+        "overhead-still-life"
+      ],
+      "path": "prompt-cards/photography-realism/kitchen-table-seed-catalog-still-life.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "paper-cut-tidal-ecosystem",
+      "title": "Paper-Cut Tidal Ecosystem",
+      "category": "illustration-art",
+      "task_family": "paper-cut-illustration",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "paper-cut illustration",
+      "aspect_ratio": "4:5",
+      "text_density": "none",
+      "tags": [
+        "illustration-art",
+        "paper-cut-illustration"
+      ],
+      "path": "prompt-cards/illustration-art/paper-cut-tidal-ecosystem.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "paper-cut-tidal-ecosystem"
+    },
+    {
+      "id": "two-color-mountain-weather-linocut",
+      "title": "Two-Color Mountain Weather Linocut",
+      "category": "illustration-art",
+      "task_family": "linocut-illustration",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "linocut illustration",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "illustration-art",
+        "linocut-illustration"
+      ],
+      "path": "prompt-cards/illustration-art/two-color-mountain-weather-linocut.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "gouache-night-market-fable",
+      "title": "Gouache Night Market Fable",
+      "category": "illustration-art",
+      "task_family": "picture-book-illustration",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "picture-book illustration",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "illustration-art",
+        "picture-book-illustration"
+      ],
+      "path": "prompt-cards/illustration-art/gouache-night-market-fable.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "ink-wash-botanical-machine",
+      "title": "Ink-Wash Botanical Machine",
+      "category": "illustration-art",
+      "task_family": "ink-wash-illustration",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "ink-wash illustration",
+      "aspect_ratio": "4:5",
+      "text_density": "none",
+      "tags": [
+        "illustration-art",
+        "ink-wash-illustration"
+      ],
+      "path": "prompt-cards/illustration-art/ink-wash-botanical-machine.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "geometric-quilt-four-seasons",
+      "title": "Geometric Quilt of Four Seasons",
+      "category": "illustration-art",
+      "task_family": "geometric-pattern-illustration",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "geometric quilt illustration",
+      "aspect_ratio": "1:1",
+      "text_density": "none",
+      "tags": [
+        "illustration-art",
+        "geometric-pattern-illustration"
+      ],
+      "path": "prompt-cards/illustration-art/geometric-quilt-four-seasons.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "deep-sea-cartographer-character-sheet",
+      "title": "Deep-Sea Cartographer Character Sheet",
+      "category": "characters-people",
+      "task_family": "character-turnaround",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "character turnaround sheet",
+      "aspect_ratio": "3:2",
+      "text_density": "low",
+      "tags": [
+        "characters-people",
+        "character-turnaround"
+      ],
+      "path": "prompt-cards/characters-people/deep-sea-cartographer-character-sheet.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "deep-sea-cartographer-character-sheet"
+    },
+    {
+      "id": "orchard-keeper-editorial-portrait",
+      "title": "Orchard Keeper Editorial Portrait",
+      "category": "characters-people",
+      "task_family": "editorial-portrait",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "editorial portrait",
+      "aspect_ratio": "4:5",
+      "text_density": "none",
+      "tags": [
+        "characters-people",
+        "editorial-portrait"
+      ],
+      "path": "prompt-cards/characters-people/orchard-keeper-editorial-portrait.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "night-shift-tram-conductor",
+      "title": "Night-Shift Tram Conductor",
+      "category": "characters-people",
+      "task_family": "full-body-character",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "full-body character design",
+      "aspect_ratio": "2:3",
+      "text_density": "low",
+      "tags": [
+        "characters-people",
+        "full-body-character"
+      ],
+      "path": "prompt-cards/characters-people/night-shift-tram-conductor.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "solar-sail-courier-action-pose",
+      "title": "Solar-Sail Courier Action Pose",
+      "category": "characters-people",
+      "task_family": "action-character",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "character action pose",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "characters-people",
+        "action-character"
+      ],
+      "path": "prompt-cards/characters-people/solar-sail-courier-action-pose.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "community-kitchen-team-portrait",
+      "title": "Community Kitchen Team Portrait",
+      "category": "characters-people",
+      "task_family": "ensemble-portrait",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "ensemble portrait",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "characters-people",
+        "ensemble-portrait"
+      ],
+      "path": "prompt-cards/characters-people/community-kitchen-team-portrait.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "lantern-ferry-departure",
+      "title": "Lantern Ferry Departure",
+      "category": "scenes-storytelling",
+      "task_family": "narrative-keyframe",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "narrative keyframe",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "scenes-storytelling",
+        "narrative-keyframe"
+      ],
+      "path": "prompt-cards/scenes-storytelling/lantern-ferry-departure.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "lantern-ferry-departure"
+    },
+    {
+      "id": "rooftop-garden-first-bloom",
+      "title": "Rooftop Garden First Bloom",
+      "category": "scenes-storytelling",
+      "task_family": "quiet-story-frame",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "narrative scene",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "scenes-storytelling",
+        "quiet-story-frame"
+      ],
+      "path": "prompt-cards/scenes-storytelling/rooftop-garden-first-bloom.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "storm-shelter-radio-call",
+      "title": "Storm Shelter Radio Call",
+      "category": "scenes-storytelling",
+      "task_family": "suspense-keyframe",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "suspense keyframe",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "scenes-storytelling",
+        "suspense-keyframe"
+      ],
+      "path": "prompt-cards/scenes-storytelling/storm-shelter-radio-call.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "clockwork-seed-heist-triptych",
+      "title": "Clockwork Seed Heist Triptych",
+      "category": "scenes-storytelling",
+      "task_family": "storyboard-triptych",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "three-panel storyboard",
+      "aspect_ratio": "3:2",
+      "text_density": "low",
+      "tags": [
+        "scenes-storytelling",
+        "storyboard-triptych"
+      ],
+      "path": "prompt-cards/scenes-storytelling/clockwork-seed-heist-triptych.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "forest-post-office-arrival",
+      "title": "Forest Post Office Arrival",
+      "category": "scenes-storytelling",
+      "task_family": "picture-book-spread",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "picture-book spread",
+      "aspect_ratio": "3:2",
+      "text_density": "low",
+      "tags": [
+        "scenes-storytelling",
+        "picture-book-spread"
+      ],
+      "path": "prompt-cards/scenes-storytelling/forest-post-office-arrival.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-bronze-age-harbor-market",
+      "title": "Fictional Bronze Age Harbor Market",
+      "category": "history-classical-themes",
+      "task_family": "historical-reconstruction",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "historical reconstruction",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "history-classical-themes",
+        "historical-reconstruction"
+      ],
+      "path": "prompt-cards/history-classical-themes/fictional-bronze-age-harbor-market.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "fictional-bronze-age-harbor-market"
+    },
+    {
+      "id": "original-classical-mosaic-voyage",
+      "title": "Original Classical Mosaic Voyage",
+      "category": "history-classical-themes",
+      "task_family": "mosaic-panel",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "mosaic-style panel",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "history-classical-themes",
+        "mosaic-panel"
+      ],
+      "path": "prompt-cards/history-classical-themes/original-classical-mosaic-voyage.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-renaissance-workshop",
+      "title": "Fictional Renaissance Workshop",
+      "category": "history-classical-themes",
+      "task_family": "workshop-reconstruction",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "historical interior reconstruction",
+      "aspect_ratio": "3:2",
+      "text_density": "none",
+      "tags": [
+        "history-classical-themes",
+        "workshop-reconstruction"
+      ],
+      "path": "prompt-cards/history-classical-themes/fictional-renaissance-workshop.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-caravanserai-night-arrival",
+      "title": "Fictional Caravanserai Night Arrival",
+      "category": "history-classical-themes",
+      "task_family": "trade-route-scene",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "historical narrative scene",
+      "aspect_ratio": "16:9",
+      "text_density": "none",
+      "tags": [
+        "history-classical-themes",
+        "trade-route-scene"
+      ],
+      "path": "prompt-cards/history-classical-themes/fictional-caravanserai-night-arrival.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-ceramic-reconstruction-board",
+      "title": "Fictional Ceramic Reconstruction Board",
+      "category": "history-classical-themes",
+      "task_family": "artifact-reconstruction",
+      "input_modes": [
+        "text",
+        "reference-image",
+        "sketch"
+      ],
+      "output_type": "museum reconstruction board",
+      "aspect_ratio": "4:3",
+      "text_density": "medium",
+      "tags": [
+        "history-classical-themes",
+        "artifact-reconstruction"
+      ],
+      "path": "prompt-cards/history-classical-themes/fictional-ceramic-reconstruction-board.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-naturalist-field-guide-spread",
+      "title": "Fictional Naturalist Field Guide Spread",
+      "category": "documents-publishing",
+      "task_family": "field-guide-spread",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "field guide spread",
+      "aspect_ratio": "3:2",
+      "text_density": "medium",
+      "tags": [
+        "documents-publishing",
+        "field-guide-spread"
+      ],
+      "path": "prompt-cards/documents-publishing/fictional-naturalist-field-guide-spread.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "fictional-naturalist-field-guide-spread"
+    },
+    {
+      "id": "small-press-poetry-cover",
+      "title": "Small-Press Poetry Cover",
+      "category": "documents-publishing",
+      "task_family": "book-cover",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "book cover",
+      "aspect_ratio": "2:3",
+      "text_density": "low",
+      "tags": [
+        "documents-publishing",
+        "book-cover"
+      ],
+      "path": "prompt-cards/documents-publishing/small-press-poetry-cover.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "seasonal-recipe-zine-spread",
+      "title": "Seasonal Recipe Zine Spread",
+      "category": "documents-publishing",
+      "task_family": "recipe-zine-spread",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "recipe zine spread",
+      "aspect_ratio": "3:2",
+      "text_density": "high",
+      "tags": [
+        "documents-publishing",
+        "recipe-zine-spread"
+      ],
+      "path": "prompt-cards/documents-publishing/seasonal-recipe-zine-spread.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "community-theater-program-cover",
+      "title": "Community Theater Program Cover",
+      "category": "documents-publishing",
+      "task_family": "program-cover",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "program cover",
+      "aspect_ratio": "2:3",
+      "text_density": "medium",
+      "tags": [
+        "documents-publishing",
+        "program-cover"
+      ],
+      "path": "prompt-cards/documents-publishing/community-theater-program-cover.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "makers-manual-assembly-page",
+      "title": "Maker's Manual Assembly Page",
+      "category": "documents-publishing",
+      "task_family": "instruction-page",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "assembly instruction page",
+      "aspect_ratio": "4:5",
+      "text_density": "medium",
+      "tags": [
+        "documents-publishing",
+        "instruction-page"
+      ],
+      "path": "prompt-cards/documents-publishing/makers-manual-assembly-page.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "seamless-moth-fern-pattern-tile",
+      "title": "Seamless Moth and Fern Pattern Tile",
+      "category": "other-use-cases",
+      "task_family": "seamless-pattern",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "surface pattern tile",
+      "aspect_ratio": "1:1",
+      "text_density": "none",
+      "tags": [
+        "other-use-cases",
+        "seamless-pattern"
+      ],
+      "path": "prompt-cards/other-use-cases/seamless-moth-fern-pattern-tile.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": "seamless-moth-fern-pattern-tile"
+    },
+    {
+      "id": "garden-tool-sticker-sheet",
+      "title": "Garden Tool Sticker Sheet",
+      "category": "other-use-cases",
+      "task_family": "sticker-sheet",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "sticker sheet",
+      "aspect_ratio": "4:5",
+      "text_density": "none",
+      "tags": [
+        "other-use-cases",
+        "sticker-sheet"
+      ],
+      "path": "prompt-cards/other-use-cases/garden-tool-sticker-sheet.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "fictional-board-game-token-set",
+      "title": "Fictional Board Game Token Set",
+      "category": "other-use-cases",
+      "task_family": "game-token-sheet",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "board game token sheet",
+      "aspect_ratio": "1:1",
+      "text_density": "low",
+      "tags": [
+        "other-use-cases",
+        "game-token-sheet"
+      ],
+      "path": "prompt-cards/other-use-cases/fictional-board-game-token-set.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "paper-craft-orbit-mobile-concept",
+      "title": "Paper-Craft Orbit Mobile Concept",
+      "category": "other-use-cases",
+      "task_family": "paper-craft-sheet",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "paper craft concept sheet",
+      "aspect_ratio": "4:3",
+      "text_density": "medium",
+      "tags": [
+        "other-use-cases",
+        "paper-craft-sheet"
+      ],
+      "path": "prompt-cards/other-use-cases/paper-craft-orbit-mobile-concept.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
+    },
+    {
+      "id": "black-line-forest-coloring-page",
+      "title": "Black-Line Forest Coloring Page",
+      "category": "other-use-cases",
+      "task_family": "coloring-page",
+      "input_modes": [
+        "text"
+      ],
+      "output_type": "printable coloring page",
+      "aspect_ratio": "4:5",
+      "text_density": "none",
+      "tags": [
+        "other-use-cases",
+        "coloring-page"
+      ],
+      "path": "prompt-cards/other-use-cases/black-line-forest-coloring-page.md",
+      "source_posture": "original",
+      "source_record": null,
+      "rights": "project-authored",
+      "sample_status": "placeholder",
+      "linked_recipe": null
     }
   ]
 }

@@ -1,0 +1,29 @@
+Create one polished portrait mobile home screen for a fictional field ecology application used at dawn in a cool salt-marsh habitat.
+
+The screen belongs to MARSHLIGHT HABITAT SURVEY. Show the active assignment "Plot H-07", progress "6 of 10 plots", and one dominant bottom action labeled "RECORD OBSERVATION".
+
+Use a 9:16 phone composition with a dark spruce header, warm off-white content field, muted reed green accents, amber only for pending sync, high-contrast graphite text, rounded rectangular cards, simple line icons, and generous touch targets.
+
+Top region:
+- Exact title: "MARSHLIGHT"
+- Exact subtitle: "Habitat Survey"
+- Exact status: "Offline • 3 records pending"
+
+Main region:
+- Exact plot label: "Plot H-07"
+- Exact habitat label: "Salt Marsh"
+- Exact progress: "6 of 10 plots"
+- A compact progress bar at sixty percent
+- Three metric cards: "Birds 12", "Plants 8", and "Water 2"
+- Next-task card: "Next: Eastern transect"
+- Small non-branded marsh outline map with one marker labeled "H-07"
+
+Bottom region:
+- One primary button: "RECORD OBSERVATION"
+- Compact navigation labels: "Survey", "Map", and "Notes", with "Survey" selected
+
+Keep every value internally consistent. The pending offline records must not look successfully synchronized. Keep controls at practical mobile sizes and all content inside safe areas.
+
+Render only the exact strings listed above. Add no species names, alerts, coordinates, organization logos, map-provider marks, browser chrome, decorative pseudo-text, signatures, or watermarks.
+
+Return one complete 1024x1536 mobile interface image, not a device mockup, app-store panel, multi-screen board, or wireframe sheet.

@@ -1,6 +1,6 @@
 # Third-party notices
 
-The [MIT License](LICENSE) applies to project-authored code, Recipes, documentation, metadata, validation scripts, and packaged-skill material unless a file states otherwise.
+The [MIT License](LICENSE) applies to project-authored code, Prompt Cards, Recipes, documentation, metadata, validation scripts, and packaged-skill material unless a file states otherwise.
 
 ## Linked provenance
 
@@ -18,11 +18,7 @@ Attribution, linking, and factual description do not grant reuse rights in conte
 
 Linked third-party images are provenance references, not project assets or Rendered Samples.
 
-Current project-generated sample assets resolve to item-level rights statements in:
-
-- [`recipes/summer-citrus-product-ad/evidence.json`](recipes/summer-citrus-product-ad/evidence.json)
-- [`recipes/reference-product-environment-edit/evidence.json`](recipes/reference-product-environment-edit/evidence.json)
-- [`recipes/structured-concept-infographic/evidence.json`](recipes/structured-concept-infographic/evidence.json)
+Current project-generated sample assets resolve to item-level rights statements in each Recipe's `evidence.json`. The canonical set is routed by [`catalog.json`](catalog.json) and stored under [`recipes/`](recipes/); `script/check` requires every cataloged Recipe to have a valid evidence manifest.
 
 Those records identify the input-rights basis, creator or authorized licensor, and applicable license. The MIT grant applies only to rights the project holds in each recorded output.
 

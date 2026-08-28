@@ -1,0 +1,15 @@
+Create one original symbol-and-wordmark lockup for the fictional organization VESPERCAIRN OBSERVATORY. The exact required wordmark is "VESPERCAIRN", followed by the descriptor "OBSERVATORY". Render only those two exact strings.
+
+Present the identity alone on a warm off-white square field, not on stationery, signage, clothing, a telescope, or an environmental mockup.
+
+Symbol concept: three simplified uneven cairn stones form a stable vertical stack. Their shared inner negative space creates a small circular observatory aperture. A single thin horizon arc passes behind the lower stone and stops cleanly before the wordmark. The result should suggest patient observation, dusk, and grounded astronomy without using a literal telescope, mountain silhouette, constellation, star cluster, or planet.
+
+Construction: flat vector-like geometry, balanced but not perfectly mirrored, consistent medium stroke where strokes appear, softly clipped corners, generous internal counters, and no fragile detail. The symbol must remain recognizable as one solid-color mark at 24 pixels.
+
+Lockup: place the symbol above a centered two-line wordmark. First line "VESPERCAIRN" in widely spaced uppercase geometric lettering. Second line "OBSERVATORY" smaller, uppercase, and aligned to the width of the first line. Keep every letter conventional and fully readable.
+
+Palette: deep indigo for symbol and primary wordmark, muted copper only for the horizon arc, warm off-white background. The design must also work conceptually in one color.
+
+Return one centered 1024x1024 identity presentation with one primary lockup only. Add no alternate mark, colorway grid, construction diagram, initials, tagline, founding year, trademark symbol, real institution reference, signature, watermark, or additional text.
+
+Do not imitate or resemble a known observatory, space agency, outdoor brand, stone-stack logo, or astronomy application. Generation is concept exploration, not trademark clearance or production vector artwork.

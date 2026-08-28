@@ -1,0 +1,23 @@
+Create one finished portrait event poster for a fictional evening program at Northlight Community Library.
+
+Visual concept: an open book seen from slightly above becomes a quiet architectural doorway. A single warm reading lamp rises from the gutter like a small moon. Beyond the doorway is a deep midnight-blue library aisle with restrained silver stars formed from tiny paper-cut dots. Use crisp flat illustration with subtle screen-printed grain, not photorealism.
+
+Composition: 2:3 portrait. Place the headline in the upper third, the book-lamp motif in the center, the program line below the motif, and logistics plus the call to action in a clear lower band. Use generous margins and keep all text away from the trim.
+
+Palette: midnight blue, warm ivory, amber, and one muted lilac accent. Typography should feel contemporary and welcoming, with a bold condensed headline and a clean humanist supporting face. Do not imitate a named designer or existing poster.
+
+Render only these exact strings, each once, preserving capitalization and punctuation:
+
+LIBRARY AFTER DARK
+Friday 18 October
+7:00 PM–10:30 PM
+Northlight Community Library
+NIGHT READING • LANTERN TOUR • HOT CHOCOLATE
+FREE ENTRY
+BOOK YOUR PLACE
+
+Hierarchy: "LIBRARY AFTER DARK" first; date and time second; venue third; program line fourth; "FREE ENTRY" and "BOOK YOUR PLACE" last, with the call to action in a solid amber rectangle.
+
+Add no sponsor, logo, author name, book title, QR code, URL, price, review quote, fine print, pseudo-writing, signature, or watermark. Do not duplicate, translate, paraphrase, or decorate the supplied text into illegibility.
+
+Return one complete 1024x1536 poster artwork, not a framed print, street mockup, option sheet, book cover, or social-media interface.

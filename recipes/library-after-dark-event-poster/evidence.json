@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recipe_id": "library-after-dark-event-poster",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One built-in-tool sample is recorded for illustration. It is not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:15:10Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/library-after-dark-event-poster.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/library-after-dark-event-poster.png",
+        "sha256": "5a972e92a2d5d145cbfc18f76ce721cd8b95dd037a8a75ae0d4b9b5514cd1084",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "The event title, date, time, venue, program line, free-entry line, and call to action are visibly correct and legible.",
+          "The open-book doorway, single reading-lamp moon, hierarchy, margins, and dark-night palette form one coherent poster without visible sponsor marks or extra copy.",
+          "The first output was accepted at 1024x1536; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

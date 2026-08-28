@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "habitat-survey-mobile-dashboard",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Habitat Survey Mobile Dashboard",
+  "task_family": "single-screen-mobile-interface",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

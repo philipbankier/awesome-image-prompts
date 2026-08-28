@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "recipe_id": "paper-cut-tidal-ecosystem",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one targeted edit are recorded for illustration. They are not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:16:13Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/paper-cut-tidal-ecosystem.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/paper-cut-tidal-ecosystem.initial.png",
+        "sha256": "ae09d2244fab6fd09e2892dab8e5fe089ed4a22a0c03a0f7db2136b01ed8b04d",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "superseded_for_recipe",
+        "notes": [
+          "The image clearly shows three sea stars, five anemones, two crabs, one spiral shell, seven bladderwrack strands, and a coherent layered-paper material treatment.",
+          "The extra bladderwrack strand violated the exact count, so this initial output was superseded by a targeted edit.",
+          "Several barnacle-like clusters appear on the basalt rim even though they are outside the closed organism inventory."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-02",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:20:23Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/paper-cut-tidal-ecosystem.edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/paper-cut-tidal-ecosystem.initial.png",
+          "sha256": "ae09d2244fab6fd09e2892dab8e5fe089ed4a22a0c03a0f7db2136b01ed8b04d",
+          "width": 1024,
+          "height": 1536,
+          "format": "png",
+          "authorization": "Project-generated initial output from run codex-built-in-2026-08-26-01."
+        }
+      ],
+      "output": {
+        "path": "samples/paper-cut-tidal-ecosystem.png",
+        "sha256": "87a3f5d77ee3c3a9b823ecc2c5b0000d4d368be5f8bafda9b0b20477c22cc625",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_recipe",
+        "notes": [
+          "The image clearly shows three sea stars, five anemones, two crabs, one spiral shell, six bladderwrack strands, and a coherent layered-paper material treatment.",
+          "The targeted edit reduced the initial seven bladderwrack strands to the requested six.",
+          "Several barnacle-like clusters appear on the basalt rim even though they are outside the closed organism inventory, so this is not a full inventory-invariant pass."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-generated fictional tide-pool illustration from run codex-built-in-2026-08-26-01; no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

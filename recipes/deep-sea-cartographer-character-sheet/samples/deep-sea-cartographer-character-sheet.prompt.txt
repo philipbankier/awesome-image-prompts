@@ -1,0 +1,16 @@
+Create one finished three-view character turnaround sheet, not a story scene, costume moodboard, contact sheet, or set of different people.
+
+SCENE
+Use a pale warm-gray 3:2 landscape design sheet divided into three equal vertical regions. Place the exact labels "FRONT", "SIDE", and "BACK" below their matching figures.
+
+SUBJECT
+Show the same wholly fictional deep-sea cartographer in all three views: an approximately forty-year-old person with deep brown skin, an oval face, a broad nose, dark hazel eyes, short tightly curled black hair with one silver streak above the right temple, a compact athletic build, and a small crescent-shaped scar through the left eyebrow.
+
+DETAILS
+Keep identical proportions and neutral stance across views. Clothing layers: rust-orange knit undershirt, slate-blue high-waisted waterproof trousers, cream utility vest with six square pockets, dark teal calf boots, and a short charcoal hood folded at the neck. Equipment: one brass compass on the left vest strap, one rolled cream chart in a cylindrical case at the right hip, one slate stylus behind the right ear, one compact depth gauge on the left wrist, and one coiled measuring line clipped at the back belt. Use rust, slate, cream, dark teal, charcoal, and aged brass only. Keep every garment seam, pocket, strap, tool, handedness cue, and wear mark consistent across views.
+
+CONSTRAINTS
+Do not change face, age, hair, scar, body type, costume, equipment count, equipment side, or scale between views. Add no helmet, weapon, diving tank, real insignia, brand, celebrity likeness, franchise cue, extra limb, signature, watermark, or text beyond the three view labels.
+
+OUTPUT INTENT
+Return one clean 3:2 landscape turnaround with three complete, equally scaled figures aligned at the eyes and feet, with all equipment visible where the view permits.

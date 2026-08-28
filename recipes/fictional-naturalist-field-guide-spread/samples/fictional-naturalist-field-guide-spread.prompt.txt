@@ -1,0 +1,34 @@
+Create one flat, open two-page naturalist field-guide spread about a deliberately invented plant. The spread must visibly state "FICTIONAL SPECIES" and must not imply that the plant exists.
+
+Species:
+- Exact common name: "LANTERNVEIL SEDGE"
+- Exact invented binomial: "Velaria paludilux"
+
+Use a 3:2 landscape canvas representing two facing pages on warm ivory paper. Keep a broad empty central gutter. Do not show a book mockup, hands, desk, page curl, or surrounding props.
+
+Left page:
+- Large original botanical illustration of the complete fictional plant growing from a small mud-and-water base
+- The plant has six narrow blue-green leaves, three translucent amber seed lanterns on arching stems, and fine silver root fibers visible in one cutaway
+- Exact labels connected to the correct structures: "leaf blade", "lantern bract", "seed cluster", "root fan"
+- A small scale bar labeled "20 cm"
+
+Right page exact content and hierarchy:
+- "FICTIONAL SPECIES"
+- "LANTERNVEIL SEDGE"
+- "Velaria paludilux"
+- Heading "IDENTIFICATION"
+- Copy: "Six narrow leaves rise from a silver root fan. Three amber bracts shelter dark seed clusters."
+- Heading "HABITAT"
+- Copy: "Invented range: the brackish margins of Northlight tidal basin."
+- Heading "SEASON"
+- Copy: "Shoots March • Bracts May • Seed heads August"
+- Heading "FIELD NOTE"
+- Copy: "Observe only in this fictional guide. Do not use for real identification."
+
+Include one small fictional range panel labeled "NORTHLIGHT TIDAL BASIN" and one three-stage seasonal strip labeled "MARCH", "MAY", and "AUGUST". The range shape must be abstract and must not resemble a real map.
+
+Illustration direction: original gouache-and-graphite naturalist plate with restrained ink outlines, blue-green leaves, amber bracts, graphite type, muted rust rules, and fine dotted annotations. Keep callout lines thin, direct, and outside the central gutter.
+
+Render only the exact text supplied above. Preserve the binomial spelling, capitalization, bullet separators, measurements, and all labels. Add no real taxonomic family, conservation status, medicinal use, edibility guidance, citation, publisher logo, page number, pseudo-text, signature, or watermark.
+
+Return one complete 1536x1024 spread image with legible text, correct callouts, and no content crossing the gutter.

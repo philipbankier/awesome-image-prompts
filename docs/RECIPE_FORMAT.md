@@ -4,6 +4,12 @@ A Recipe is the smallest end-to-end workflow record in this library. It connects
 
 See [Coverage](COVERAGE.md) for the available draft task families and operation modes.
 
+## Relationship to Prompt Cards
+
+A Prompt Card is a quick, copy-ready starting point. A Recipe is the production-oriented workflow to use when a task needs structured intake, execution profiles, Critical Invariants, inspection, targeted repair, or evidence. A Prompt Card does not inherit a linked Recipe's evidence or Production Candidate claims, and a Recipe must not duplicate its canonical prompt into the Card.
+
+Prompt Cards use one Markdown file, keep all metadata in `catalog.json`, and have no evidence manifest. See the [Prompt Card format](PROMPT_CARD_FORMAT.md) for their separate contract. The Source Archive remains provenance infrastructure for both content layers.
+
 Each Recipe uses one folder:
 
 ```text
@@ -44,7 +50,7 @@ The metadata record contains:
 - `title`
 - `task_family`
 - `source_posture`
-- `source_record`
+- `source_record`, which is `null` only when `source_posture` is `original`
 - `recipe_markdown`
 - `evidence_manifest`
 - `profiles`, an object mapping `conversational` and `gpt-image-2-api` to their profile IDs
@@ -56,11 +62,12 @@ Version one uses direct integer record versions. It does not implement semantic-
 
 `source_posture` describes how the Recipe relates to its linked Source Entry:
 
+- `original`: the Recipe is independently authored and has no linked Source Entry; `source_record` must be `null`.
 - `attributed-rebuild`: an external source informed the task selection, but the Recipe workflow and prompt are independently authored.
 - `frozen-source`: the external material remains a linked provenance reference while the Recipe wrapper is separately authored.
 - `translation`: the Recipe includes translated source expression. This repository publishes a Translation only when item-level redistribution rights are documented and the material is clearly labeled as derivative.
 
-Source posture records provenance. It does not indicate Recipe quality, promotion status, or permission to reuse material at an external link.
+Every non-`original` posture requires a `source_record` that resolves to a Source Entry. Source posture records provenance. It does not indicate Recipe quality, promotion status, or permission to reuse material at an external link.
 
 ## evidence.json
 
@@ -72,7 +79,7 @@ The evidence record uses `schema_version: 1`, names the `recipe_id`, and binds t
 Each Generation Run requires:
 
 - `id`, unique within the evidence file
-- `kind`, such as `conversational-sample` or `supporting-input-generation`
+- `kind`, such as `illustrative-sample`, `conversational-sample`, or `supporting-input-generation`
 - `generated_at`
 - `surface`
 - `model`, `model_version`, and `request_id`, each a non-empty string or the explicit string `not_exposed`
@@ -88,6 +95,8 @@ Each Generation Run requires:
 - `rights`, with non-empty `input_rights`, `creator_or_authorized_licensor`, and `license` strings
 
 Each input and output asset record requires `path`, `sha256`, `width`, `height`, and `format`. Paths resolve from the Recipe folder and must remain inside the repository. `sha256` is the file's 64-character lowercase hexadecimal digest, dimensions are positive integers matching the PNG IHDR, and `format` is `png`. Every input also requires a non-empty `authorization` statement.
+
+Record every generation attempt that becomes an edit input or is cited in the inspection history as its own run. Do not bind an edited output directly to the base prompt or omit the source image used by the edit.
 
 The validator checks that prompt and asset files exist, checks asset digests and PNG dimensions, and requires a featured output's repository-root-relative path plus its `evidence.json` path to appear in the root README.
 

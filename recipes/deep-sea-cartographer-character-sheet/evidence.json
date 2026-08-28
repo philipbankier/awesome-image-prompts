@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recipe_id": "deep-sea-cartographer-character-sheet",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One built-in-tool sample is recorded for illustration. It is not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:16:58Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/deep-sea-cartographer-character-sheet.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/deep-sea-cartographer-character-sheet.png",
+        "sha256": "e978866d4e9f681302cd3eff088d74687a8b8a97f884486072c2498fda0951da",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "The FRONT, SIDE, and BACK labels are exact, and the same fictional person, proportions, palette, hair streak, scar, boots, hood, compass, gauge, chart case, stylus, and coiled line remain recognizable across the three aligned views.",
+          "Only four clear square vest pockets are visible rather than the requested six, and the chart case appears on the character's left in the front view but on the right in the back view, so strict equipment-side consistency is not established.",
+          "The output is a strong illustrative turnaround at 1536x1024, but it is not a full identity-and-equipment invariant pass."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

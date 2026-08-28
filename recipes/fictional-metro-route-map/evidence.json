@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "recipe_id": "fictional-metro-route-map",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one targeted edit are recorded for illustration. They are not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:12:50Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/fictional-metro-route-map.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/fictional-metro-route-map.initial.png",
+        "sha256": "06e7b6de8399b50a6b942a1d99fe64124b096a091089a3e66dadf158a4870b26",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "superseded_for_recipe",
+        "notes": [
+          "The title, ten station labels, three exact legend labels, transfer rings, terminal diamonds, and non-color line treatments are visible and legible.",
+          "West Orchard and its Violet Line terminal were omitted, so this initial output was superseded by a targeted edit.",
+          "The Teal Line junction below Old Basin reads as a three-way branch rather than the strict ordered Glassworks to Old Basin to Juniper Hall path."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-02",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:13:57Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/fictional-metro-route-map.edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/fictional-metro-route-map.initial.png",
+          "sha256": "06e7b6de8399b50a6b942a1d99fe64124b096a091089a3e66dadf158a4870b26",
+          "width": 1536,
+          "height": 1024,
+          "format": "png",
+          "authorization": "Project-generated initial output from run codex-built-in-2026-08-26-01."
+        }
+      ],
+      "output": {
+        "path": "samples/fictional-metro-route-map.png",
+        "sha256": "11b450e3073428632aea720c1228becf49ad9b5a59d9c8d6fb3149d53f645312",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_recipe",
+        "notes": [
+          "The title, all eleven station labels, three exact legend labels, transfer rings, terminal diamonds, and non-color line treatments are visible and legible.",
+          "The targeted edit added the initially omitted West Orchard terminal while preserving the other labels and styles.",
+          "The Teal Line junction below Old Basin reads as a three-way branch rather than the strict ordered Glassworks to Old Basin to Juniper Hall path, so this is not a full topology-invariant pass."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-generated fictional route map from run codex-built-in-2026-08-26-01; no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

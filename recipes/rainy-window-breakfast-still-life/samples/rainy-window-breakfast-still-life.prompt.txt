@@ -1,0 +1,9 @@
+Create one photoreal editorial breakfast still life on a worn honey-oak kitchen table beside a tall rain-streaked window during a cool early-autumn morning.
+
+Arrange exactly one shallow cream stoneware bowl of oatmeal topped with five pear slices and a small pinch of toasted oats, one matte blue mug filled with black coffee, one folded natural-linen napkin, one stainless-steel teaspoon resting fully on the napkin, and one small clear tumbler half-filled with water. Add only three loose oat flakes near the bowl and no other props.
+
+Frame the grouping from a slightly elevated 45-degree view using a natural 50 mm editorial perspective. Place the bowl in the lower-left focal area, the mug behind it to the right, the water glass near the window, and the folded napkin between bowl and mug. Use soft cool window light from the upper left, faint warm room fill, restrained contrast, a shallow but useful depth of field, believable coffee reflections, subtle oatmeal steam, clear glass refraction, grounded contact shadows, and fine rain droplets on the exterior-facing glass. The blurry view beyond the window contains only muted gray-green garden shapes.
+
+Keep every object correctly counted, fully inside the frame, physically grounded, and consistent with one light direction. No extra food, fruit, dishes, cutlery, flowers, books, phone, packaging, hands, people, labels, logos, signatures, watermarks, or readable text. Avoid plastic food, malformed spoon geometry, duplicated rims, excessive steam, artificial bokeh circles, cinematic fog, or heavy color grading.
+
+Return one opaque PNG composed for a 2:3 portrait editorial image at 1024x1536.

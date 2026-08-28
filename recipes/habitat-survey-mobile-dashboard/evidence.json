@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "recipe_id": "habitat-survey-mobile-dashboard",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one targeted edit run are recorded for illustration. Neither is GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-initial",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:13:02Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/habitat-survey-mobile-dashboard.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/habitat-survey-mobile-dashboard.initial.png",
+        "sha256": "8db06c03c99efb430e2031a50322183da64b0b44b04a73ca19bd30dc0b90be8c",
+        "width": 1024,
+        "height": 1536,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "superseded_after_review",
+        "notes": [
+          "The required survey labels and fictional values are legible and internally consistent.",
+          "The output adds a visible 60% label that was not in the closed text manifest, so it was retained as the source input for one targeted edit rather than accepted as the featured sample.",
+          "The output is 1024x1536; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-edit-01",
+      "kind": "illustrative-sample-edit",
+      "generated_at": "2026-08-26T22:14:06Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/habitat-survey-mobile-dashboard.edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/habitat-survey-mobile-dashboard.initial.png",
+          "sha256": "8db06c03c99efb430e2031a50322183da64b0b44b04a73ca19bd30dc0b90be8c",
+          "width": 1024,
+          "height": 1536,
+          "format": "png",
+          "authorization": "Project-authored built-in-tool output from the initial recorded run, authorized for targeted repair within this Recipe."
+        }
+      ],
+      "output": {
+        "path": "samples/habitat-survey-mobile-dashboard.png",
+        "sha256": "e67838ffa714df436036327db8236620b99d239b79ddc23cbfb7f327fe4479d1",
+        "width": 941,
+        "height": 1672,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "The required survey name, offline state, plot, habitat, progress, metrics, next task, map pin, primary action, and navigation labels are legible and internally consistent.",
+          "This accepted output is the result of the exact targeted edit prompt applied to the recorded initial PNG, not a direct result of the base prompt alone.",
+          "The edit removed the undeclared 60% label while preserving the rest of the single-screen hierarchy.",
+          "The edit output is 941x1672 rather than the initial run's 1024x1536; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional brief plus the initial built-in-tool output recorded in this Recipe and authorized for targeted repair.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

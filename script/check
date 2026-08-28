@@ -9,6 +9,36 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+EXPECTED_CATEGORY_COUNT = 13
+EXPECTED_PROMPT_CARD_COUNT = 65
+EXPECTED_RECIPE_COUNT = 16
+EXPECTED_CARDS_PER_CATEGORY = 5
+REQUIRED_CATEGORY_KEYS = {"id", "title"}
+REQUIRED_CATALOG_RECIPE_KEYS = {
+    "id",
+    "title",
+    "task_family",
+    "category",
+    "path",
+}
+REQUIRED_PROMPT_CARD_KEYS = {
+    "id",
+    "title",
+    "category",
+    "task_family",
+    "input_modes",
+    "output_type",
+    "aspect_ratio",
+    "text_density",
+    "tags",
+    "path",
+    "source_posture",
+    "source_record",
+    "rights",
+    "sample_status",
+    "linked_recipe",
+}
 REQUIRED_RECIPE_KEYS = {
     "schema_version",
     "id",
@@ -23,8 +53,25 @@ REQUIRED_RECIPE_KEYS = {
     "profiles",
     "evidence_status",
 }
-ALLOWED_POSTURES = {"attributed-rebuild", "translation", "frozen-source"}
+ALLOWED_POSTURES = {
+    "original",
+    "attributed-rebuild",
+    "translation",
+    "frozen-source",
+}
 ALLOWED_EVIDENCE = {"placeholder", "recorded"}
+ALLOWED_INPUT_MODES = {"text", "reference-image", "multiple-images", "sketch"}
+ALLOWED_TEXT_DENSITY = {"none", "low", "medium", "high"}
+REQUIRED_CARD_HEADINGS = (
+    "## Use this when",
+    "## Required inputs",
+    "## Prompt",
+    "## Variables",
+    "## Negative constraints",
+    "## Quick check",
+    "## Placeholder Preview",
+    "## Rights and provenance",
+)
 REQUIRED_EVIDENCE_KEYS = {
     "schema_version",
     "recipe_id",
@@ -110,6 +157,118 @@ def require_nonempty_string(value: object, label: str) -> str:
     if not isinstance(value, str) or not value.strip():
         fail(f"{label} must be a non-empty string")
     return value
+
+
+def require_slug(value: object, label: str) -> str:
+    slug = require_nonempty_string(value, label)
+    if not SLUG.fullmatch(slug):
+        fail(f"{label} must be a lowercase hyphenated slug")
+    return slug
+
+
+def check_source_reference(record: dict, base: Path, label: str) -> None:
+    posture = record["source_posture"]
+    source_record = record["source_record"]
+    if posture == "original":
+        if source_record is not None:
+            fail(f"{label} original source_record must be null")
+        return
+    source_path = require_nonempty_string(source_record, f"{label} source_record")
+    require_relative_file(base, source_path, f"{label} source record")
+
+
+def check_prompt_card(
+    entry: object,
+    category_ids: set[str],
+    recipe_ids: set[str],
+) -> tuple[str, Path]:
+    card = require_keys(entry, REQUIRED_PROMPT_CARD_KEYS, "Prompt Card catalog entry")
+    card_id = require_slug(card["id"], "Prompt Card id")
+    title = require_nonempty_string(card["title"], f"{card_id} title")
+    category = require_slug(card["category"], f"{card_id} category")
+    if category not in category_ids:
+        fail(f"{card_id} references unknown category: {category}")
+    require_slug(card["task_family"], f"{card_id} task_family")
+
+    input_modes = card["input_modes"]
+    if not isinstance(input_modes, list) or not input_modes:
+        fail(f"{card_id} input_modes must be a non-empty array")
+    for index, input_mode in enumerate(input_modes, start=1):
+        require_nonempty_string(input_mode, f"{card_id} input_mode {index}")
+    if len(input_modes) != len(set(input_modes)):
+        fail(f"{card_id} input_modes must be unique")
+    invalid_modes = sorted(set(input_modes) - ALLOWED_INPUT_MODES)
+    if invalid_modes:
+        fail(f"{card_id} has invalid input_modes: {', '.join(invalid_modes)}")
+
+    require_nonempty_string(card["output_type"], f"{card_id} output_type")
+    aspect_ratio = require_nonempty_string(card["aspect_ratio"], f"{card_id} aspect_ratio")
+    if not re.fullmatch(r"[1-9][0-9]*:[1-9][0-9]*", aspect_ratio):
+        fail(f"{card_id} aspect_ratio must look like 3:2")
+    if card["text_density"] not in ALLOWED_TEXT_DENSITY:
+        fail(f"{card_id} has invalid text_density")
+
+    tags = card["tags"]
+    if not isinstance(tags, list) or len(tags) < 2:
+        fail(f"{card_id} tags must contain at least two values")
+    for index, tag in enumerate(tags, start=1):
+        require_slug(tag, f"{card_id} tag {index}")
+    if len(tags) != len(set(tags)):
+        fail(f"{card_id} tags must be unique")
+
+    if card["source_posture"] not in ALLOWED_POSTURES:
+        fail(f"{card_id} has invalid source_posture")
+    if card["rights"] != "project-authored":
+        fail(f"{card_id} rights must be project-authored in this release")
+    if card["sample_status"] != "placeholder":
+        fail(f"{card_id} sample_status must be placeholder in this release")
+
+    linked_recipe = card["linked_recipe"]
+    if linked_recipe is not None:
+        linked_recipe = require_slug(linked_recipe, f"{card_id} linked_recipe")
+        if linked_recipe not in recipe_ids:
+            fail(f"{card_id} links to unknown Recipe: {linked_recipe}")
+
+    card_path_value = require_nonempty_string(card["path"], f"{card_id} path")
+    card_path = require_relative_file(ROOT, card_path_value, f"{card_id} Prompt Card")
+    expected_path = Path("prompt-cards") / category / f"{card_id}.md"
+    if card_path.relative_to(ROOT) != expected_path:
+        fail(f"{card_id} path must be {expected_path.as_posix()}")
+    check_source_reference(card, card_path.parent, card_id)
+
+    text = card_path.read_text(encoding="utf-8")
+    if not text.startswith(f"# {title}\n"):
+        fail(f"{card_id} Prompt Card must start with its catalog title")
+    heading_positions: list[int] = []
+    for heading in REQUIRED_CARD_HEADINGS:
+        marker = f"{heading}\n"
+        if text.count(marker) != 1:
+            fail(f"{card_id} Prompt Card must contain heading exactly once: {heading}")
+        heading_positions.append(text.index(marker))
+    if heading_positions != sorted(heading_positions):
+        fail(f"{card_id} Prompt Card headings are out of order")
+
+    prompt_blocks = re.findall(r"```text\n(.*?)\n```", text, re.DOTALL)
+    if len(prompt_blocks) != 1:
+        fail(f"{card_id} Prompt Card must contain exactly one fenced text prompt")
+    prompt_variables = set(re.findall(r"\{([A-Z][A-Z0-9_]*)\}", prompt_blocks[0]))
+    variables_section = text.split("## Variables\n", 1)[1].split(
+        "\n## Negative constraints",
+        1,
+    )[0]
+    declared_variables = set(
+        re.findall(r"`\{([A-Z][A-Z0-9_]*)\}`", variables_section)
+    )
+    if prompt_variables != declared_variables:
+        fail(
+            f"{card_id} prompt and Variables section differ: "
+            f"prompt={sorted(prompt_variables)}, declared={sorted(declared_variables)}"
+        )
+    if "Sample status: Placeholder Preview." not in text:
+        fail(f"{card_id} must visibly label its Placeholder Preview")
+    if "[TODO:" in text:
+        fail(f"{card_id} Prompt Card contains an unfinished TODO")
+    return card_id, card_path
 
 
 def check_asset(base: Path, value: object, label: str) -> Path:
@@ -361,14 +520,51 @@ def main() -> None:
     if catalog.get("schema_version") != 1:
         fail("catalog schema_version must be 1")
 
+    categories = catalog.get("categories")
+    if not isinstance(categories, list) or not categories:
+        fail("catalog categories must be a non-empty list")
+    if len(categories) != EXPECTED_CATEGORY_COUNT:
+        fail(f"catalog must contain exactly {EXPECTED_CATEGORY_COUNT} categories")
+    category_ids: set[str] = set()
+    category_titles: set[str] = set()
+    for value in categories:
+        category = require_keys(value, REQUIRED_CATEGORY_KEYS, "catalog category")
+        category_id = require_slug(category["id"], "catalog category id")
+        category_title = require_nonempty_string(
+            category["title"],
+            f"{category_id} category title",
+        )
+        if category_id in category_ids:
+            fail(f"duplicate category id: {category_id}")
+        if category_title in category_titles:
+            fail(f"duplicate category title: {category_title}")
+        category_ids.add(category_id)
+        category_titles.add(category_title)
+
     recipes = catalog.get("recipes")
     if not isinstance(recipes, list) or not recipes:
         fail("catalog recipes must be a non-empty list")
+    if len(recipes) != EXPECTED_RECIPE_COUNT:
+        fail(f"catalog must contain exactly {EXPECTED_RECIPE_COUNT} Recipes")
 
     readme_text = (ROOT / "README.md").read_text(encoding="utf-8")
-    seen_ids: set[str] = set()
-    for entry in recipes:
+    seen_recipe_ids: set[str] = set()
+    seen_recipe_paths: set[Path] = set()
+    recipes_by_category = {category_id: 0 for category_id in category_ids}
+    for entry_value in recipes:
+        entry = require_keys(
+            entry_value,
+            REQUIRED_CATALOG_RECIPE_KEYS,
+            "Recipe catalog entry",
+        )
+        category = require_slug(entry["category"], f"{entry.get('id', 'Recipe')} category")
+        if category not in category_ids:
+            fail(f"Recipe references unknown category: {category}")
         recipe_path = require_relative_file(ROOT, entry.get("path", ""), "Recipe record")
+        relative_recipe_path = recipe_path.relative_to(ROOT)
+        if relative_recipe_path in seen_recipe_paths:
+            fail(f"duplicate Recipe path: {relative_recipe_path}")
+        seen_recipe_paths.add(relative_recipe_path)
         record = load_json(recipe_path)
         missing = REQUIRED_RECIPE_KEYS - record.keys()
         if missing:
@@ -377,9 +573,14 @@ def main() -> None:
             fail(f"{record['id']} schema_version must be 1")
         if record["id"] != entry.get("id"):
             fail(f"catalog id does not match {recipe_path.relative_to(ROOT)}")
-        if record["id"] in seen_ids:
+        if record["title"] != entry["title"]:
+            fail(f"catalog title does not match {recipe_path.relative_to(ROOT)}")
+        if record["task_family"] != entry["task_family"]:
+            fail(f"catalog task_family does not match {recipe_path.relative_to(ROOT)}")
+        if record["id"] in seen_recipe_ids:
             fail(f"duplicate Recipe id: {record['id']}")
-        seen_ids.add(record["id"])
+        seen_recipe_ids.add(record["id"])
+        recipes_by_category[category] += 1
         if record["source_posture"] not in ALLOWED_POSTURES:
             fail(f"{record['id']} has invalid source_posture")
         if record["evidence_status"] not in ALLOWED_EVIDENCE:
@@ -394,14 +595,82 @@ def main() -> None:
             fail(f"{record['id']} profile ids must be non-empty strings")
 
         base = recipe_path.parent
-        require_relative_file(base, record["source_record"], "source record")
+        check_source_reference(record, base, record["id"])
         require_relative_file(base, record["recipe_markdown"], "Recipe Markdown")
         evidence_path = require_relative_file(base, record["evidence_manifest"], "evidence manifest")
         check_evidence(record, base, evidence_path, readme_text)
 
+    orphan_recipe_paths = {
+        path.relative_to(ROOT)
+        for path in (ROOT / "recipes").glob("*/recipe.json")
+    } - seen_recipe_paths
+    if orphan_recipe_paths:
+        fail(
+            "Recipe records missing from catalog: "
+            + ", ".join(sorted(path.as_posix() for path in orphan_recipe_paths))
+        )
+
+    missing_recipe_categories = sorted(
+        category_id
+        for category_id, count in recipes_by_category.items()
+        if count == 0
+    )
+    if missing_recipe_categories:
+        fail(
+            "catalog categories without a Recipe: "
+            + ", ".join(missing_recipe_categories)
+        )
+
+    prompt_cards = catalog.get("prompt_cards")
+    if not isinstance(prompt_cards, list) or not prompt_cards:
+        fail("catalog prompt_cards must be a non-empty list")
+    if len(prompt_cards) != EXPECTED_PROMPT_CARD_COUNT:
+        fail(f"catalog must contain exactly {EXPECTED_PROMPT_CARD_COUNT} Prompt Cards")
+    seen_card_ids: set[str] = set()
+    seen_card_paths: set[Path] = set()
+    cards_by_category = {category_id: 0 for category_id in category_ids}
+    prompt_index_text = (ROOT / "prompt-cards/README.md").read_text(encoding="utf-8")
+    for entry in prompt_cards:
+        card_id, card_path = check_prompt_card(entry, category_ids, seen_recipe_ids)
+        relative_card_path = card_path.relative_to(ROOT)
+        if card_id in seen_card_ids:
+            fail(f"duplicate Prompt Card id: {card_id}")
+        if relative_card_path in seen_card_paths:
+            fail(f"duplicate Prompt Card path: {relative_card_path}")
+        seen_card_ids.add(card_id)
+        seen_card_paths.add(relative_card_path)
+        cards_by_category[entry["category"]] += 1
+        index_reference = relative_card_path.relative_to("prompt-cards").as_posix()
+        if index_reference not in prompt_index_text:
+            fail(f"prompt-cards/README.md must reference: {index_reference}")
+
+    orphan_card_paths = {
+        path.relative_to(ROOT)
+        for path in (ROOT / "prompt-cards").glob("*/*.md")
+    } - seen_card_paths
+    if orphan_card_paths:
+        fail(
+            "Prompt Cards missing from catalog: "
+            + ", ".join(sorted(path.as_posix() for path in orphan_card_paths))
+        )
+
+    undersized_card_categories = sorted(
+        category_id
+        for category_id, count in cards_by_category.items()
+        if count != EXPECTED_CARDS_PER_CATEGORY
+    )
+    if undersized_card_categories:
+        fail(
+            f"catalog categories must contain exactly {EXPECTED_CARDS_PER_CATEGORY} Prompt Cards: "
+            + ", ".join(undersized_card_categories)
+        )
+
     check_skill()
     check_local_markdown_links()
-    print(f"Check passed: {len(recipes)} Recipes and portable skill structure are valid.")
+    print(
+        f"Check passed: {len(prompt_cards)} Prompt Cards, {len(recipes)} Recipes, "
+        "and portable skill structure are valid."
+    )
 
 
 if __name__ == "__main__":

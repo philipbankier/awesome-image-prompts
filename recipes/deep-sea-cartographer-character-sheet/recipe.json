@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "deep-sea-cartographer-character-sheet",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Deep-Sea Cartographer Character Sheet",
+  "task_family": "fictional-character-turnaround",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

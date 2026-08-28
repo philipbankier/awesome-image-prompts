@@ -1,74 +1,79 @@
 # Coverage
 
-Awesome Image Prompts currently favors detailed, inspectable workflows over a large prompt count. This page records what the library contains today and separates Recipe depth from gallery breadth.
+Awesome Image Prompts now covers all 13 primary categories with two deliberately different content depths: 65 quick-use Prompt Cards and 16 draft Recipes. It is broader than the original three-Recipe pilot, but it is still smaller by prompt count than the upstream collection.
 
-## Current workflows
+## Current atlas
 
-| Mapped upstream category | Task family              | Input mode                                              | Intended passing outcome                                                        |
-| ------------------------ | ------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Products & E-commerce    | `product-advertisement`  | Structured text brief                                   | One fictional or authorized citrus-beverage Production Candidate                |
-| Products & E-commerce    | `reference-based-edit`   | One authorized product image plus edit instructions     | One perfume-bottle environment edit that preserves product identity             |
-| Charts & Infographics    | `structured-infographic` | Approved facts, labels, relationships, and visual rules  | One bounded educational Production Candidate                                    |
+| Content or evidence unit         | Current count | What it means                                                                    |
+| -------------------------------- | ------------: | -------------------------------------------------------------------------------- |
+| Prompt Cards                     |            65 | Five copy-ready, independently authored prompts in each category                 |
+| Draft Recipes                    |            16 | Full workflows with intake, profiles, inspection, repair, and evidence status    |
+| Categories with Prompt Cards     |         13/13 | Every primary category has quick-use coverage                                    |
+| Categories with a Recipe         |         13/13 | Every primary category has at least one production-oriented workflow             |
+| Illustrative Recipe outputs      |            16 | One recorded built-in-tool output per Recipe                                     |
+| Supporting input assets          |             1 | One project-generated reference used by the existing product-edit Recipe         |
+| Promoted Recipes                 |             0 | No Recipe has passed the API promotion gate                                      |
+| Recorded GPT Image 2 API runs    |             0 | Built-in-tool samples do not expose the metadata required for API evidence        |
 
-The library currently contains:
-
-- three draft Recipe task families;
-- three task families mapped to two upstream primary categories;
-- two text-to-image workflows and one single-image edit workflow;
-- three illustrative Recipe outputs and one project-generated supporting input;
-- zero promoted Recipes and zero recorded GPT Image 2 API runs.
-
-Every Recipe declares a conversational profile and a pinned GPT Image 2 API profile. The current recorded samples came from a built-in image tool whose exact model and request settings were not exposed, so they are illustrative rather than promotion evidence.
-
-## Breadth compared with the upstream collection
-
-The two repositories use different content units. An upstream case is a prompt and example image. A Recipe here is an end-to-end workflow with intake, rights checks, execution profiles, inspection, repair, and evidence. The counts below compare breadth, not quality or completeness of individual entries.
-
-Snapshot taken 2026-08-26:
-
-| Layer or facet                          | Awesome Image Prompts       | Upstream `awesome-gpt-image-2` |
-| --------------------------------------- | --------------------------: | -----------------------------: |
-| Source or case layer                    |            3 Source Entries |       535 prompt-bearing cases |
-| Workflow or template layer              |             3 draft Recipes |        22 structured templates |
-| Primary categories with mapped Recipes  |                           2 |                             13 |
-| Style facets                            |          No formal taxonomy |                        19 tags |
-| Scene or context facets                 |          No formal taxonomy |                        10 tags |
-
-Source Entries, prompt cases, Recipes, and templates are not equivalent units. The paired rows show the nearest layer-level comparison without claiming parity.
-
-The upstream snapshot is commit [`9a7b2e9`](https://github.com/freestylefly/awesome-gpt-image-2/commit/9a7b2e9c39f816d6c699c2a133e11b6d8bfdc464). Its case IDs run through 538, but three numbered images have no prompt record, so the comparable prompt-case count is 535. See its [category overview](https://github.com/freestylefly/awesome-gpt-image-2/blob/9a7b2e9c39f816d6c699c2a133e11b6d8bfdc464/README.md#L76-L233) and [structured template index](https://github.com/freestylefly/awesome-gpt-image-2/blob/9a7b2e9c39f816d6c699c2a133e11b6d8bfdc464/agents/skills/gpt-image-2-style-library/references/style-library.md#L13-L608).
-
-This breadth snapshot follows newer upstream activity. The three Recipe provenance records remain pinned to [`de6a8ad`](https://github.com/freestylefly/awesome-gpt-image-2/commit/de6a8ad89b6308dc49b316fcd9f7a56bf2a73273); the comparison does not update those source pins.
+All 65 Prompt Cards have Placeholder Previews. The 13 new Rendered Samples belong to their Recipes and do not turn linked Cards into tested prompts.
 
 ## Category map
 
-The category names below mirror the upstream taxonomy only to make breadth comparable. They are not additional fields in this repository's Recipe schema.
+| Category                      | Cards | Recipes | Covered output types                                                     |
+| ----------------------------- | ----: | ------: | ------------------------------------------------------------------------ |
+| UI & Interfaces               |     5 |       1 | Mobile screens, desktop dashboard, tablet controls, checkout              |
+| Charts & Infographics         |     5 |       2 | Route map, charts, process diagram, timeline, structured explanation      |
+| Posters & Typography          |     5 |       1 | Event, film, festival, poem, and letterform posters                       |
+| Products & E-commerce         |     5 |       3 | Listing hero, flat lay, colorway grid, callout, packaging, ad, edit       |
+| Brand & Logos                 |     5 |       1 | Symbol lockup, emblem, monogram, cover mark, embroidered badge            |
+| Architecture & Spaces         |     5 |       1 | Exterior, interior, pavilion, axonometric, transit concept                |
+| Photography & Realism         |     5 |       1 | Editorial, studio, lifestyle, documentary, and overhead photography       |
+| Illustration & Art            |     5 |       1 | Paper cut, linocut, gouache, ink wash, geometric quilt                    |
+| Characters & People           |     5 |       1 | Turnaround, portrait, full-body design, action pose, ensemble              |
+| Scenes & Storytelling         |     5 |       1 | Narrative frames, suspense, storyboard, picture-book spread               |
+| History & Classical Themes    |     5 |       1 | Reconstruction, mosaic, workshop, trade-route scene, artifact board       |
+| Documents & Publishing        |     5 |       1 | Field guide, book cover, zine, program cover, instruction page            |
+| Other Use Cases               |     5 |       1 | Seamless pattern, stickers, game tokens, paper craft, coloring page        |
 
-| Upstream category             | Upstream cases | Recipes mapped here                                                    |
-| ----------------------------- | -------------: | ---------------------------------------------------------------------- |
-| UI & Interfaces               |             73 | No current Recipe                                                      |
-| Charts & Infographics         |             52 | One structured-infographic Recipe                                      |
-| Posters & Typography          |             88 | No current Recipe                                                      |
-| Products & E-commerce         |             41 | One product-advertisement Recipe and one reference-edit Recipe         |
-| Brand & Logos                 |             27 | No current Recipe                                                      |
-| Architecture & Spaces         |             12 | No current Recipe                                                      |
-| Photography & Realism         |             78 | No general-purpose Recipe                                               |
-| Illustration & Art            |             58 | No current Recipe                                                      |
-| Characters & People           |             31 | No current Recipe                                                      |
-| Scenes & Storytelling         |             21 | No current Recipe                                                      |
-| History & Classical Themes    |             16 | No current Recipe                                                      |
-| Documents & Publishing        |             10 | No current Recipe                                                      |
-| Other Use Cases               |             28 | No current Recipe                                                      |
+The [Prompt Card index](../prompt-cards/README.md) lists all 65 Cards. The [Recipe index](../skills/image-recipe-library/references/recipe-index.md) routes to all 16 workflows.
 
 ## Operation coverage
 
-| Operation                                   | Recipe status      | Current boundary                                            |
-| ------------------------------------------- | ------------------ | ----------------------------------------------------------- |
-| Generate from a structured text brief       | Two draft Recipes  | Product advertisement and structured infographic only       |
-| Edit one authorized reference image         | One draft Recipe   | Environment-only edit of one perfume bottle                 |
-| Multi-image composition                     | No Recipe          | No task-specific evaluation criteria yet                    |
-| General inpainting or object removal        | No Recipe          | The reference edit has a narrower preservation contract     |
-| Character consistency or identity transfer | No Recipe          | No task-specific evaluation criteria yet                    |
-| Reusable style and scene lookup             | No Recipe          | No formal style or scene taxonomy yet                       |
+| Operation                                  | Recipe coverage | Prompt Card coverage and boundary                                       |
+| ------------------------------------------ | --------------- | ----------------------------------------------------------------------- |
+| Generate from a structured text brief      | 15 Recipes      | Broad coverage across all categories                                    |
+| Edit one authorized reference image        | 1 Recipe        | One product colorway Card also accepts a reference image                |
+| Sketch-guided generation                   | No Recipe       | Three Cards accept an authorized sketch, without preservation evidence  |
+| Multi-image composition                    | No Recipe       | Not claimed in the first wave                                           |
+| General object removal or inpainting       | No Recipe       | Existing product edit is narrower and environment-specific              |
+| Character continuity across several images | No Recipe       | Character Card and Recipe cover one sheet, not a multi-run continuity set |
+| Exact text and dense layouts               | 8 Recipes       | Several Cards include text, but only Recipes define invariant checks    |
+| Seamless tiling                            | 1 Recipe        | One Card and Recipe cover a square repeat                               |
 
-A Source Entry adds Source Archive breadth but not Recipe or operation coverage. Recipe coverage expands only when a task has declared fit, inputs, execution profiles, Critical Invariants, repair guidance, and evidence status.
+Prompt Card breadth does not imply Recipe-level reliability. Tasks involving real people, real brands, private inputs, factual claims, safety-critical instructions, or exact preservation still require authorization and task-specific review.
+
+## Breadth compared with the upstream collection
+
+The two repositories use different content units. An upstream case is primarily a prompt and example image. A Prompt Card is an independently authored copy-ready prompt with constraints and a visible preview state. A Recipe is a full workflow with evidence boundaries. The rows below compare the nearest layers without treating them as equivalent.
+
+Snapshot taken 2026-08-26:
+
+| Layer or facet                         | Awesome Image Prompts             | Upstream `awesome-gpt-image-2` |
+| -------------------------------------- | --------------------------------: | -----------------------------: |
+| Source or case layer                   |                  3 Source Entries |       535 prompt-bearing cases |
+| Quick prompt layer                     |                 65 Prompt Cards   |       535 prompt-bearing cases |
+| Workflow or template layer             |                 16 draft Recipes  |        22 structured templates |
+| Primary categories with quick prompts  |                            13/13   |                          13/13 |
+| Primary categories with workflows      |                            13/13   |         Not directly comparable |
+| Formal style facets                    |           Tags, no fixed taxonomy  |                        19 tags |
+| Formal scene or context facets         |           Tags, no fixed taxonomy  |                        10 tags |
+
+The upstream snapshot is commit [`9a7b2e9`](https://github.com/freestylefly/awesome-gpt-image-2/commit/9a7b2e9c39f816d6c699c2a133e11b6d8bfdc464). Its case IDs run through 538, but three numbered images have no prompt record, so the comparable prompt-case count is 535. See its [category overview](https://github.com/freestylefly/awesome-gpt-image-2/blob/9a7b2e9c39f816d6c699c2a133e11b6d8bfdc464/README.md#L76-L233) and [structured template index](https://github.com/freestylefly/awesome-gpt-image-2/blob/9a7b2e9c39f816d6c699c2a133e11b6d8bfdc464/agents/skills/gpt-image-2-style-library/references/style-library.md#L13-L608).
+
+The repository now matches the upstream category breadth, but not its prompt count. The tradeoff is intentional: each Card is newly authored and rights-bounded, while each Recipe adds more workflow depth than a gallery prompt.
+
+## Evidence status
+
+Every Recipe declares a conversational profile and a pinned GPT Image 2 API profile. The recorded images came from a built-in image tool whose exact model and request settings were not exposed. Each run stores its exact submitted prompt, local PNG, checksum, dimensions, inspection notes, and rights statement, with `promotion_evidence: false`.
+
+`recorded` means the run is inspectable. It does not mean the Recipe is a full rubric pass, repeatable, API-conformant, promoted, or publish-ready. Several retained samples disclose exact-count, topology, or requested-dimension misses in their run records. Promotion still requires four scored GPT Image 2 API runs across two materially different briefs plus one conversational smoke run.

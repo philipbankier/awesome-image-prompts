@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recipe_id": "modular-desk-lamp-listing-hero",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One built-in-tool sample is recorded for illustration. It is not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:12:44Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/modular-desk-lamp-listing-hero.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/modular-desk-lamp-listing-hero.png",
+        "sha256": "2a9ea4fe0a0851e1bfb4822b8a9c0b481e6b583623b080f29d3c9134b4d11937",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed",
+        "notes": [
+          "One lamp appears with a grounded circular base, connected stem and articulated arms, saffron shade, and a single cord.",
+          "The warm gray studio treatment, landscape crop, right-side negative space, material separation, and absence of visible text match the illustrative brief.",
+          "The output is 1536x1024; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

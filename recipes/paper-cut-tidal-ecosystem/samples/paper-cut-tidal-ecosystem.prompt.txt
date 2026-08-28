@@ -1,0 +1,16 @@
+Create one finished layered paper-cut editorial illustration, not a photograph, specimen chart, pattern tile, diorama instruction sheet, or set of alternatives.
+
+SCENE
+Build a portrait 2:3 paper diorama of Whisper Cove, a fictional basalt tide pool at low tide, viewed from a slightly elevated three-quarter angle. Use a deep navy backing field and one soft light from the upper left.
+
+SUBJECT
+Show exactly three ochre sea stars, five coral-red anemones, two small slate crabs, one spiral shell, six strands of olive-green bladderwrack, and a shallow pool of muted turquoise water. Arrange the back-to-front layers as sky field, basalt rim, distant seaweed, water, submerged stones, anemones and sea stars, foreground crab and shell.
+
+DETAILS
+Use matte cotton paper, faint deckled fibers, crisp hand-cut edges, small physical gaps between layers, restrained beveling, and coherent cast shadows that fall down and right. Keep every organism recognizable, separated from its neighbors, and secondary to the oval tide-pool silhouette. Use navy, basalt gray, turquoise, olive, coral, ochre, and warm cream only.
+
+CONSTRAINTS
+Do not add text, labels, fish, birds, people, boats, real logos, signatures, watermarks, plastic sheen, photographic water, fused organisms, extra limbs, extra shells, or art direction associated with a named artist.
+
+OUTPUT INTENT
+Return one complete 2:3 portrait illustration with a fully visible silhouette, distinct paper layers, consistent upper-left lighting, and inspectable organism counts.

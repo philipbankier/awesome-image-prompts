@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "seamless-moth-fern-pattern-tile",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Seamless Moth and Fern Pattern Tile",
+  "task_family": "seamless-surface-pattern",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

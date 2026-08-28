@@ -1,0 +1,9 @@
+Create one clean e-commerce listing hero for the fictional ORBIT TASK modular desk lamp on a warm light-gray seamless studio background.
+
+Show exactly one compact lamp from a slightly elevated front three-quarter view. The lamp has a low circular weighted base in matte graphite powder-coated steel, one slim vertical stem, two short articulated aluminum arms joined by visible round friction hinges, and a shallow oval shade in muted saffron yellow. The joints connect plausibly, the shade points down and slightly left, and the lamp is switched off. A small black braided power cord exits neatly behind the base and leaves the frame without tangling.
+
+Use a large soft key from the upper left, restrained fill, clean material separation, crisp product edges, a soft grounded shadow, and generous negative space to the right. Keep the complete shade, arms, hinges, stem, base, and cord exit inside the frame.
+
+Render no visible text. Add no second lamp, alternate view, exploded parts, duplicated joints, floating hardware, impossible balance, lifestyle props, desk accessories, hands, people, logos, labels, price badges, claims, signatures, or watermarks.
+
+Return one polished opaque PNG composed for a 3:2 landscape product-listing hero.

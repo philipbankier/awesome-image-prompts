@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "recipe_id": "vespercairn-observatory-logo",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one targeted edit run are recorded for illustration. Neither is GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-initial",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:16:26Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/vespercairn-observatory-logo.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/vespercairn-observatory-logo.initial.png",
+        "sha256": "352563c1624bff9bcf81143d920c8e4b98ad7eb2bbed66ceee987fb8caef526c",
+        "width": 1254,
+        "height": 1254,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "superseded_after_review",
+        "notes": [
+          "The exact VESPERCAIRN wordmark, OBSERVATORY descriptor, indigo cairn-aperture symbol, and copper horizon arc are legible and coherent.",
+          "The source PNG has an alpha channel and does not provide the required warm off-white field, so it was retained as the source input for one targeted edit rather than accepted as the final sample.",
+          "The output is 1254x1254 rather than the brief's 1024x1024 target; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-edit-01",
+      "kind": "illustrative-sample-edit",
+      "generated_at": "2026-08-26T22:17:13Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/vespercairn-observatory-logo.edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/vespercairn-observatory-logo.initial.png",
+          "sha256": "352563c1624bff9bcf81143d920c8e4b98ad7eb2bbed66ceee987fb8caef526c",
+          "width": 1254,
+          "height": 1254,
+          "format": "png",
+          "authorization": "Project-authored built-in-tool output from the initial recorded run, authorized for targeted repair within this Recipe."
+        }
+      ],
+      "output": {
+        "path": "samples/vespercairn-observatory-logo.png",
+        "sha256": "71b5c9a0edbb16ca7e89316372fba0f8eaee72830826f31cf23a3b4f0985759a",
+        "width": 1254,
+        "height": 1254,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_recipe",
+        "notes": [
+          "The exact VESPERCAIRN wordmark and OBSERVATORY descriptor are legible in one centered vertical lockup.",
+          "This accepted output is the result of the exact targeted edit prompt applied to the recorded initial PNG, not a direct result of the base prompt alone.",
+          "The edit supplied an opaque warm off-white field while preserving the indigo cairn-aperture symbol, copper horizon arc, and exact text.",
+          "The output is 1254x1254 rather than the brief's 1024x1024 target, and this illustrative raster concept is not trademark clearance or production vector proof; exact generation metadata was not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief plus the initial built-in-tool output recorded in this Recipe and authorized for targeted repair.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}
