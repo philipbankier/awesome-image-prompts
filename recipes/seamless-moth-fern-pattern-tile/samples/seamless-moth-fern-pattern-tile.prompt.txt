@@ -1,0 +1,9 @@
+Create one flat seamless square pattern tile on a deep ink-blue background, with no perspective, surface mockup, lighting vignette, border, or surrounding margin.
+
+Build an original tossed half-drop repeat from exactly six stylized fictional moth motifs and twelve fern motifs. Use three large moths with open wings, two medium moths in angled side views, and one small resting moth. Use six long unfurling fern fronds, four compact curled fiddleheads, and two small paired leaf clusters. Render the motifs as crisp hand-cut paper shapes with subtly uneven edges and no resemblance to a known textile or specimen plate.
+
+Use only warm ivory, muted coral, moss green, pale sage, and small accents of dusty gold against the ink-blue ground. Keep two clear motif scales, moderate open spacing, varied orientation, and no dominant center. Continue every motif that crosses the left edge precisely on the right edge, and every motif that crosses the top edge precisely on the bottom edge. Resolve all four corners as one continuous repeat.
+
+Add no visible seam, frame, central medallion, stripe, grid, cast shadow, fabric fold, wallpaper room, extra insects, flowers, scientific labels, signatures, letters, numbers, logos, or watermarks. Avoid tangent collisions, narrow trapped gaps, edge crowding, repeated clusters, directional dead zones, and copied artist styling.
+
+Return one flat opaque 1024x1024 PNG tile intended for direct edge-to-edge repetition in a 3-by-3 test grid.

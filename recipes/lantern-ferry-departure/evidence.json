@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "recipe_id": "lantern-ferry-departure",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one targeted edit are recorded for illustration. They are not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:14:59Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/lantern-ferry-departure.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/lantern-ferry-departure.initial.png",
+        "sha256": "15ffe70b5aac01979aa3a20043bd8b49e30dcf982872b23f451fc08af3f61c7c",
+        "width": 1672,
+        "height": 941,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "superseded_for_recipe",
+        "notes": [
+          "The image clearly shows two fictional people, one ferry, one plank, one satchel, one folded map, one rope coil, and the intended map handoff in coherent rain and lantern light.",
+          "Four lanterns are visible rather than the requested five, so this initial output was superseded by a targeted edit.",
+          "The output is 1672x941 rather than the brief's 1536x1024 target."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-02",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:19:37Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/lantern-ferry-departure.edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/lantern-ferry-departure.initial.png",
+          "sha256": "15ffe70b5aac01979aa3a20043bd8b49e30dcf982872b23f451fc08af3f61c7c",
+          "width": 1672,
+          "height": 941,
+          "format": "png",
+          "authorization": "Project-generated initial output from run codex-built-in-2026-08-26-01."
+        }
+      ],
+      "output": {
+        "path": "samples/lantern-ferry-departure.png",
+        "sha256": "8aade8c264d2e42359096948cfcdaf6ca332294aa77d7c91b94409e0ebbe4f06",
+        "width": 1672,
+        "height": 941,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_recipe",
+        "notes": [
+          "The image clearly shows two fictional people, one ferry, one plank, one satchel, one folded map, one rope coil, and the intended map handoff in coherent rain and lantern light.",
+          "Four lanterns remain visible rather than the requested five after the targeted edit, so the exact prop-count invariant does not pass.",
+          "The output is 1672x941 rather than the brief's 1536x1024 target; it remains one useful illustrative narrative frame, not a full rubric pass."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-generated fictional ferry scene from run codex-built-in-2026-08-26-01; no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

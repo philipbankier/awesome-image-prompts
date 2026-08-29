@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "paper-cut-tidal-ecosystem",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Paper-Cut Tidal Ecosystem",
+  "task_family": "layered-paper-cut-illustration",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

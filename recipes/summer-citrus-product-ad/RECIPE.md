@@ -10,7 +10,7 @@ Use this Recipe when the brief requires:
 
 - one finished product advertisement, not a moodboard or option sheet;
 - a fictional or authorized citrus beverage and container;
-- a short, closed list of exact English display strings;
+- a short, closed list of exact display strings;
 - commercial product photography with declared framing and crop;
 - inspection and targeted repair before final channel QA.
 

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "library-after-dark-event-poster",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Library After Dark Event Poster",
+  "task_family": "exact-text-event-poster",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

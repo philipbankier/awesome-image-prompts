@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "recipe_id": "fictional-naturalist-field-guide-spread",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one targeted edit run are recorded for illustration. The accepted edit retains a known leaf-count failure, and neither run is GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-initial",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:19:36Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/fictional-naturalist-field-guide-spread.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/fictional-naturalist-field-guide-spread.initial.png",
+        "sha256": "77ccd0f931108ca4c8f912c7bd8f80a7e6f95ab352b82637e34fd432e789b7ae",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "superseded_after_review",
+        "notes": [
+          "The fiction label, supplied copy, annotations, scale, range panel, seasonal strip, three amber lanterns, and central gutter are legible and coherent.",
+          "The main plant appears to exceed the required six leaves, so this output was retained as the source input for one targeted edit rather than accepted as the final sample.",
+          "The output is 1536x1024; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-edit-01",
+      "kind": "illustrative-sample-edit",
+      "generated_at": "2026-08-26T22:20:46Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/fictional-naturalist-field-guide-spread.edit.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/fictional-naturalist-field-guide-spread.initial.png",
+          "sha256": "77ccd0f931108ca4c8f912c7bd8f80a7e6f95ab352b82637e34fd432e789b7ae",
+          "width": 1536,
+          "height": 1024,
+          "format": "png",
+          "authorization": "Project-authored built-in-tool output from the initial recorded run, authorized for targeted repair within this Recipe."
+        }
+      ],
+      "output": {
+        "path": "samples/fictional-naturalist-field-guide-spread.png",
+        "sha256": "2ba6b225f328d4ff2b15e0e4ed14439e2e97fd1c6151e261bf83700a62c7f7d1",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_with_known_failure",
+        "notes": [
+          "The FICTIONAL SPECIES label, common name, invented binomial, supplied copy, annotations, scale, range panel, and seasonal labels are legible, with a clear central gutter and no real-world identification claim.",
+          "This accepted output is the result of the exact targeted edit prompt applied to the recorded initial PNG, not a direct result of the base prompt alone.",
+          "The edit reduced the excess leaves but undershot the invariant: only four clearly distinguishable main leaf blades remain rather than the required six.",
+          "The output is 1536x1024; this illustrative spread is not factual or scientific validation, and exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief plus the initial built-in-tool output recorded in this Recipe and authorized for targeted repair.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

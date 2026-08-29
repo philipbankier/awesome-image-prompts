@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "rainy-window-breakfast-still-life",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Rainy-Window Breakfast Still Life",
+  "task_family": "photoreal-editorial-still-life",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

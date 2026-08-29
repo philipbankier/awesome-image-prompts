@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "courtyard-micro-library",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Courtyard Micro-Library",
+  "task_family": "architectural-exterior-visualization",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

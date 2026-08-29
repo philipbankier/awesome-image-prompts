@@ -1,0 +1,11 @@
+Create one believable exterior architectural visualization of a fictional neighborhood micro-library on a narrow urban infill lot during a bright overcast spring afternoon.
+
+Design a single-story 145-square-meter public building wrapped around a 7-by-9-meter planted courtyard. The street elevation is modest and welcoming, with one clearly visible step-free entrance beneath a shallow timber canopy. A glazed reading room occupies the left wing, compact open bookshelves line the rear wall, a small staffed desk faces the entrance, and a quiet children's reading alcove occupies the right wing. A covered circulation path connects the entrance, reading room, desk, alcove, accessible toilet, and courtyard without crossing steps.
+
+Use pale reclaimed brick bearing walls, laminated timber roof beams, dark bronze window frames, a light gray standing-seam roof, and locally appropriate serviceberry trees, ferns, sedges, and a permeable brick courtyard surface. Show plausible roof thickness, supported spans, thresholds, gutters, downspouts, guard conditions, and drainage away from the entry. Keep planting low near the entrance and do not block glazing or circulation.
+
+View the building from a pedestrian-height front three-quarter angle with the street edge, entrance, one courtyard opening, and the reading room visible in the same 3:2 landscape frame. Include four small, unidentifiable figures only for scale: one adult entering, one seated adult inside, and one child with an adult in the courtyard.
+
+Do not imitate a named architect or real library. Add no second building, luxury-resort styling, monumental stairs, impossible cantilever, floating roof, blocked doorway, inaccessible threshold, cars, crowds, brand signage, readable book titles, logos, captions, or watermarks.
+
+Return one opaque PNG composed for 1536x1024.

@@ -1,0 +1,16 @@
+Create one finished historical-concept image of a clearly fictional composite, not a documentary photograph, archaeological claim, museum reconstruction, map, or set of alternatives.
+
+SCENE
+Depict Kalyra Cove, an invented eastern Mediterranean harbor settlement around 1300 BCE, in a 16:9 landscape frame. View the market from a slightly elevated position near the stone-and-packed-earth quay at warm early morning. Mudbrick storehouses with timber lintels stand behind the quay; a single wooden coastal sailing vessel with one lowered square sail is moored at the left.
+
+SUBJECT
+Center a fictional exchange in which one market keeper weighs a small basket of dried figs on a simple balance scale while one arriving sailor sets down a sealed transport jar. Show exactly eight adults in the whole scene, all fictional and unnamed, engaged in loading, measuring, carrying, or recording goods.
+
+DETAILS
+Use a closed inventory: one moored vessel, twelve undecorated transport jars, four woven baskets, one balance scale with stone weights, two folded wool textiles, three coils of rope, one wooden handcart, and one small clay tally token held by the market keeper. Clothing is limited to simple undyed or muted madder-blue wool and linen tunics, wrapped skirts, belts, sandals, and head cloths. Use limestone, sun-baked ochre, muted madder, indigo blue, raw wool, cedar brown, and sea green. Maintain plausible human, vessel, jar, doorway, and cart scale.
+
+CONSTRAINTS
+Do not add coins, glass windows, iron tools, alphabetic signs, columns, marble monuments, modern rigging, later armor, horses, camels, famous figures, identifiable real-site features, copied artifacts, logos, signatures, or watermarks. Do not present the scene as direct evidence or a reconstruction of one real culture or site.
+
+OUTPUT INTENT
+Return one coherent 16:9 fictional historical-composite scene whose visible inventory can be audited and whose metadata must retain the label "Fictional composite, not archaeological evidence."

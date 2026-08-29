@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "lantern-ferry-departure",
+  "record_version": 1,
+  "status": "draft",
+  "title": "Lantern Ferry Departure",
+  "task_family": "single-frame-narrative-scene",
+  "source_posture": "original",
+  "source_record": null,
+  "recipe_markdown": "RECIPE.md",
+  "evidence_manifest": "evidence.json",
+  "profiles": {
+    "conversational": "conversational-v1",
+    "gpt-image-2-api": "gpt-image-2-api-v1"
+  },
+  "evidence_status": "recorded"
+}

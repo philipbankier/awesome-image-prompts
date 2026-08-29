@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "recipe_id": "fictional-bronze-age-harbor-market",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One initial generation and one rejected targeted edit are recorded for illustration. They are not GPT Image 2 API promotion evidence or historical validation.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:15:44Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/fictional-bronze-age-harbor-market.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/fictional-bronze-age-harbor-market.png",
+        "sha256": "0d7268d1715a1cf2b287c39937c06ac92f47b9a9d131682e9e37c6d100a7445b",
+        "width": 1672,
+        "height": 941,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_recipe",
+        "notes": [
+          "The scene coherently shows one coastal vessel, quay, mudbrick storehouses, balance exchange, textiles, rope, jars, baskets, handcart, and seven visibly fictional adults.",
+          "The accepted initial output shows seven adults rather than eight, ten visible jars rather than twelve, and six visible baskets rather than four; its square sail is raised rather than lowered, and a targeted retry was rejected because it reduced worker and goods counts further.",
+          "The output is 1672x941 rather than the brief's 1536x1024 target and has not received fact-pack, anachronism, representation, or archaeological review."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    },
+    {
+      "id": "codex-built-in-2026-08-26-02",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:19:03Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/fictional-bronze-age-harbor-market.retry.prompt.txt",
+      "profile_id": null,
+      "inputs": [
+        {
+          "path": "samples/fictional-bronze-age-harbor-market.png",
+          "sha256": "0d7268d1715a1cf2b287c39937c06ac92f47b9a9d131682e9e37c6d100a7445b",
+          "width": 1672,
+          "height": 941,
+          "format": "png",
+          "authorization": "Project-generated initial output from run codex-built-in-2026-08-26-01."
+        }
+      ],
+      "output": {
+        "path": "samples/fictional-bronze-age-harbor-market.rejected-retry.png",
+        "sha256": "94a665bf76ec5ee20e87c81174fbde761817e095e691e2cc93927652fa3cffe0",
+        "width": 1672,
+        "height": 941,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "rejected_for_recipe",
+        "notes": [
+          "The targeted edit preserves the broad harbor setting, vessel, market exchange, and palette.",
+          "Only six adults remain and the requested closed inventory is still not achieved, so the retry is weaker than the retained initial output.",
+          "The raised square sail and lack of fact-pack, anachronism, representation, or archaeological review also remain unresolved."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": false,
+      "rights": {
+        "input_rights": "Project-generated fictional harbor scene from run codex-built-in-2026-08-26-01; no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}

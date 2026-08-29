@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recipe_id": "courtyard-micro-library",
+  "recipe_record_version": 1,
+  "status": "recorded",
+  "summary": "One built-in-tool sample is recorded for illustration. It is not GPT Image 2 API promotion evidence.",
+  "runs": [
+    {
+      "id": "codex-built-in-2026-08-26-01",
+      "kind": "illustrative-sample",
+      "generated_at": "2026-08-26T22:13:43Z",
+      "surface": "Codex built-in image generation tool",
+      "model": "not_exposed",
+      "model_version": "not_exposed",
+      "seed": "not_exposed",
+      "request_parameters": "not_exposed",
+      "request_id": "not_exposed",
+      "prompt_file": "samples/courtyard-micro-library.prompt.txt",
+      "profile_id": null,
+      "inputs": [],
+      "output": {
+        "path": "samples/courtyard-micro-library.png",
+        "sha256": "622f26c44366115e343ad35cbeb7538cf074316111764a2e190dd8b710987482",
+        "width": 1536,
+        "height": 1024,
+        "format": "png"
+      },
+      "inspection": {
+        "status": "reviewed_for_readme",
+        "notes": [
+          "The image shows one coherent low-rise micro-library with a visible entrance, courtyard route, glazed reading spaces, planted edges, timber supports, and wet spring context.",
+          "Five figures are visible because the rendering added a reception figure behind the desk, exceeding the prompt's exact four-figure instruction; this is not a full prompt-fidelity pass.",
+          "The output is 1536x1024 with no visible branding or captions; exact model, model version, seed, request parameters, and request ID were not exposed."
+        ]
+      },
+      "promotion_evidence": false,
+      "featured_in_readme": true,
+      "rights": {
+        "input_rights": "Project-authored fictional brief with no third-party image input.",
+        "creator_or_authorized_licensor": "Awesome Image Prompts contributors",
+        "license": "MIT, to the extent the project holds applicable rights in the output."
+      }
+    }
+  ]
+}
