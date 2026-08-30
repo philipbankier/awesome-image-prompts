@@ -11,9 +11,23 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 EXPECTED_CATEGORY_COUNT = 13
-EXPECTED_PROMPT_CARD_COUNT = 65
+EXPECTED_PROMPT_CARD_COUNT = 541
 EXPECTED_RECIPE_COUNT = 16
-EXPECTED_CARDS_PER_CATEGORY = 5
+EXPECTED_CARDS_BY_CATEGORY = {
+    "ui-interfaces": 73,
+    "charts-infographics": 53,
+    "posters-typography": 90,
+    "products-ecommerce": 42,
+    "brand-logos": 27,
+    "architecture-spaces": 12,
+    "photography-realism": 78,
+    "illustration-art": 59,
+    "characters-people": 31,
+    "scenes-storytelling": 21,
+    "history-classical-themes": 16,
+    "documents-publishing": 11,
+    "other-use-cases": 28,
+}
 REQUIRED_CATEGORY_KEYS = {"id", "title"}
 REQUIRED_CATALOG_RECIPE_KEYS = {
     "id",
@@ -541,6 +555,9 @@ def main() -> None:
         category_ids.add(category_id)
         category_titles.add(category_title)
 
+    if category_ids != set(EXPECTED_CARDS_BY_CATEGORY):
+        fail("catalog categories differ from the expected Prompt Card distribution")
+
     recipes = catalog.get("recipes")
     if not isinstance(recipes, list) or not recipes:
         fail("catalog recipes must be a non-empty list")
@@ -654,15 +671,15 @@ def main() -> None:
             + ", ".join(sorted(path.as_posix() for path in orphan_card_paths))
         )
 
-    undersized_card_categories = sorted(
-        category_id
+    card_category_mismatches = sorted(
+        f"{category_id} ({count}/{EXPECTED_CARDS_BY_CATEGORY[category_id]})"
         for category_id, count in cards_by_category.items()
-        if count != EXPECTED_CARDS_PER_CATEGORY
+        if count != EXPECTED_CARDS_BY_CATEGORY[category_id]
     )
-    if undersized_card_categories:
+    if card_category_mismatches:
         fail(
-            f"catalog categories must contain exactly {EXPECTED_CARDS_PER_CATEGORY} Prompt Cards: "
-            + ", ".join(undersized_card_categories)
+            "catalog category Prompt Card counts differ from the expected distribution: "
+            + ", ".join(card_category_mismatches)
         )
 
     check_skill()

@@ -1,38 +1,40 @@
 # Awesome Image Prompts
 
-65 copy-ready Prompt Cards and 16 deeper Recipes for generating and editing images across 13 categories.
+541 copy-ready Prompt Cards and 16 deeper Recipes for generating and editing images across 13 categories.
 
 Use a Prompt Card when you want a strong starting prompt quickly. Use a Recipe when the result depends on structured inputs, exact text or layout, reference preservation, inspection, repair, or evidence. Both routes are static, inspectable, and available to humans and agents without a website or hosted generator.
+
+The Card corpus matches the pinned upstream snapshot in total prompt count and per-category distribution. It does not claim the same Card-level image gallery, template count, or style and scene facets. See [Coverage](docs/COVERAGE.md) for the exact boundary.
 
 > Status: all 16 Recipes are drafts. Each has one retained illustrative output from the Codex built-in image generation tool, not GPT Image 2 API evidence, repeatability proof, promotion, or an automatically publish-ready asset. The built-in surface did not expose its exact model or hidden request settings, and the linked run records disclose visible prompt-fidelity misses.
 
 ## Choose a layer
 
-| If you need | Start with | What you get |
-| --- | --- | --- |
-| A prompt you can adapt in a minute | [Prompt Card index](prompt-cards/README.md) | Task fit, required inputs, variables, copy-ready prompt, negative constraints, and a quick check |
-| A production-oriented workflow | [Recipe index](skills/image-recipe-library/references/recipe-index.md) | Structured brief, execution profiles, Critical Invariants, rubric, repair guidance, final QA, and evidence status |
-| Provenance for upstream-informed work | [Source Archive](sources/) | Pinned links, checksums, attribution, and rights posture without copied upstream prompts or images |
+| If you need                           | Start with                                                             | What you get                                                                                                      |
+| ------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| A prompt you can adapt in a minute    | [Prompt Card index](prompt-cards/README.md)                            | Task fit, required inputs, variables, copy-ready prompt, negative constraints, and a quick check                  |
+| A production-oriented workflow        | [Recipe index](skills/image-recipe-library/references/recipe-index.md) | Structured brief, execution profiles, Critical Invariants, rubric, repair guidance, final QA, and evidence status |
+| Provenance for upstream-informed work | [Source Archive](sources/)                                             | Pinned links, checksums, attribution, and rights posture without copied upstream prompts or images                |
 
 A Prompt Card is not a shortened Recipe and does not inherit evidence from a linked Recipe. If the task becomes production-critical, move to the nearest Recipe.
 
 ## Browse all categories
 
-| Category | Prompt Cards | Draft Recipes | Flagship workflow |
-| --- | ---: | ---: | --- |
-| UI & Interfaces | 5 | 1 | [Habitat Survey Mobile Dashboard](recipes/habitat-survey-mobile-dashboard/RECIPE.md) |
-| Charts & Infographics | 5 | 2 | [Fictional Metro Route Map](recipes/fictional-metro-route-map/RECIPE.md) |
-| Posters & Typography | 5 | 1 | [Library After Dark Event Poster](recipes/library-after-dark-event-poster/RECIPE.md) |
-| Products & E-commerce | 5 | 3 | [Modular Desk Lamp Listing Hero](recipes/modular-desk-lamp-listing-hero/RECIPE.md) |
-| Brand & Logos | 5 | 1 | [Vespercairn Observatory Logo](recipes/vespercairn-observatory-logo/RECIPE.md) |
-| Architecture & Spaces | 5 | 1 | [Courtyard Micro-Library](recipes/courtyard-micro-library/RECIPE.md) |
-| Photography & Realism | 5 | 1 | [Rainy-Window Breakfast Still Life](recipes/rainy-window-breakfast-still-life/RECIPE.md) |
-| Illustration & Art | 5 | 1 | [Paper-Cut Tidal Ecosystem](recipes/paper-cut-tidal-ecosystem/RECIPE.md) |
-| Characters & People | 5 | 1 | [Deep-Sea Cartographer Character Sheet](recipes/deep-sea-cartographer-character-sheet/RECIPE.md) |
-| Scenes & Storytelling | 5 | 1 | [Lantern Ferry Departure](recipes/lantern-ferry-departure/RECIPE.md) |
-| History & Classical Themes | 5 | 1 | [Fictional Bronze Age Harbor Market](recipes/fictional-bronze-age-harbor-market/RECIPE.md) |
-| Documents & Publishing | 5 | 1 | [Fictional Naturalist Field Guide Spread](recipes/fictional-naturalist-field-guide-spread/RECIPE.md) |
-| Other Use Cases | 5 | 1 | [Seamless Moth and Fern Pattern Tile](recipes/seamless-moth-fern-pattern-tile/RECIPE.md) |
+| Category                   | Prompt Cards | Draft Recipes | Flagship workflow                                                                                    |
+| -------------------------- | -----------: | ------------: | ---------------------------------------------------------------------------------------------------- |
+| UI & Interfaces            |           73 |             1 | [Habitat Survey Mobile Dashboard](recipes/habitat-survey-mobile-dashboard/RECIPE.md)                 |
+| Charts & Infographics      |           53 |             2 | [Fictional Metro Route Map](recipes/fictional-metro-route-map/RECIPE.md)                             |
+| Posters & Typography       |           90 |             1 | [Library After Dark Event Poster](recipes/library-after-dark-event-poster/RECIPE.md)                 |
+| Products & E-commerce      |           42 |             3 | [Modular Desk Lamp Listing Hero](recipes/modular-desk-lamp-listing-hero/RECIPE.md)                   |
+| Brand & Logos              |           27 |             1 | [Vespercairn Observatory Logo](recipes/vespercairn-observatory-logo/RECIPE.md)                       |
+| Architecture & Spaces      |           12 |             1 | [Courtyard Micro-Library](recipes/courtyard-micro-library/RECIPE.md)                                 |
+| Photography & Realism      |           78 |             1 | [Rainy-Window Breakfast Still Life](recipes/rainy-window-breakfast-still-life/RECIPE.md)             |
+| Illustration & Art         |           59 |             1 | [Paper-Cut Tidal Ecosystem](recipes/paper-cut-tidal-ecosystem/RECIPE.md)                             |
+| Characters & People        |           31 |             1 | [Deep-Sea Cartographer Character Sheet](recipes/deep-sea-cartographer-character-sheet/RECIPE.md)     |
+| Scenes & Storytelling      |           21 |             1 | [Lantern Ferry Departure](recipes/lantern-ferry-departure/RECIPE.md)                                 |
+| History & Classical Themes |           16 |             1 | [Fictional Bronze Age Harbor Market](recipes/fictional-bronze-age-harbor-market/RECIPE.md)           |
+| Documents & Publishing     |           11 |             1 | [Fictional Naturalist Field Guide Spread](recipes/fictional-naturalist-field-guide-spread/RECIPE.md) |
+| Other Use Cases            |           28 |             1 | [Seamless Moth and Fern Pattern Tile](recipes/seamless-moth-fern-pattern-tile/RECIPE.md)             |
 
 See [Coverage](docs/COVERAGE.md) for the exact comparison with the upstream collection, operation modes, and current evidence limits.
 
@@ -98,7 +100,7 @@ Host discovery and provider behavior still require independent validation. The s
 
 ## Evidence boundary
 
-All 65 Prompt Cards currently have Placeholder Previews. That means the prompt is available, but no Card-specific Generation Run supports it.
+All 541 Prompt Cards currently have Placeholder Previews. That means the prompt is available, but no Card-specific Generation Run supports it.
 
 A Recipe marked `recorded` resolves to an exact prompt, local PNG, checksum, dimensions, inspection notes, and rights statement. It does not mean the Recipe is promoted. Promotion still requires four scored GPT Image 2 API runs across two materially different briefs plus one conversational smoke run. None of the illustrative built-in-tool samples count toward that gate.
 
@@ -110,7 +112,7 @@ A passing Recipe output is a Production Candidate. Exact copy, claims, brand ass
 
 ```text
 catalog.json                              Machine-readable Card and Recipe routes
-prompt-cards/README.md                    Human-readable 65-Card index
+prompt-cards/README.md                    Human-readable 541-Card index
 prompt-cards/<category>/<card-id>.md      Canonical copy-ready Prompt Card
 recipes/<recipe-id>/RECIPE.md             Canonical production workflow and prompt
 recipes/<recipe-id>/recipe.json           Small Recipe routing record

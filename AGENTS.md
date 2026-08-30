@@ -25,7 +25,7 @@ Before material changes, read:
 - Treat each `prompt-cards/<category-id>/<card-id>.md` file as the canonical copy-ready prompt content for one Prompt Card.
 - Keep all Prompt Card metadata in `catalog.json`. Do not add frontmatter, a per-Card JSON record, or an evidence manifest.
 - Give every Prompt Card the mandatory headings defined in `docs/PROMPT_CARD_FORMAT.md`.
-- Keep every first-wave Prompt Card at `sample_status: placeholder` and visibly label its `Placeholder Preview`. A Prompt Card and its Quick check are not generation evidence or a Production Candidate workflow.
+- Keep every Prompt Card at `sample_status: placeholder` and visibly label its `Placeholder Preview`. A Prompt Card and its Quick check are not generation evidence or a Production Candidate workflow.
 - Treat `RECIPE.md` as the canonical workflow and prompt content for one Recipe.
 - Keep `recipe.json` as small machine-readable routing metadata. Do not duplicate full prompts there.
 - Keep the packaged skill thin. It routes quick prompting to canonical Prompt Cards and production work to canonical Recipes without copying their prompt text.

@@ -30,7 +30,9 @@ Each Prompt Card catalog entry contains:
 - `sample_status`
 - `linked_recipe`, containing a Recipe ID or `null`
 
-For the first wave, `rights` is `project-authored`, `sample_status` is `placeholder`, and no Prompt Card has an evidence manifest. An `original` card uses `source_record: null`. Other source postures require a linked Source Entry.
+`input_modes` lists the input types a Card supports. It does not encode whether a mode is required, optional, or one of several alternatives; the Card's Required inputs section owns that logic.
+
+For the current release, `rights` is `project-authored`, `sample_status` is `placeholder`, and no Prompt Card has an evidence manifest. An `original` card uses `source_record: null`. Other source postures require a linked Source Entry.
 
 ## Required Markdown structure
 
@@ -73,7 +75,7 @@ Describe the intended result and state that no recorded generation run supports 
 
 ## Rights and provenance
 
-State the input authority, project-authored rights, source posture, and any Source Entry link.
+State the input rights basis, project-authored rights, source posture, and any Source Entry link.
 ````
 
 The `Prompt` section must contain a fenced `text` block. Every variable in that block must be explained under `Variables`. Every user-supplied creative or safety constraint and every declared non-text input mode must reach the prompt through a variable or an explicit instruction. Keep the prompt immediately usable after those variables are supplied.
@@ -82,7 +84,7 @@ The `Prompt` section must contain a fenced `text` block. Every variable in that 
 
 A `Placeholder Preview` is navigation material, not evidence that the prompt works. A Quick check helps reject an obvious failure but does not establish repeatability, Recipe promotion, Production Candidate status, or publish readiness.
 
-If correctness depends on exact text or layout, authorized reference inputs, identity or geometry preservation, structured inspection and repair, or repeatability evidence, route the user to the linked Recipe or the Recipe index instead.
+If correctness depends on exact text or layout, rights-cleared reference inputs, identity or geometry preservation, structured inspection and repair, or repeatability evidence, route the user to the linked Recipe or the Recipe index instead.
 
 ## Provenance boundary
 
