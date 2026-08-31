@@ -57,12 +57,30 @@ Return one clean e-commerce thumbnail set at {OUTPUT_SIZE} in 1:1, with the prod
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: three equal thumbnail cells with no compositing between products. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Marketplace Thumbnail Source Set](samples/marketplace-thumbnail-source-set/marketplace-thumbnail-source-set.webp)
 
-Expected result: each source product keeps its own geometry while sharing one light and crop system. Layout: three equal thumbnail cells with no compositing between products. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:38:24Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [marketplace-thumbnail-source-set.prompt.txt](samples/marketplace-thumbnail-source-set/marketplace-thumbnail-source-set.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `cbab6b78f3d6a93d33a43cab55cadf0f24b61ea2e2b55e9ae519f34aed86c21c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the clock, tray, and pencil cup each retain their source identity in three separate equal cells with one shared background, light, crop, and visual scale system.
+- Known misses: The coordinated board is illustrative visual preservation evidence and does not prove pixel-level or production-scale consistency.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-desk-clock-reference.webp](samples/marketplace-thumbnail-source-set/input-01-desk-clock-reference.webp): project-authored fictional desk clock reference input
+  - [input-02-catchall-tray-reference.webp](samples/marketplace-thumbnail-source-set/input-02-catchall-tray-reference.webp): project-authored fictional catchall tray reference input
+  - [input-03-pencil-cup-reference.webp](samples/marketplace-thumbnail-source-set/input-03-pencil-cup-reference.webp): project-authored fictional pencil cup reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. Every source image must be owned or explicitly authorized, with a declared role and preservation rule.

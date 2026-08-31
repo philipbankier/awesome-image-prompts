@@ -1,0 +1,19 @@
+COMMISSION
+Create one flat 4:5 poster announcing the fictional Small Worlds Miniature Fair. This is an independently authored visual concept: a tiny pavilion sits inside an oversized measuring grid.
+
+CONTENT
+The fictional event invites hobbyists and model makers to a one-day fair at the invented Juniper Hall. Render only this exact approved copy, preserving spelling and hierarchy:
+SMALL WORLDS
+MINIATURE FAIR
+JUNIPER HALL
+SATURDAY 14 SEPTEMBER
+Do not render any other text, measurements, numerals, labels, prices, sponsors, claims, signatures, or marks.
+
+VISUAL SYSTEM
+Use one jewel-like paper pavilion, visibly tiny, centered low inside a huge pale-blue measuring grid. Let the surrounding empty field dramatically communicate scale. Palette: soft ivory, cobalt blue, coral red, and moss green. Typography direction: original compact uppercase drafting letters with softly rounded terminals. Place SMALL WORLDS high and spacious; tuck the event type, venue, and date neatly along one bold ruler edge near the bottom. Keep an 8% safe margin, a clear reading path, clean grid geometry, no text on measurement marks, and no clipping.
+
+CONSTRAINTS
+Exactly one tiny pavilion. The grid and ruler contain graphic ticks only, no numbers or labels. No people, toys from known brands, copied architecture, logos, pseudo-writing, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1280 pixel miniature-fair poster in 4:5 portrait orientation.

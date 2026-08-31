@@ -58,12 +58,29 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a rooftop garden irrigation concept console. Check the assigned composition, then verify the specific direction: use earthy status colors and label all readings as illustrative rather than live controls. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rooftop Irrigation Console](samples/rooftop-irrigation-console/rooftop-irrigation-console.webp)
 
-Expected result: a rooftop garden irrigation concept console organized around this plan: Divide the view into zone cards, a fictional moisture timeline, and a clearly disabled manual-action area. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:29:13Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rooftop-irrigation-console.prompt.txt](samples/rooftop-irrigation-console/rooftop-irrigation-console.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `766b7a36b96e3ca791a8b0be37a3582a5074efa78dd8435fca62df1fcb582f05`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Rooftop Irrigation Console render makes "review the fictional moisture trend while manual action stays disabled" primary and keeps "MORROWFIELD ROOFTOP GARDEN", "zones Herb Edge 42%, Tomato Row 58%, Shade Bed 33%, P…", "trend illustrative 50, 60, 48, 32, 40, 59" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Rooftop Irrigation Console manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-zone-sketch.webp](samples/rooftop-irrigation-console/input-01-zone-sketch.webp): project-authored fictional zone sketch supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. The Placeholder Preview is not evidence of sketch adherence, repeatability, or production reliability.
+This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish sketch adherence, repeatability, production reliability, or promotion.

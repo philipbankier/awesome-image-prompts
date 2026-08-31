@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile poll interface for the fictional "Morrowfield Reading Club Poll Screen" concept. The concept is a public-domain reading-club selection poll.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make cast one fictional sample vote among four public-domain choices the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR READING CLUB; choices Frankenstein / invention and responsibility, The Secret Garden / renewal and friendship, The Time Machine / future society, North and South / work and change; vote controls SELECT; closing 30 Sep; sample results 28, 24, 26, 22 percent; data fictional. Stack four book choices with short supplied summaries, vote controls, and a transparent closing date. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use warm paper tones and show aggregate results only as fictional sample data. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

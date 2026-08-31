@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 2:3 fictional travel poster
+Card: Fictional Bay Travel Poster
+Primary request: Promote an invented coastal destination with terraced cliffs, exactly one ferry, and one crescent bay reduced to flat color shapes.
+Variable instantiations:
+SUBJECT_BRIEF: wholly fictional Larkspur Bay destination poster for leisure-travel inspiration.
+COPY_MANIFEST: render exactly and only "LARKSPUR BAY" and "TAKE THE QUIET FERRY".
+VISUAL_MOTIF: layered terraced cliffs surrounding a clean crescent bay with one tiny ferry.
+PALETTE: sea teal, terracotta, pale sand, sun yellow, and navy.
+TYPE_DIRECTION: original vintage-inspired uppercase sans serif, not copied from any campaign.
+COMPOSITION_RULES: 10 percent safe margins; destination name high; panoramic flat scene centered; travel line low; no crop.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly one ferry; exact copy once each; no real geography, other text, pseudo-writing, logos, signatures, frame, mockup, or watermark.

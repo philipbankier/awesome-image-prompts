@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop editorial interface for the fictional "Morrowfield Fiction Podcast Planner" concept. The concept is a fictional podcast episode planning board.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make move the next original story scene into recording preparation the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MOTH LANTERN / Episode 04; original characters Mira, Oren, Tavi; scene cards 1 Ferry Bell / Draft, 2 Hidden Map / Ready, 3 Lantern Room / Review; character tracks Mira A, Oren B; sound cues rain, bell, paper; timeline 00:00-24:00; selected Hidden Map; no real performers or platforms. Combine scene cards, fictional character tracks, sound-cue notes, and an episode timeline. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use only original story material and avoid real performers, copyrighted characters, or platform branding. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

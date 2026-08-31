@@ -1,0 +1,23 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Image 1 is the project-owned reference named in this prompt.
+
+Create one textile macro photograph for the project-authored fictional "Atlas Field Notes: Fictional Costume Seam" editorial study depicting the seam and fastening detail of an authorized original costume.
+
+SUBJECT
+Use exactly the seam and fastening detail of an authorized original costume, realized as an original unbranded concept with physically plausible materials and a restrained palette of slate blue, oxidized copper, and chalk white exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a compact project studio with a matte charcoal support, a softly receding neutral background, and no secondary props. Follow a 1:1 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Crop tightly across the seam intersection with one hand-finished loop and the fabric pile clearly visible. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Preserve declared construction details, use neutral raking light, and infer no performer, production, culture, or designer. Apply controlled raking light from upper left with gentle neutral fill, precise micro-contrast, and a restrained palette of slate blue, oxidized copper, and chalk white with natural tonal transitions and material response.
+
+AUTHORIZED REFERENCE INPUT
+Use Image 1, the attached project-owned reference generated specifically for this Prompt Card only after confirming authority to use it for this task. Preserve only the visible silhouette, proportions, material pattern, declared wear, and composition-relevant geometry shown in Image 1; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 1:1 photographic concept with credible optics and no unrequested collage.

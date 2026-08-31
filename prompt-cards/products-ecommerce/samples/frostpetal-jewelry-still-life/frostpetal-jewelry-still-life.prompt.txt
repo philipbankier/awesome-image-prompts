@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 jewelry catalog still life for a fictional pendant and matching earrings, without gemstone or precious-metal claims. Use this independently authored concept: brushed silver-tone forms rest on translucent folded vellum.
+
+PRODUCT
+Use the fictional Frostpetal jewelry set: exactly one pendant necklace and exactly one matching pair of stud earrings. The pendant is an original six-lobed abstract frost-petal shape, 24 mm across, made from brushed silver-tone stainless steel with a softly polished beveled edge and no stones. Suspend it from one fine 45 cm silver-tone cable chain with a tiny plain clasp kept discreetly behind the composition. Each earring repeats the same six-lobed form at 9 mm, with a simple post and no visible backing. Do not add a ring, bracelet, jewelry box, fabric, flower, crystal, pearl, gemstone, or extra earring.
+
+PRESENTATION
+Use a refined overhead-to-oblique 75 mm macro product view with generous negative space. Build a minimal set from exactly three translucent vellum planes folded into low frosted ridges on a cool pearl-gray seamless surface. Place the pendant at center as the focal point, arrange its chain in one controlled open curve, and balance the two earrings symmetrically above it. Use a large diffused key from upper left, a narrow cool rim, subtle caustic-like vellum shadows, and controlled metallic highlights. Render no text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored design. Keep exactly one necklace and two earrings, preserve the same original motif and brushed finish across all three pieces, and avoid any appearance of a named gemstone or luxury hallmark. No floating jewelry, tangled chain, duplicate item, missing earring, distorted clasp, unrelated prop, hand, model, copied designer motif, pseudo-text, or claim.
+
+OUTPUT INTENT
+Return one polished jewelry still life at 1120 x 1400 in 4:5. Every jewelry piece must be fully visible, sharply defined against the vellum, and suitable for an editorial product catalog.

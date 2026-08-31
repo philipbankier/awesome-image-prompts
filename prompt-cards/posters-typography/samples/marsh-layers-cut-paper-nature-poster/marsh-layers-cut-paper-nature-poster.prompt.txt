@@ -1,0 +1,24 @@
+Use case: rendered sample for the Marsh Layers Cut-Paper Nature Poster Prompt Card.
+Asset type: one flat fictional nature-education poster, no mockup.
+
+Create one 4:5 nature education poster explaining the fictional Tidemark Marsh habitat for families visiting an invented coastal learning center.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE NINE LINES
+TIDEMARK MARSH
+SKY
+REEDS
+WATER
+MUD
+SPECIES KEY
+GLASSWING
+SALT FINCH
+TIDELINE CRAB
+
+VISUAL SYSTEM
+Build exactly four horizontal cut-paper habitat bands from top to bottom: pale sky, sage reeds, teal water, and rust-brown mud. Place the four band labels once along the left edge, aligned to their bands. Add one simple species key across the bottom containing exactly three original pictograms: a transparent-wing insect labeled GLASSWING, a small marsh bird labeled SALT FINCH, and a tiny crab labeled TIDELINE CRAB. Use layered handmade paper edges, cream, pale blue, sage, deep teal, rust, and charcoal. Typography is original friendly rounded uppercase. Keep 7% safe margins and a clear top-to-bottom reading order.
+
+CONSTRAINTS
+The three species are invented and must not copy scientific illustrations. Render only the exact manifest. No other names, facts, numbers, captions, pseudo-writing, sponsors, logo, signature, watermark, frame, wall, or extra option. Show exactly four bands and exactly three keyed species.
+
+OUTPUT INTENT
+Return one flat 4:5 poster at 1024 x 1280 pixels.

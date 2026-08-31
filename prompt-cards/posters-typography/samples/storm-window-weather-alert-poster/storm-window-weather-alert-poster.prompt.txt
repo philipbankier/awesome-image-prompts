@@ -1,0 +1,22 @@
+COMMISSION
+Create one flat 3:4 training poster for a fictional severe-weather preparedness exercise at the invented Northbridge Learning Center. This is an independently authored training-only concept: exactly three window panels show wind, rain, and indoor shelter actions.
+
+CONTENT
+The audience is adult emergency-planning trainees. Render only this exact approved copy, preserving spelling, numerals, hierarchy, and line breaks:
+TRAINING ONLY
+FICTIONAL STORM DRILL
+1 CLOSE WINDOWS
+2 MOVE INSIDE
+3 WAIT FOR ALL CLEAR
+NORTHBRIDGE EXERCISE DESK
+NOT LIVE SAFETY GUIDANCE
+Do not render any other text, alert level, date, time, phone number, route, facility, sponsor, claim, label, signature, or mark.
+
+VISUAL SYSTEM
+Use exactly three tall window-shaped panels: panel one contains abstract diagonal wind lines, panel two contains bold rain streaks, panel three contains a calm roof-and-seat shelter pictogram. Palette: deep storm blue, bright warning amber, white, and slate gray with high contrast. Typography direction: original heavy uppercase public-information sans, extremely clear and neutral. Place TRAINING ONLY and FICTIONAL STORM DRILL first and largest. Place the three numbered actions second, each aligned to its corresponding panel. Place the fictional desk name and NOT LIVE SAFETY GUIDANCE last. Keep an 8% safe margin, strong reading order, no clipping, and prominent training disclaimers visible at thumbnail size.
+
+CONSTRAINTS
+Fictional training use only. Exactly three panels and exactly three numbered actions. Do not imply a real emergency authority, current weather, live route, facility closure, operational instruction, safety assurance, or real contact. No logos, copied campaigns, pseudo-writing, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1365 pixel training poster in 3:4 portrait orientation.

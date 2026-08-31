@@ -1,0 +1,17 @@
+COMMISSION
+Create one 1:1 accessory comparison board for four fictional watch straps while preserving one authorized watch case. Use this independently authored concept: one unchanged round case anchors four radial strap options.
+
+REFERENCE INPUT
+Use the attached authorized project-authored image orbit-watch-strap-comparison--input-01-product-reference.png only as the geometry, dial, material, and viewing source for the central Orbit One watch head. Preserve exactly the 40 mm circular bead-blasted titanium case, narrow flat bezel with twelve unlabeled ticks, domed smoke-gray crystal, midnight-blue dial, two hands at 10:10, crown at 3 o'clock, and four straight open lugs. Do not add a second watch body or alter the protected case.
+
+PRODUCT
+Build exactly four complete two-piece 20 mm strap options, all detached and arranged around the central case: NORTH is woven sage nylon with a brushed-titanium pin buckle; EAST is smooth rust-brown vegetable-tan-look leather with the same buckle; SOUTH is matte charcoal fluoroelastomer-look material with a matching loop and buckle; WEST is a fine silver-gray stainless-steel mesh with a low clasp. These are fictional visual material descriptions, not sourcing or durability claims.
+
+PRESENTATION
+Use a precise straight-on overhead view on one pale mineral-gray board. Center the unchanged case. Place the four paired strap halves at north, east, south, and west, aligned radially toward but not attached to the lugs, each fully visible and equally spaced. Use broad even light, controlled metal reflections, subtle shadows, and thin neutral separators. Render no labels, text, swatches, logo, pseudo-text, signature, watermark, or interface chrome.
+
+CONSTRAINTS
+Keep exactly one watch head and four distinct complete strap pairs. Preserve case identity and show no duplicate body, changed dial, extra strap, missing buckle, wrist, hand, package, unsupported compatibility or material claim, real brand, or unrelated prop.
+
+OUTPUT INTENT
+Return one clean accessory comparison board at 1400 x 1400 in 1:1. The central case and all four strap options must be fully visible, countable, and easy to compare.

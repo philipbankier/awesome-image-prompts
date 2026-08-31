@@ -49,12 +49,26 @@ Return one clean refill packaging system at {OUTPUT_SIZE} in 3:2, with the produ
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: dispenser foreground, pouch behind, refill relationship obvious without pouring action. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Clearspring Soap Refill Pouch System](samples/clearspring-soap-refill-pouch-system/clearspring-soap-refill-pouch-system.webp)
 
-Expected result: a clear pump bottle and soft pouch share a waterline identity. Layout: dispenser foreground, pouch behind, refill relationship obvious without pouring action. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:35:57Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [clearspring-soap-refill-pouch-system.prompt.txt](samples/clearspring-soap-refill-pouch-system/clearspring-soap-refill-pouch-system.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `b3a449aa6e88cf42de8a5d40ed1181f197a5917d3ab33bed37bad10d11e87a54`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the single pump bottle and single refill pouch are fully visible, the shared waterline identity is clear, and the approved copy is legible without extra claims.
+- Known misses: The bottle and pouch are shown as a still system rather than demonstrating a refill action, as required.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional train-platform alert composer. Check the assigned composition, then verify the specific direction: use invented stations and state that the mockup is not connected to a transport system. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Platform Alert Composer](samples/platform-alert-composer/platform-alert-composer.webp)
 
-Expected result: a fictional train-platform alert composer organized around this plan: Place a supplied-message editor beside channel previews, timing, and a clearly disabled publish action. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:25:41Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [platform-alert-composer.prompt.txt](samples/platform-alert-composer/platform-alert-composer.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `a6bb60dd258c8ef196ba604675ea3eb60d4e6fafc0d39dffab0a02bd3226184a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Platform Alert Composer render makes "preview a supplied fictional platform message while publish remains disabled" primary and keeps "BRACKEN RAIL ALERT CONCEPT", "station Lantern Cross", "platform 2" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Platform Alert Composer manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

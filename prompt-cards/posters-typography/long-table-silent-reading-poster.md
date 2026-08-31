@@ -49,12 +49,26 @@ Return one flat reading event poster at {OUTPUT_SIZE} in 2:3. Do not place it in
 
 Confirm the result reads as one reading event poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: quiet title above, one visual line across the center, event details below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Long Table Silent Reading Poster](samples/long-table-silent-reading-poster/long-table-silent-reading-poster.webp)
 
-Expected result: a long table becomes a horizontal line of open books and lamps. Layout: quiet title above, one visual line across the center, event details below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:04:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [long-table-silent-reading-poster.prompt.txt](samples/long-table-silent-reading-poster/long-table-silent-reading-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `7fe02ac95abb2c952ac0642805c18d7b920bbefa19a2adc9dd1f52c2367bc78c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Seven open books alternate with six green lamps across the table, with the event copy stacked cleanly below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

@@ -51,12 +51,26 @@ Return one 4:3 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a bookbinding worktable with original tools and blank materials. Check the assigned composition, then verify the specific direction: use soft directional light, truthful material wear, no readable proprietary text, and no copied book design. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bookbinding Tools Overhead](samples/bookbinding-tools-overhead/bookbinding-tools-overhead.webp)
 
-Expected result: a bookbinding worktable with original tools and blank materials organized around this plan: Lay out a bone folder, thread, awl, linen, and unprinted folded gatherings in a balanced working arrangement. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:56Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bookbinding-tools-overhead.prompt.txt](samples/bookbinding-tools-overhead/bookbinding-tools-overhead.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `4686f79ff1373967ea006b0532114feea887e230ccdecba2a791dc02909833cc`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted overhead frame clearly shows blank folded gatherings, a bone folder, awl, thread, and linen on a worn workbench under soft side light.
+- Known misses: No material visible miss; the paper remains unprinted and the tools carry no readable marks or branding.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

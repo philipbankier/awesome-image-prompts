@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates dew beads suspended across a small copper mesh sample. Check the assigned composition, then verify the specific direction: use cool dawn backlight, restrained copper color, shallow depth, and realistic bead refraction. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Copper Mesh Dew Macro](samples/copper-mesh-dew-macro/copper-mesh-dew-macro.webp)
 
-Expected result: dew beads suspended across a small copper mesh sample organized around this plan: Frame a diagonal band of mesh close enough that three dew beads become the focus while the rest dissolves softly. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:11:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [copper-mesh-dew-macro.prompt.txt](samples/copper-mesh-dew-macro/copper-mesh-dew-macro.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `f65465310f101beffab55d95b9b795711b75efeacbb1a7c22aba03ea35808a57`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted macro holds a diagonal copper-mesh band in shallow focus with exactly three prominent dew beads showing clear refraction.
+- Known misses: No material visible miss; copper color, bead tension, and cool backlight remain restrained and physically plausible.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -51,12 +51,26 @@ Return one 1:1 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an original fictional clockwork mechanism at macro scale. Check the assigned composition, then verify the specific direction: use controlled highlights, plausible machining marks, no brand or antique claim, and no functional-accuracy assertion. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Clockwork Gear Macro](samples/clockwork-gear-macro/clockwork-gear-macro.webp)
 
-Expected result: an original fictional clockwork mechanism at macro scale organized around this plan: Focus on two meshing brass-toned gears and one ruby-colored bearing while outer parts fall out of focus. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [clockwork-gear-macro.prompt.txt](samples/clockwork-gear-macro/clockwork-gear-macro.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `8fcdeb383b7d74b26d51b03f6fd6809414a9cd182dff5d11b0841c8a63d64470`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted macro centers two meshing brass-toned gears with one ruby-colored bearing, controlled highlights, and visible machining texture.
+- Known misses: No material visible miss; the mechanism remains fictional and unbranded without a functional-accuracy claim.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

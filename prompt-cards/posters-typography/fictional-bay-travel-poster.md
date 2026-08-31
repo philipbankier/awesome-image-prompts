@@ -49,12 +49,26 @@ Return one flat travel poster at {OUTPUT_SIZE} in 2:3. Do not place it in a wall
 
 Confirm the result reads as one travel poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: destination name high, panoramic scene centered, fictional travel line low. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fictional Bay Travel Poster](samples/fictional-bay-travel-poster/fictional-bay-travel-poster.webp)
 
-Expected result: terraced cliffs, one ferry, and a crescent bay reduced to flat color shapes. Layout: destination name high, panoramic scene centered, fictional travel line low. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:46:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fictional-bay-travel-poster.prompt.txt](samples/fictional-bay-travel-poster/fictional-bay-travel-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `63fefa8c7f6f1a8bdffe0dc97352b93088ea2eecd302f7adb641fb98cd5c76f4`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Terraced cliffs surround one crescent bay and one tiny ferry, with the destination high and travel line low.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

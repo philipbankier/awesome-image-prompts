@@ -1,0 +1,17 @@
+Use case: style-transfer
+Asset type: flat 3:4 fictional artist-residency poster
+Card: Handmade Frequency Residency Poster
+Input images: Image 1 project-owned abstract fiber-art detail.
+Primary request: Use the authorized artwork detail as one preserved horizontal frequency band across handmade paper.
+Variable instantiations:
+REFERENCE_IMAGE: attached Image 1, project-generated and project-owned.
+REFERENCE_ROLE: sole artwork-detail band; no identity or content beyond this crop.
+PRESERVE_RULES: preserve the cream woven fibers, cobalt waveform, rust stitched marks, left-to-right orientation, texture, and colors; do not redraw, mirror, repeat, or add symbols.
+SUBJECT_BRIEF: fictional mixed-media artist residency for independent artists.
+COPY_MANIFEST: render exactly and only "HANDMADE FREQUENCY", "ARTIST RESIDENCY", "01–30 APR 2027", and "APPLY 12 JAN".
+VISUAL_MOTIF: one preserved artwork crop as a quiet horizontal signal band.
+PALETTE: cream, cobalt, rust, charcoal, and warm paper.
+TYPE_DIRECTION: original refined uppercase humanist sans serif.
+COMPOSITION_RULES: 8 percent safe margins; title in upper field; artwork band centered; dates and application line aligned below; no crop.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: one artwork band only; preserve source; exact copy once each; no other text, pseudo-writing, logos, signatures, mockups, or watermark.

@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 4:5 community food poster
+Card: Cloud Kitchen Recipe Exchange Poster
+Primary request: Announce a fictional community recipe exchange with index cards rising like steam from one shared pot.
+Variable instantiations:
+SUBJECT_BRIEF: fictional neighborhood recipe exchange for home cooks.
+COPY_MANIFEST: render exactly and only "CLOUD KITCHEN", "RECIPE EXCHANGE", "BRING ONE RECIPE", and "22 FEB 2026".
+VISUAL_MOTIF: exactly five blank index cards curling upward as steam from one simple enamel pot.
+PALETTE: tomato red, corn yellow, sky blue, navy, and cream.
+TYPE_DIRECTION: original rounded uppercase sans serif.
+COMPOSITION_RULES: 8 percent safe margins; title integrated into the steam field; rule and date in a neat lower grid; high contrast and no crop.
+OUTPUT_SIZE: 1024 x 1280.
+Constraints: exactly five blank cards and one pot; exact copy once each; no writing on cards, other text, pseudo-writing, food brands, people, signatures, mockups, or watermark.

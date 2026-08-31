@@ -1,0 +1,71 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-small-mammal.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: photorealistic-natural
+Asset type: project-owned fictional camera-trap input
+Primary request: a low-light trail-camera style image of one small brown mammal crossing a fern-lined forest path
+Style/medium: realistic monochrome infrared wildlife photograph
+Composition/framing: animal fully visible but distant enough that species remains uncertain
+Constraints: no exact location, timestamp overlay, feeder, person, collar, text, logo, or watermark
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-hoofed-silhouette.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: photorealistic-natural
+Asset type: project-owned fictional camera-trap input
+Primary request: a dusk trail-camera style image of one partially obscured hoofed-animal silhouette near tall grass
+Style/medium: realistic color wildlife photograph with mild sensor grain
+Composition/framing: full body visible behind grass, species intentionally uncertain, no landmark
+Constraints: no exact location, timestamp overlay, person, tag, text, logo, or watermark
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-owl-like.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: photorealistic-natural
+Asset type: project-owned fictional camera-trap input
+Primary request: a moonlit trail-camera style image of one owl-like bird perched on a low branch above leaf litter
+Style/medium: realistic monochrome infrared wildlife photograph
+Composition/framing: bird fully visible, habitat context retained, no location-identifying feature
+Constraints: species-neutral, no exact location, timestamp overlay, person, band, text, logo, or watermark
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-small-mammal.webp
+- input-02-hoofed-silhouette.webp
+- input-03-owl-like.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop media-review interface for the fictional "Morrowfield Wildlife Camera Review Grid" concept. The concept is an authorized wildlife-camera review grid.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make route uncertain project-owned wildlife captures to human review the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only REEDGLASS CAMERA REVIEW; supplied images separate; RC-01 / 01:12 / Fern path / small mammal? / Uncertain; RC-02 / 19:44 / Tall grass / hoofed animal? / Uncertain; RC-03 / 23:08 / Leaf litter / owl-like bird? / Review; habitat tags Fern path, Tall grass, Leaf litter; location Broad Zone R only; no definitive species or precise location. Place the supplied images in a timestamped contact sheet with habitat tags and an uncertain-identification queue. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Keep source images separate, avoid definitive species claims, and show no location precise enough to expose wildlife. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, the small-mammal infrared capture; Image 2, the hoofed silhouette at dusk; and Image 3, the owl-like infrared capture, a small set whose items are all authorized for this task. Follow each image is one separate timestamped camera record with its own habitat tag and uncertain-identification state so each image has one declared purpose, and preserve only the original crop, animal silhouette, habitat context, monochrome or dusk color treatment, and strict source separation. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

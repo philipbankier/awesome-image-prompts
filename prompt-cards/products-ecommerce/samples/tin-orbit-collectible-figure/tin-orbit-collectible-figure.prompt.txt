@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 3D collectible-toy render for an original fictional astronaut figure. Use this independently authored concept: a compact tin-suited explorer has a round visor and crescent utility pack.
+
+PRODUCT
+Use the fictional Tin Orbit explorer, an original 14 cm stylized collectible. Build exactly one figure with a compact cylindrical torso, short articulated-looking arms and legs, oversized rounded boots, one spherical helmet with a single circular smoked-amber visor, and one crescent-shaped utility pack attached flush to the back and visible over the figure's left shoulder. Use satin tin-silver painted vinyl for the suit, cream joint rings, muted cobalt gloves and boots, and two tiny rust-orange chest tabs with no symbols. Build exactly one closed rectangular package from midnight-blue paperboard with a silver orbit-line graphic. Approved copy is limited to TIN ORBIT. Show no weapon, flag, hose, planet logo, face, extra figure, accessory, or clear plastic window.
+
+PRESENTATION
+Use a level front three-quarter 85 mm product view. Center the figure on one plain low circular pale-gray plinth, with the closed package standing behind and slightly right, fully visible but secondary. Light with a broad neutral key from upper left, cool rim light, soft fill through the visor, and controlled grounded shadows on a deep blue-gray seamless background. Render TIN ORBIT once on the package and no other text, pseudo-text, signature, logo, or watermark.
+
+CONSTRAINTS
+This is an original, project-authored character that must not resemble an existing astronaut toy or franchise. Keep exactly one coherent figure, one attached pack, one plinth, and one package. No real brand, copied suit marks, celebrity likeness, floating limb, duplicated boot, unsupported articulation or age claim, person, hand, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished collectible-toy hero at 1120 x 1400 in 4:5. The complete figure, crescent pack cue, plinth, package, and exact title must be visible and uncropped.

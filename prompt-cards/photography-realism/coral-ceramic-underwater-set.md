@@ -58,12 +58,30 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates an authorized coral-like ceramic sculpture photographed in a fictional underwater set. Check the assigned composition, then verify the specific direction: preserve declared sculpture form, use controlled bubbles and caustics, and make the constructed setting clear without reef claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Coral Ceramic Underwater Set](samples/coral-ceramic-underwater-set/coral-ceramic-underwater-set.webp)
 
-Expected result: an authorized coral-like ceramic sculpture photographed in a fictional underwater set organized around this plan: Assign one source to sculpture geometry and separate sources to water color and caustic-light reference, keeping identities distinct. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:03:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [coral-ceramic-underwater-set.prompt.txt](samples/coral-ceramic-underwater-set/coral-ceramic-underwater-set.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `c66bb2a5fc33cbc7a9a2732d04a6763f99b0015c8d72dc63f15dd10709826be3`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final preserves one chalk-white ceramic sculpture with exactly five rounded branches against a teal-to-cyan water field and diagonal caustics.
+- Known misses: No controlled bubbles are visibly present; the constructed tabletop setting and five-branch sculpture remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-sculpture-geometry.webp](samples/coral-ceramic-underwater-set/input-01-sculpture-geometry.webp): project-authored fictional sculpture geometry input
+  - [input-02-water-color.webp](samples/coral-ceramic-underwater-set/input-02-water-color.webp): project-authored fictional water color input
+  - [input-03-caustic-light.webp](samples/coral-ceramic-underwater-set/input-03-caustic-light.webp): project-authored fictional caustic light input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable multi-image fidelity, continuity, or composition.

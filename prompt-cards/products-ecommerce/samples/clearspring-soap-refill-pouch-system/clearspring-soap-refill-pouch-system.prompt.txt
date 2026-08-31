@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 refill packaging system image for a fictional hand-soap package without environmental or performance claims. Use this independently authored concept: a clear pump bottle and soft pouch share a waterline identity.
+
+PRODUCT
+Use a fictional Clearspring hand-soap refill system comprising exactly one transparent 350 ml pump bottle and one opaque 700 ml flexible refill pouch. Build only this manifest: cylindrical clear glass bottle with a brushed-aluminum pump, colorless liquid filled to a straight waterline, soft pale-aqua mono-material pouch with one capped corner spout, and matching cobalt-blue waterline graphics. No outer carton, extra cap, soap foam, or accessory.
+
+PRESENTATION
+Use a straight-on slightly elevated product view with a 60mm lens, broad high-key side light from upper left and a clean frontal fill, and a pale aqua-to-white seamless background. Arrange the product as follows: dispenser foreground, pouch behind, refill relationship obvious without pouring action. Render only CLEARSPRING / HAND SOAP / REFILL; render no other text or logo.
+
+CONSTRAINTS
+Use a fictional product brief. Keep declared geometry, part count, scale, color, and materials consistent. No real brand, copied package, unsupported sustainability or efficacy claim, certification, signature, watermark, or unapproved accessory.
+
+OUTPUT INTENT
+Return one clean refill packaging system image at 1536 x 1024 in 3:2, with both products fully visible and no unrelated props.

@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional community-compost cycle dashboard. Check the assigned composition, then verify the specific direction: avoid food-safety, agricultural, environmental-impact, or sensor-accuracy claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Compost Cycle Dashboard](samples/compost-cycle-dashboard/compost-cycle-dashboard.webp)
 
-Expected result: a fictional community-compost cycle dashboard organized around this plan: Show batch cards, illustrative temperature and moisture trends, turning notes, and a sample pickup schedule. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:04:23Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [compost-cycle-dashboard.prompt.txt](samples/compost-cycle-dashboard/compost-cycle-dashboard.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `3986ce8c0661ee8c2fa235b87c544bd5659415e85b2efd349a9354ffc3223e59`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Compost Cycle Dashboard render makes "review the next fictional compost turning note and pickup slot" primary and keeps "CEDAR COMPOST CYCLES", "Batch C-14 / Day 9 / illustrative 54 C / moisture 48%…", "Batch C-15 / Day 4 / illustrative 41 C / moisture 55%…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Compost Cycle Dashboard manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

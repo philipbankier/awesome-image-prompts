@@ -1,0 +1,74 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-chart-a.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: infographic-diagram
+Asset type: project-created public-domain-inspired star chart
+Primary request: an original circular fictional star chart titled exactly "NORTH WINDOW / PLATE A"
+Subject: cream stars and dotted constellation lines on deep indigo, with an outer degree ring and three invented constellation glyphs
+Style/medium: crisp vintage astronomical print
+Composition/framing: complete square chart with wide border
+Constraints: decorative and non-navigational; no real coordinates, copied historical plate, logo, signature, watermark, or extra text
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-chart-b.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: infographic-diagram
+Asset type: project-created public-domain-inspired star chart
+Primary request: an original rectangular fictional star chart titled exactly "EAST WINDOW / PLATE B"
+Subject: amber stars and thin arc lines on charcoal blue, with a gridded border and four invented constellation glyphs
+Style/medium: crisp vintage astronomical print
+Composition/framing: complete landscape chart with wide border
+Constraints: visually distinct from Plate A, decorative and non-navigational; no real coordinates, copied plate, logo, signature, watermark, or extra text
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-legend.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: infographic-diagram
+Asset type: project-authored annotation legend
+Primary request: one compact legend card titled exactly "LAYER KEY"
+Subject: four symbols labeled exactly "STAR", "GUIDE", "NOTE", and "HIDDEN"
+Style/medium: clean vintage astronomical print on warm cream paper
+Composition/framing: single square card, generous padding
+Constraints: exact words only; no real coordinates, logo, signature, watermark, or extra labels
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-chart-a.webp
+- input-02-chart-b.webp
+- input-03-legend.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop annotation interface for the fictional "Morrowfield Star Chart Annotation Workspace" concept. The concept is a public-domain star-chart annotation workspace.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make compare two project-created charts and toggle one annotation layer the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD STAR-CHART STUDY; left NORTH WINDOW / PLATE A; right EAST WINDOW / PLATE B; source inputs project-created; legend LAYER KEY; toggles Stars ON, Guides ON, Notes ON, Hidden OFF; selected note Arc differs near east edge; synchronized zoom 90%; decorative only, not observational or navigational. Keep two authorized charts in separate synchronized views with layer toggles, supplied labels, and source notes. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Preserve source roles and never imply observational accuracy, navigation utility, or ownership of public-domain material. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, NORTH WINDOW / PLATE A; Image 2, EAST WINDOW / PLATE B; and Image 3, the LAYER KEY legend, a small set whose items are all authorized for this task. Follow Image 1 is the left synchronized chart; Image 2 is the right chart; Image 3 is a separate source legend so each image has one declared purpose, and preserve only both chart titles, distinct circular versus rectangular compositions, navy-and-gold print character, and separate legend symbols. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

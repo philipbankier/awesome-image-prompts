@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional bookmobile stop tracker. Check the assigned composition, then verify the specific direction: use cheerful civic colors and do not imply live tracking or guaranteed service. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bookmobile Stop Tracker](samples/bookmobile-stop-tracker/bookmobile-stop-tracker.webp)
 
-Expected result: a fictional bookmobile stop tracker organized around this plan: Stack upcoming stops, an invented route strip, service notes, and a favorite-stop control. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:52:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bookmobile-stop-tracker.prompt.txt](samples/bookmobile-stop-tracker/bookmobile-stop-tracker.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `156023b44de94780a701dbc572d0d499feac9b87c350e0fcda45d59f1009b386`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Bookmobile Stop Tracker render makes "find the next fictional bookmobile stop and mark it as a favorite" primary and keeps "MORROWFIELD BOOKMOBILE", "Today", "Cedar Square 10:00 / Planned" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Bookmobile Stop Tracker manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

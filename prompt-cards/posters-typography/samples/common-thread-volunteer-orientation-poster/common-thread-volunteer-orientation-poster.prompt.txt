@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 2:3 volunteer orientation poster
+Card: Common Thread Volunteer Orientation Poster
+Primary request: Invite registered volunteers to a fictional orientation using colored threads joining exactly five simple role icons.
+Variable instantiations:
+SUBJECT_BRIEF: fictional neighborhood meal-hall volunteer orientation for confirmed adult volunteers.
+COPY_MANIFEST: render exactly and only "COMMON THREAD", "WELCOME", "SETUP", "FOOD", "ACCESS", "CLEANUP", and "05 SEP 2026".
+VISUAL_MOTIF: five circular role icons connected by one continuous multicolor thread.
+PALETTE: indigo, coral, mustard, teal, green, and cream.
+TYPE_DIRECTION: original friendly uppercase humanist sans serif.
+COMPOSITION_RULES: 8 percent safe margins; title first; five labeled icons in one clear role map; date last in footer; no crop.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly five icons and five labels; exact copy only; no other text, pseudo-writing, safety claims, logos, people, signatures, mockups, or watermark.

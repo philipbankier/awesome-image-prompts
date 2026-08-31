@@ -1,0 +1,17 @@
+Use case: identity-preserve
+Asset type: flat 2:3 portrait campaign poster
+Card: Halftone Harvest Portrait Campaign Poster
+Input images: Image 1 project-owned fictional portrait reference.
+Primary request: Convert the authorized fictional portrait into a high-quality two-color halftone community-campaign image while preserving the sitter's identity.
+Variable instantiations:
+REFERENCE_IMAGE: attached Image 1, project-generated and project-owned.
+REFERENCE_ROLE: sole portrait identity and pose reference.
+PRESERVE_RULES: preserve face shape, skin tone, short curly hair, direct gaze, calm expression, shirt collar, and head-and-shoulders crop; change only the rendering treatment and background.
+SUBJECT_BRIEF: fictional neighborhood growing campaign featuring a fictional community gardener.
+COPY_MANIFEST: render exactly and only "HALFTONE HARVEST" and "GROW TOGETHER".
+VISUAL_MOTIF: the preserved face emerges from two coarse agricultural dot fields.
+PALETTE: dark green, harvest orange, cream, and black.
+TYPE_DIRECTION: original bold uppercase wood-type-inspired slab serif.
+COMPOSITION_RULES: 8 percent safe margins; headline above; portrait fills lower two thirds; short action line at base; face unobstructed and uncropped.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: preserve identity; exact copy once each; no other text, pseudo-writing, new accessories, logo, signature, mockup, celebrity resemblance, or watermark.

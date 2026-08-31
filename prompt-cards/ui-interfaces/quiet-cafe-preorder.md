@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional quiet-cafe preorder flow. Check the assigned composition, then verify the specific direction: use a fictional cafe and menu, with no nutrition, allergen, payment-security, or availability claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Quiet Cafe Preorder](samples/quiet-cafe-preorder/quiet-cafe-preorder.webp)
 
-Expected result: a fictional quiet-cafe preorder flow organized around this plan: Stack supplied menu items, modifiers, pickup window, and order summary in a restrained one-column path. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:28:22Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [quiet-cafe-preorder.prompt.txt](samples/quiet-cafe-preorder/quiet-cafe-preorder.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `54a3feb440ba9d665ef3b131833e36e9eb54d5f3df3b93624292b7f6362e9610`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Quiet Cafe Preorder render makes "review a fictional cafe preorder and pickup window" primary and keeps "WREN QUIET CAFE", "menu Oat Scone 4.00, Pear Tea 3.50, Moss Toast 6.00", "selected Pear Tea / warm / no modifier" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Quiet Cafe Preorder manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

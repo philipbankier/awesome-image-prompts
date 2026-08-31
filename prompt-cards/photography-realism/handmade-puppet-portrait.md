@@ -57,12 +57,28 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an authorized original handmade puppet posed for an object portrait. Check the assigned composition, then verify the specific direction: preserve approved features without inferring a performer or character franchise, and use soft theatrical side light. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Handmade Puppet Portrait](samples/handmade-puppet-portrait/handmade-puppet-portrait.webp)
 
-Expected result: an authorized original handmade puppet posed for an object portrait organized around this plan: Frame the puppet from torso up against plain fabric with its declared face materials and costume details clearly visible. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:09:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [handmade-puppet-portrait.prompt.txt](samples/handmade-puppet-portrait/handmade-puppet-portrait.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `a26b01f6294b0d62fbeb5989e1a69cb6d915d288d7fc384d9cf27283965d5596`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted torso-up portrait preserves a handmade puppet with button eyes, a stitched face, green coat, and rust cap under soft side light.
+- Known misses: No material visible miss; the character remains original-looking, material-led, and free of readable marks or franchise cues.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-puppet-reference.webp](samples/handmade-puppet-portrait/input-01-puppet-reference.webp): project-authored fictional puppet reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

@@ -57,12 +57,28 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates an authorized empty industrial greenhouse interior. Check the assigned composition, then verify the specific direction: preserve declared structure only, use diffuse daylight, and infer no owner, crop, technology, output, or safety status. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Authorized Industrial Greenhouse](samples/authorized-industrial-greenhouse/authorized-industrial-greenhouse.webp)
 
-Expected result: an authorized empty industrial greenhouse interior organized around this plan: Look down the central aisle so repeated frames and benches form strict perspective toward a bright end wall. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:03:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [authorized-industrial-greenhouse.prompt.txt](samples/authorized-industrial-greenhouse/authorized-industrial-greenhouse.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `cfa093be11387ec6b4fec57429121acbaacf7d6222f12c7c23cb438edc42332f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows a straight central aisle, parallel empty benches, repeated green frames, and a bright end wall under diffuse daylight.
+- Known misses: No material visible miss; the frame introduces no crops, signage, people, or branded equipment.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-structure-reference.webp](samples/authorized-industrial-greenhouse/input-01-structure-reference.webp): project-authored fictional structure reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

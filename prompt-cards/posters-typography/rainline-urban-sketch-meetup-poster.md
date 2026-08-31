@@ -49,12 +49,26 @@ Return one flat meetup poster at {OUTPUT_SIZE} in 4:5. Do not place it in a wall
 
 Confirm the result reads as one meetup poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: route and supply notes nested beneath a fluid city-line header. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rainline Urban Sketch Meetup Poster](samples/rainline-urban-sketch-meetup-poster/rainline-urban-sketch-meetup-poster.webp)
 
-Expected result: one continuous ink line mapping awnings, puddles, and stools. Layout: route and supply notes nested beneath a fluid city-line header. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:57:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rainline-urban-sketch-meetup-poster.prompt.txt](samples/rainline-urban-sketch-meetup-poster/rainline-urban-sketch-meetup-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `6fc1e0bfadf446602a986bbcb992615edf16f2632c71f9203db07d7528b62840`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One continuous line maps three awnings, two puddles, and three stools before ending at the route-and-supplies footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

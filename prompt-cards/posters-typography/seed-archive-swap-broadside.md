@@ -49,12 +49,26 @@ Return one flat community exchange broadside at {OUTPUT_SIZE} in 2:3. Do not pla
 
 Confirm the result reads as one community exchange broadside, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: one oversized title above a radial center and a calm logistics footer. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Seed Archive Swap Broadside](samples/seed-archive-swap-broadside/seed-archive-swap-broadside.webp)
 
-Expected result: seed envelopes radiating from a small catalog drawer. Layout: one oversized title above a radial center and a calm logistics footer. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:06:59Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [seed-archive-swap-broadside.prompt.txt](samples/seed-archive-swap-broadside/seed-archive-swap-broadside.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `0b856e44e01e5c28ec64c8e9f104d79c14321775524fb03433c191d4d524b369`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Eight pictogram envelopes radiate around one open catalog drawer between the oversized title and five-line footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 board-game packaging image for a fictional cooperative game and its core components. Use this independently authored concept: a moss-green maze motif links box lid, cards, tokens, and folded board.
+
+PRODUCT
+Use the fictional tabletop game Mossmaze. Build exactly one closed square game box, one folded square game board, exactly six portrait-format cards, and exactly eight round wooden tokens. The visual system uses a deep moss-green field, cream branching maze lines, muted lichen accents, and tiny rust-orange path markers. The box is linen-finish paperboard; the cards are matte stock with rounded corners; the tokens are pale beech printed with one simple maze-ring symbol; the folded board has four visible panels. Approved copy is limited to MOSSMAZE / A COOPERATIVE PATH GAME. Show no rulebook, dice, meeple, miniatures, plastic insert, player count, age, duration, award, certification, loose foliage, or extra component.
+
+PRESENTATION
+Use a slightly elevated front three-quarter 65 mm catalog view. Place the closed box upright on the left with MOSSMAZE visible exactly once. On the right, create a controlled component fan: folded board behind, six cards in one shallow overlapping arc, and eight tokens gathered in two orderly rows without obscuring their count. Use broad diffused light from upper left, soft fill, and clear grounded shadows on a warm light-gray seamless background. Render only the approved copy on the box and no text on the component faces, with no pseudo-text, signature, logo, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored game. Keep the declared component counts, materials, and shared maze identity. Do not imply gameplay details or include a real publisher mark. No copied game art, extra token, duplicate card, opened box, landscape scene, person, hand, unrelated prop, or mock retail interface.
+
+OUTPUT INTENT
+Return one polished board-game packaging image at 1536 x 1024 in 3:2. The box title, folded board, all six cards, and all eight tokens must be fully visible and countable.

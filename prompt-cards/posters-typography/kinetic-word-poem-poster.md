@@ -53,12 +53,26 @@ Return one 3:4 kinetic word-poem poster at {OUTPUT_SIZE}, with the poem readable
 
 Transcribe the poster in reading order, compare every word and line break with the supplied poem, and confirm the movement remains legible without relying on invented text.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Kinetic Word Poem Poster](samples/kinetic-word-poem-poster/kinetic-word-poem-poster.webp)
 
-Expected result: an exact short poem arranged as a dynamic but readable typographic field with one coherent movement system.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:01:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [kinetic-word-poem-poster.prompt.txt](samples/kinetic-word-poem-poster/kinetic-word-poem-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `f662f977ded22a34078fabe9b6beb98f78b6e12de58df963d4510f2e63ef6409`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The four poem lines scale and curve through cobalt arcs while preserving the intended top-to-bottom reading sequence.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use project-authored text or retain documented permission for any supplied poem. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt, poem, poster, font artwork, or image.

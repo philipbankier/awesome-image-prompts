@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one winter detail photograph for the project-authored fictional "Atlas Field Notes: Frosted Bicycle Spokes" editorial study depicting frost crystals along the spokes of an unbranded bicycle wheel.
+
+SUBJECT
+Use exactly frost crystals along the spokes of an unbranded bicycle wheel, realized as an original unbranded concept with physically plausible materials and a restrained palette of clay red, weathered oak, and soft gray exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use an invented cold-weather setting with clean undisturbed surfaces, believable moisture, and only the named subject. Follow a 4:5 portrait frame using a natural 70 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Crop through the hub so spoke lines radiate beyond frame and a few crystals catch focus. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use blue morning shade, a restrained warm rim light, and physically plausible frost distribution. Apply low cool morning light from frame left with soft open-sky fill, crisp material detail, and a restrained palette of clay red, weathered oak, and soft gray with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 4:5 photographic concept with credible optics and no unrequested collage.

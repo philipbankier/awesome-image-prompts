@@ -57,12 +57,28 @@ Return one flat portrait exhibition poster at {OUTPUT_SIZE} in 2:3. Do not place
 
 Confirm the result reads as one portrait exhibition poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: face remains unobstructed with exhibition title above and details below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Open Faces Portrait Exhibition Poster](samples/open-faces-portrait-exhibition-poster/open-faces-portrait-exhibition-poster.webp)
 
-Expected result: a preserved portrait interrupted only by transparent rectangular captions. Layout: face remains unobstructed with exhibition title above and details below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:24:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [open-faces-portrait-exhibition-poster.prompt.txt](samples/open-faces-portrait-exhibition-poster/open-faces-portrait-exhibition-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `376cb4515cae078cb2132b893c6ed0b8a73705aaa77bd551cf04d427d440fd94`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The portrait remains unobstructed, with the title in pale-cyan panels above and three detail bands below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-fictional-sitter.webp](samples/open-faces-portrait-exhibition-poster/input-01-fictional-sitter.webp): project-authored fictional fictional sitter input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

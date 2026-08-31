@@ -1,0 +1,17 @@
+COMMISSION
+Create one 3:2 exploded product view refining an authorized project-authored desk-fan assembly sketch. Use this independently authored concept: guard, blades, hub, motor shell, stem, and base align in one ordered assembly sequence.
+
+SKETCH INPUT
+Use the attached authorized sketch whisper-desk-fan-exploded-view--input-01-layout-sketch.png only as a structural and layout guide. Protect exactly six principal assemblies and their relationships: circular front wire guard, five-blade rounded propeller, short circular hub, cylindrical rear motor shell, slender vertical stem, and low rounded-rectangle base. Preserve one horizontal axis for the first four and visible compatible connections from motor shell to stem to base. Do not reproduce sketch texture or invent hidden parts.
+
+PRODUCT
+Use the fictional Whisper compact desk fan. Render the front guard in fine graphite powder-coated steel wire; exactly five rounded blades in pale sea-glass polymer; one graphite hub; one warm-white cylindrical motor shell with no visible control; one graphite aluminum-look stem; and one warm-white low base with a single shallow stem socket. Show no rear guard, screw, bearing, grille insert, cable, plug, switch, battery, electronics, fastener, accessory, or seventh assembly.
+
+PRESENTATION
+Use a clean front three-quarter orthographic-style 70 mm product view on a pale warm-gray technical-board background. Arrange exactly six detached assemblies from left to right: guard, blades, hub, motor shell, stem, base. Use equal air gaps and thin pale-teal dashed alignment guides. Keep the stem and base separate but visibly compatible, with the motor shell's support point aligned to the stem. Use broad even studio light, crisp rim separation, and minimal shadows. Render no text, logo, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Keep exactly six assemblies, five blades, one consistent axis, and mechanically plausible visible interfaces without inventing function. No performance, airflow, noise, power, safety, or certification claim; no real brand, copied design, duplicated part, hand, tool, second fan, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one precise exploded product view at 1536 x 1024 in 3:2. All six complete assemblies must be separate, countable, aligned, and fully visible.

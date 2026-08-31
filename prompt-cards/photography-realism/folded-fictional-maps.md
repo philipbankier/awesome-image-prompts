@@ -63,12 +63,30 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a set of project-authored fictional maps folded on a wooden table. Check the assigned composition, then verify the specific direction: use invented labels, natural paper wear, side light, and no real route, border, navigation, or ownership claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Folded Fictional Maps](samples/folded-fictional-maps/folded-fictional-maps.webp)
 
-Expected result: a set of project-authored fictional maps folded on a wooden table organized around this plan: Assign each authorized source a separate map region, then overlap three folds without blending their place systems or legends. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:09:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [folded-fictional-maps.prompt.txt](samples/folded-fictional-maps/folded-fictional-maps.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `5eb24abb8a44dddab659b5ea80477d9b52d99ad7c5d81a6b0567e4dbd4fc0583`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final separates three folded fictional map regions, with `AVA`, `BEX`, and `CYR` each appearing once beside distinct contour, river, and island motifs.
+- Known misses: No material visible miss; the three map roles, folds, and invented labels remain distinct without extra readable copy.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-upland-region.webp](samples/folded-fictional-maps/input-01-upland-region.webp): project-authored fictional upland region input
+  - [input-02-river-valley.webp](samples/folded-fictional-maps/input-02-river-valley.webp): project-authored fictional river valley input
+  - [input-03-island-coast.webp](samples/folded-fictional-maps/input-03-island-coast.webp): project-authored fictional island coast input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable multi-image fidelity, continuity, or composition.

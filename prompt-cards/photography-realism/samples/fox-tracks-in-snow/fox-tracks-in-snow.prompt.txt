@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one winter nature photograph for the project-authored fictional "Atlas Field Notes: Fox Tracks in Snow" editorial study depicting a winding line of unidentified fox-like tracks crossing fresh snow.
+
+SUBJECT
+Use exactly a winding line of unidentified fox-like tracks crossing fresh snow, realized as an original unbranded concept with physically plausible materials and a restrained palette of frost blue, graphite, and pale brass exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use an invented cold-weather setting with clean undisturbed surfaces, believable moisture, and only the named subject. Follow a 16:9 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Let the tracks enter near camera and fade toward a low stand of bare shrubs without showing an animal. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use cool open shade, subtle wind texture, and keep the track attribution visibly uncertain. Apply low cool morning light from frame left with soft open-sky fill, crisp material detail, and a restrained palette of frost blue, graphite, and pale brass with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 16:9 photographic concept with credible optics and no unrequested collage.

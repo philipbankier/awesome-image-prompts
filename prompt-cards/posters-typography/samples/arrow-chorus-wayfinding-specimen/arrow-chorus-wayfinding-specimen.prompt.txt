@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 3:4 wayfinding symbol specimen
+Card: Arrow Chorus Wayfinding Specimen
+Primary request: Present an original family of exactly six directional arrows sharing one folded-ribbon construction.
+Variable instantiations:
+SUBJECT_BRIEF: fictional wayfinding-system specimen for design students; illustrative study only.
+COPY_MANIFEST: render exactly and only "ARROW CHORUS", "N", "NE", "E", "S", "SW", and "W".
+VISUAL_MOTIF: six distinct folded-ribbon arrows, one large hero arrow and five smaller family members.
+PALETTE: deep navy, signal orange, pale blue, and cream.
+TYPE_DIRECTION: original geometric uppercase sans serif with compact labels.
+COMPOSITION_RULES: 9 percent safe margins; hero arrow above; labeled six-cell direction matrix below; two tiny unlabeled scale examples at the foot; crisp reading order and no cropped elements.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly six arrows in the labeled matrix plus one hero enlargement of the same design; labels exact; no other text, pseudo-writing, logos, real transit marks, signatures, mockups, or watermark.

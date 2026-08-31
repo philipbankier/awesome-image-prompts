@@ -58,12 +58,29 @@ Return one 16:10 concept image with readable hierarchy and no unrequested screen
 
 Confirm the image communicates a museum exhibit-label preview for an authorized object. Check the assigned composition, then verify the specific direction: preserve only declared object features and do not invent provenance, attribution, value, or historical facts. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Exhibit Label Preview](samples/exhibit-label-preview/exhibit-label-preview.webp)
 
-Expected result: a museum exhibit-label preview for an authorized object organized around this plan: Place the reference image beside supplied title, object facts, credit line, and wall-label scale preview. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:24Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [exhibit-label-preview.prompt.txt](samples/exhibit-label-preview/exhibit-label-preview.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `093ead1ac28b9204caed69c3c817316f9f8a34eb20701dd1a697dcbe7bdba257`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:10 Exhibit Label Preview render makes "preview the supplied fictional vessel and approved wall-label facts" primary and keeps "RIDGE CUP 03", "Terracotta and cream slip", "18 cm high" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Exhibit Label Preview manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-vessel.webp](samples/exhibit-label-preview/input-01-vessel.webp): project-authored fictional vessel supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is evidence for this exact illustrative run only; it does not establish reference fidelity, identity preservation, repeatability, or promotion.

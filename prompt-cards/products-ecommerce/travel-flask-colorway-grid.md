@@ -58,12 +58,28 @@ Return one precise colorway grid at {ASPECT_RATIO}, with consistent product geom
 
 Count the flasks, compare silhouettes and lids cell by cell, and verify that only the approved color and finish change.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Travel Flask Colorway Grid](samples/travel-flask-colorway-grid/travel-flask-colorway-grid.webp)
 
-Expected result: a clean grid of truly matching flasks whose color changes are easy to compare without layout noise.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:53Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [travel-flask-colorway-grid.prompt.txt](samples/travel-flask-colorway-grid/travel-flask-colorway-grid.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `190007baab4458ed04323eab60fda9fda7348c998d0828d1c4512bd61560d831`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly six flasks preserve the reference silhouette, lid, shoulder ring, scale, and camera angle while only the ordered color and finish change.
+- Known misses: The grid is intentionally unlabeled, so the declared colorway order must be read from the exact prompt.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/travel-flask-colorway-grid/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 Use only fictional or authorized product geometry, finishes, names, and reference assets. This Prompt Card is independently authored, has source posture `original`, and bundles no third-party prompt or image.

@@ -49,12 +49,26 @@ Return one clean cosmetic packaging presentation at {OUTPUT_SIZE} in 4:5, with t
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: front-facing jar low in frame with exact product copy in open upper space. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Moonfoam Hand Cream Jar Presentation](samples/moonfoam-hand-cream-jar-presentation/moonfoam-hand-cream-jar-presentation.webp)
 
-Expected result: a matte ivory jar sits beside a crescent-shaped paper plinth. Layout: front-facing jar low in frame with exact product copy in open upper space. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:44:35Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [moonfoam-hand-cream-jar-presentation.prompt.txt](samples/moonfoam-hand-cream-jar-presentation/moonfoam-hand-cream-jar-presentation.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `e1dd8c9a8b307cdee1f10590fbb4c686d197e71dee8e86e0d4d4c94e020124db`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one closed ivory jar and one crescent paper plinth are cleanly separated, all approved copy is legible, and no efficacy or ingredient claim appears.
+- Known misses: The crescent is a paper display form only and is not product packaging.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

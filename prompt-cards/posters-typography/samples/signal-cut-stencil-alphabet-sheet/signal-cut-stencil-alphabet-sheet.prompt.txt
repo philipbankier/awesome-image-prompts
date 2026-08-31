@@ -1,0 +1,21 @@
+COMMISSION
+Create one flat 4:5 stencil alphabet specimen sheet for a fictional municipal signal-lettering workshop. This is an independently authored visual concept: every glyph uses consistent bridge cuts derived from a 45-degree signal-flag angle.
+
+CONTENT
+The audience is lettering students studying practical stencil construction. Render only this exact approved copy, preserving spelling, sequence, and line breaks:
+SIGNAL CUT
+ABCDEFGHI
+JKLMNOPQR
+STUVWXYZ
+0123456789
+. , : ; ! ? / + -
+Do not render any other text, labels, names, captions, signatures, or marks.
+
+VISUAL SYSTEM
+Use an abstract diagonal signal-flag notch as the central construction motif, repeated consistently inside the stencil bridges. Palette: warm signal red, deep navy, and off-white with very high contrast. Typography direction: an original uppercase industrial grotesk, wide and sturdy, with uniform angled bridge cuts; numerals and punctuation match the same system. Organize uppercase rows on precise shared baselines, with numerals and punctuation below. Keep an 8% clean safe margin, strict left-to-right reading order, evenly spaced cells, no clipped glyphs, and the title clearly subordinate to the alphabet.
+
+CONSTRAINTS
+One complete alphabet only, A through Z in correct order, followed by exactly ten digits 0 through 9 and the listed punctuation. No missing, duplicated, malformed, or invented glyphs. No pseudo-writing. Use only this fictional project-authored concept. No real brand, copied typeface artwork, logo, watermark, mockup, frame, wall, hands, or extra design option.
+
+OUTPUT INTENT
+Return one flat 1024x1280 pixel stencil alphabet sheet in 4:5 portrait orientation.

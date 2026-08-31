@@ -1,0 +1,14 @@
+COMMISSION
+Create one 1:1 product-bundle flat lay for a fictional leash, collar, waste-bag case, and travel bowl. Use this independently authored concept: four durable textile objects share one rust-and-sage hardware system.
+
+PRODUCT
+Use the fictional Rovetail pet-walking bundle. Build exactly four products: one 1.8 m flat woven leash coiled once with a rust-orange padded hand loop and one sage powder-coated swivel clip; one adjustable sage woven collar laid open with a rust-orange side-release buckle and one D-ring; one compact rust-orange zippered waste-bag case with a sage dispensing eyelet and one tiny clip; and one collapsible sage coated-fabric travel bowl with a rust-orange bound rim, shown open and empty. Use the same medium-gauge woven texture and hardware palette throughout. Show no roll of bags, dog, animal, food, water, toy, harness, tag, branding, packaging, hand, or extra component.
+
+PRESENTATION
+Use a true orthographic overhead view on a pale warm-stone matte background. Arrange the four items in a balanced square grid with clear negative space: leash upper left, collar upper right, case lower left, bowl lower right. Keep every item separate, fully visible, and easy to count. Use broad diffuse top light and one soft directional shadow. Render no text, logo, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored bundle. Keep exactly four products and preserve plausible textile paths, buckles, clips, seams, and relative scale. Do not imply strength, safety, weather resistance, sustainability, or size compatibility. No real brand, copied product, tangled leash, duplicated buckle, unrelated prop, lifestyle scene, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished product-bundle image at 1400 x 1400 in 1:1. All four complete products must be separate, uncropped, and sharply resolved.

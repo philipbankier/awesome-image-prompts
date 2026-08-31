@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an unbranded telescope eyepiece and focus wheel in cool night air. Check the assigned composition, then verify the specific direction: use subtle condensation, cool metal response, and no optical-performance or observational claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Telescope Eyepiece Close-Up](samples/telescope-eyepiece-closeup/telescope-eyepiece-closeup.webp)
 
-Expected result: an unbranded telescope eyepiece and focus wheel in cool night air organized around this plan: Crop tightly across the focus wheel with the eyepiece rim sharp and distant observatory lights blurred. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:45:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [telescope-eyepiece-closeup.prompt.txt](samples/telescope-eyepiece-closeup/telescope-eyepiece-closeup.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `33dba1450127ac7a36e2734669de033f2fb18027a9a17270115ea84bbdb49039`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted macro holds the eyepiece rim and adjacent focus wheel sharp under cool metal light against a very dark background.
+- Known misses: The requested blurred observatory lights are not visible, and condensation is not clearly established; the eyepiece hardware remains coherent and unbranded.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -1,0 +1,17 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+SCENE
+Create a photoreal small fictional brick courtyard enclosed by creamwashed masonry, one arched passage, and a cobbled floor during late blue hour with a deep cobalt sky and a trace of remaining western daylight, with post-rain cobbles with shallow damp reflections and no standing floodwater.
+
+SUBJECT
+Show exactly one unbranded steel step-through city bicycle with a muted ochre frame, black saddle, black fenders, two intact wheels, and one small front basket bicycle resting on its kickstand beside the creamwashed wall, both tires grounded and the frame angled slightly toward camera, viewed from eye-height 45 mm landscape framing showing the entire bicycle and courtyard depth.
+
+DETAILS
+Include only one dark timber door, one arched passage, three simple windows, and a low stone stair, one terracotta pot with rosemary and one rectangular planter with trailing ivy, and one closed galvanized watering can against the far wall. Balance cool ambient sky light with two small warm wall lanterns beside the timber door at low intensity, keeping metal, rubber, paint, masonry, and wet surfaces physically coherent.
+
+CONSTRAINTS
+Preserve two wheels, one frame, plausible drivetrain and handlebar geometry, and grounded tire contact. No riders, extra bicycles, impossible spokes, duplicated pedals, floating wheels, cars, crowds, logos, signs, watermarks, or readable text.
+
+OUTPUT INTENT
+Return one atmospheric editorial photograph at 3:2 landscape, with the bicycle clearly legible inside a believable inhabited courtyard.

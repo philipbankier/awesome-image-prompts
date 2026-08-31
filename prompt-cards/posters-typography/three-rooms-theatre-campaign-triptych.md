@@ -57,12 +57,30 @@ Return one flat theatre campaign triptych at {OUTPUT_SIZE} in 3:2. Do not place 
 
 Confirm the result reads as one theatre campaign triptych, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: three equal panels with one spanning title and separate performance dates. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Three Rooms Theatre Campaign Triptych](samples/three-rooms-theatre-campaign-triptych/three-rooms-theatre-campaign-triptych.webp)
 
-Expected result: each still occupies a distinct room-shaped frame sharing one threshold line. Layout: three equal panels with one spanning title and separate performance dates. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:25:08Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [three-rooms-theatre-campaign-triptych.prompt.txt](samples/three-rooms-theatre-campaign-triptych/three-rooms-theatre-campaign-triptych.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `a5695709990709cee4e15727b607ae3e3b9e9774006ee44e32a02eb29abc0881`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three equal blue, green, and red stills preserve the one/two/one figure counts and align with the correct room/date labels.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-room-one-still.webp](samples/three-rooms-theatre-campaign-triptych/input-01-room-one-still.webp): project-authored fictional room one still input
+  - [input-02-room-two-still.webp](samples/three-rooms-theatre-campaign-triptych/input-02-room-two-still.webp): project-authored fictional room two still input
+  - [input-03-room-three-still.webp](samples/three-rooms-theatre-campaign-triptych/input-03-room-three-still.webp): project-authored fictional room three still input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. Every source image must be owned or explicitly authorized, with a declared role and preservation rule.

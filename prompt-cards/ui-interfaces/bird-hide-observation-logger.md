@@ -58,12 +58,29 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a bird-hide observation logging screen. Check the assigned composition, then verify the specific direction: avoid definitive species identification and preserve only visible features declared by the operator. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bird Hide Observation Logger](samples/bird-hide-observation-logger/bird-hide-observation-logger.webp)
 
-Expected result: a bird-hide observation logging screen organized around this plan: Keep the authorized reference crop beside species-neutral descriptors, time, habitat notes, and a save control. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:55:51Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bird-hide-observation-logger.prompt.txt](samples/bird-hide-observation-logger/bird-hide-observation-logger.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `c290a44454b17b8257ec232a7e5f2e9c428259779e73de038833a58b6522192b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Bird Hide Observation Logger render makes "save a species-neutral observation from the authorized crop" primary and keeps "REEDGLASS HIDE LOG", "14 September", "08:42" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Bird Hide Observation Logger manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-bird-crop.webp](samples/bird-hide-observation-logger/input-01-bird-crop.webp): project-authored fictional bird crop supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is evidence for this exact illustrative run only; it does not establish reference fidelity, identity preservation, repeatability, or promotion.

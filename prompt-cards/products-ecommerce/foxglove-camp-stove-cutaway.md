@@ -49,12 +49,26 @@ Return one clean product cutaway board at {OUTPUT_SIZE} in 3:2, with the product
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: hero cutaway left with four numbered component callouts on the right. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Foxglove Camp Stove Cutaway](samples/foxglove-camp-stove-cutaway/foxglove-camp-stove-cutaway.webp)
 
-Expected result: a clean half-cutaway reveals burner, valve, wind shield, and folding supports. Layout: hero cutaway left with four numbered component callouts on the right. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [foxglove-camp-stove-cutaway.prompt.txt](samples/foxglove-camp-stove-cutaway/foxglove-camp-stove-cutaway.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `d3a9233702fb1b73a77c987c4f28928384fbe1635a4abd40ca4915cf70cec95c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the hero cutaway is mechanically coherent, all three folding supports are present, and four correctly labeled detail views point to the declared components.
+- Known misses: The cutaway is explanatory product visualization, not engineering or safety evidence.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

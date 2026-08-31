@@ -55,11 +55,26 @@ Return one focused 9:16 session interface at {OUTPUT_SIZE}, with the remaining t
 
 Read the time and primary control at thumbnail size, confirm the progress treatment agrees with the time, and verify every visible label belongs to the approved manifest.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Focus Timer Session Screen](samples/focus-timer-session-screen/focus-timer-session-screen.webp)
 
-Expected result: a restrained session screen dominated by one clear timer, one primary action, and minimal status cues.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:21:20Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [focus-timer-session-screen.prompt.txt](samples/focus-timer-session-screen/focus-timer-session-screen.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `13678dba43ad13a341fbd1d25d1537746ecf7ca4133ec259dbe8f3baef484de4`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Focus Timer Session Screen render makes "the declared primary task" primary and keeps "Maple Draft", "24:18", "61% complete" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: The "Bell muted" state is conveyed by a muted-bell icon rather than repeating the literal phrase; the timer, progress value, and controls remain clear. This single render does not establish interaction behavior.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

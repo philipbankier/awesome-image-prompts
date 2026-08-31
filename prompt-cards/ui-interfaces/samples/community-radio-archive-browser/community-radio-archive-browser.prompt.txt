@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop archive interface for the fictional "Morrowfield Community Radio Archive Browser" concept. The concept is a community-radio recording archive browser.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make filter fictional recordings and open the rights-cleared selected item the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD RADIO ARCHIVE; filters 1970s, Gardens, Public listening; Evening Allotments / 1976 / 18:24 / Public listening; Tool Club Notes / 1978 / 09:10 / On-site only; River Voices / 1981 / 22:05 / Review required; selected Evening Allotments; waveform and rights labels. Combine decade and topic filters with a waveform list, rights labels, and a selected-recording detail pane. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 13-inch landscape desktop viewport with mouse and keyboard input. Use fictional or authorized recordings only and make access restrictions visible. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:10 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

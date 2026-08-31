@@ -49,12 +49,26 @@ Return one flat science lecture poster at {OUTPUT_SIZE} in 2:3. Do not place it 
 
 Confirm the result reads as one science lecture poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: lecture title above one diagram and speaker details in a compact side rail. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Cloudledger Science Lecture Poster](samples/cloudledger-science-lecture-poster/cloudledger-science-lecture-poster.webp)
 
-Expected result: a gridded cloud cross-section annotated with restrained arrows. Layout: lecture title above one diagram and speaker details in a compact side rail. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [cloudledger-science-lecture-poster.prompt.txt](samples/cloudledger-science-lecture-poster/cloudledger-science-lecture-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `a5796fe4da56169a0245fe33b42df00a32b45c9701142b5f894dca9ee2e0b61f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One cloud cross-section sits on the measurement grid beside three labeled arrows, with the date isolated in the footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

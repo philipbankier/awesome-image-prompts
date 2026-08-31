@@ -1,0 +1,71 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-mira-costume.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: stylized-concept
+Asset type: project-owned costume reference for an original storybook character
+Primary request: one child-sized teal rain cape with brass toggles, mustard boots, and a round satchel, displayed without a person
+Style/medium: tactile watercolor-and-gouache costume illustration
+Composition/framing: complete outfit pieces arranged as a clean flat lay on cream paper
+Constraints: original design, no character likeness, mannequin, text, logo, signature, watermark, or extra clothing
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-oren-costume.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: stylized-concept
+Asset type: project-owned costume reference for an original storybook character
+Primary request: one child-sized plum waistcoat, moss trousers, striped scarf, and soft brown shoes, displayed without a person
+Style/medium: tactile watercolor-and-gouache costume illustration
+Composition/framing: complete outfit pieces arranged as a clean flat lay on cream paper
+Constraints: original and distinct from a rain-cape outfit, no character likeness, mannequin, text, logo, signature, watermark, or extra clothing
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-tavi-costume.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: stylized-concept
+Asset type: project-owned costume reference for an original storybook character
+Primary request: one child-sized rust-orange apron dress, cream blouse, fern-green socks, and acorn-shaped pouch, displayed without a person
+Style/medium: tactile watercolor-and-gouache costume illustration
+Composition/framing: complete outfit pieces arranged as a clean flat lay on cream paper
+Constraints: original and distinct from the teal and plum outfits, no character likeness, mannequin, text, logo, signature, watermark, or extra clothing
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-mira-costume.webp
+- input-02-oren-costume.webp
+- input-03-tavi-costume.webp
+
+EXACT SUBMITTED PROMPT
+Design one tablet visual-planning interface for the fictional "Morrowfield Storybook Wardrobe Board" concept. The concept is an original storybook-character wardrobe board.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make check wardrobe continuity across three original fictional characters the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MOTH LANTERN WARDROBE; Mira lane / teal cape, mustard boots, round satchel / Scene Rain Gate / continuity OK; Oren lane / plum waistcoat, moss trousers, striped scarf / Scene Map Room / review scarf; Tavi lane / rust apron dress, green socks, acorn pouch / Scene Garden / continuity OK; original characters only. Keep authorized costume images in character-specific lanes with scene tags, palette notes, and continuity flags. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Do not merge identities or copy protected characters; use only fictional characters and approved wardrobe references. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, Mira's teal cape outfit; Image 2, Oren's plum waistcoat outfit; and Image 3, Tavi's rust apron-dress outfit, a small set whose items are all authorized for this task. Follow each image belongs to its named fictional character lane and must not be mixed with another lane so each image has one declared purpose, and preserve only the complete outfit pieces, distinctive palettes, accessory pairings, watercolor medium, and strict character separation. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

@@ -57,12 +57,28 @@ Return one clean eyewear colorway strip at {OUTPUT_SIZE} in 3:2, with the produc
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: one horizontal row with geometry locked and color changing by cell. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Pebble Frame Eyewear Color Strip](samples/pebble-frame-eyewear-color-strip/pebble-frame-eyewear-color-strip.webp)
 
-Expected result: identical front views sit on soft mineral-toned bands. Layout: one horizontal row with geometry locked and color changing by cell. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:30:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [pebble-frame-eyewear-color-strip.prompt.txt](samples/pebble-frame-eyewear-color-strip/pebble-frame-eyewear-color-strip.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `58aadb8e89a4d23b18bbb98da1a83e8aa7a1f80ba9a8df1e0c0c372ad93c2554`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly four complete frames preserve the reference silhouette, bridge, hinge pins, temple position, and clear lenses while only acetate color changes.
+- Known misses: Small cell-to-cell reflection differences remain, so this is illustrative rather than pixel-locked comparison evidence.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/pebble-frame-eyewear-color-strip/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

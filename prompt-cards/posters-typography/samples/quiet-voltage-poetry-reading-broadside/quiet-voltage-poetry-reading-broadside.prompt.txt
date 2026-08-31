@@ -1,0 +1,22 @@
+Use case: rendered sample for the Quiet Voltage Poetry Reading Broadside Prompt Card.
+Asset type: one flat fictional poetry-reading broadside, no mockup.
+
+Create one 2:3 broadside announcing QUIET VOLTAGE, a fictional evening poetry reading at the invented Lampline Room.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+QUIET VOLTAGE
+POETRY READING
+FRIDAY, NOVEMBER 13
+7 PM
+LAMPLINE ROOM
+NEW VOICES • OPEN PAGE
+FREE ENTRY
+
+VISUAL SYSTEM
+Center one quiet open blank page. Gather exactly six thin electric lines around its outer edges without crossing the page. Place the high-contrast two-line title near the center of the blank page, then set the five event-detail lines small and orderly below it. Use generous 12% margins, warm black, electric cyan, soft violet, cream, and one coral point. Typography is original high-contrast serif uppercase for the title and small clean sans serif for details.
+
+CONSTRAINTS
+Render only the exact manifest. The page contains no poem, author name, page number, handwriting, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly one page and six electric lines.
+
+OUTPUT INTENT
+Return one flat 2:3 poetry-reading broadside at 1024 x 1536 pixels.

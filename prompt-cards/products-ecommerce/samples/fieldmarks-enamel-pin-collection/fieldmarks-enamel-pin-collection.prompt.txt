@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 premium catalog collection board for a fictional set of eight field-observation enamel pins. Use this independently authored concept: abstract track, feather, leaf, shell, cloud, stone, seed, and wave symbols.
+
+PRODUCT
+Use the fictional Fieldmarks observation-pin collection. Build exactly eight separate hard-enamel pins, one for each of these original symbols in this order: animal track, feather, leaf, spiral shell, small cloud, rounded stone, seed pod, and curling wave. Use compact geometric silhouettes with softly rounded corners, polished antique-brass metal outlines, and flat enamel fills in rust, ochre, fern, seafoam, slate blue, warm gray, plum, and cobalt. Give every pin the same overall visual weight and an approximately 28 mm scale. Mount all eight pins on exactly one unprinted, warm-gray recycled-paper backing card. Show no clasps, extra pins, badges, packaging, or accessories.
+
+PRESENTATION
+Use a straight-on, very slightly elevated 70 mm catalog view. Light with a large softbox from upper left, gentle frontal fill, controlled metal highlights, and small natural contact shadows. Use a seamless warm-stone background. Arrange the pins in two precisely aligned columns of four with generous equal spacing and the backing card fully visible. Render no text, logo, numerals, decorative pseudo-text, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Keep exactly eight pins and the declared symbol assignment, enamel palette, metal finish, scale, and two-column arrangement. Each symbol must be readily distinguishable without copying a real badge or logo. No unsupported claim, brand, signature, duplicate pin, missing pin, warped outline, unrelated prop, or mock marketplace interface.
+
+OUTPUT INTENT
+Return one polished enamel-pin collection board at 1120 x 1400 in 4:5. The entire backing card and every pin must be fully visible, sharply resolved, and uncropped.

@@ -1,0 +1,19 @@
+COMMISSION
+Create one flat 2:3 numeral specimen poster presenting an original display-numeral set for a fictional student typography study called Sunday Numerals. This is an independently authored concept: oversized numerals interlock with calendar-like rules.
+
+CONTENT
+The audience is typography students studying numeral rhythm. Render only this exact approved copy, preserving spelling, sequence, and line breaks:
+SUNDAY NUMERALS
+0 1 2 3 4
+5 6 7 8 9
+DISPLAY STUDY
+Do not render any other text, numerals, measurements, labels, dates, captions, signatures, or marks.
+
+VISUAL SYSTEM
+Use thin calendar-like horizontal and vertical rules weaving behind and between the numerals. Palette: sun-yellow, warm white, ink black, and one tomato-red accent. Typography direction: original extra-bold geometric numerals with rounded outer corners and crisp squared counters. Arrange the digits in two oversized rows, 0 through 4 then 5 through 9, preserving exact order and giving every numeral equal visual importance. Add a small foot strip made only of unlabeled ticks, with DISPLAY STUDY centered above it. Keep a 7% safe margin, rigorous baseline alignment, no clipped digits, and a clear top-to-bottom reading path.
+
+CONSTRAINTS
+Exactly one instance of each digit 0 through 9, in correct order. No duplicated, missing, merged, malformed, or invented digits. The measurement strip has graphic ticks only. No copied typeface artwork, real brands, logos, pseudo-writing, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1536 pixel numeral specimen poster in 2:3 portrait orientation.

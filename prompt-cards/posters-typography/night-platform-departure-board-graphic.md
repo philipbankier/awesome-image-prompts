@@ -49,12 +49,26 @@ Return one flat departure board poster at {OUTPUT_SIZE} in 16:9. Do not place it
 
 Confirm the result reads as one departure board poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: destinations and times in strict rows with one service alert band. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Night Platform Departure Board Graphic](samples/night-platform-departure-board-graphic/night-platform-departure-board-graphic.webp)
 
-Expected result: split-flap rhythm rendered as clean editorial typography. Layout: destinations and times in strict rows with one service alert band. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:17:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [night-platform-departure-board-graphic.prompt.txt](samples/night-platform-departure-board-graphic/night-platform-departure-board-graphic.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `9679dc94a9e38ab4874413da5eef28d4bd16d43b73c27450779b1d3504eb8454`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four destination/time pairs stay aligned in the split-flap grid above one full-width amber service alert.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

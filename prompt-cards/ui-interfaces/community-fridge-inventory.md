@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional community-fridge inventory view. Check the assigned composition, then verify the specific direction: use plain visual hierarchy and avoid food-safety, freshness, or nutrition claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Community Fridge Inventory](samples/community-fridge-inventory/community-fridge-inventory.webp)
 
-Expected result: a fictional community-fridge inventory view organized around this plan: Group supplied items by shelf and pickup window with quantity, added date, and discard-state labels. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:58:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [community-fridge-inventory.prompt.txt](samples/community-fridge-inventory/community-fridge-inventory.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `5bc291cd297613ba48729d063fd327adff90d54a5d7fc3feed24d0bf3e733435`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Community Fridge Inventory render makes "find an item by shelf and pickup window without making freshness claims" primary and keeps "CEDAR COMMUNITY FRIDGE", "Upper shelf Apples / 6 / added 14 Sep / pickup by 18:…", "Middle shelf Rice boxes / 3 / added 14 Sep / pickup b…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Community Fridge Inventory manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

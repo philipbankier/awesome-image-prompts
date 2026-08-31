@@ -49,12 +49,26 @@ Return one clean 3D collectible toy render at {OUTPUT_SIZE} in 4:5, with the pro
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: figure centered on a plain plinth with one front three-quarter view and package behind. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tin Orbit Collectible Figure](samples/tin-orbit-collectible-figure/tin-orbit-collectible-figure.webp)
 
-Expected result: a compact tin-suited explorer has a round visor and crescent utility pack. Layout: figure centered on a plain plinth with one front three-quarter view and package behind. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:59:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tin-orbit-collectible-figure.prompt.txt](samples/tin-orbit-collectible-figure/tin-orbit-collectible-figure.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `d75859550cbddbf3d5698587627fa4a261201a79a577a707b2f8b64d9a85f6cf`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one original astronaut figure, attached crescent pack, plinth, and titled package are fully visible with coherent geometry and no franchise cues.
+- Known misses: The articulated-looking joints are visual design details and do not prove movable articulation.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one responsive request interface for the fictional "Morrowfield Park Picnic Request Flow" concept. The concept is a fictional park picnic request flow.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review a four-step fictional picnic request before submission the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only LANTERN PARK PICNIC REQUEST; steps Zone, Date, Group, Review; selected zone Cedar Lawn; date 21 Sep; group 18; note No amplified sound; status REQUEST DRAFT / NONBINDING; button REVIEW REQUEST; fictional copy, no permit, fee, availability, or policy claim. Use a four-step path for zone, date, group details, and review with a nonbinding status notice. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a responsive 1440-pixel landscape web canvas that also supports touch. Avoid legal, permit, fee, availability, accessibility, or policy claims beyond supplied fictional copy. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 3:2 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

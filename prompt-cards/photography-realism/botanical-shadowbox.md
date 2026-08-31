@@ -63,12 +63,30 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an original botanical shadowbox assembled from fictional or otherwise authorized specimens. Check the assigned composition, then verify the specific direction: use project-authored labels, archival lighting, and no species, medicinal, toxicity, or provenance claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Botanical Shadowbox](samples/botanical-shadowbox/botanical-shadowbox.webp)
 
-Expected result: an original botanical shadowbox assembled from fictional or otherwise authorized specimens organized around this plan: Assign separate image sources to leaf form, seed pod, and neutral mounting texture, then keep each specimen in its own labeled cell. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:03:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [botanical-shadowbox.prompt.txt](samples/botanical-shadowbox/botanical-shadowbox.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `0cb895c8c1d2f710a690252c3364e3d58a19bec3b18b66bb9d33272287e00836`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final keeps the serrated leaf, three-lobed pod, and neutral fiber in separate cells, with `LEAF 01`, `POD 02`, and `FIBER 03` each legible once.
+- Known misses: No material visible miss; the three source roles stay separated and no extra label text appears.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-leaf-form.webp](samples/botanical-shadowbox/input-01-leaf-form.webp): project-authored fictional leaf form input
+  - [input-02-seed-pod.webp](samples/botanical-shadowbox/input-02-seed-pod.webp): project-authored fictional seed pod input
+  - [input-03-mounting-texture.webp](samples/botanical-shadowbox/input-03-mounting-texture.webp): project-authored fictional mounting texture input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable multi-image fidelity, continuity, or composition.

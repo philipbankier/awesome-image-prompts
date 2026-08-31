@@ -49,12 +49,26 @@ Return one flat volunteer orientation poster at {OUTPUT_SIZE} in 2:3. Do not pla
 
 Confirm the result reads as one volunteer orientation poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: orientation title first, role map second, exact arrival details last. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Common Thread Volunteer Orientation Poster](samples/common-thread-volunteer-orientation-poster/common-thread-volunteer-orientation-poster.webp)
 
-Expected result: colored threads joining five simple role icons. Layout: orientation title first, role map second, exact arrival details last. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [common-thread-volunteer-orientation-poster.prompt.txt](samples/common-thread-volunteer-orientation-poster/common-thread-volunteer-orientation-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `c7399354b30cc2fb1977dcca47808df5ac9e064727f3f058bc1de15573e7687b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Five labeled role icons form a linked circular map beneath the WELCOME hierarchy and above the date.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

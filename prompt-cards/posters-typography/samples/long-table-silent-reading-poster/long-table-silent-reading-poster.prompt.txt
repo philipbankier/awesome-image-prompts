@@ -1,0 +1,19 @@
+Final targeted refinement for the rendered sample of the Long Table Silent Reading Poster Prompt Card.
+
+Edit the supplied second-attempt poster. Preserve all text, colors, typography, margins, table, seven open blank books, first six shaded lamps, and every other visual detail exactly.
+
+ONLY CORRECTION
+Remove the extra far-right shaded lamp that appears after the seventh and final open book. Replace that lamp with clean empty cream background. The corrected tabletop must end with the seventh open book and contain exactly seven books and exactly six lamps, in this left-to-right order:
+book, lamp, book, lamp, book, lamp, book, lamp, book, lamp, book, lamp, book.
+
+Keep the exact visible copy unchanged:
+THE LONG TABLE
+SILENT READING NIGHT
+THURSDAY, OCTOBER 16
+7 PM
+BRAMBLE HALL
+BRING ANY BOOK
+
+Do not add, delete, move, misspell, or restyle any other element. No new text, marks, objects, pseudo-writing, signature, watermark, frame, or mockup.
+
+Return one corrected flat 2:3 poster at 1024 x 1536 pixels.

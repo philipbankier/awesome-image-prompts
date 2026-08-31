@@ -1,0 +1,17 @@
+REFERENCE INPUT
+Use the attached authorized project-authored sketch folding-stool-feature-callout--input-01-mechanism-sketch.png only as a structural guide for the visible stool geometry. Preserve the low rounded-square seat, two crossing inverted-U tubular leg frames, central through-pivot, paired short stabilizing links, foot bends, and seat attachment landmarks. Do not reproduce sketch marks or invent hidden mechanisms.
+
+SCENE
+Create a spare product-demonstration studio on a pale warm-gray seamless surface, lit by one broad diffused key from upper left, soft frontal fill, and restrained grounded shadows.
+
+SUBJECT
+Show exactly one fictional Foldline stool fully open and stable in a clear front side-three-quarter 70 mm product view. Use a warm sand molded-plywood seat with a matte clear finish; two graphite powder-coated steel tube leg frames; one brushed-steel central through-pin with a slim washer on each visible side; black rubber foot sleeves; and two graphite flat stabilizing links.
+
+DETAILS
+Highlight only the central cross-pivot. Use one thin rust-orange circular ring around the visible pivot, one short leader line, and one small circular inset showing the same pivot stack at larger scale. Render exactly CENTER PIVOT beside the inset and no other text. The ring and inset explain the declared geometry without measurement or performance claim.
+
+CONSTRAINTS
+Keep every leg, brace, link, seat attachment, washer, and hinge mechanically traceable. No impossible fold, disconnected brace, floating fastener, second feature, exploded component, load rating, safety or ergonomics claim, certification, dimension, real brand, copied stool, extra product, person, tool, logo, pseudo-text, signature, or watermark.
+
+OUTPUT INTENT
+Return one polished feature-callout image at 1536 x 1024 in 3:2. The complete stool, highlighted pivot, inset, and exact label must be fully visible and immediately understandable.

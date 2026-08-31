@@ -51,12 +51,26 @@ Return one warm editorial still life at {ASPECT_RATIO}, with clear paper detail,
 
 Count packets and tools, compare visible text with the approved list, and inspect paper, seed, metal, and table textures for coherent scale and lighting.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Kitchen-Table Seed Catalog Still Life](samples/kitchen-table-seed-catalog-still-life/kitchen-table-seed-catalog-still-life.webp)
 
-Expected result: a believable working-table photograph with fictional packets, useful gardening details, and no accidental commercial identity.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:03:35Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [kitchen-table-seed-catalog-still-life.prompt.txt](samples/kitchen-table-seed-catalog-still-life/kitchen-table-seed-catalog-still-life.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `701d7dc3e2dd10cdf9196cd5afa3ce4182d8f5cbc8d713487c2b18a1be584039`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final keeps three packets titled `PEA`, `BEAN`, and `DILL` beside a scoop and twine, but nine loose round seeds are visible on the tabletop.
+- Known misses: The Card requests exactly eight loose seeds, while the accepted final shows nine; no extra readable copy appears.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use only fictional packet designs and project-owned or authorized props and references. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

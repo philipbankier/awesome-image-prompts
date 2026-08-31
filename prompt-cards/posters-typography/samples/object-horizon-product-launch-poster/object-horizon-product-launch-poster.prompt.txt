@@ -1,0 +1,23 @@
+Use case: rendered sample for the Object Horizon Product Launch Poster Prompt Card.
+Asset type: one flat fictional product-launch poster made from the attached project-generated reference, no mockup.
+
+REFERENCE INPUT
+Use the attached authorized project-owned image only as the visual reference for the fictional HALO ONE study light. Preserve the exact recognizable silhouette and proportions: matte-black cylindrical base, centered slender black stem, broad thin glowing white circular top disc, front three-quarter view, and no visible mark or control. Preserve the relationship among base, stem, and disc. You may change only the background, surface, scale within the poster, and light color. Do not infer rear geometry or add product features.
+
+SUBJECT BRIEF
+Create one 4:5 launch poster for HALO ONE, a fictional project-authored study-light concept for a design-object audience.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE FOUR LINES
+HALO ONE
+A STUDY LIGHT
+LAUNCHING SEPTEMBER 9
+VIEW THE OBJECT
+
+VISUAL SYSTEM
+Center the preserved product low on the page. Pass exactly one thin horizontal horizon of coral-to-cobalt light behind the upper stem. Leave open midnight-blue space above for the four exact lines, using original wide geometric uppercase in cream and pale blue. Keep a strict top-to-bottom hierarchy, 8% margins, strong silhouette contrast, and all copy floating in open space rather than touching the product.
+
+CONSTRAINTS
+Render only the exact manifest. No specification, price, performance claim, controls, cable, extra product, hand, person, sponsor, brand mark, logo, pseudo-writing, signature, watermark, frame, wall, device, or merchandise mockup.
+
+OUTPUT INTENT
+Return one flat 4:5 product-launch poster at 1024 x 1280 pixels.

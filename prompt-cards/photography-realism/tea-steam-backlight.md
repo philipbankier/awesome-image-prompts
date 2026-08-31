@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates steam rising from an unbranded ceramic cup in backlight. Check the assigned composition, then verify the specific direction: use realistic condensation and exposure, a plain surface, and no ingredient, wellness, temperature-safety, or brand claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tea Steam Backlight](samples/tea-steam-backlight/tea-steam-backlight.webp)
 
-Expected result: steam rising from an unbranded ceramic cup in backlight organized around this plan: Place the cup low and dark against a bright window so one twisting steam plume remains visible. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:45:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tea-steam-backlight.prompt.txt](samples/tea-steam-backlight/tea-steam-backlight.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `65fd81a3b87c762eb8ef5ca126a7e282225a148a3a05b27834061c79acc3777e`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted portrait frame places one dark tea cup low in the composition while a twisting steam column catches window backlight above it.
+- Known misses: No material visible miss; the single cup, steam shape, and restrained tonal separation remain clear without packaging or wellness claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an original watercolor palette and brushes after an abstract painting session. Check the assigned composition, then verify the specific direction: use natural window light, credible pigment blooms, no copied artwork, no artist identity, and no signature. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Watercolor Palette After Use](samples/watercolor-palette-after-use/watercolor-palette-after-use.webp)
 
-Expected result: an original watercolor palette and brushes after an abstract painting session organized around this plan: Place the wet palette beside stained water, three brushes, and a blank-edged project-authored color study. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:58:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [watercolor-palette-after-use.prompt.txt](samples/watercolor-palette-after-use/watercolor-palette-after-use.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `637cb75f844f20b6e6de1f7bde8be4599493a59fbf7d734df87bbc349788fb39`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted overhead final shows a wet used palette, stained water, two brushes, and one loose abstract color study on the work surface.
+- Known misses: The Card requests three brushes, but only two are visible; the pigment residue and unfinished studio state otherwise remain clear without signatures or readable marks.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

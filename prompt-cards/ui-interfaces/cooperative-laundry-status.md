@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a cooperative laundry-room status display. Check the assigned composition, then verify the specific direction: use simple icons and no claim that displayed states are connected to real equipment. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Cooperative Laundry Status](samples/cooperative-laundry-status/cooperative-laundry-status.webp)
 
-Expected result: a cooperative laundry-room status display organized around this plan: Show machine states, estimated fictional cycle times, queue etiquette, and one maintenance notice at distance-readable scale. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:03:35Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [cooperative-laundry-status.prompt.txt](samples/cooperative-laundry-status/cooperative-laundry-status.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `9a74159b8532ee5e6d110e796aa365feb719073693d0de70e1b3dce39bc990cc`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Cooperative Laundry Status render makes "scan fictional machine states from across the room" primary and keeps "WILLOW HOUSE LAUNDRY", "Washer 1 AVAILABLE", "Washer 2 18 MIN" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Cooperative Laundry Status manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

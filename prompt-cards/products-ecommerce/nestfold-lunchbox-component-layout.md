@@ -49,12 +49,26 @@ Return one clean component layout at {OUTPUT_SIZE} in 1:1, with the product full
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: centered exploded stack with equal spacing and one concise caption line. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Nestfold Lunchbox Component Layout](samples/nestfold-lunchbox-component-layout/nestfold-lunchbox-component-layout.webp)
 
-Expected result: lid, tray, divider, seal, and base form a precise vertical sequence. Layout: centered exploded stack with equal spacing and one concise caption line. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:48:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [nestfold-lunchbox-component-layout.prompt.txt](samples/nestfold-lunchbox-component-layout/nestfold-lunchbox-component-layout.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `3509e6d3b26721686d6df1aad73ae5879c61bcc07ec5afe7fbe8af50d5e2aad1`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the lid, seal, tray, distinct divider, and base form one compatible five-part vertical sequence, with the exact caption legible.
+- Known misses: The divider is shown seated slightly above the tray rather than as a fully detached horizontal layer.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

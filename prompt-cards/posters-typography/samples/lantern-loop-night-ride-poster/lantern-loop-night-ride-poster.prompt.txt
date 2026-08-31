@@ -1,0 +1,23 @@
+Use case: rendered sample for the Lantern Loop Night Ride Poster Prompt Card.
+Asset type: one flat fictional cycling event poster, no mockup.
+
+Create one 4:5 cycling event poster for a fictional noncompetitive night bicycle ride.
+
+SUBJECT BRIEF
+Lantern Loop is a calm all-ages ride around the invented Bellweather Reservoir. The purpose is safe, social night cycling for local residents. Build the subject around a luminous bicycle wheel traced as a safe circular route.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE LINES
+LANTERN LOOP
+NIGHT RIDE
+OCTOBER 12 • 8 PM
+BELLWEATHER GATE
+LIGHTS ON • HELMETS ON
+
+VISUAL SYSTEM
+Center one large luminous wheel-route loop. Place exactly four evenly spaced safety stations around the loop, each as a distinct simple pictogram with no text: white front light, red rear light, helmet, and hand signal. Use midnight navy, electric amber, safety coral, and pale moon-blue. Typography is original wide geometric uppercase, with the two-line title at top and the three detail lines in a compact bottom block. Use generous 8% margins, crisp high contrast, and keep all content safe for the 4:5 crop.
+
+CONSTRAINTS
+The exact manifest is closed. No other words, letters, numerals, labels, sponsors, claims, pseudo-writing, logo, signature, watermark, frame, wall, device, or merchandise mockup. Do not duplicate or clip text. Show exactly one wheel-route loop and exactly four safety stations.
+
+OUTPUT INTENT
+Return one flat 4:5 poster at 1024 x 1280 pixels.

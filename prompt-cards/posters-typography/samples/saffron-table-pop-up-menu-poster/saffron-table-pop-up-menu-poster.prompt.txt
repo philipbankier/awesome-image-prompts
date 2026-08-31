@@ -1,0 +1,26 @@
+Use case: rendered sample for the Saffron Table Pop-Up Menu Poster Prompt Card.
+Asset type: one flat fictional one-night vegetarian menu poster, no mockup.
+
+Create one 2:3 poster presenting SAFFRON TABLE, a fictional one-night vegetarian menu at the invented Lantern Court.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE ELEVEN LINES
+SAFFRON TABLE
+ONE-NIGHT VEGETARIAN MENU
+FRIDAY, AUGUST 14
+STARTER
+CHARRED CARROT • LIME
+MAIN
+SAFFRON RICE • GARDEN PEAS
+DESSERT
+CITRUS • SESAME
+7 PM • LANTERN COURT
+BOOKING REQUIRED
+
+VISUAL SYSTEM
+Place the event title and date at top. Arrange the readable three-course menu through the center in exactly three rows, each paired with one spice-colored circle like a place setting: paprika red for STARTER, saffron gold for MAIN, and citrus orange for DESSERT. Put time, venue, and booking line small at bottom. Use aubergine, saffron gold, paprika red, citrus orange, warm cream, and charcoal. Typography is original elegant humanist uppercase with course labels bold and dish lines regular. Keep 9% safe margins and generous line spacing.
+
+CONSTRAINTS
+Render only the exact manifest. No price, ingredient claim, chef name, restaurant mark, sponsor, logo, utensil text, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly three place-setting circles.
+
+OUTPUT INTENT
+Return one flat 2:3 pop-up menu poster at 1024 x 1536 pixels.

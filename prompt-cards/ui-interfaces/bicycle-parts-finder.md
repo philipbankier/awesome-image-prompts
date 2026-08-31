@@ -58,12 +58,29 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates an authorized bicycle-component matching aid. Check the assigned composition, then verify the specific direction: preserve declared geometry only and avoid fit, repair-safety, or manufacturer claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bicycle Parts Finder](samples/bicycle-parts-finder/bicycle-parts-finder.webp)
 
-Expected result: an authorized bicycle-component matching aid organized around this plan: Place the reference image beside operator-supplied dimensions, compatible fictional parts, and a comparison tray. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:53:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bicycle-parts-finder.prompt.txt](samples/bicycle-parts-finder/bicycle-parts-finder.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `df94f27aacdd87b19c9e1b9f8a16d7ce0c0097bb4f33822975e3809e56bc094d`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Bicycle Parts Finder render makes "compare three fictional crankset candidates against the supplied visible geometry" primary and keeps "CRANKSET MATCH", "supplied dimensions Arm 170 mm, ring 46 teeth, five-a…", "fictional candidates Alder 46 / visual match, Wren 44…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Bicycle Parts Finder manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-crankset.webp](samples/bicycle-parts-finder/input-01-crankset.webp): project-authored fictional crankset supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is evidence for this exact illustrative run only; it does not establish reference fidelity, identity preservation, repeatability, or promotion.

@@ -51,12 +51,26 @@ Return one 1:1 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates curling dried citrus peels arranged as an abstract texture. Check the assigned composition, then verify the specific direction: use bright window backlight, natural color variation, visible pores, and no flavor or health claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Dried Citrus Peel Macro](samples/dried-citrus-peel-macro/dried-citrus-peel-macro.webp)
 
-Expected result: curling dried citrus peels arranged as an abstract texture organized around this plan: Fill the square with overlapping spirals while keeping one translucent edge in sharp focus. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:11:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [dried-citrus-peel-macro.prompt.txt](samples/dried-citrus-peel-macro/dried-citrus-peel-macro.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `544784cb928db7c92b4f58d23fbbef70c0022dc11e40e696b24c7bfeae0a2ef9`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted square macro is filled with overlapping curled peel spirals, visible pores, varied natural color, and one sharply lit translucent edge.
+- Known misses: No material visible miss; the abstract food texture contains no label, packaging, or health implication.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

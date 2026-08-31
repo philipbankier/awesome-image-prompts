@@ -49,12 +49,26 @@ Return one flat poetry reading broadside at {OUTPUT_SIZE} in 2:3. Do not place i
 
 Confirm the result reads as one poetry reading broadside, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: generous margins, small event copy, and a high-contrast title near the center. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Quiet Voltage Poetry Reading Broadside](samples/quiet-voltage-poetry-reading-broadside/quiet-voltage-poetry-reading-broadside.webp)
 
-Expected result: thin electric lines gathering around one quiet open page. Layout: generous margins, small event copy, and a high-contrast title near the center. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:41:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [quiet-voltage-poetry-reading-broadside.prompt.txt](samples/quiet-voltage-poetry-reading-broadside/quiet-voltage-poetry-reading-broadside.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `ec91b93ac79a340679a7412801981d809461174c9f4a177e42560caa4821ef43`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One blank central page is enclosed by six colored electric lines, with the seven approved copy lines centered inside.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

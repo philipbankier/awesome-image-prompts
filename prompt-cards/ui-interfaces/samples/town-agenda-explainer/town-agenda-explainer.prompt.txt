@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one responsive civic interface for the fictional "Morrowfield Town Agenda Explainer" concept. The concept is a fictional town-meeting agenda explainer.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make read a plain-language fictional agenda summary and open its source note the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD TOWN FORUM / FICTIONAL; 18:00 Welcome / summary Meeting opens; 18:15 Garden Shed Proposal / summary Discuss sample location; 18:45 Evening Bus Study / summary Review fictional survey; 19:20 Questions; source drawer Project-authored sample agenda; no official status, legal interpretation, or voting guidance. Present supplied agenda items as a timeline with plain-language summaries and a source-note drawer. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a responsive 1440-pixel landscape web canvas that also supports touch. Use fictional proposals and do not provide legal interpretation, voting guidance, or official status. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 3:2 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

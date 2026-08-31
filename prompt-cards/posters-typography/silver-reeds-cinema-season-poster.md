@@ -49,12 +49,26 @@ Return one flat cinema season poster at {OUTPUT_SIZE} in 2:3. Do not place it in
 
 Confirm the result reads as one cinema season poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: season title in a wide upper band and a disciplined four-film list below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Silver Reeds Cinema Season Poster](samples/silver-reeds-cinema-season-poster/silver-reeds-cinema-season-poster.webp)
 
-Expected result: film frames dissolving into reeds reflected in silver water. Layout: season title in a wide upper band and a disciplined four-film list below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:18:02Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [silver-reeds-cinema-season-poster.prompt.txt](samples/silver-reeds-cinema-season-poster/silver-reeds-cinema-season-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `5044651752429862793a67f5b42529acb7ef260d7a1cd7fe30730137691d3897`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four complete film-strip rectangles sit over the water reflection, with only the fourth dissolving into reeds.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

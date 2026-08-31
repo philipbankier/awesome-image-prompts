@@ -57,12 +57,28 @@ Return one clean accessory comparison board at {OUTPUT_SIZE} in 1:1, with the pr
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: case centered with straps aligned to cardinal directions and no duplicate watch bodies. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Orbit Watch Strap Comparison](samples/orbit-watch-strap-comparison/orbit-watch-strap-comparison.webp)
 
-Expected result: one unchanged round case anchors four radial strap options. Layout: case centered with straps aligned to cardinal directions and no duplicate watch bodies. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:30:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [orbit-watch-strap-comparison.prompt.txt](samples/orbit-watch-strap-comparison/orbit-watch-strap-comparison.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `daad17c595b821ababca98dd3a735001fd8d61b6497f9a1df8f0f2035a3d8a62`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly one preserved watch head anchors four complete, distinct strap pairs at the cardinal directions without a duplicate case.
+- Known misses: The radial arrangement is a visual comparison and does not establish fit or compatibility.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/orbit-watch-strap-comparison/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

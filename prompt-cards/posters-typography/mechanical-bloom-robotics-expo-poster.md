@@ -49,12 +49,26 @@ Return one flat technology expo poster at {OUTPUT_SIZE} in 16:9. Do not place it
 
 Confirm the result reads as one technology expo poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: mechanism on the left with expo title, categories, and access details on the right. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Mechanical Bloom Robotics Expo Poster](samples/mechanical-bloom-robotics-expo-poster/mechanical-bloom-robotics-expo-poster.webp)
 
-Expected result: simple linkages open into a flower-like mechanism. Layout: mechanism on the left with expo title, categories, and access details on the right. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:08:57Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [mechanical-bloom-robotics-expo-poster.prompt.txt](samples/mechanical-bloom-robotics-expo-poster/mechanical-bloom-robotics-expo-poster.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `e6df6b5c7c52c24030a946918d256872300003303290702f7576bcc1e42536cb`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The six-petal linkage mechanism balances the seven-line expo details in a strong left-to-right layout.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

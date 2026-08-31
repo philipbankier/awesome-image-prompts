@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates frost crystals along the spokes of an unbranded bicycle wheel. Check the assigned composition, then verify the specific direction: use blue morning shade, a restrained warm rim light, and physically plausible frost distribution. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Frosted Bicycle Spokes](samples/frosted-bicycle-spokes/frosted-bicycle-spokes.webp)
 
-Expected result: frost crystals along the spokes of an unbranded bicycle wheel organized around this plan: Crop through the hub so spoke lines radiate beyond frame and a few crystals catch focus. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:22:59Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [frosted-bicycle-spokes.prompt.txt](samples/frosted-bicycle-spokes/frosted-bicycle-spokes.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `0edb6e9d408eb673f65dd712ed9a33d355d3824db6a9576eb0cfc48e2961a16f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted portrait macro radiates frost-coated spokes from the hub beyond the crop, with dense crystalline texture and a restrained warm rim against cool shade.
+- Known misses: No material visible miss; the hub, spoke geometry, frost, and shallow-focus treatment remain coherent without a bicycle brand.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -58,12 +58,29 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a makerspace machine-booking calendar. Check the assigned composition, then verify the specific direction: use fictional machine names and avoid safety certification or operator-qualification claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Makerspace Machine Booking](samples/makerspace-machine-booking/makerspace-machine-booking.webp)
 
-Expected result: a makerspace machine-booking calendar organized around this plan: Pair a resource list with a day timeline, eligibility notes, and a booking summary drawer. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:15:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [makerspace-machine-booking.prompt.txt](samples/makerspace-machine-booking/makerspace-machine-booking.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `61f51d3bf098ae95824f7fe37b11075811c9aaaebd1e73e5781ecc6c57b6d52d`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Makerspace Machine Booking render makes "select a fictional machine and review one available booking slot" primary and keeps "CEDAR MAKERSPACE BOOKING", "resources Laser A, Mill B, Sewing C", "day Tuesday" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Makerspace Machine Booking manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-layout-sketch.webp](samples/makerspace-machine-booking/input-01-layout-sketch.webp): project-authored fictional layout sketch supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. The Placeholder Preview is not evidence of sketch adherence, repeatability, or production reliability.
+This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish sketch adherence, repeatability, production reliability, or promotion.

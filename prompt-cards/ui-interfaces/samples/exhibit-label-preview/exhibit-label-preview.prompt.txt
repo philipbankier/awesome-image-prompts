@@ -1,0 +1,43 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-vessel.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned museum-object reference
+Primary request: create a fictional hand-built ceramic vessel called "RIDGE CUP 03"
+Subject: one squat terracotta vessel with a triangular cream slip band and two small loop handles
+Style/medium: photorealistic museum catalog photography
+Composition/framing: complete object centered at three-quarter view with generous margin
+Lighting/mood: neutral museum copy light
+Constraints: plain warm-gray backdrop; no damage, stand, person, provenance marks, signatures, logos, watermark, or extra objects
+
+END CALL 01
+
+CALL 02
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-vessel.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop publishing interface for the fictional "Morrowfield Exhibit Label Preview" concept. The concept is a museum exhibit-label preview for an authorized object.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make preview the supplied fictional vessel and approved wall-label facts the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only RIDGE CUP 03; Terracotta and cream slip; 18 cm high; made for this project in 2030; credit Project sample, Morrowfield Studio; wall label 120 x 180 mm; object facts supplied; no value, historical attribution, or invented provenance. Place the reference image beside supplied title, object facts, credit line, and wall-label scale preview. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 13-inch landscape desktop viewport with mouse and keyboard input. Preserve only declared object features and do not invent provenance, attribution, value, or historical facts. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+AUTHORIZED REFERENCE INPUT
+Use the attached project-generated authorized reference, labeled Image 1 only after confirming authority to use it for this task. Preserve only the squat terracotta vessel, triangular cream slip band, two loop handles, and complete three-quarter silhouette; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:10 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 02

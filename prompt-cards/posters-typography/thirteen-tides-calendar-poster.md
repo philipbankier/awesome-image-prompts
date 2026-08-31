@@ -49,12 +49,26 @@ Return one flat wall calendar poster at {OUTPUT_SIZE} in 3:4. Do not place it in
 
 Confirm the result reads as one wall calendar poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: calendar grid below a narrow title and compact legend. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Thirteen Tides Calendar Poster](samples/thirteen-tides-calendar-poster/thirteen-tides-calendar-poster.webp)
 
-Expected result: alternating high and low tide arcs organize each month block. Layout: calendar grid below a narrow title and compact legend. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:25:08Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [thirteen-tides-calendar-poster.prompt.txt](samples/thirteen-tides-calendar-poster/thirteen-tides-calendar-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `c52e44e06423859cb583d58012ab5663a661de7b73fd22e7b189f03c9b5d6663`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Thirteen numbered blocks form 4-4-5 rows with alternating high/low arcs beneath the legend and above the disclaimer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

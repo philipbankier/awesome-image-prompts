@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop mapping interface for the fictional "Morrowfield Trail Restoration Issue Map" concept. The concept is a fictional trail-restoration issue map.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make filter fictional trail issues and read the selected evidence note the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR LOOP RESTORATION MAP / FICTIONAL; invented zones Fern Bend, Stone Rise, Lantern Gap; issues T-14 erosion / High, T-18 fallen branch / Medium, T-22 faded marker / Low; filters Surface, Obstruction, Marker; selected T-18; evidence note Volunteer photo supplied later; direct labels; not navigation or public-safety guidance. Pair a simplified project map with issue filters, severity labels, and an evidence-note panel using invented locations. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Pair each supplied symbol with a direct label, avoid real navigation or public-safety guidance, and require human accessibility review. Apply soft stone, plum, dusty teal, and pale gold with clear hierarchy and modest surface depth without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

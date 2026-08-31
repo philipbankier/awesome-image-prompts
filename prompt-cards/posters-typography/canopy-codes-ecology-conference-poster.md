@@ -49,12 +49,26 @@ Return one flat conference poster at {OUTPUT_SIZE} in 2:3. Do not place it in a 
 
 Confirm the result reads as one conference poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: conference title above a three-track schedule mapped onto the branches. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Canopy Codes Ecology Conference Poster](samples/canopy-codes-ecology-conference-poster/canopy-codes-ecology-conference-poster.webp)
 
-Expected result: branching canopy veins double as a session network. Layout: conference title above a three-track schedule mapped onto the branches. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:36:22Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [canopy-codes-ecology-conference-poster.prompt.txt](samples/canopy-codes-ecology-conference-poster/canopy-codes-ecology-conference-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `7ab14174e2e8b90f272e3120de8bcc6cf42c4fda68b76e0b8f4c6a8e7a5997b2`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The canopy network separates SOIL, WATER, and CANOPY into three labeled panels beneath the title and above the date.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

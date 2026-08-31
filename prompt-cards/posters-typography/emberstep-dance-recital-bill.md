@@ -49,12 +49,26 @@ Return one flat dance recital bill at {OUTPUT_SIZE} in 2:3. Do not place it in a
 
 Confirm the result reads as one dance recital bill, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: diagonal motion through the center with cast and venue details on a stable baseline. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Emberstep Dance Recital Bill](samples/emberstep-dance-recital-bill/emberstep-dance-recital-bill.webp)
 
-Expected result: overlapping footfall arcs resembling sparks on a dark stage. Layout: diagonal motion through the center with cast and venue details on a stable baseline. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:46:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [emberstep-dance-recital-bill.prompt.txt](samples/emberstep-dance-recital-bill/emberstep-dance-recital-bill.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `af9805b578197982866840b0d29d976faf17f15afa1328512fbe7f8fab00fc22`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Six copper footfall arcs descend diagonally through the dark field while the title and footer stay stable and readable.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

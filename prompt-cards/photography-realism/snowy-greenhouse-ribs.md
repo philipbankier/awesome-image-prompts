@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates snow tracing the ribs of an empty greenhouse. Check the assigned composition, then verify the specific direction: use diffuse white light, accurate condensation, restrained contrast, and no structural-performance claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Snowy Greenhouse Ribs](samples/snowy-greenhouse-ribs/snowy-greenhouse-ribs.webp)
 
-Expected result: snow tracing the ribs of an empty greenhouse organized around this plan: Look upward from one corner so repeated frames arc toward a translucent roof with uneven snow bands. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:40:19Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [snowy-greenhouse-ribs.prompt.txt](samples/snowy-greenhouse-ribs/snowy-greenhouse-ribs.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `d877fbf09b1979a942c78b685fb2ee7fd036027cc0fb25a7ff605ba24ea85e63`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted wide interior repeats empty curved greenhouse ribs beneath uneven snow bands, with condensation above and a damp floor below.
+- Known misses: No material visible miss; structure, snow loading, moisture, and unoccupied winter atmosphere remain coherent without site identity.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -49,12 +49,26 @@ Return one clean jewelry product still life at {OUTPUT_SIZE} in 4:5, with the pr
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: pendant leads in the center with matching earrings balanced above. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Frostpetal Jewelry Still Life](samples/frostpetal-jewelry-still-life/frostpetal-jewelry-still-life.webp)
 
-Expected result: brushed silver forms rest on translucent folded vellum. Layout: pendant leads in the center with matching earrings balanced above. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [frostpetal-jewelry-still-life.prompt.txt](samples/frostpetal-jewelry-still-life/frostpetal-jewelry-still-life.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `7ce2dadcf16374f6cc463c63f27a91c2b9aad4e9dc56a841299b05896d84ef66`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one necklace and exactly two matching earrings use the same six-lobed brushed motif, remain fully visible, and include no gemstone or precious-metal claim.
+- Known misses: The clasp is outside the focal area as requested and is not presented as a product feature.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

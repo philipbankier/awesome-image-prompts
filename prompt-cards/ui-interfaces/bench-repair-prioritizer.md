@@ -52,11 +52,26 @@ Return one 16:10 concept image with readable hierarchy and no unrequested screen
 
 Confirm the image communicates a fictional park-bench repair triage board. Check the assigned composition, then verify the specific direction: use illustrative conditions and avoid structural-safety, procurement, or municipal-status claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bench Repair Prioritizer](samples/bench-repair-prioritizer/bench-repair-prioritizer.webp)
 
-Expected result: a fictional park-bench repair triage board organized around this plan: Combine anonymized issue cards, an invented zone map, urgency labels, and a work-note pane. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:54:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bench-repair-prioritizer.prompt.txt](samples/bench-repair-prioritizer/bench-repair-prioritizer.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `304ab721e2411487de0604dbb64523d4f1b764dc54006aee6f513909d9a96d70`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:10 Bench Repair Prioritizer render makes "select the next anonymized bench issue for fictional review" primary and keeps "BRACKEN PARK BENCH REVIEW", "invented zones North Walk, Pond Edge, Cedar Gate", "B-14 loose slat / HIGH / review" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Bench Repair Prioritizer manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional community-festival itinerary with supplied access notes. Check the assigned composition, then verify the specific direction: use direct labels and never infer that a venue or route is compliant beyond supplied facts. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Accessible Festival Itinerary](samples/accessible-festival-itinerary/accessible-festival-itinerary.webp)
 
-Expected result: a fictional community-festival itinerary with supplied access notes organized around this plan: Stack time-ordered events with venue zones, rest-space markers, and operator-provided access information. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:53:11Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [accessible-festival-itinerary.prompt.txt](samples/accessible-festival-itinerary/accessible-festival-itinerary.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `d822a3346254bc06dee4c0d302878a29efe5730bb076c090debf9b70f16db78e`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Accessible Festival Itinerary render makes "choose a time-ordered festival plan and locate organizer-supplied rest spaces" primary and keeps "Lantern Commons Festival", "Saturday 14 September", "10:00 Opening at Meadow Stage" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Accessible Festival Itinerary manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

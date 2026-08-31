@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop monitoring interface for the fictional "Morrowfield Compost Cycle Dashboard" concept. The concept is a fictional community-compost cycle dashboard.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review the next fictional compost turning note and pickup slot the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR COMPOST CYCLES; Batch C-14 / Day 9 / illustrative 54 C / moisture 48% / turn Tuesday; Batch C-15 / Day 4 / illustrative 41 C / moisture 55% / observe; trends sample only; note Add dry leaves; pickup Saturday 10:00; no sensor or safety claim. Show batch cards, illustrative temperature and moisture trends, turning notes, and a sample pickup schedule. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Avoid food-safety, agricultural, environmental-impact, or sensor-accuracy claims. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

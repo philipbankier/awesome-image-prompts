@@ -2,27 +2,27 @@
 
 Prompt Cards are fast, copy-ready starting points. Use one when you need a strong prompt without a full evaluation workflow. For production-critical work, switch to the linked flagship Recipe or the nearest entry in the [Recipe index](../skills/image-recipe-library/references/recipe-index.md).
 
-The atlas contains 541 independently authored Cards across 13 categories. Every Card currently has a clearly labeled Placeholder Preview. Some Cards link to a deeper Recipe, but Recipe-owned illustrative samples do not turn the Cards into tested or promoted prompts.
+The atlas contains 541 independently authored Cards across 13 categories. 273 Cards have one recorded Rendered Sample and 268 retain a clearly labeled Placeholder Preview. Some Cards link to a deeper Recipe, but Recipe-owned illustrative samples do not transfer evidence to the Card or turn it into a promoted prompt.
 
 The star marks a Card that expands into a full Recipe.
 
 ## Category index
 
-| Category                                                 | Cards |
-| -------------------------------------------------------- | ----: |
-| [UI & Interfaces](#ui--interfaces)                       |    73 |
-| [Charts & Infographics](#charts--infographics)           |    53 |
-| [Posters & Typography](#posters--typography)             |    90 |
-| [Products & E-commerce](#products--e-commerce)           |    42 |
-| [Brand & Logos](#brand--logos)                           |    27 |
-| [Architecture & Spaces](#architecture--spaces)           |    12 |
-| [Photography & Realism](#photography--realism)           |    78 |
-| [Illustration & Art](#illustration--art)                 |    59 |
-| [Characters & People](#characters--people)               |    31 |
-| [Scenes & Storytelling](#scenes--storytelling)           |    21 |
-| [History & Classical Themes](#history--classical-themes) |    16 |
-| [Documents & Publishing](#documents--publishing)         |    11 |
-| [Other Use Cases](#other-use-cases)                      |    28 |
+| Category                                                 | Cards | Rendered |
+| -------------------------------------------------------- | ----: | -------: |
+| [UI & Interfaces](#ui--interfaces)                       |    73 |       73 |
+| [Charts & Infographics](#charts--infographics)           |    53 |        0 |
+| [Posters & Typography](#posters--typography)             |    90 |       80 |
+| [Products & E-commerce](#products--e-commerce)           |    42 |       42 |
+| [Brand & Logos](#brand--logos)                           |    27 |        0 |
+| [Architecture & Spaces](#architecture--spaces)           |    12 |        0 |
+| [Photography & Realism](#photography--realism)           |    78 |       78 |
+| [Illustration & Art](#illustration--art)                 |    59 |        0 |
+| [Characters & People](#characters--people)               |    31 |        0 |
+| [Scenes & Storytelling](#scenes--storytelling)           |    21 |        0 |
+| [History & Classical Themes](#history--classical-themes) |    16 |        0 |
+| [Documents & Publishing](#documents--publishing)         |    11 |        0 |
+| [Other Use Cases](#other-use-cases)                      |    28 |        0 |
 
 ## UI & Interfaces
 

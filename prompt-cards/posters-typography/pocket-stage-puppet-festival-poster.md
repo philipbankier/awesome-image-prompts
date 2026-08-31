@@ -49,12 +49,26 @@ Return one flat puppet festival poster at {OUTPUT_SIZE} in 3:4. Do not place it 
 
 Confirm the result reads as one puppet festival poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: festival name on the proscenium with program highlights stacked below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Pocket Stage Puppet Festival Poster](samples/pocket-stage-puppet-festival-poster/pocket-stage-puppet-festival-poster.webp)
 
-Expected result: paper stage curtains reveal three abstract puppet silhouettes. Layout: festival name on the proscenium with program highlights stacked below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:41:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [pocket-stage-puppet-festival-poster.prompt.txt](samples/pocket-stage-puppet-festival-poster/pocket-stage-puppet-festival-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `f4de0217f1f112fdac12e93027e0dbe7a85b20fee3c1ffa1d0c254ee972796c6`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three abstract puppets occupy the paper proscenium, with the title above and five logistics lines below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

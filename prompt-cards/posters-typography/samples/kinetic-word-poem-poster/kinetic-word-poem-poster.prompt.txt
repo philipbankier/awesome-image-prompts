@@ -1,0 +1,22 @@
+Use case: rendered sample for the Kinetic Word Poem Poster Prompt Card.
+Asset type: one flat portrait typographic poster, no mockup.
+Card prompt instantiated with a wholly fictional, project-authored poem.
+
+SCENE
+Create one portrait typographic poster on a warm uncoated ivory field with subtle project-owned paper grain, with no representational scene beyond four restrained cobalt arcs.
+
+SUBJECT
+Use this exact poem as the complete visual subject, preserving the declared top-to-bottom reading order:
+rain turns
+the small wheel
+morning catches
+one bright spoke
+
+DETAILS
+Express a slow wheel gathering speed through original condensed rounded letterforms, scale, spacing, rotation, and overlap. Emphasis map: “rain turns” small and level; “the small wheel” follows one gentle clockwise arc; “morning catches” grows larger and rises; “one bright spoke” is largest and horizontal. Use cobalt blue, vermilion, and charcoal. Keep broad ivory margins, a centered circular focal zone, and a quiet lower-right corner. Authorized repetition: none. Render every supplied word exactly once.
+
+CONSTRAINTS
+Preserve exact spelling, capitalization, line breaks, and word order. Render only the twelve words in the four poem lines, with no title, labels, decorative alphabet noise, filler glyphs, numerals, logo, signature, watermark, frame, or extra text. Keep every word fully readable and uncropped.
+
+OUTPUT INTENT
+Return one finished 3:4 poster at 1024 x 1365 pixels. The poem must be readable in the intended sequence and its rhythm visible before close reading.

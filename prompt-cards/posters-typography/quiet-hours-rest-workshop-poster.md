@@ -49,12 +49,26 @@ Return one flat wellbeing workshop poster at {OUTPUT_SIZE} in 3:4. Do not place 
 
 Confirm the result reads as one wellbeing workshop poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: workshop title within the pocket and practical logistics in a grounded footer. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Quiet Hours Rest Workshop Poster](samples/quiet-hours-rest-workshop-poster/quiet-hours-rest-workshop-poster.webp)
 
-Expected result: a folded clock face creates a calm pocket of empty space. Layout: workshop title within the pocket and practical logistics in a grounded footer. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:48:29Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [quiet-hours-rest-workshop-poster.prompt.txt](samples/quiet-hours-rest-workshop-poster/quiet-hours-rest-workshop-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `1ffd3b2692498ef9ea44c04a79b2a221605bbfbbfceace8dda05b36441cc744a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The folded clock carries twelve hour dots and two hands above the workshop title and four-line footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

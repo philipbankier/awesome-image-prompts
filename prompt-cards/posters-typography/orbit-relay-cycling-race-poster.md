@@ -49,12 +49,26 @@ Return one flat cycling race poster at {OUTPUT_SIZE} in 2:3. Do not place it in 
 
 Confirm the result reads as one cycling race poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: motion sweeps left to right while team and registration details stay anchored. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Orbit Relay Cycling Race Poster](samples/orbit-relay-cycling-race-poster/orbit-relay-cycling-race-poster.webp)
 
-Expected result: three wheel arcs passing a luminous baton. Layout: motion sweeps left to right while team and registration details stay anchored. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:11Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [orbit-relay-cycling-race-poster.prompt.txt](samples/orbit-relay-cycling-race-poster/orbit-relay-cycling-race-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `b83c2739a214424cc6a7ddb954ef4ef50ab2d9ac07e8a199ac0152c20feef360`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three luminous wheel arcs span the field and one yellow baton travels between the cyan and yellow arcs above the detail block.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

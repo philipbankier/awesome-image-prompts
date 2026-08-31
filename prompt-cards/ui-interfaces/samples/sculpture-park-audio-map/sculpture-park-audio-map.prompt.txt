@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile map interface for the fictional "Morrowfield Sculpture Park Audio Map" concept. The concept is a fictional sculpture-park audio map.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make find the next fictional artwork and continue listening the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD SCULPTURE WALK; invented map zones Gate, Meadow, River; works Folded Wind / 2 min away / 60% listened, Stone Chorus / 5 min / new, Reed Arc / 7 min / complete; selected Folded Wind; access note Supplied level path; project-authored artwork names and map. Arrange a stylized park map above nearby works, listening progress, and supplied access notes. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use project-authored artwork names and avoid copying real park layouts or sculptures. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

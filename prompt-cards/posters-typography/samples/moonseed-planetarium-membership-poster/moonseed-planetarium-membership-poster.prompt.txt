@@ -1,0 +1,21 @@
+Use case: rendered sample for the Moonseed Planetarium Membership Poster Prompt Card.
+Asset type: one flat fictional membership-campaign poster, no mockup.
+
+Create one 4:5 poster inviting support for the fictional community Moonseed Planetarium. The audience is local families, students, and night-sky learners.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+MOONSEED PLANETARIUM
+BECOME A MEMBER
+FREE NIGHT SHOWS
+EARLY SEAT ACCESS
+GUEST PASSES
+JOIN THE ORBIT
+
+VISUAL SYSTEM
+At center, show one dark seed shell opening into a small luminous orbital diagram with exactly three gold orbit rings and one tiny pale-blue moon. Place the membership headline near the orbit. Arrange the three exact benefits as three clean rows with simple non-text dot icons below the motif. Set the concise action line in a coral capsule at bottom. Use midnight indigo, pale blue, warm gold, coral, and cream. Typography is original soft geometric uppercase. Keep generous 8% margins, crisp high contrast, and a clear top-to-bottom reading order.
+
+CONSTRAINTS
+Render only the exact manifest. No invented pricing, claim, date, address, planet name, labels, sponsors, brand, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly three orbit rings and three benefit rows.
+
+OUTPUT INTENT
+Return one flat 4:5 membership poster at 1024 x 1280 pixels.

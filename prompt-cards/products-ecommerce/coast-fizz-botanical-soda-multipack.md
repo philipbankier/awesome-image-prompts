@@ -49,12 +49,26 @@ Return one clean beverage multipack image at {OUTPUT_SIZE} in 4:5, with the prod
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: carton centered with one can forward and approved flavor copy kept legible. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Coast Fizz Botanical Soda Multipack](samples/coast-fizz-botanical-soda-multipack/coast-fizz-botanical-soda-multipack.webp)
 
-Expected result: four slim cans emerge from a wave-cut carton. Layout: carton centered with one can forward and approved flavor copy kept legible. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:35:57Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [coast-fizz-botanical-soda-multipack.prompt.txt](samples/coast-fizz-botanical-soda-multipack/coast-fizz-botanical-soda-multipack.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `579d2a3055143178c326320ead092afe172dd5bfdbc0e1ad117d851f5ad003ab`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly four matching cans emerge from the single carrier, the wave identity and approved flavor copy are legible, and no forbidden props or claims appear.
+- Known misses: The carton necessarily occludes the lower portions of the cans while keeping every can identifiable and uncropped.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

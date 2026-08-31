@@ -4,7 +4,9 @@
 
 Use a Prompt Card when you want a strong starting prompt quickly. Use a Recipe when the result depends on structured inputs, exact text or layout, reference preservation, inspection, repair, or evidence. Both routes are static, inspectable, and available to humans and agents without a website or hosted generator.
 
-The Card corpus matches the pinned upstream snapshot in total prompt count and per-category distribution. It does not claim the same Card-level image gallery, template count, or style and scene facets. See [Coverage](docs/COVERAGE.md) for the exact boundary.
+The public gallery currently records one inspected illustrative run for 273 Cards. The other 268 Cards remain clearly labeled placeholders, so generated evidence is never implied where it does not exist.
+
+The Card corpus matches the pinned upstream snapshot in total prompt count and per-category distribution. The gallery is still partial, and this repository does not claim parity in template count or fixed style and scene facets. See [Coverage](docs/COVERAGE.md) for the exact boundary.
 
 > Status: all 16 Recipes are drafts. Each has one retained illustrative output from the Codex built-in image generation tool, not GPT Image 2 API evidence, repeatability proof, promotion, or an automatically publish-ready asset. The built-in surface did not expose its exact model or hidden request settings, and the linked run records disclose visible prompt-fidelity misses.
 
@@ -38,7 +40,19 @@ A Prompt Card is not a shortened Recipe and does not inherit evidence from a lin
 
 See [Coverage](docs/COVERAGE.md) for the exact comparison with the upstream collection, operation modes, and current evidence limits.
 
-## Real examples
+## Prompt Card examples
+
+| Mobile interface | Product listing |
+| :---: | :---: |
+| [![Habitat survey mobile dashboard](prompt-cards/ui-interfaces/samples/habitat-survey-mobile-dashboard/habitat-survey-mobile-dashboard.webp)](prompt-cards/ui-interfaces/habitat-survey-mobile-dashboard.md) | [![Modular desk lamp listing hero](prompt-cards/products-ecommerce/samples/modular-desk-lamp-listing-hero/modular-desk-lamp-listing-hero.webp)](prompt-cards/products-ecommerce/modular-desk-lamp-listing-hero.md) |
+
+| Editorial photography | Event poster |
+| :---: | :---: |
+| [![Rainy-window breakfast still life](prompt-cards/photography-realism/samples/rainy-window-breakfast-still-life/rainy-window-breakfast-still-life.webp)](prompt-cards/photography-realism/rainy-window-breakfast-still-life.md) | [![Library After Dark event poster](prompt-cards/posters-typography/samples/library-after-dark-event-poster/library-after-dark-event-poster.webp)](prompt-cards/posters-typography/library-after-dark-event-poster.md) |
+
+Each linked Card includes its exact submitted prompt, output checksum, dimensions, inspection notes, known misses, rights statement, and any public supporting-input derivatives.
+
+## Recipe examples
 
 | Mobile interface | Event poster | Architecture |
 | :---: | :---: | :---: |
@@ -74,7 +88,7 @@ Every Prompt Card includes:
 1. A narrow task fit and minimum required inputs.
 2. A copy-ready prompt with declared variables.
 3. Negative constraints and a short visual check.
-4. A visible Placeholder Preview status.
+4. A visible Rendered Sample or Placeholder Preview status.
 5. Rights, provenance, and optional Recipe routing.
 
 Every Recipe adds:
@@ -100,7 +114,9 @@ Host discovery and provider behavior still require independent validation. The s
 
 ## Evidence boundary
 
-All 541 Prompt Cards currently have Placeholder Previews. That means the prompt is available, but no Card-specific Generation Run supports it.
+273 Prompt Cards have one recorded built-in-tool Rendered Sample: all 73 UI & Interfaces Cards, all 42 Products & E-commerce Cards, all 78 Photography & Realism Cards, and 80 of 90 Posters & Typography Cards. The remaining 268 Cards have Placeholder Previews and no Card-specific generation evidence.
+
+Each rendered Card records the exact submitted prompt, public derivative checksum, dimensions, inspection notes, known misses, and rights. These are single illustrative runs. They do not establish repeatability, hidden model settings, GPT Image 2 API behavior, Recipe promotion, or publish readiness.
 
 A Recipe marked `recorded` resolves to an exact prompt, local PNG, checksum, dimensions, inspection notes, and rights statement. It does not mean the Recipe is promoted. Promotion still requires four scored GPT Image 2 API runs across two materially different briefs plus one conversational smoke run. None of the illustrative built-in-tool samples count toward that gate.
 
@@ -114,6 +130,7 @@ A passing Recipe output is a Production Candidate. Exact copy, claims, brand ass
 catalog.json                              Machine-readable Card and Recipe routes
 prompt-cards/README.md                    Human-readable 541-Card index
 prompt-cards/<category>/<card-id>.md      Canonical copy-ready Prompt Card
+prompt-cards/<category>/samples/          Public Card derivatives and exact prompts
 recipes/<recipe-id>/RECIPE.md             Canonical production workflow and prompt
 recipes/<recipe-id>/recipe.json           Small Recipe routing record
 recipes/<recipe-id>/evidence.json         Run metadata and evidence status

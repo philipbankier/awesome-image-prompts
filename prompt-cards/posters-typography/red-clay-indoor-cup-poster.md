@@ -49,12 +49,26 @@ Return one flat sports tournament poster at {OUTPUT_SIZE} in 4:5. Do not place i
 
 Confirm the result reads as one sports tournament poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: tournament name on top, bracket cue in the middle, venue and date below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Red Clay Indoor Cup Poster](samples/red-clay-indoor-cup-poster/red-clay-indoor-cup-poster.webp)
 
-Expected result: a ball path carved through terracotta blocks. Layout: tournament name on top, bracket cue in the middle, venue and date below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:57:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [red-clay-indoor-cup-poster.prompt.txt](samples/red-clay-indoor-cup-poster/red-clay-indoor-cup-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `2ea3e4ca539855c147ccf8e93f52c86254dbe2d2dc392f89dabe70bb29435234`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four opening blocks narrow to two middle blocks and one final platform, with the ball path ending at the right.
+- Known misses: The bracket shows seven terracotta block positions in a 4-2-1 arrangement, one fewer than the requested eight.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

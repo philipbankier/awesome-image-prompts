@@ -49,12 +49,26 @@ Return one flat audio drama poster at {OUTPUT_SIZE} in 4:5. Do not place it in a
 
 Confirm the result reads as one audio drama poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: episode title centered with listening details following the wave baseline. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Field Frequency Radio Drama Poster](samples/field-frequency-radio-drama-poster/field-frequency-radio-drama-poster.webp)
 
-Expected result: radio-wave contours passing through an empty rural gate. Layout: episode title centered with listening details following the wave baseline. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:47:19Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [field-frequency-radio-drama-poster.prompt.txt](samples/field-frequency-radio-drama-poster/field-frequency-radio-drama-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `e149a8aaa6ff63620b18ca1aa76dfd857f642b2c74b454ba3b4a35bf1bffb898`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One empty gate is centered behind five horizontal radio-wave contours, with title, episode, and listen time in clear order.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

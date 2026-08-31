@@ -49,12 +49,26 @@ Return one flat concert series poster at {OUTPUT_SIZE} in 2:3. Do not place it i
 
 Confirm the result reads as one concert series poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: season name high, visual quartet centered, dates in a narrow lower column. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Northglass Chamber Series Poster](samples/northglass-chamber-series-poster/northglass-chamber-series-poster.webp)
 
-Expected result: four translucent instrument silhouettes crossing like panes of colored glass. Layout: season name high, visual quartet centered, dates in a narrow lower column. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:17:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [northglass-chamber-series-poster.prompt.txt](samples/northglass-chamber-series-poster/northglass-chamber-series-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `ce0314353023fa23164a5ffe79fc03e4b7a1a9c9d8765c7066b50e0d46fa0930`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four translucent instrument silhouettes cross in the center above four dates and the HARBOR ROOM venue line.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

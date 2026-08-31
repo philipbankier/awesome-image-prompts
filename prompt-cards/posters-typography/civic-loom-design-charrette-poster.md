@@ -49,12 +49,26 @@ Return one flat civic workshop poster at {OUTPUT_SIZE} in 3:4. Do not place it i
 
 Confirm the result reads as one civic workshop poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: question headline above a four-part participation schedule. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Civic Loom Design Charrette Poster](samples/civic-loom-design-charrette-poster/civic-loom-design-charrette-poster.webp)
 
-Expected result: street-grid strands woven around one open civic square. Layout: question headline above a four-part participation schedule. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [civic-loom-design-charrette-poster.prompt.txt](samples/civic-loom-design-charrette-poster/civic-loom-design-charrette-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `ff187baf6e18df38e20de7ef2b4bf544823989c0bb466f58874f34428e00a4c3`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four colored street-grid strands frame the open civic square, with four labeled step icons and the date below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

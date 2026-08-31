@@ -49,12 +49,26 @@ Return one flat digital game tournament poster at {OUTPUT_SIZE} in 16:9. Do not 
 
 Confirm the result reads as one digital game tournament poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: team callout left, central matchup field, exact stream and venue details right. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Circuit Meadow Game Tournament Poster](samples/circuit-meadow-game-tournament-poster/circuit-meadow-game-tournament-poster.webp)
 
-Expected result: pixel paths weaving through a meadow-like circuit map. Layout: team callout left, central matchup field, exact stream and venue details right. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:43:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [circuit-meadow-game-tournament-poster.prompt.txt](samples/circuit-meadow-game-tournament-poster/circuit-meadow-game-tournament-poster.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `4924b7c139a662b78e32fc7380089da9c60a5f92bf78c124eb61baeba193840d`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four luminous pixel paths converge on the central node while the four approved text blocks stay legible around the map.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

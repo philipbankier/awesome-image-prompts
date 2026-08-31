@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a cooperative maker-project kanban board. Check the assigned composition, then verify the specific direction: keep all members and projects fictional and do not imply real tool safety or delivery commitments. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Maker Project Kanban](samples/maker-project-kanban/maker-project-kanban.webp)
 
-Expected result: a cooperative maker-project kanban board organized around this plan: Use four workflow columns, concise fictional task cards, dependencies, and a selected-card detail panel. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:19:43Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [maker-project-kanban.prompt.txt](samples/maker-project-kanban/maker-project-kanban.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `5f30a6f48292f24a5f5decda656096f213dd6cef480cd800e076f2769c82e4e1`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Maker Project Kanban render makes "move one fictional maker task from build to review" primary and keeps "MORROWFIELD MAKER BOARD", "columns Ideas, Ready, Building, Review", "cards Lantern Frame / Building / depends on Cut Panels" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Maker Project Kanban manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

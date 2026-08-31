@@ -1,0 +1,22 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+SCENE
+Create one portrait mobile dashboard used by a field ecologist during offline fieldwork after light rain in the fictional Reedglass Marsh.
+
+SUBJECT
+Show the active survey Marsh Edge Survey, the current plot Plot R-07, progress 6 of 10 plots, and one dominant action labeled RECORD OBSERVATION.
+
+DETAILS
+Arrange OFFLINE; saved on device; synced 08:14, 6 observations, 2 photos, 0 unresolved flags, Next: photograph reed line, and OFFLINE / SAVED ON DEVICE in a clear single-screen hierarchy. Use deep marsh green, pale sand, cool blue, compact cards, and direct status labels, a compact map or location cue, large touch targets, and only the exact approved labels in MARSH EDGE SURVEY; PLOT R-07; 6 OF 10 PLOTS; RECORD OBSERVATION; OFFLINE; SAVED ON DEVICE; SYNCED 08:14; 6 OBSERVATIONS; 2 PHOTOS; 0 FLAGS; NEXT: PHOTOGRAPH REED LINE.
+
+CONSTRAINTS
+Keep the interface plausible on a 6.7-inch portrait mobile frame; preserve safe areas, consistent spacing, readable contrast, and a visible offline state. No extra screens, browser chrome, tiny pseudo-text, invented species, unsupported alerts, logos, watermarks, or unapproved labels.
+
+OUTPUT INTENT
+Return one polished 9:16 mobile interface at 1152 x 2048 pixels, with the current survey state and next action understandable in one glance.
+
+END CALL 01

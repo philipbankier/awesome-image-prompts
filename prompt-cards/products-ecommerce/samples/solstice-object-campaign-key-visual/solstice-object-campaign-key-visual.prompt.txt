@@ -1,0 +1,17 @@
+COMMISSION
+Create one 4:5 seasonal campaign key visual around one authorized fictional product reference. Use this independently authored concept: the preserved object casts a long geometric solstice shadow through colored paper planes.
+
+REFERENCE INPUT
+Use the attached authorized project-authored image solstice-object-campaign-key-visual--input-01-product-reference.png only as the geometry, identity, material, scale, and product-view source. Preserve exactly the vertical matte-cream ceramic oval loop, uniform thickness, flattened depth, rust-orange ceramic sphere nested into the lower-left loop and touching it at two points, and low dark-bronze rectangular base with no visible fastener.
+
+PRODUCT AND SET
+Show exactly one unchanged Solstice Object centered low. Build exactly three freestanding paper planes behind and around it: one tall muted cobalt plane, one lower warm-sand plane, and one narrow rust plane. Arrange them as original geometric set pieces without touching or hiding the product. Use one hard warm key from upper left to cast a long, crisp but natural geometric shadow from the preserved object and planes across a pale cream seamless floor.
+
+PRESENTATION
+Use the same front three-quarter 85 mm product angle as the reference, with generous protected space in the upper third. Render exactly TURN TOWARD LIGHT in the upper space using restrained dark-bronze uppercase type. Render no other text, logo, pseudo-text, signature, or watermark. Use minimal cool fill so the cream loop, orange sphere, and bronze base retain their reference material response.
+
+CONSTRAINTS
+This reference, object, and campaign are fictional and project-authored. Change only set, background, lighting, and the approved campaign line. Do not alter the loop, sphere, contact relationship, base, proportions, viewing angle, or identity. No implied function or performance, duplicate product, real brand, copied art object, person, hand, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished product campaign key visual at 1120 x 1400 in 4:5. The complete preserved object, three paper planes, long shadow, and exact campaign copy must be fully visible and uncropped.

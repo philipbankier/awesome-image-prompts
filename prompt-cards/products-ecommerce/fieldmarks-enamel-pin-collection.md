@@ -49,12 +49,26 @@ Return one clean enamel pin collection board at {OUTPUT_SIZE} in 4:5, with the p
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: pins sit in two aligned columns on a neutral backing card. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fieldmarks Enamel Pin Collection](samples/fieldmarks-enamel-pin-collection/fieldmarks-enamel-pin-collection.webp)
 
-Expected result: abstract track, feather, leaf, shell, cloud, stone, seed, and wave symbols. Layout: pins sit in two aligned columns on a neutral backing card. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fieldmarks-enamel-pin-collection.prompt.txt](samples/fieldmarks-enamel-pin-collection/fieldmarks-enamel-pin-collection.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `d85327a2d3b7063586c2d08198957658637eb8641508ae421081521f098c8d8a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly eight distinct symbols appear in two aligned columns on one fully visible neutral card, with consistent brass outlines and no text.
+- Known misses: The ordered symbol progression is visual and intentionally unlabeled.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

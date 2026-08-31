@@ -51,12 +51,26 @@ Return one 4:3 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates three decorative rope forms arranged as a material study. Check the assigned composition, then verify the specific direction: use clean overhead light, visible fiber texture, and no climbing, rescue, maritime, or load-bearing instruction. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rope Knot Study](samples/rope-knot-study/rope-knot-study.webp)
 
-Expected result: three decorative rope forms arranged as a material study organized around this plan: Place the forms on plain canvas with ample separation and one loose rope end tracing the frame edge. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:40:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rope-knot-study.prompt.txt](samples/rope-knot-study/rope-knot-study.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `c3b370a665107cc7c720cae134f764d52ab874533ac5b379394b2db4008e5b89`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted overhead study separates exactly three rope forms with ample negative space and leaves one loose end clearly visible against the plain surface.
+- Known misses: No material visible miss; the count, fiber texture, and distinct silhouettes remain readable without instructional labels.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

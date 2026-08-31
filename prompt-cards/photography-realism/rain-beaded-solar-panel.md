@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates rain beads across an unbranded solar-panel surface. Check the assigned composition, then verify the specific direction: use realistic water tension and glass reflection with no efficiency, durability, installation, or energy claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rain-Beaded Solar Panel](samples/rain-beaded-solar-panel/rain-beaded-solar-panel.webp)
 
-Expected result: rain beads across an unbranded solar-panel surface organized around this plan: Crop the panel diagonally with one cell junction sharp and a soft gray sky reflected between droplets. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rain-beaded-solar-panel.prompt.txt](samples/rain-beaded-solar-panel/rain-beaded-solar-panel.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `67a434eb94a56a7265f363b5ab02ed08cb974b14e4f4aaf278b3b741af2fe6ce`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted macro cuts diagonally across one solar panel, holding a cell junction sharp beneath rounded rain beads and a cool overcast reflection.
+- Known misses: No material visible miss; panel geometry, droplets, and shallow focus remain plausible without branding or performance claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

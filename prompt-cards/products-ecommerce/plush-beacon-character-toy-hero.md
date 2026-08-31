@@ -49,12 +49,26 @@ Return one clean plush toy product image at {OUTPUT_SIZE} in 4:5, with the produ
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: toy centered seated, packaging tag visible but unreadable beyond approved copy. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Plush Beacon Character Toy Hero](samples/plush-beacon-character-toy-hero/plush-beacon-character-toy-hero.webp)
 
-Expected result: a soft cylindrical body uses a striped sweater and a tiny felt light cap. Layout: toy centered seated, packaging tag visible but unreadable beyond approved copy. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:48:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [plush-beacon-character-toy-hero.prompt.txt](samples/plush-beacon-character-toy-hero/plush-beacon-character-toy-hero.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `acb9ebc3cb10fd79e458f081e1d06e85ed4d053dd444760a91d861e7a189f294`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one original seated plush has the declared symmetric limbs, four-stripe sweater, lighthouse cap, face, and one legible hang tag.
+- Known misses: The lighthouse influence is expressed through simple original geometry rather than a functional light feature.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

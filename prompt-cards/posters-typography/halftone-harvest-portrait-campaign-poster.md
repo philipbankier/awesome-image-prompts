@@ -57,12 +57,28 @@ Return one flat portrait campaign poster at {OUTPUT_SIZE} in 2:3. Do not place i
 
 Confirm the result reads as one portrait campaign poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: portrait fills the lower two thirds with a clear campaign headline above. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Halftone Harvest Portrait Campaign Poster](samples/halftone-harvest-portrait-campaign-poster/halftone-harvest-portrait-campaign-poster.webp)
 
-Expected result: the preserved face emerges from two coarse agricultural dot fields. Layout: portrait fills the lower two thirds with a clear campaign headline above. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:51:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [halftone-harvest-portrait-campaign-poster.prompt.txt](samples/halftone-harvest-portrait-campaign-poster/halftone-harvest-portrait-campaign-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `0b708b0efac99225d09e0123a4cd64c326673bdcb08fe767d3c314f754f45d4c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The two-color halftone portrait remains unobstructed between the large headline and the GROW TOGETHER base line.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-fictional-portrait.webp](samples/halftone-harvest-portrait-campaign-poster/input-01-fictional-portrait.webp): project-authored fictional fictional portrait input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

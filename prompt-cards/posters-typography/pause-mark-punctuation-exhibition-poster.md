@@ -49,12 +49,26 @@ Return one flat punctuation exhibition poster at {OUTPUT_SIZE} in 2:3. Do not pl
 
 Confirm the result reads as one punctuation exhibition poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: exhibition name within the punctuation field and details on a clean outer frame. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Pause Mark Punctuation Exhibition Poster](samples/pause-mark-punctuation-exhibition-poster/pause-mark-punctuation-exhibition-poster.webp)
 
-Expected result: comma, colon, and dash forms behaving like gallery partitions. Layout: exhibition name within the punctuation field and details on a clean outer frame. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:31:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [pause-mark-punctuation-exhibition-poster.prompt.txt](samples/pause-mark-punctuation-exhibition-poster/pause-mark-punctuation-exhibition-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `f553ef6f9b46eeaab26810a9c6346aca514ba4747ca807a1c0233fdf7687b799`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One giant comma, one two-dot colon, and one mustard dash dominate the field above the four detail lines.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

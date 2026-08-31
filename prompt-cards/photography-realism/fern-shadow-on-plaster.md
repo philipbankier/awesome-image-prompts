@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a fern shadow crossing a blank lime-plaster wall. Check the assigned composition, then verify the specific direction: use warm side light, subtle plaster texture, soft tonal falloff, and no artwork or signature. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fern Shadow on Plaster](samples/fern-shadow-on-plaster/fern-shadow-on-plaster.webp)
 
-Expected result: a fern shadow crossing a blank lime-plaster wall organized around this plan: Keep the plant itself barely outside frame so only one leaf tip and its layered shadow enter the composition. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:19:30Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fern-shadow-on-plaster.prompt.txt](samples/fern-shadow-on-plaster/fern-shadow-on-plaster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `ebe2e38d3d8600c5a783369829598319302b7def90ef8164de636e65b75aa772`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final leaves the warm plaster wall otherwise blank, with one layered fern shadow as the focal subject and only one narrow leaf tip entering at far left.
+- Known misses: No material visible miss; the bowl and other secondary props are absent, and the shadow direction remains plausible.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

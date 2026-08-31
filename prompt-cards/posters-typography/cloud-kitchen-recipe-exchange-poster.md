@@ -49,12 +49,26 @@ Return one flat community food poster at {OUTPUT_SIZE} in 4:5. Do not place it i
 
 Confirm the result reads as one community food poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: event title in the steam field with submission rules in an orderly lower grid. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Cloud Kitchen Recipe Exchange Poster](samples/cloud-kitchen-recipe-exchange-poster/cloud-kitchen-recipe-exchange-poster.webp)
 
-Expected result: index cards rise like steam from one shared pot. Layout: event title in the steam field with submission rules in an orderly lower grid. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [cloud-kitchen-recipe-exchange-poster.prompt.txt](samples/cloud-kitchen-recipe-exchange-poster/cloud-kitchen-recipe-exchange-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `e2f32abecff804ecf70f060f74448bbd524f7d3f9a766ec95be09a5f680e2bca`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Five blank recipe cards curl upward like steam from one enamel pot, with title and lower callouts clearly separated.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

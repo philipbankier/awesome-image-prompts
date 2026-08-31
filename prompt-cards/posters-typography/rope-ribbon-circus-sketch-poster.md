@@ -56,12 +56,28 @@ Return one flat circus poster at {OUTPUT_SIZE} in 2:3. Do not place it in a wall
 
 Confirm the result reads as one circus poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: honor the sketch's protected zones while refining type and negative space. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rope and Ribbon Circus Sketch Poster](samples/rope-ribbon-circus-sketch-poster/rope-ribbon-circus-sketch-poster.webp)
 
-Expected result: a rope loop and ribbon slash create a balanced aerial gesture. Layout: honor the sketch's protected zones while refining type and negative space. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:57:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rope-ribbon-circus-sketch-poster.prompt.txt](samples/rope-ribbon-circus-sketch-poster/rope-ribbon-circus-sketch-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `93b7b26832a84ee32f77ae18d3f9f3fc2f748ec7f1be811414e88ca3261df0e7`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One charcoal rope loop is crossed once by one coral ribbon slash with a cobalt edge between header and footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-layout-sketch.webp](samples/rope-ribbon-circus-sketch-poster/input-01-layout-sketch.webp): project-authored fictional layout sketch input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. The sketch must be owned or explicitly authorized and used only within the declared flexibility boundary.

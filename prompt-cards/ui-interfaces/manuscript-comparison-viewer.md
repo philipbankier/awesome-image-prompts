@@ -59,12 +59,31 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a public-domain manuscript comparison viewer. Check the assigned composition, then verify the specific direction: use archival neutrals and keep provenance and source roles visible for every page. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Manuscript Comparison Viewer](samples/manuscript-comparison-viewer/manuscript-comparison-viewer.webp)
 
-Expected result: a public-domain manuscript comparison viewer organized around this plan: Place two authorized page images in synchronized panes with zoom, folio notes, and a difference-annotation rail. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:19:11Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [manuscript-comparison-viewer.prompt.txt](samples/manuscript-comparison-viewer/manuscript-comparison-viewer.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `8ed593d4e4813a724cf6dca500fef994fbcdded7d8e04b76d6f3a2fc016e9970`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Manuscript Comparison Viewer render makes "compare the supplied fictional folios at synchronized zoom" primary and keeps "MORROWFIELD FOLIO VIEWER", "left FOLIO 12R / blue thistle / project-created", "right FOLIO 12V / green fern / project-created" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: The project-authored folio body writing remains decorative rather than a faithful transcription; the synchronized panes, source roles, motifs, and comparison states are the inspected evidence.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-folio-a.webp](samples/manuscript-comparison-viewer/input-01-folio-a.webp): project-authored fictional folio a supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-folio-b.webp](samples/manuscript-comparison-viewer/input-02-folio-b.webp): project-authored fictional folio b supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-margin-detail.webp](samples/manuscript-comparison-viewer/input-03-margin-detail.webp): project-authored fictional margin detail supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

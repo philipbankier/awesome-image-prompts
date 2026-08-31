@@ -52,11 +52,26 @@ Return one 3:2 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a fictional town-meeting agenda explainer. Check the assigned composition, then verify the specific direction: use fictional proposals and do not provide legal interpretation, voting guidance, or official status. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Town Agenda Explainer](samples/town-agenda-explainer/town-agenda-explainer.webp)
 
-Expected result: a fictional town-meeting agenda explainer organized around this plan: Present supplied agenda items as a timeline with plain-language summaries and a source-note drawer. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:43:36Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [town-agenda-explainer.prompt.txt](samples/town-agenda-explainer/town-agenda-explainer.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `6b8c96c73f2fd9e62dfd710a896486e7a62e4004e6c245b7fa75f8c904a2430d`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 3:2 Town Agenda Explainer render makes "read a plain-language fictional agenda summary and open its source note" primary and keeps "MORROWFIELD TOWN FORUM / FICTIONAL", "18:00 Welcome / summary Meeting opens", "18:15 Garden Shed Proposal / summary Discuss sample l…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Town Agenda Explainer manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -56,12 +56,28 @@ Return one clean helmet feature card at {OUTPUT_SIZE} in 3:2, with the product f
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: large side profile left with three restrained construction callouts right. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Slatewing Helmet Feature Callout](samples/slatewing-helmet-feature-callout/slatewing-helmet-feature-callout.webp)
 
-Expected result: vent channels and retention geometry follow the supplied design landmarks. Layout: large side profile left with three restrained construction callouts right. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:42:24Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [slatewing-helmet-feature-callout.prompt.txt](samples/slatewing-helmet-feature-callout/slatewing-helmet-feature-callout.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `4a4d8122e38d99cc4b0a56c7a4dd7c032b0495c6f57afbeebd62bf18d28c2ab8`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed for the Card's core purpose: one complete fictional helmet preserves the sketch's swept shell, lower rim, Y-strap, rear dial, and three correctly labeled construction callouts.
+- Known misses: After the agreed three final attempts, the generator rendered three long top vent channels rather than the five specified in the exact run prompt; this sample is illustrative and not formal construction or safety evidence.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-layout-sketch.webp](samples/slatewing-helmet-feature-callout/input-01-layout-sketch.webp): project-authored fictional layout sketch input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The sketch must be owned or explicitly authorized and used only within the declared flexibility boundary.

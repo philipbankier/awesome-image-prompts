@@ -1,0 +1,28 @@
+COMMISSION
+Create one flat 3:2 theatre-campaign triptych for a fictional production called Three Rooms, using the three supplied project-owned production stills. This independently authored concept places each still inside a distinct room-shaped frame sharing one continuous threshold line.
+
+SOURCE IMAGE SET AND ROLES
+Use all and only the three attached authorized project-owned images, exactly once each and without merging them:
+1. The blue doorway still with one red-coated figure is ROOM ONE, left panel.
+2. The green tiled room still with two seated figures is ROOM TWO, center panel.
+3. The red curtain still with one standing reader is ROOM THREE, right panel.
+Preserve each still's people count, pose, clothing color, room color, lighting direction, and scene identity. Do not move a person between panels, combine people, change faces, add people, or invent relationships.
+
+CONTENT
+The fictional campaign promotes three staged chapters at the invented Harbour Stage. Render only this exact approved copy, preserving spelling, numerals, hierarchy, and line breaks:
+THREE ROOMS
+A PLAY IN THREE PARTS
+ROOM ONE / 4 MAY
+ROOM TWO / 11 MAY
+ROOM THREE / 18 MAY
+HARBOUR STAGE
+Do not render any other text, cast names, sponsors, prices, claims, labels, signatures, or marks.
+
+VISUAL SYSTEM
+Use three equal vertical room-shaped panels with the supplied stills cropped proportionally, sharing one thin continuous threshold line. Palette: preserve the stills' blue, green, and red room identities; unify them with warm ivory typography and a black field. Typography direction: original elegant condensed uppercase sans. Place THREE ROOMS as one spanning title above all panels; place each room/date directly beneath its corresponding panel; use the production subtitle and venue as a compact footer. Maintain a 5% safe margin, balanced panel widths, clean gutters, no clipped people or text, and a strong left-to-right reading order.
+
+CONSTRAINTS
+Exactly three panels and exactly the three supplied stills in the declared order. No extra imagery, copied theatre campaign, real venue, celebrity likeness, logos, pseudo-writing, watermark, mockup, wall, frame, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1536x1024 pixel theatre triptych in 3:2 landscape orientation.

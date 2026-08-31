@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one responsive calendar interface for the fictional "Morrowfield Botanical Garden Bloom Calendar" concept. The concept is a fictional botanical-garden bloom calendar.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make browse the fictional September bloom window and open one plant card the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only REEDGLASS BLOOM CALENDAR; September 2030; invented cards Mooncup / Sep 3-12 / North Bed; Copper Bell / Sep 8-21 / Glasshouse; Fern Star / Sep 16-28 / Shade Walk; visitor note Illustrative garden data; selected Copper Bell. Arrange an illustrated month grid above supplied plant cards, color periods, and visitor notes. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a responsive 1440-pixel landscape web canvas that also supports touch. Use invented garden data and avoid plant-identification, toxicity, or seasonal guarantees. Apply soft stone, plum, dusty teal, and pale gold with clear hierarchy and modest surface depth without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 3:2 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

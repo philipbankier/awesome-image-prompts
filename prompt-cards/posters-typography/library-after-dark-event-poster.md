@@ -51,12 +51,26 @@ Return one finished 2:3 event poster at {OUTPUT_SIZE}, with a memorable nighttim
 
 Transcribe every visible string back to the manifest, confirm the headline reads first and logistics second, and inspect all text edges for clipping or pseudo-characters.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Library After Dark Event Poster](samples/library-after-dark-event-poster/library-after-dark-event-poster.webp)
 
-Expected result: a distinctive midnight-blue event poster with one luminous reading motif and a disciplined, exact information hierarchy.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:01:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [library-after-dark-event-poster.prompt.txt](samples/library-after-dark-event-poster/library-after-dark-event-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `597a62f151c977f2628493a7abe876d199085e09050c0a1293a3959f5025079e`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The crescent-book motif holds the center while all six approved copy lines read in a clear top-to-bottom hierarchy.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use fictional event details and project-owned text and art direction. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt, poster, type artwork, or image.

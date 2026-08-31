@@ -49,12 +49,26 @@ Return one clean headphones listing image at {OUTPUT_SIZE} in 4:5, with the prod
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: single product at three-quarter view with ample copy-safe space above. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Quietwave Headphones Listing Hero](samples/quietwave-headphones-listing-hero/quietwave-headphones-listing-hero.webp)
 
-Expected result: soft graphite ear cups float above a pale acoustic felt plane. Layout: single product at three-quarter view with ample copy-safe space above. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:54:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [quietwave-headphones-listing-hero.prompt.txt](samples/quietwave-headphones-listing-hero/quietwave-headphones-listing-hero.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `7cf3abcd13298f55774c36222d5222ea604122bfe0a63b477630d8817a8d13cd`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one coherent headphone set preserves paired cup, yoke, cushion, and headband geometry while remaining fully framed above the felt plane.
+- Known misses: The hover is a deliberate catalog styling device and does not imply a product feature.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

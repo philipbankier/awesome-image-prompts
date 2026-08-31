@@ -49,12 +49,26 @@ Return one clean miniature vehicle view sheet at {OUTPUT_SIZE} in 3:2, with the 
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: four equal cells with fixed scale and one neutral studio setup. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tiny Transit Mini Vehicle Turntable](samples/tiny-transit-mini-vehicle-turntable/tiny-transit-mini-vehicle-turntable.webp)
 
-Expected result: the same rounded tram model rotates through front, side, rear, and three-quarter views. Layout: four equal cells with fixed scale and one neutral studio setup. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:59:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tiny-transit-mini-vehicle-turntable.prompt.txt](samples/tiny-transit-mini-vehicle-turntable/tiny-transit-mini-vehicle-turntable.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `6467361631e1b54401f9eaa3a41f137854223d13a12cad72ae9bcd840760c6a4`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: four equal cells show consistent front, side, rear, and three-quarter views with stable body, roof, wheelbase, glazing, and color.
+- Known misses: Minor perspective reveals different visible wheel counts by angle, while the two-axle geometry remains consistent.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

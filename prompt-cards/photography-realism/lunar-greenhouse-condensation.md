@@ -51,12 +51,26 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates condensation on the interior glass of a fictional lunar greenhouse. Check the assigned composition, then verify the specific direction: use cool exterior light, warm horticultural glow, credible reflections, and an unmistakably fictional setting. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Lunar Greenhouse Condensation](samples/lunar-greenhouse-condensation/lunar-greenhouse-condensation.webp)
 
-Expected result: condensation on the interior glass of a fictional lunar greenhouse organized around this plan: Focus on droplets and one leaf edge while a speculative gray horizon remains softly visible beyond the pane. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:31:39Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [lunar-greenhouse-condensation.prompt.txt](samples/lunar-greenhouse-condensation/lunar-greenhouse-condensation.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `f4b6a2fd169a21616586f39495395434777bfa3be0e94843beb756182d9dcd2d`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final focuses through a condensation-covered greenhouse pane toward lunar terrain, with one warm lamp and exactly one wet leaf edge entering the frame.
+- Known misses: No material visible miss; droplets, cold exterior, warm interior cue, and single-leaf constraint remain distinct.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

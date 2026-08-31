@@ -1,0 +1,17 @@
+Use case: compositing
+Asset type: flat 3:2 conservation comparison poster
+Card: Before the Bloom Conservation Diptych
+Input images: Image 1 early-spring habitat view; Image 2 late-summer restored habitat view; Image 3 indicator-flower detail.
+Primary request: Compare the two authorized fictional habitat photographs as equal seasonal views, with the flower detail used only as one small circular evidence inset. Keep all three source identities separate.
+Variable instantiations:
+SOURCE_IMAGES: Images 1, 2, and 3 attached, all project-generated and project-owned.
+IMAGE_ROLE_MANIFEST: Image 1 left early-spring panel; Image 2 right late-summer panel; Image 3 one small lower-right indicator-species inset.
+PRESERVE_RULES: preserve each image's season, viewpoint, survey stakes, vegetation, and crop identity; do not blend seasons or invent people, wildlife, or structures.
+SUBJECT_BRIEF: fictional Bluewillow Marsh restoration update for community science audiences.
+COPY_MANIFEST: render exactly and only "BEFORE THE BLOOM", "APR 2026", "AUG 2026", and "BLUEWILLOW MARSH".
+VISUAL_MOTIF: paired seasonal views divided by a narrow cream field-note spine.
+PALETTE: marsh green, reed brown, water blue, cream, and charcoal.
+TYPE_DIRECTION: original clean humanist sans serif in uppercase.
+COMPOSITION_RULES: 6 percent safe margins; equal left and right image areas; narrow central spine; dates aligned below their correct panels; restrained caption rail; no crop of labels.
+OUTPUT_SIZE: 1536 x 1024.
+Constraints: exact copy once each; exactly two equal main panels and one small detail inset; no other text, pseudo-writing, added organisms, logos, signatures, mockups, or watermark.

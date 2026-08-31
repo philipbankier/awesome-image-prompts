@@ -52,11 +52,26 @@ Return one 16:10 concept image with readable hierarchy and no unrequested screen
 
 Confirm the image communicates a fictional community translation-review queue. Check the assigned composition, then verify the specific direction: use project-authored sample text and avoid claiming linguistic, legal, or accessibility accuracy. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Translation Review Queue](samples/translation-review-queue/translation-review-queue.webp)
 
-Expected result: a fictional community translation-review queue organized around this plan: Show source and draft excerpts, language labels, reviewer status, and a clearly human-controlled approval step. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:45:40Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [translation-review-queue.prompt.txt](samples/translation-review-queue/translation-review-queue.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `028d9cabfc9039773b4352007caa615e682165372f43ff2f0788dd6c5e4468bb`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:10 Translation Review Queue render makes "approve or return one project-authored fictional translation sample" primary and keeps "MORROWFIELD TRANSLATION REVIEW", "source English Welcome to the lantern room", "draft Spanish Bienvenidos a la sala de faroles" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Translation Review Queue manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

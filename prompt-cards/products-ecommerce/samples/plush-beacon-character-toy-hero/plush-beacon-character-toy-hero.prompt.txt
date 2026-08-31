@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 plush-toy catalog image for an original lighthouse-inspired character. Use this independently authored concept: a soft cylindrical body uses a striped sweater and a tiny felt light cap.
+
+PRODUCT
+Use the fictional Plush Beacon character, an entirely original 28 cm seated plush toy. Give it one softly cylindrical cream boucle body, two short rounded arms, two short seated legs, two small embroidered navy dot eyes, and one tiny embroidered coral smile. Dress the body in a permanently attached knit-look sweater with four wide horizontal stripes alternating navy and cream. Add one small conical felt lighthouse-light cap: muted coral base ring, cream lantern section, and a flat mustard-yellow felt top. Attach exactly one small cream paper hang tag to the left side seam with cotton string. Approved tag copy is limited to PLUSH BEACON. Add no shoes, separate clothing, tail, ears, hair, handheld accessory, outer package, extra tag, or second toy.
+
+PRESENTATION
+Use a level front three-quarter 85 mm product portrait. Center the single toy in a stable seated pose with both feet and the full cap visible. Angle the tag forward enough for PLUSH BEACON to be legible. Light with a large softbox from upper left, warm frontal fill, subtle rim separation, and a soft contact shadow on a pale sea-glass seamless surface and background. Render only PLUSH BEACON on the tag, with no other text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored character that must not resemble an existing mascot or franchise. Keep exactly one toy with symmetrical limbs, declared materials, stripe count, facial features, cap, and tag. No real brand, copied character cue, duplicated limb, unsupported safety or age claim, person, hand, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished plush-toy hero at 1120 x 1400 in 4:5. The entire seated character and tag must be fully visible, cleanly separated, and sharply detailed.

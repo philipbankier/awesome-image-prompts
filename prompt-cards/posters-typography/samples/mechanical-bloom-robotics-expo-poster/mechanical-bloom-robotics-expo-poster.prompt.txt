@@ -1,0 +1,22 @@
+Use case: rendered sample for the Mechanical Bloom Robotics Expo Poster Prompt Card.
+Asset type: one flat fictional technology-expo poster, no mockup.
+
+Create one 16:9 poster promoting a fictional student robotics expo for families and young makers at the invented Rivet Hall.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+MECHANICAL BLOOM
+STUDENT ROBOTICS EXPO
+SATURDAY • APRIL 18
+10 AM–4 PM
+RIVET HALL
+LINKAGES • SENSORS • MOTION
+FREE ADMISSION
+
+VISUAL SYSTEM
+On the left, show one original flower-like mechanism opened from six simple radial linkages, visible pivots, and a clean central gear. It is a diagrammatic sculpture, not a real branded robot. On the right, set the exact copy in a disciplined grid with the title largest, expo description second, logistics together, categories, and access line last. Use deep cobalt, warm silver, acid yellow, coral, and off-white. Typography is original square technical uppercase with high contrast. Keep 6% safe margins and strong left-to-right balance.
+
+CONSTRAINTS
+Render only the exact manifest. No component labels, measurements, circuit writing, sponsors, claims, brand, logo, pseudo-writing, signature, watermark, wall, frame, or extra option. Keep all text fully visible and show exactly one six-linkage bloom mechanism.
+
+OUTPUT INTENT
+Return one flat 16:9 poster at 1536 x 864 pixels.

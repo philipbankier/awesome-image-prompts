@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a pair of unbranded rain boots beside an empty doorway. Check the assigned composition, then verify the specific direction: use subdued colors, credible water droplets, no address or family clues, and no product branding. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rain Boots at the Doorway](samples/rain-boots-doorway/rain-boots-doorway.webp)
 
-Expected result: a pair of unbranded rain boots beside an empty doorway organized around this plan: Place the boots slightly misaligned on a wet mat with one closed umbrella and soft garden light beyond. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:49Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rain-boots-doorway.prompt.txt](samples/rain-boots-doorway/rain-boots-doorway.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `72915a1e0a963c60bbcb4d6583a576f84b5a2920dd880dc9e6179fd0e1fd0502`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final places one slightly misaligned pair of wet boots beside a closed umbrella on a dark mat, with a rain-softened garden beyond the doorway.
+- Known misses: No material visible miss; the pair, umbrella state, wet surfaces, and empty domestic threshold remain coherent without household identity.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

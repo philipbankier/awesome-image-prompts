@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a repair-cafe intake and queue overview. Check the assigned composition, then verify the specific direction: use clear status chips and avoid promises that any item can be repaired safely. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Repair Cafe Intake Queue](samples/repair-cafe-intake-queue/repair-cafe-intake-queue.webp)
 
-Expected result: a repair-cafe intake and queue overview organized around this plan: Show anonymized item tickets, repair categories, wait states, and one selected ticket without personal data. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:30:00Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [repair-cafe-intake-queue.prompt.txt](samples/repair-cafe-intake-queue/repair-cafe-intake-queue.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `6308e567b3b29d024795c5ddb52056c481897a45278cebbd53804b37a8e3ce5b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Repair Cafe Intake Queue render makes "open the next anonymized fictional repair ticket" primary and keeps "MORROWFIELD REPAIR CAFE", "queue T-14 Lamp / Waiting, T-15 Toaster / Review, T-1…", "selected T-15" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Repair Cafe Intake Queue manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -52,11 +52,26 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a fictional tidepool-monitoring volunteer planner. Check the assigned composition, then verify the specific direction: use cool coastal colors and avoid presenting weather or tide values as safety guidance. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tidepool Volunteer Shift Planner](samples/tidepool-volunteer-shift-planner/tidepool-volunteer-shift-planner.webp)
 
-Expected result: a fictional tidepool-monitoring volunteer planner organized around this plan: Show a week schedule, role legend, meeting points, and one clear shift-detail panel. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:46:33Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tidepool-volunteer-shift-planner.prompt.txt](samples/tidepool-volunteer-shift-planner/tidepool-volunteer-shift-planner.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `4b3031a5a9b90b856e917cc773ca7bfb72b40d0cde1f22a8d6df1dbaf49d0587`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Tidepool Volunteer Shift Planner render makes "open one fictional volunteer shift and review its meeting point" primary and keeps "REEDGLASS TIDEPOOL WEEK", "roles Observer, Greeter, Recorder", "Tue 09:00 Observer / Lantern Steps" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Tidepool Volunteer Shift Planner manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

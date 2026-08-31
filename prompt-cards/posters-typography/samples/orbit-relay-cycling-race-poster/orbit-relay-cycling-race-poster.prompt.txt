@@ -1,0 +1,19 @@
+Targeted refinement for the Orbit Relay Cycling Race Poster rendered sample.
+
+Edit the supplied first-attempt poster. Preserve all exact copy, typography, navy field, coral/cyan/yellow wheel arcs, three-arc composition, margins, and anchored detail block.
+
+ONLY CORRECTION
+The first attempt shows two separate luminous baton rods. Replace both rods with exactly one single luminous yellow baton. Place that one baton horizontally between the cyan middle wheel arc and the yellow right wheel arc, clearly traveling left to right. Leave clean empty navy space between the coral left arc and the cyan middle arc. Do not add any other object.
+
+Keep the exact visible copy unchanged:
+ORBIT RELAY
+TEAM CYCLING
+SUNDAY, JULY 19
+8 AM
+START: RIVERLOOP GATE
+TEAMS OF THREE
+REGISTER BY JULY 12
+
+No extra text, sponsor, logo, bicycle brand, rider, route label, claim, pseudo-writing, signature, watermark, frame, wall, or other change. The final must show exactly three wheel arcs and exactly one baton.
+
+Return one corrected flat 2:3 poster at 1024 x 1536 pixels.

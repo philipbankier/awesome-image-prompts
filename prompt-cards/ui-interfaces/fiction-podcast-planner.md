@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional podcast episode planning board. Check the assigned composition, then verify the specific direction: use only original story material and avoid real performers, copyrighted characters, or platform branding. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fiction Podcast Planner](samples/fiction-podcast-planner/fiction-podcast-planner.webp)
 
-Expected result: a fictional podcast episode planning board organized around this plan: Combine scene cards, fictional character tracks, sound-cue notes, and an episode timeline. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:11:49Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fiction-podcast-planner.prompt.txt](samples/fiction-podcast-planner/fiction-podcast-planner.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `e934e04bface30d99704bf0a520b34d8b69baba750acd6adc92b32653fa78e03`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Fiction Podcast Planner render makes "move the next original story scene into recording preparation" primary and keeps "MOTH LANTERN / Episode 04", "original characters Mira, Oren, Tavi", "scene cards 1 Ferry Bell / Draft, 2 Hidden Map / Read…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Fiction Podcast Planner manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

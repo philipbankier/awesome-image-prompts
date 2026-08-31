@@ -49,12 +49,26 @@ Return one clean food gift packaging image at {OUTPUT_SIZE} in 4:5, with the pro
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: open box centered with closed sleeve behind and approved copy facing forward. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Berryfold Bakery Gift Box](samples/berryfold-bakery-gift-box/berryfold-bakery-gift-box.webp)
 
-Expected result: a folded berry-red carton opens to reveal six abstract wrapped pastries. Layout: open box centered with closed sleeve behind and approved copy facing forward. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:24:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [berryfold-bakery-gift-box.prompt.txt](samples/berryfold-bakery-gift-box/berryfold-bakery-gift-box.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `8a7b2cf5415dff7d9a7d41f0246ce2aedec03427f07027b639da7d3f9f7cde84`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Confirmed one open carton, one closed sleeve, exactly six separately wrapped pastries in six wells, exact BERRYFOLD and SIX PIECES copy, coherent construction, and no claims or watermark.
+- Known misses: The abstract pastry shapes and package folds are illustrative; food, insert, and dieline production specifications are not established.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

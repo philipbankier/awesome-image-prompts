@@ -1,0 +1,14 @@
+Use case: ads-marketing
+Asset type: flat 16:9 digital tournament poster
+Card: Circuit Meadow Game Tournament Poster
+Primary request: Announce a fictional cooperative digital-game tournament with pixel paths weaving through a meadow-like circuit map.
+Variable instantiations:
+SUBJECT_BRIEF: fictional friendly team tournament for adult cooperative-game players; no real game or platform.
+COPY_MANIFEST: render exactly and only, each once: "CIRCUIT MEADOW", "TEAM RELAY", "18:00 UTC", and "CO-OP ARENA".
+VISUAL_MOTIF: four luminous pixel paths weaving through one abstract circuit meadow toward a central unlabeled matchup node.
+PALETTE: deep navy, electric green, cyan, and pale yellow.
+TYPE_DIRECTION: original square uppercase pixel-inspired sans serif, fully legible.
+COMPOSITION_RULES: 6 percent safe margins; team callout left, central matchup field, stream and venue details right; strong landscape hierarchy; no crop.
+OUTPUT_SIZE: 1536 x 864.
+Targeted correction from attempt 1: the central matchup node must contain no letters, numbers, or symbols. Remove the unapproved "VS". Render no text beyond the four manifest items.
+Constraints: exact copy once each; no other text or characters, no pseudo-writing, game logos, characters, controllers, signatures, mockups, or watermark.

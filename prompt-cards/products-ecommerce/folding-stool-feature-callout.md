@@ -59,12 +59,28 @@ Return one clear feature-callout image at {ASPECT_RATIO}, with the product domin
 
 Trace every leg, brace, and hinge, then confirm the callout points to the correct feature and contains only approved text.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Folding Stool Feature Callout](samples/folding-stool-feature-callout/folding-stool-feature-callout.webp)
 
-Expected result: one believable stool with a restrained visual callout that explains, rather than decorates, its key feature.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:30:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [folding-stool-feature-callout.prompt.txt](samples/folding-stool-feature-callout/folding-stool-feature-callout.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `04560268ad4f7d82b6ccbcd23a7df35fb16b303e841e98913929c237dbffdeca`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one mechanically traceable open stool preserves the authorized sketch landmarks and highlights only the central pivot with one correctly labeled inset.
+- Known misses: The visualization explains visible geometry only and is not load, safety, or engineering evidence.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-mechanism-sketch.webp](samples/folding-stool-feature-callout/input-01-mechanism-sketch.webp): project-authored fictional mechanism sketch input
 ## Rights and provenance
 
 Use only fictional or authorized product designs, sketches, and approved factual descriptions. This Prompt Card is independently authored, has source posture `original`, and bundles no third-party prompt or image.

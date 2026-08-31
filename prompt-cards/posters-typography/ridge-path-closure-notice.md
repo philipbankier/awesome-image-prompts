@@ -51,12 +51,26 @@ Return one flat trail closure notice at {OUTPUT_SIZE} in 4:5. Do not place it in
 
 Confirm the result reads as one trail closure notice, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: closure name and dates above a simple detour note and contact line. This is only an obvious-failure check. Confirm the training-only notice is prominent.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ridge Path Closure Notice](samples/ridge-path-closure-notice/ridge-path-closure-notice.webp)
 
-Expected result: a broken contour line stopping at a clear closure symbol. Layout: closure name and dates above a simple detour note and contact line. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:57:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ridge-path-closure-notice.prompt.txt](samples/ridge-path-closure-notice/ridge-path-closure-notice.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `54a857378de3a38161aa63a7a9a1954e3c60827083919448d60e5349bb4dfbc6`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The training-only bands frame a broken route, coral X, and three clearly labeled fictional information rows.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

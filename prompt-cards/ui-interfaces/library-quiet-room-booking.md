@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a library quiet-room booking flow. Check the assigned composition, then verify the specific direction: use calm neutral surfaces and avoid implying enforceable policy or guaranteed availability. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Library Quiet Room Booking](samples/library-quiet-room-booking/library-quiet-room-booking.webp)
 
-Expected result: a library quiet-room booking flow organized around this plan: Present room features, a compact availability calendar, duration choice, and confirmation without collecting personal data. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:13:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [library-quiet-room-booking.prompt.txt](samples/library-quiet-room-booking/library-quiet-room-booking.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `1606d78a9a7b398cae614c305a2465541966c59b556c3e923f0f9a75aa86c570`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Library Quiet Room Booking render makes "choose a fictional quiet room, duration, and sample time" primary and keeps "CEDAR LIBRARY QUIET ROOMS", "Room Fern / 2 seats / table / available 14:00 and 15:…", "Room Wren / 1 seat / lamp / available 15:30" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Library Quiet Room Booking manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

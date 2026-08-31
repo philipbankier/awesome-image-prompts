@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a public-domain reading-club selection poll. Check the assigned composition, then verify the specific direction: use warm paper tones and show aggregate results only as fictional sample data. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Reading Club Poll Screen](samples/reading-club-poll-screen/reading-club-poll-screen.webp)
 
-Expected result: a public-domain reading-club selection poll organized around this plan: Stack four book choices with short supplied summaries, vote controls, and a transparent closing date. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:32:53Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [reading-club-poll-screen.prompt.txt](samples/reading-club-poll-screen/reading-club-poll-screen.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `10803ac02e24b4caf51cfa72e102c01642d25ee2efbf7e77cd1619a1ccec55ef`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Reading Club Poll Screen render makes "cast one fictional sample vote among four public-domain choices" primary and keeps "CEDAR READING CLUB", "choices Frankenstein / invention and responsibility,…", "vote controls SELECT" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Reading Club Poll Screen manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

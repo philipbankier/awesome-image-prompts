@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates an astronomy-club observing-night briefing. Check the assigned composition, then verify the specific direction: use dark-sky colors and state that the sample conditions are illustrative, not forecasts. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Astronomy Club Weather Briefing](samples/astronomy-club-weather-briefing/astronomy-club-weather-briefing.webp)
 
-Expected result: an astronomy-club observing-night briefing organized around this plan: Organize fictional cloud, wind, and sky notes around a timeline and a clearly labeled organizer decision area. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:55:01Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [astronomy-club-weather-briefing.prompt.txt](samples/astronomy-club-weather-briefing/astronomy-club-weather-briefing.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `180e28716fec7241748a92dfc41b10fd79b9b631a8ea7f3d5eb3131f1a57a429`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Astronomy Club Weather Briefing render makes "make the organizer decision for the fictional observing session" primary and keeps "REEDGLASS SKY CLUB", "Friday 20:00 to 23:00", "20:00 cloud 35%, wind 8 km/h" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Astronomy Club Weather Briefing manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

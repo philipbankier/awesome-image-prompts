@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional reusable-container return map. Check the assigned composition, then verify the specific direction: avoid real location, environmental-impact, refund, or service-availability claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Container Return Map](samples/container-return-map/container-return-map.webp)
 
-Expected result: a fictional reusable-container return map organized around this plan: Place an invented neighborhood map above nearby return points, accepted container types, and supplied hours. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:06:49Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [container-return-map.prompt.txt](samples/container-return-map/container-return-map.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `d8ff74950bc14248baea3baff633baf9fdc0934b17962213056521e95f1f9a26`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Container Return Map render makes "choose a nearby fictional return point and check accepted container types" primary and keeps "MORROWFIELD RETURN MAP", "invented map zones Cedar, Lantern, Willow", "Cedar Pantry / 0.4 km / jars and cups / 09:00-17:00" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Container Return Map manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

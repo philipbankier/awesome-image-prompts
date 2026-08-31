@@ -57,12 +57,28 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an original pocket sundial concept shown as a small object hero. Check the assigned composition, then verify the specific direction: preserve approved geometry, use hard noon-like light, and add no brand, engraving, or accuracy claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Pocket Sundial Hero](samples/pocket-sundial-hero/pocket-sundial-hero.webp)
 
-Expected result: an original pocket sundial concept shown as a small object hero organized around this plan: Use the authorized sketch for silhouette and hinge placement, then stand the object on slate with its shadow readable. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:13:47Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [pocket-sundial-hero.prompt.txt](samples/pocket-sundial-hero/pocket-sundial-hero.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `3eb26db91b6bbe7db21f50fb30228015bd51c5597dc1be2049e7440c743db7c5`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted hero frame centers one circular pocket sundial with an upright gnomon and small hinge, casting a crisp shadow across dark slate.
+- Known misses: No material visible miss; the object silhouette, hinge, hard light, and unbranded metal finish remain legible.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-sundial-sketch.webp](samples/pocket-sundial-hero/input-01-sundial-sketch.webp): project-authored fictional sundial sketch input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. The Placeholder Preview is not evidence of sketch adherence, repeatability, or production reliability.
+This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable sketch adherence, repeatability, or production reliability.

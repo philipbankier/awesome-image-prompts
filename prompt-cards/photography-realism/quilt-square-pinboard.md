@@ -58,12 +58,30 @@ Return one 4:3 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an original quilt-planning pinboard assembled from authorized fabric studies. Check the assigned composition, then verify the specific direction: preserve supplied fabric patterns only, use neutral studio light, include no readable text, and avoid maker or cultural attribution not provided. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Quilt Square Pinboard](samples/quilt-square-pinboard/quilt-square-pinboard.webp)
 
-Expected result: an original quilt-planning pinboard assembled from authorized fabric studies organized around this plan: Assign each source to one square family, keep them visibly separate, and arrange a nine-block color rhythm with blank paper markers. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:16:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [quilt-square-pinboard.prompt.txt](samples/quilt-square-pinboard/quilt-square-pinboard.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `01ba314dbcf4999e50a9c7f6ea434f568fcb037d5d659f8a10856b78268e3fda`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted overhead final forms a three-by-three grid with seven fabric squares, two blank paper squares, and exactly nine visible pins.
+- Known misses: No material visible miss; the cell states, pin count, fabric variation, and paper blanks remain distinct without writing.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-indigo-grid.webp](samples/quilt-square-pinboard/input-01-indigo-grid.webp): project-authored fictional indigo grid input
+  - [input-02-rust-stripe.webp](samples/quilt-square-pinboard/input-02-rust-stripe.webp): project-authored fictional rust stripe input
+  - [input-03-cream-dot.webp](samples/quilt-square-pinboard/input-03-cream-dot.webp): project-authored fictional cream dot input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable multi-image fidelity, continuity, or composition.

@@ -1,0 +1,74 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-found-scarf.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned found-item reference
+Primary request: one rust-red knitted scarf with a cream stripe, folded loosely on a neutral evidence-gray surface
+Style/medium: photorealistic overhead catalog photography
+Composition/framing: single complete item centered, all edges visible
+Lighting/mood: diffuse neutral light
+Constraints: no person, label, key, ID, text, logo, signature, watermark, or extra objects
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-found-thermos.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned found-item reference
+Primary request: one unbranded matte blue thermos with a small dent near the base, upright on a neutral evidence-gray surface
+Style/medium: photorealistic catalog photography
+Composition/framing: single complete item centered, cap and base visible
+Lighting/mood: diffuse neutral light
+Constraints: no person, label, key, ID, text, logo, signature, watermark, or extra objects
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-claimed-tote.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned claimed-item reference
+Primary request: one plain ochre canvas tote bag with a stitched green pocket, laid flat on a neutral evidence-gray surface
+Style/medium: photorealistic overhead catalog photography
+Composition/framing: single complete item centered, handles fully visible
+Lighting/mood: diffuse neutral light
+Constraints: no person, label, key, ID, text, logo, signature, watermark, or extra objects
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-found-scarf.webp
+- input-02-found-thermos.webp
+- input-03-claimed-tote.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop matching interface for the fictional "Morrowfield Lost-and-Found Matching Board" concept. The concept is a privacy-aware lost-and-found matching board.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review broad visual similarities without asserting an automated match the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD LOST AND FOUND; Found column Rust scarf / stripe / Review and Blue thermos / dent / New; Claimed column Ochre tote / green pocket / Review; broad tags color, material, visible mark; selected Rust scarf; possible match NONE CONFIRMED; human review only. Keep authorized item images in separate columns for found and claimed items with broad visual tags and review status. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Exclude faces, addresses, IDs, keys, and other sensitive details; do not imply automated match certainty. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, the rust scarf; Image 2, the blue thermos; and Image 3, the ochre tote, a small set whose items are all authorized for this task. Follow Images 1 and 2 are separate found-item records; Image 3 is a separate claimed-item record so each image has one declared purpose, and preserve only each item's distinct color, material, visible mark, and complete silhouette without combining items. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

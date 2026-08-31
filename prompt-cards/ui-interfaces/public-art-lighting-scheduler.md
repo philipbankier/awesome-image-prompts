@@ -52,11 +52,26 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a fictional public-art lighting scheduler. Check the assigned composition, then verify the specific direction: use project-authored artworks and do not imply electrical safety, public approval, or live control. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Public Art Lighting Scheduler](samples/public-art-lighting-scheduler/public-art-lighting-scheduler.webp)
 
-Expected result: a fictional public-art lighting scheduler organized around this plan: Arrange artwork zones, color scenes, supplied time blocks, and a clearly simulated preview panel. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:23:43Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [public-art-lighting-scheduler.prompt.txt](samples/public-art-lighting-scheduler/public-art-lighting-scheduler.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `e99d9245aade19f8e3f10ed863648c167dd7ba6c6a92e6971cd1d7001033f3ed`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Public Art Lighting Scheduler render makes "preview one simulated lighting scene for a project-authored artwork" primary and keeps "MORROWFIELD LIGHT STUDY", "artwork zones Ribbon Arch, Glass Wall, River Steps", "scenes Dusk Amber / 18:00-19:30, Deep Blue / 19:30-21…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Public Art Lighting Scheduler manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

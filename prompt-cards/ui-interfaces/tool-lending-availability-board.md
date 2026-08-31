@@ -58,12 +58,29 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a community tool-lending availability board. Check the assigned composition, then verify the specific direction: use sturdy neutral cards, distinct availability states, and visible empty-state guidance. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tool-Lending Availability Board](samples/tool-lending-availability-board/tool-lending-availability-board.webp)
 
-Expected result: a community tool-lending availability board organized around this plan: Place filters and a date strip beside a scannable grid of fictional tools, condition states, and return windows. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:42:49Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tool-lending-availability-board.prompt.txt](samples/tool-lending-availability-board/tool-lending-availability-board.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `7c9d2867812727f4ccd2760dbe4e9a9376f13b8509ecf78f7c1a8dee4f38ee53`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Tool-Lending Availability Board render makes "filter fictional tools by availability and recover from an empty state" primary and keeps "CEDAR TOOL LIBRARY", "date strip Mon-Sun with Wed selected", "Drill / 2 available / Cedar Desk" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Tool-Lending Availability Board manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-grid-sketch.webp](samples/tool-lending-availability-board/input-01-grid-sketch.webp): project-authored fictional grid sketch supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. The Placeholder Preview is not evidence of sketch adherence, repeatability, or production reliability.
+This Card is independently authored with `original` source posture. Use only a project-owned, public-domain, or otherwise authorized sketch. Record its permitted role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish sketch adherence, repeatability, production reliability, or promotion.

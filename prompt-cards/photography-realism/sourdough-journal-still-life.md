@@ -56,12 +56,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a quiet bread-making journal scene with a fictional handwritten schedule. Check the assigned composition, then verify the specific direction: use soft north-window light, natural crumbs, and no nutrition, freshness, or food-safety claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Sourdough Journal Still Life](samples/sourdough-journal-still-life/sourdough-journal-still-life.webp)
 
-Expected result: a quiet bread-making journal scene with a fictional handwritten schedule organized around this plan: Set a closed crock, flour-dusted spoon, torn bread edge, and project-authored notes on a worn kitchen table. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:45:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [sourdough-journal-still-life.prompt.txt](samples/sourdough-journal-still-life/sourdough-journal-still-life.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `d164ab4da8253099f01f5aa5dd6b32a05acb531a52df3ba7fe9bc46aeeb79da1`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted tabletop final renders `DAY 3`, `08:00 FOLD`, and `12:00 BAKE` clearly once each beside a crock, spoon, and loaf.
+- Known misses: No material visible miss; the exact note set and food props remain legible without extra copy, branding, or health claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

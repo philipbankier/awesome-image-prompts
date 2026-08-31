@@ -1,0 +1,22 @@
+Use case: rendered sample for the Paper Harbor Small Press Fair Poster Prompt Card.
+Asset type: one flat fictional publishing-fair poster, no mockup.
+
+Create one 4:5 poster announcing PAPER HARBOR, a fictional small-press fair at the invented Docklight Hall for readers and independent makers.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+PAPER HARBOR
+SMALL PRESS FAIR
+SATURDAY, APRIL 25
+10 AM–4 PM
+DOCKLIGHT HALL
+PAMPHLETS • ZINES • CHAPBOOKS
+FREE ENTRY
+
+VISUAL SYSTEM
+Use an open pale-cyan typographic sky in the upper 38% for the two-line title and logistics. In the lower area, build a dense harbor skyline from exactly twelve stacked blank pamphlet shapes, with folded spines becoming piers and rooflines. All pamphlets are abstract and contain no cover text. Use navy, sea blue, coral, mustard, and warm white. Typography is original sturdy slab serif uppercase. Arrange the remaining copy in a compact aligned grid between title and skyline. Keep 7% safe margins and strong thumbnail contrast.
+
+CONSTRAINTS
+Render only the exact manifest. No publisher names, book titles, author names, cover writing, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly twelve blank pamphlets.
+
+OUTPUT INTENT
+Return one flat 4:5 publishing-fair poster at 1024 x 1280 pixels.

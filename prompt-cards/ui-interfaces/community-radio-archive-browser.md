@@ -52,11 +52,26 @@ Return one 16:10 concept image with readable hierarchy and no unrequested screen
 
 Confirm the image communicates a community-radio recording archive browser. Check the assigned composition, then verify the specific direction: use fictional or authorized recordings only and make access restrictions visible. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Community Radio Archive Browser](samples/community-radio-archive-browser/community-radio-archive-browser.webp)
 
-Expected result: a community-radio recording archive browser organized around this plan: Combine decade and topic filters with a waveform list, rights labels, and a selected-recording detail pane. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:10Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [community-radio-archive-browser.prompt.txt](samples/community-radio-archive-browser/community-radio-archive-browser.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `557712a02a1e9898229d42a005ab2131f1b79534cc41b110da4aeda7b9f12e3b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:10 Community Radio Archive Browser render makes "filter fictional recordings and open the rights-cleared selected item" primary and keeps "MORROWFIELD RADIO ARCHIVE", "filters 1970s, Gardens, Public listening", "Evening Allotments / 1976 / 18:24 / Public listening" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Community Radio Archive Browser manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -56,12 +56,28 @@ Return one flat dance campaign poster at {OUTPUT_SIZE} in 4:5. Do not place it i
 
 Confirm the result reads as one dance campaign poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: preserve the sketch's directional sweep and open title zone. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Pulse Diagram Dance Sketch Poster](samples/pulse-diagram-dance-sketch-poster/pulse-diagram-dance-sketch-poster.webp)
 
-Expected result: three drawn body arcs become a restrained pulse diagram. Layout: preserve the sketch's directional sweep and open title zone. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:41:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [pulse-diagram-dance-sketch-poster.prompt.txt](samples/pulse-diagram-dance-sketch-poster/pulse-diagram-dance-sketch-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `9ef1989f54d4f240b3ddcd0bb595decc5543e21d5ed572647ce0136fd0602b03`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three S-curves and head circles cross one coral pulse line at three mustard nodes, with details in the lower-right block.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-gesture-sketch.webp](samples/pulse-diagram-dance-sketch-poster/input-01-gesture-sketch.webp): project-authored fictional gesture sketch input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. The sketch must be owned or explicitly authorized and used only within the declared flexibility boundary.

@@ -59,12 +59,31 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a privacy-aware lost-and-found matching board. Check the assigned composition, then verify the specific direction: exclude faces, addresses, IDs, keys, and other sensitive details; do not imply automated match certainty. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Lost-and-Found Matching Board](samples/lost-found-matching-board/lost-found-matching-board.webp)
 
-Expected result: a privacy-aware lost-and-found matching board organized around this plan: Keep authorized item images in separate columns for found and claimed items with broad visual tags and review status. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:13:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [lost-found-matching-board.prompt.txt](samples/lost-found-matching-board/lost-found-matching-board.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `a9df4bd70eb2d315046563539451975e62beb778572f33947b6e2870654f8524`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Lost-and-Found Matching Board render makes "review broad visual similarities without asserting an automated match" primary and keeps "MORROWFIELD LOST AND FOUND", "Found column Rust scarf / stripe / Review and Blue th…", "Claimed column Ochre tote / green pocket / Review" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Lost-and-Found Matching Board manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-found-scarf.webp](samples/lost-found-matching-board/input-01-found-scarf.webp): project-authored fictional found scarf supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-found-thermos.webp](samples/lost-found-matching-board/input-02-found-thermos.webp): project-authored fictional found thermos supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-claimed-tote.webp](samples/lost-found-matching-board/input-03-claimed-tote.webp): project-authored fictional claimed tote supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

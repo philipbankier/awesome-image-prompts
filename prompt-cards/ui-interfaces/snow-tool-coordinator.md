@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional neighborhood snow-tool sharing board. Check the assigned composition, then verify the specific direction: avoid emergency, weather, equipment-safety, liability, or service-guarantee claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Snow Tool Coordinator](samples/snow-tool-coordinator/snow-tool-coordinator.webp)
 
-Expected result: a fictional neighborhood snow-tool sharing board organized around this plan: Show available tools, broad pickup zones, time windows, and a volunteer request without exact home addresses. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:38:53Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [snow-tool-coordinator.prompt.txt](samples/snow-tool-coordinator/snow-tool-coordinator.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `97acda265abe1c396dd6ad3d0022e13d28bdb5617b5159f0f7fa28b465a0405b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Snow Tool Coordinator render makes "find a fictional shared snow tool by broad pickup zone" primary and keeps "WILLOW BLOCK TOOL SHARE", "tools Snow shovel / 3 / Cedar Zone / 17:00-19:00, Ice…", "volunteer request Move two shovels to Lantern Zone" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Snow Tool Coordinator manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -1,0 +1,22 @@
+Use case: rendered sample for the Seed Archive Swap Broadside Prompt Card.
+Asset type: one flat fictional community-exchange broadside, no mockup.
+
+Create one 2:3 broadside announcing SEED ARCHIVE, a fictional neighborhood seed exchange at the invented Maple Room.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+SEED ARCHIVE
+NEIGHBORHOOD SWAP
+SATURDAY, MARCH 28
+11 AM–2 PM
+MAPLE ROOM
+BRING LABELED SEEDS
+TAKE WHAT YOU WILL GROW
+
+VISUAL SYSTEM
+Place one oversized two-line title above a radial center. At the center, show one small open blank catalog drawer. Radiate exactly eight blank seed envelopes from it like compass points, each with a different non-text geometric seed pictogram and no writing. Ground the five logistics lines in a calm footer. Use warm cream, seed brown, forest green, mustard, coral, and sky blue. Typography is original sturdy serif uppercase for the title and clear sans serif for logistics. Keep 9% margins and a strong title-radial-footer hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No seed variety name, botanical label, brand, price, sponsor, logo, envelope writing, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly one drawer and eight envelopes.
+
+OUTPUT INTENT
+Return one flat 2:3 community-exchange broadside at 1024 x 1536 pixels.

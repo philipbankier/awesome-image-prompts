@@ -57,12 +57,28 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates the authorized gunwale and oarlock of a weathered rowboat. Check the assigned composition, then verify the specific direction: preserve declared wear patterns, use overcast light, and infer no vessel history, ownership, or seaworthiness. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Weathered Rowboat Detail](samples/weathered-rowboat-detail/weathered-rowboat-detail.webp)
 
-Expected result: the authorized gunwale and oarlock of a weathered rowboat organized around this plan: Crop along the peeling paint edge with the oarlock in the near third and soft water beyond. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:13:51Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [weathered-rowboat-detail.prompt.txt](samples/weathered-rowboat-detail/weathered-rowboat-detail.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `66eabaaf1b7598f42c47d725c7e3331757141e00de2f7ee5f9f63d27c20e7c47`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted close final follows the rowboat's weathered gunwale and oarlock, with peeling paint, exposed wood, and softly blurred water beyond.
+- Known misses: No material visible miss; the crop remains detail-led and carries no boat identity, registration, person, or location cue.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-rowboat-reference.webp](samples/weathered-rowboat-detail/input-01-rowboat-reference.webp): project-authored fictional rowboat reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

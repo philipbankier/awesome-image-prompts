@@ -49,12 +49,26 @@ Return one clean product feature board at {OUTPUT_SIZE} in 4:5, with the product
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: primary bag centered with an ordered feature rail and no floating decorative gear. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rookline Modular Backpack Feature Board](samples/rookline-modular-backpack-feature-board/rookline-modular-backpack-feature-board.webp)
 
-Expected result: the closed pack anchors three detached pocket modules. Layout: primary bag centered with an ordered feature rail and no floating decorative gear. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:54:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rookline-modular-backpack-feature-board.prompt.txt](samples/rookline-modular-backpack-feature-board/rookline-modular-backpack-feature-board.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `42dcbd6b7b746f4c6974ea045141dc7032643d0985a8fe33c2dbb1ef35354339`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one closed backpack anchors exactly three distinct modules, each aligned to a corresponding empty rail through a restrained leader-line system.
+- Known misses: The board explains intended modular relationships but is not compatibility or durability evidence.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

@@ -49,12 +49,26 @@ Return one flat archive exhibition poster at {OUTPUT_SIZE} in 3:4. Do not place 
 
 Confirm the result reads as one archive exhibition poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: exhibition title at the source, object labels downstream, details at the base. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Freshwater Archive Exhibition Poster](samples/freshwater-archive-exhibition-poster/freshwater-archive-exhibition-poster.webp)
 
-Expected result: catalog labels drift between translucent water-sample rectangles. Layout: exhibition title at the source, object labels downstream, details at the base. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:51:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [freshwater-archive-exhibition-poster.prompt.txt](samples/freshwater-archive-exhibition-poster/freshwater-archive-exhibition-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `4f60d51841da8221b1f74ed9ec53064c05c4ab6639f4b62e785e9383437e73f2`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three translucent samples labeled SOURCE, CURRENT, and MOUTH descend like a river toward the date.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

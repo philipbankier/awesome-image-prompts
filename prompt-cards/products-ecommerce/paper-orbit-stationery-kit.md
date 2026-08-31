@@ -49,12 +49,26 @@ Return one clean stationery product flat lay at {OUTPUT_SIZE} in 3:2, with the p
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: orthographic flat lay on a strict grid with exact set contents visible. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Paper Orbit Stationery Kit](samples/paper-orbit-stationery-kit/paper-orbit-stationery-kit.webp)
 
-Expected result: fine orbital rules connect otherwise quiet paper surfaces. Layout: orthographic flat lay on a strict grid with exact set contents visible. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:50:10Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [paper-orbit-stationery-kit.prompt.txt](samples/paper-orbit-stationery-kit/paper-orbit-stationery-kit.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `8a8e526642d613fb03654794c89af8f43bb8a3078056dd9da533c6ba7fc2c590`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the corrected prompt produced exactly one notebook, one memo pad, one pencil, three clips, and two envelopes in a clean orthographic grid.
+- Known misses: The first run was rejected because its prompt contained a count typo; that image is retained privately as attempt 01 and is not published.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

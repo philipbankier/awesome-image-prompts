@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional ferry-deck occupancy display. Check the assigned composition, then verify the specific direction: use high-contrast symbols and never imply passenger-safety certification or live capacity accuracy. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ferry Deck Occupancy Display](samples/ferry-deck-occupancy-display/ferry-deck-occupancy-display.webp)
 
-Expected result: a fictional ferry-deck occupancy display organized around this plan: Show deck zones, illustrative counts, directional arrows, and a prominent non-live-data notice. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:05:33Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ferry-deck-occupancy-display.prompt.txt](samples/ferry-deck-occupancy-display/ferry-deck-occupancy-display.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `1ef1f644f30dd3fc6d13597a2f6a816ed5356d75473f96a9b1335f64077f9d07`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Ferry Deck Occupancy Display render makes "scan illustrative deck counts and the next directional cue" primary and keeps "BRACKEN FERRY / NON-LIVE SAMPLE DATA", "Upper Deck 24, Cabin 38, River Deck 12", "total 74 illustrative" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Ferry Deck Occupancy Display manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -57,12 +57,28 @@ Return one clean reference product set image at {OUTPUT_SIZE} in 4:5, with the p
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: bottle remains central and unchanged while only the set, light, and background shift. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Dusk Pine Fragrance Set Refresh](samples/dusk-pine-fragrance-set-refresh/dusk-pine-fragrance-set-refresh.webp)
 
-Expected result: the preserved bottle rests on dark cork with a single pine-shadow plane. Layout: bottle remains central and unchanged while only the set, light, and background shift. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:53Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [dusk-pine-fragrance-set-refresh.prompt.txt](samples/dusk-pine-fragrance-set-refresh/dusk-pine-fragrance-set-refresh.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `92efc766e483306c5c722d71e6333d977e073639cf8e449111a3174dfbc6624c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one bottle preserves the authorized reference geometry, fill, cap, collar, label, and exact copy while only set, support, and lighting change.
+- Known misses: Visual comparison supports manual inspection only and does not establish pixel-level preservation reliability.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/dusk-pine-fragrance-set-refresh/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

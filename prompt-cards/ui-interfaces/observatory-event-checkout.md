@@ -57,11 +57,26 @@ Return one credible 9:16 mobile checkout interface at {OUTPUT_SIZE}, with the pu
 
 Recalculate the total, count the tickets, confirm every required field and fee is visible, and verify the final action cannot be mistaken for a non-transactional navigation button.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Observatory Event Checkout](samples/observatory-event-checkout/observatory-event-checkout.webp)
 
-Expected result: a trustworthy fictional checkout with a compact event header, auditable price summary, and one clear purchase action.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:17:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [observatory-event-checkout.prompt.txt](samples/observatory-event-checkout/observatory-event-checkout.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `9f7960964129e7ff4175f70fe7e428ac2fae4a7cd00cc2f9667bbad94e528c62`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Observatory Event Checkout render makes "REVIEW ORDER" primary and keeps "MOON ATLAS EVENING", "VESPER HALL", "14 SEP 2030" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Observatory Event Checkout manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

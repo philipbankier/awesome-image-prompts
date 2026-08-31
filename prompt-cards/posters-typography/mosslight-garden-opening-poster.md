@@ -49,12 +49,26 @@ Return one flat garden opening poster at {OUTPUT_SIZE} in 4:5. Do not place it i
 
 Confirm the result reads as one garden opening poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: botanical focal form crossing the center with copy held in two quiet corners. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Mosslight Garden Opening Poster](samples/mosslight-garden-opening-poster/mosslight-garden-opening-poster.webp)
 
-Expected result: a single unfurling fern interrupted by geometric pools of green. Layout: botanical focal form crossing the center with copy held in two quiet corners. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:17:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [mosslight-garden-opening-poster.prompt.txt](samples/mosslight-garden-opening-poster/mosslight-garden-opening-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `58d704e022516be57d303e683ad40e242c3a6b99d389ebc9f5f11d622512d1a9`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One fern crosses a circle, rounded rectangle, and crescent while title and event details remain in quiet corners.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

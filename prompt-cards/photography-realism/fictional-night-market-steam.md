@@ -63,12 +63,30 @@ Return one 21:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates an invented night-market food stall seen through rising steam. Check the assigned composition, then verify the specific direction: keep the scene unoccupied, use warm steam against cool night, and make all visible menu copy fictional. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fictional Night Market Steam](samples/fictional-night-market-steam/fictional-night-market-steam.webp)
 
-Expected result: an invented night-market food stall seen through rising steam organized around this plan: Use separate authorized sources for unbranded stall structure, cookware, and color atmosphere without merging people or signage. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:09:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fictional-night-market-steam.prompt.txt](samples/fictional-night-market-steam/fictional-night-market-steam.prompt.txt)
+- Output dimensions: `1915 x 821`
+- Output SHA-256: `5590ffcd7e6a2acb5085969f8353f82a9932de715121578d2aba6bb632112230`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted wide frame keeps the timber stall unoccupied, renders `MOON BROTH` once, and shows one stockpot with three shallow bowls in warm steam against cool night.
+- Known misses: No material visible miss; the named cookware count, sign copy, stall structure, and cyan-amber atmosphere remain distinct.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-stall-structure.webp](samples/fictional-night-market-steam/input-01-stall-structure.webp): project-authored fictional stall structure input
+  - [input-02-cookware.webp](samples/fictional-night-market-steam/input-02-cookware.webp): project-authored fictional cookware input
+  - [input-03-color-atmosphere.webp](samples/fictional-night-market-steam/input-03-color-atmosphere.webp): project-authored fictional color atmosphere input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable multi-image fidelity, continuity, or composition.

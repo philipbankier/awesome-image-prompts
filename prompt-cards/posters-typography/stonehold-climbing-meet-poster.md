@@ -49,12 +49,26 @@ Return one flat climbing meet poster at {OUTPUT_SIZE} in 2:3. Do not place it in
 
 Confirm the result reads as one climbing meet poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: oversized hold dominates with compact category and venue copy at the base. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Stonehold Climbing Meet Poster](samples/stonehold-climbing-meet-poster/stonehold-climbing-meet-poster.webp)
 
-Expected result: one angular handhold enlarged into a mountain-like form. Layout: oversized hold dominates with compact category and venue copy at the base. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:14:58Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [stonehold-climbing-meet-poster.prompt.txt](samples/stonehold-climbing-meet-poster/stonehold-climbing-meet-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `26f36d183e5ffdb8af65ef7c2f19ff616a745647af358238624f56d6193f3f0a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One monumental faceted handhold and its orange route line dominate the event lockup.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

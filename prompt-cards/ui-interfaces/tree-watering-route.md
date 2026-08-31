@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a volunteer tree-watering route concept. Check the assigned composition, then verify the specific direction: use clear progress markers and avoid real navigation, plant-health, or municipal claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tree Watering Route](samples/tree-watering-route/tree-watering-route.webp)
 
-Expected result: a volunteer tree-watering route concept organized around this plan: Show an invented block map, ordered stops, supplied tree notes, and a completion checklist. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:47:11Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tree-watering-route.prompt.txt](samples/tree-watering-route/tree-watering-route.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `da1b8cc5650bed7e9caf18cba58e4dccae039c1bf7ad8d1d9832d9f53b3e7d23`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Tree Watering Route render makes "complete the next fictional tree-watering stop" primary and keeps "MORROWFIELD TREE ROUTE", "invented blocks Cedar Lane, Lantern Row, Willow Court", "stops 1 Cedar-04 / 2 cans / complete, 2 Lantern-07 /…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Tree Watering Route manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

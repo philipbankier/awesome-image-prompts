@@ -49,12 +49,26 @@ Return one flat recreational map poster at {OUTPUT_SIZE} in 2:3. Do not place it
 
 Confirm the result reads as one recreational map poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: map occupies two thirds with legend, distance, and access notes in one side column. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bluehour Trail Map Poster](samples/bluehour-trail-map-poster/bluehour-trail-map-poster.webp)
 
-Expected result: a single luminous route winding through abstract elevation bands. Layout: map occupies two thirds with legend, distance, and access notes in one side column. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:32:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bluehour-trail-map-poster.prompt.txt](samples/bluehour-trail-map-poster/bluehour-trail-map-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `a8aab77e0f466984d1d2814213680b6b1ea14a852b456fc7bfb775afebc9b5e5`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The luminous cyan loop, start marker, right-side legend, title, distance, and fictional-route labels remain clear.
+- Known misses: The visible contour field contains substantially more than the requested five nested elevation bands.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

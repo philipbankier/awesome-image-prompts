@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates smooth fictional river stones beneath softly moving water. Check the assigned composition, then verify the specific direction: use natural cool color, controlled long-exposure motion, no location clues, and no environmental-quality claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for River Stone Long Exposure](samples/river-stone-long-exposure/river-stone-long-exposure.webp)
 
-Expected result: smooth fictional river stones beneath softly moving water organized around this plan: Anchor three stones in a shallow diagonal while water blurs into fine ribbons around their edges. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:40:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [river-stone-long-exposure.prompt.txt](samples/river-stone-long-exposure/river-stone-long-exposure.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `77a71f048ade2eaf9d8bdbbba15948c2064aa52706f5bfc8b45bf1c1afb3b1df`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final aligns exactly three dark river stones diagonally while pale long-exposure water ribbons divide and rejoin around them.
+- Known misses: No material visible miss; the three-stone count, wet surfaces, and controlled water blur remain legible without location cues.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

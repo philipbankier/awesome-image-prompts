@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 3:4 variable-type specimen poster
+Card: Aster Foundry Variable Type Specimen
+Primary request: Demonstrate a wholly original fictional variable display typeface through one word expanding across weight and width axes.
+Variable instantiations:
+SUBJECT_BRIEF: fictional type specimen for graphic-design students; illustrative typography study only.
+COPY_MANIFEST: render exactly and only "ASTER", "WEIGHT", "WIDTH", "LIGHT", "BOLD", "NARROW", and "WIDE".
+VISUAL_MOTIF: the word ASTER shown in exactly four progressively heavier and wider rows.
+PALETTE: ultramarine, warm cream, black, and one coral axis line.
+TYPE_DIRECTION: original modular display sans with rounded inner corners.
+COMPOSITION_RULES: 8 percent safe margins; measured specimen grid; four ASTER rows centered; WEIGHT and WIDTH axis labels; compact endpoint labels; no cropped type.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exact words only, spelled correctly; no alphabet soup, pseudo-writing, extra glyph rows, logos, copied typeface, signature, mockup, or watermark.

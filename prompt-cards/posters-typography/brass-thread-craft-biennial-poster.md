@@ -49,12 +49,26 @@ Return one flat craft biennial poster at {OUTPUT_SIZE} in 2:3. Do not place it i
 
 Confirm the result reads as one craft biennial poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: single vertical artwork with sparse title and venue copy in the margins. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Brass Thread Craft Biennial Poster](samples/brass-thread-craft-biennial-poster/brass-thread-craft-biennial-poster.webp)
 
-Expected result: a brass line stitches through clay, fiber, and glass forms. Layout: single vertical artwork with sparse title and venue copy in the margins. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:36:22Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [brass-thread-craft-biennial-poster.prompt.txt](samples/brass-thread-craft-biennial-poster/brass-thread-craft-biennial-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `0d2f97d0f1bb5879ef2fe27d763e966e794baf3571caf51bb3c625fce3327dba`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One brass thread vertically links the terracotta disc, indigo loop, and teal oval between sparse title and date margins.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

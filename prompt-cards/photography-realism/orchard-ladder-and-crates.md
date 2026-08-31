@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an empty orchard work scene with a ladder and stacked wooden crates. Check the assigned composition, then verify the specific direction: use late-afternoon side light, dusty leaves, scuffed wood, and no agricultural-performance claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Orchard Ladder and Crates](samples/orchard-ladder-and-crates/orchard-ladder-and-crates.webp)
 
-Expected result: an empty orchard work scene with a ladder and stacked wooden crates organized around this plan: Angle the ladder into low branches while three crates form a grounded triangle in the foreground. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:47Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [orchard-ladder-and-crates.prompt.txt](samples/orchard-ladder-and-crates/orchard-ladder-and-crates.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `5f9c0b104d109658952cb23b743587c6956de5137aa14bdb50e720d9dd3f11e2`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final leans one orchard ladder into fruiting branches and places exactly three empty wooden crates beneath it in late natural light.
+- Known misses: No material visible miss; ladder, three-crate count, foliage, and unoccupied scene remain legible without labels or people.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

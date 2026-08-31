@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a common pigeon reflected in a shallow fictional city puddle. Check the assigned composition, then verify the specific direction: use natural behavior, low camera height, no band or location detail, and no species-health claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for City Pigeon Puddle](samples/city-pigeon-puddle/city-pigeon-puddle.webp)
 
-Expected result: a common pigeon reflected in a shallow fictional city puddle organized around this plan: Keep the bird small near one edge while its reflection and rippled building colors occupy most of frame. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [city-pigeon-puddle.prompt.txt](samples/city-pigeon-puddle/city-pigeon-puddle.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `448349818006a6d30c68211b70653531c439c6e3cd1092fecc7b3bf3710ffe86`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows one small pigeon near the frame edge with its full reflection and broad rippled color fields occupying most of the shallow water.
+- Known misses: The block-like background reads more as an abstract studio set than a clearly urban street, weakening the requested city context.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

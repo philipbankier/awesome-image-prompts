@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional sculpture-park audio map. Check the assigned composition, then verify the specific direction: use project-authored artwork names and avoid copying real park layouts or sculptures. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Sculpture Park Audio Map](samples/sculpture-park-audio-map/sculpture-park-audio-map.webp)
 
-Expected result: a fictional sculpture-park audio map organized around this plan: Arrange a stylized park map above nearby works, listening progress, and supplied access notes. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:50Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [sculpture-park-audio-map.prompt.txt](samples/sculpture-park-audio-map/sculpture-park-audio-map.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `72a221d5deac345e6dabe94e3f30c21503e75d7db3fdb3a78faac628690780c4`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Sculpture Park Audio Map render makes "find the next fictional artwork and continue listening" primary and keeps "MORROWFIELD SCULPTURE WALK", "invented map zones Gate, Meadow, River", "works Folded Wind / 2 min away / 60% listened, Stone…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Sculpture Park Audio Map manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

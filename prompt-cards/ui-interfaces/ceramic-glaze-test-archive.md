@@ -59,12 +59,31 @@ Return one 16:10 concept image with readable hierarchy and no unrequested screen
 
 Confirm the image communicates a ceramic-studio glaze test archive. Check the assigned composition, then verify the specific direction: keep every image role explicit and avoid materials-safety or firing-performance claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ceramic Glaze Test Archive](samples/ceramic-glaze-test-archive/ceramic-glaze-test-archive.webp)
 
-Expected result: a ceramic-studio glaze test archive organized around this plan: Display authorized tile images in a filterable grid with supplied clay, firing, and note fields. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:58:22Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ceramic-glaze-test-archive.prompt.txt](samples/ceramic-glaze-test-archive/ceramic-glaze-test-archive.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `74d07c9e7919ce268c8ae573ef5256cb7b3fe666bbb5622887c0977764fd970e`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:10 Ceramic Glaze Test Archive render makes "filter and compare the three supplied project-owned glaze tiles" primary and keeps "MORROWFIELD GLAZE ARCHIVE", "Cobalt Square / stoneware / Cone 6 / glossy", "Copper Rectangle / stoneware / Cone 6 / satin" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Ceramic Glaze Test Archive manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-cobalt-tile.webp](samples/ceramic-glaze-test-archive/input-01-cobalt-tile.webp): project-authored fictional cobalt tile supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-copper-tile.webp](samples/ceramic-glaze-test-archive/input-02-copper-tile.webp): project-authored fictional copper tile supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-cream-tile.webp](samples/ceramic-glaze-test-archive/input-03-cream-tile.webp): project-authored fictional cream tile supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

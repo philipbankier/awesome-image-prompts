@@ -49,12 +49,26 @@ Return one clean consumer-electronics lifestyle image at {OUTPUT_SIZE} in 3:2, w
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: speaker is the nearest object with restrained room context and no people. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Sonnet Speaker Lifestyle Vignette](samples/sonnet-speaker-lifestyle-vignette/sonnet-speaker-lifestyle-vignette.webp)
 
-Expected result: a woven speaker enclosure echoes the texture of one nearby chair. Layout: speaker is the nearest object with restrained room context and no people. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:59:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [sonnet-speaker-lifestyle-vignette.prompt.txt](samples/sonnet-speaker-lifestyle-vignette/sonnet-speaker-lifestyle-vignette.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `d4e70d05cfb3840e159112d047aeb5e55fb7696ff673f4e6e719560226e56943`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one complete speaker is the nearest and sharpest object, with the chair weave providing restrained visual context and no people or extra electronics.
+- Known misses: The room vignette communicates placement only and makes no audio or connectivity claim.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

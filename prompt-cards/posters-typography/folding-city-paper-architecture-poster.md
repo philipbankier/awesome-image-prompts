@@ -49,12 +49,26 @@ Return one flat architecture exhibition poster at {OUTPUT_SIZE} in 2:3. Do not p
 
 Confirm the result reads as one architecture exhibition poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: skyline occupies the lower half with exhibition title suspended in open space. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Folding City Paper Architecture Poster](samples/folding-city-paper-architecture-poster/folding-city-paper-architecture-poster.webp)
 
-Expected result: one folded sheet becomes a compact imaginary skyline. Layout: skyline occupies the lower half with exhibition title suspended in open space. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:51:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [folding-city-paper-architecture-poster.prompt.txt](samples/folding-city-paper-architecture-poster/folding-city-paper-architecture-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `ea364bfc1d407b6a624acdc54352e9dabb5213ab60ab361b0d05339738594bfc`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Seven folded paper forms step across the lower half beneath the exact title, subtitle, and date.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an empty fictional bus shelter reflected in rain-dark pavement. Check the assigned composition, then verify the specific direction: use invented unreadable poster shapes, realistic wet surfaces, and no real route, brand, or live-service implication. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bus Shelter Night Reflection](samples/bus-shelter-night-reflection/bus-shelter-night-reflection.webp)
 
-Expected result: an empty fictional bus shelter reflected in rain-dark pavement organized around this plan: Place the shelter in the upper third while its colored light reflection stretches toward camera. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:26Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bus-shelter-night-reflection.prompt.txt](samples/bus-shelter-night-reflection/bus-shelter-night-reflection.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `fdb410b062fa689fbb4b3edbbbaf94f878d2b507943d084067721f612c5a49c6`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final keeps the shelter empty in the upper frame, shows two framed unreadable abstract poster shapes, and reflects its warm light toward camera across rain-dark pavement.
+- Known misses: No material visible miss; the wet reflection, invented posters, cool ambient light, and single warm practical remain clear without route, brand, or service text.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

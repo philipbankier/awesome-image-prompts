@@ -52,11 +52,26 @@ Return one 3:2 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a fictional park picnic request flow. Check the assigned composition, then verify the specific direction: avoid legal, permit, fee, availability, accessibility, or policy claims beyond supplied fictional copy. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Park Picnic Request Flow](samples/park-picnic-request-flow/park-picnic-request-flow.webp)
 
-Expected result: a fictional park picnic request flow organized around this plan: Use a four-step path for zone, date, group details, and review with a nonbinding status notice. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:24:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [park-picnic-request-flow.prompt.txt](samples/park-picnic-request-flow/park-picnic-request-flow.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `d583456d763d1ffe21c6df2cdd5c4bad6bddce11307ee8c3f2f143f98d1ff618`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 3:2 Park Picnic Request Flow render makes "review a four-step fictional picnic request before submission" primary and keeps "LANTERN PARK PICNIC REQUEST", "steps Zone, Date, Group, Review", "selected zone Cedar Lawn" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Park Picnic Request Flow manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

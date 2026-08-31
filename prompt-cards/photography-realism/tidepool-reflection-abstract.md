@@ -51,12 +51,26 @@ Return one 1:1 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an abstract tidepool reflection made from sky, rock, and ripples. Check the assigned composition, then verify the specific direction: use natural color, crisp wet edges, subtle motion, and no wildlife-identification claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tidepool Reflection Abstract](samples/tidepool-reflection-abstract/tidepool-reflection-abstract.webp)
 
-Expected result: an abstract tidepool reflection made from sky, rock, and ripples organized around this plan: Exclude the horizon and frame three interlocking regions of dark stone, pale sky reflection, and concentric ripples. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:45:29Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tidepool-reflection-abstract.prompt.txt](samples/tidepool-reflection-abstract/tidepool-reflection-abstract.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `2a45b657e62d5e443968969483952073aa2a6a5fe30f2188db164499a699f49b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted square abstraction interlocks three readable regions of dark stone, reflected sky, and rippled water without introducing a horizon line.
+- Known misses: No material visible miss; the three-region structure and natural surface cues remain distinct without animals, people, or location clues.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

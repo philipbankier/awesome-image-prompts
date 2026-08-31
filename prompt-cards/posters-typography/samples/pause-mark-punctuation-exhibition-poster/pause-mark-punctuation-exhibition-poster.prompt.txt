@@ -1,0 +1,21 @@
+Use case: rendered sample for the Pause Mark Punctuation Exhibition Poster Prompt Card.
+Asset type: one flat fictional punctuation-exhibition poster, no mockup.
+
+Create one 2:3 poster announcing PAUSE MARK, a fictional exhibition about punctuation at the invented West Gallery.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+PAUSE MARK
+PUNCTUATION EXHIBITION
+JUNE 4–28
+WEST GALLERY
+COMMA • COLON • DASH
+FREE ENTRY
+
+VISUAL SYSTEM
+Inside a clean cream outer border, create an abstract gallery floor from exactly one enormous cobalt comma, one vermilion colon with exactly two dots, and one long mustard dash. Make these three punctuation forms behave like partitions without adding room labels. Place the two-line exhibition name within the punctuation field while keeping it readable. Put the four detail lines on the clean outer frame. Use deep navy, cobalt, vermilion, mustard, and cream. Typography is original high-contrast sans serif uppercase. Keep 8% margins and a disciplined top-to-bottom hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No other punctuation marks, alphabet fragments, labels, captions, sponsor, logo, pseudo-writing, signature, watermark, physical frame mockup, wall, or extra option. Preserve exact punctuation in the manifest.
+
+OUTPUT INTENT
+Return one flat 2:3 punctuation-exhibition poster at 1024 x 1536 pixels.

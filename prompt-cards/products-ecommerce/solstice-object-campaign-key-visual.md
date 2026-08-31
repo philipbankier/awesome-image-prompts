@@ -57,12 +57,28 @@ Return one clean product campaign key visual at {OUTPUT_SIZE} in 4:5, with the p
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: product centered low with exact campaign copy in protected upper space. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Solstice Object Campaign Key Visual](samples/solstice-object-campaign-key-visual/solstice-object-campaign-key-visual.webp)
 
-Expected result: the preserved object casts a long geometric solstice shadow through colored paper planes. Layout: product centered low with exact campaign copy in protected upper space. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:34:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [solstice-object-campaign-key-visual.prompt.txt](samples/solstice-object-campaign-key-visual/solstice-object-campaign-key-visual.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `404d7f18bd3dab313d4084ac3f1329ec31fdb3119f3201dc1ce5384e78478bb0`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one preserved object retains the authorized loop, sphere, contact relationship, and base while three paper planes, long shadow, and exact campaign copy form the new set.
+- Known misses: Visual comparison supports manual inspection only and does not establish pixel-level preservation reliability.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/solstice-object-campaign-key-visual/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 2:3 craft biennial poster
+Card: Brass Thread Craft Biennial Poster
+Primary request: Announce a fictional contemporary craft biennial with one brass line stitching through exactly three abstract material forms: clay, fiber, and glass.
+Variable instantiations:
+SUBJECT_BRIEF: fictional contemporary-craft biennial for adult museum visitors.
+COPY_MANIFEST: render exactly and only "BRASS THREAD", "CRAFT BIENNIAL", and "12–28 NOV 2026".
+VISUAL_MOTIF: one continuous brass thread piercing a terracotta disc, woven indigo loop, and translucent teal glass oval.
+PALETTE: brass gold, terracotta, indigo, teal, and warm cream.
+TYPE_DIRECTION: original narrow uppercase sans serif with generous tracking.
+COMPOSITION_RULES: 10 percent safe margins; single vertical artwork centered; sparse title and date held in opposing margins; clear hierarchy; no crop.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly three material forms and one brass line; exact copy only; no other text, pseudo-writing, logos, signatures, mockups, or watermark.

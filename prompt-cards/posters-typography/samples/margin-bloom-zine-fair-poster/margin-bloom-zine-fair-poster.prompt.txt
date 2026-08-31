@@ -1,0 +1,24 @@
+Use case: rendered sample for the Margin Bloom Zine Fair Poster Prompt Card.
+Asset type: one flat fictional zine-fair poster, no mockup.
+
+Create one 3:4 poster announcing a fictional independent zine fair.
+
+SUBJECT BRIEF
+Margin Bloom is a one-day fair for independent, fictional small-press makers at the invented Paperdock Hall. The audience is local readers, illustrators, and DIY publishers.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+MARGIN BLOOM
+ZINE FAIR
+SUNDAY, MAY 17
+11 AM–5 PM
+PAPERDOCK HALL
+FREE ENTRY
+
+VISUAL SYSTEM
+Build photocopied flowers from torn blank page margins, staple marks, halftone dots, and rough black-and-white paper edges. Add two spot colors: fluorescent magenta and leaf green. Use an original blunt condensed uppercase title. Organize a rough collage field in the center, a crisp white title strip at top, and an orderly six-line information footer with each manifest line appearing once. Keep 7% safe margins and strong thumbnail contrast.
+
+CONSTRAINTS
+Render only the exact copy manifest. All torn paper is blank, with no page text or pseudo-writing. No real publication, exhibitor list, sponsor, trademark, logo, signature, watermark, wall, frame, or extra option. Do not duplicate, paraphrase, misspell, or clip text.
+
+OUTPUT INTENT
+Return one flat 3:4 poster at 1024 x 1365 pixels.

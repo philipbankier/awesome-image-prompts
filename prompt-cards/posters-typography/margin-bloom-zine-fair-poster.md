@@ -49,12 +49,26 @@ Return one flat zine fair poster at {OUTPUT_SIZE} in 3:4. Do not place it in a w
 
 Confirm the result reads as one zine fair poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: rough collage field with a crisp title strip and orderly exhibitor footer. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Margin Bloom Zine Fair Poster](samples/margin-bloom-zine-fair-poster/margin-bloom-zine-fair-poster.webp)
 
-Expected result: photocopied petals assembled from torn page margins. Layout: rough collage field with a crisp title strip and orderly exhibitor footer. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:01:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [margin-bloom-zine-fair-poster.prompt.txt](samples/margin-bloom-zine-fair-poster/margin-bloom-zine-fair-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `d4e2fb551674f711990a80e430b4c0e2cc5a878a7a42d882f946578c0cdf7db7`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Torn blank-page flowers, halftone dots, and staple marks fill the collage field between the title and five-line info block.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

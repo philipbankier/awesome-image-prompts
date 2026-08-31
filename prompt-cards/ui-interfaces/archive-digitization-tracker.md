@@ -59,12 +59,31 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates an authorized archive-box digitization tracker. Check the assigned composition, then verify the specific direction: preserve source separation, show provenance, and avoid exposing private records or inferring missing metadata. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Archive Digitization Tracker](samples/archive-digitization-tracker/archive-digitization-tracker.webp)
 
-Expected result: an authorized archive-box digitization tracker organized around this plan: Keep sample document images grouped by box with capture status, rights notes, and quality-review flags. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:51:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [archive-digitization-tracker.prompt.txt](samples/archive-digitization-tracker/archive-digitization-tracker.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `8d01f5ea3b71d0b666de0103575f8bcb95fddbde67acf8d32584ca0c029715f3`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Archive Digitization Tracker render makes "review Box 14 capture progress and route the flagged item to quality review" primary and keeps "Morrowfield Garden Archive", "Box 14", "three supplied assets" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Archive Digitization Tracker manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-box-cover.webp](samples/archive-digitization-tracker/input-01-box-cover.webp): project-authored fictional box cover supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-typed-page.webp](samples/archive-digitization-tracker/input-02-typed-page.webp): project-authored fictional typed page supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-index-card.webp](samples/archive-digitization-tracker/input-03-index-card.webp): project-authored fictional index card supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

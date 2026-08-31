@@ -49,12 +49,26 @@ Return one clean product instruction strip at {OUTPUT_SIZE} in 4:5, with the pro
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: three equal vertical frames with one short action caption each. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Glowpost Camp Lantern Instruction Strip](samples/glowpost-camp-lantern-instruction-strip/glowpost-camp-lantern-instruction-strip.webp)
 
-Expected result: closed, extended, and lit states progress without changing core geometry. Layout: three equal vertical frames with one short action caption each. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:41:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [glowpost-camp-lantern-instruction-strip.prompt.txt](samples/glowpost-camp-lantern-instruction-strip/glowpost-camp-lantern-instruction-strip.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `babb238d01a0295f25ecb161bdcdca45f9969450e81d8dfc601b418e2b7b89d0`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: three equal panels preserve the lantern design across collapsed, extended, and lit states, with all exact captions rendered correctly.
+- Known misses: The lit state shows a visual glow only and makes no brightness or runtime claim.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

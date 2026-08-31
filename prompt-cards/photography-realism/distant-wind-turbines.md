@@ -51,12 +51,26 @@ Return one 21:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates three fictional wind turbines on a distant ridge beneath layered clouds. Check the assigned composition, then verify the specific direction: use muted weather light and avoid energy-output, environmental-benefit, ownership, or location claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Distant Wind Turbines](samples/distant-wind-turbines/distant-wind-turbines.webp)
 
-Expected result: three fictional wind turbines on a distant ridge beneath layered clouds organized around this plan: Keep the ridge in the lower fifth and space the turbines unevenly against a broad sky. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:11:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [distant-wind-turbines.prompt.txt](samples/distant-wind-turbines/distant-wind-turbines.prompt.txt)
+- Output dimensions: `1915 x 821`
+- Output SHA-256: `b21214bd8571b82b5afb97ada2398e1680448b55768db62c78a1078b4d742d16`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted panoramic final visibly places exactly three unevenly spaced wind turbines across the low ridge beneath a broad layered sky.
+- Known misses: No material visible miss; the three-turbine count, low ridge, muted weather light, and claim-free setting remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

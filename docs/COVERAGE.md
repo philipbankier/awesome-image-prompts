@@ -7,6 +7,8 @@ Awesome Image Prompts covers all 13 primary categories at two depths: 541 quick-
 | Content or evidence unit      | Current count | What it means                                                              |
 | ----------------------------- | ------------: | -------------------------------------------------------------------------- |
 | Prompt Cards                  |           541 | Copy-ready, independently authored prompts across all categories           |
+| Rendered Prompt Cards         |           273 | One inspected built-in-tool illustrative run recorded on each Card         |
+| Placeholder Prompt Cards      |           268 | Prompt available, with no Card-specific generation evidence                |
 | Text-only Prompt Cards        |           430 | Cards that need no image or sketch input                                   |
 | Reference-image Prompt Cards  |            46 | Cards that accept a rights-cleared reference image                         |
 | Multi-image Prompt Cards      |            33 | Cards that accept a rights-cleared image set with per-source roles         |
@@ -15,31 +17,32 @@ Awesome Image Prompts covers all 13 primary categories at two depths: 541 quick-
 | Categories with Prompt Cards  |         13/13 | Every primary category has quick-use coverage                              |
 | Categories with a Recipe      |         13/13 | Every primary category has at least one production-oriented workflow       |
 | Illustrative Recipe outputs   |            16 | One recorded built-in-tool output per Recipe                               |
-| Supporting input assets       |             1 | One project-generated reference used by the product-edit Recipe            |
+| Public Card supporting inputs |            94 | Reduced project-authored derivatives linked from rendered Cards            |
+| Recipe supporting inputs      |             1 | One project-generated reference used by the product-edit Recipe            |
 | Promoted Recipes              |             0 | No Recipe has passed the API promotion gate                                |
 | Recorded GPT Image 2 API runs |             0 | Built-in-tool samples do not expose the metadata required for API evidence |
 
-All 541 Prompt Cards have Placeholder Previews. The 16 Rendered Samples belong to their Recipes and do not turn linked Cards into tested prompts.
+The 273 rendered Cards cover all 73 UI & Interfaces Cards, all 42 Products & E-commerce Cards, all 78 Photography & Realism Cards, and 80 of 90 Posters & Typography Cards. The other 268 Cards retain Placeholder Previews. Recipe-owned samples remain separate evidence and do not transfer to linked Cards.
 
 Input-mode counts are not mutually exclusive: one Card accepts either a reference image or a sketch, and some declared modes are optional. Each Card's Required inputs section is authoritative for its intake logic.
 
 ## Category map
 
-| Category                   | Cards | Recipes | Covered output families                                                                            |
-| -------------------------- | ----: | ------: | -------------------------------------------------------------------------------------------------- |
-| UI & Interfaces            |    73 |       1 | Mobile, tablet, desktop, kiosk, dashboard, booking, review, and control views                      |
-| Charts & Infographics      |    53 |       2 | Charts, maps, timelines, processes, comparisons, scales, and explainers                            |
-| Posters & Typography       |    90 |       1 | Events, notices, campaigns, specimens, schedules, and typographic studies                          |
-| Products & E-commerce      |    42 |       3 | Listing, catalog, packaging, comparison, edit, bundle, and collectible imagery                     |
-| Brand & Logos              |    27 |       1 | Marks, identity systems, touchpoints, signage, campaigns, and brand architecture                   |
-| Architecture & Spaces      |    12 |       1 | Exterior, interior, adaptive reuse, landscape, modular, and public-space concepts                  |
-| Photography & Realism      |    78 |       1 | Editorial, studio, documentary-style, macro, landscape, object, and interior work                  |
-| Illustration & Art         |    59 |       1 | Print, paint, collage, diagrammatic, textile, editorial, and narrative media                       |
-| Characters & People        |    31 |       1 | Portraits, sheets, ensembles, costumes, actions, expressions, and identity-safe edits              |
-| Scenes & Storytelling      |    21 |       1 | Narrative frames, cinematic scenes, suspense, triptychs, comics, and picture-book work             |
-| History & Classical Themes |    16 |       1 | Reconstruction, material culture, public-domain interpretation, and museum views                   |
-| Documents & Publishing     |    11 |       1 | Covers, spreads, guides, programs, instructions, editorial systems, and layouts                    |
-| Other Use Cases            |    28 |       1 | Patterns, craft sheets, game assets, restoration, removal, outpainting, AR, and multi-image boards |
+| Category                   | Cards | Rendered | Recipes | Covered output families                                                                            |
+| -------------------------- | ----: | -------: | ------: | -------------------------------------------------------------------------------------------------- |
+| UI & Interfaces            |    73 |       73 |       1 | Mobile, tablet, desktop, kiosk, dashboard, booking, review, and control views                      |
+| Charts & Infographics      |    53 |        0 |       2 | Charts, maps, timelines, processes, comparisons, scales, and explainers                            |
+| Posters & Typography       |    90 |       80 |       1 | Events, notices, campaigns, specimens, schedules, and typographic studies                          |
+| Products & E-commerce      |    42 |       42 |       3 | Listing, catalog, packaging, comparison, edit, bundle, and collectible imagery                     |
+| Brand & Logos              |    27 |        0 |       1 | Marks, identity systems, touchpoints, signage, campaigns, and brand architecture                   |
+| Architecture & Spaces      |    12 |        0 |       1 | Exterior, interior, adaptive reuse, landscape, modular, and public-space concepts                  |
+| Photography & Realism      |    78 |       78 |       1 | Editorial, studio, documentary-style, macro, landscape, object, and interior work                  |
+| Illustration & Art         |    59 |        0 |       1 | Print, paint, collage, diagrammatic, textile, editorial, and narrative media                       |
+| Characters & People        |    31 |        0 |       1 | Portraits, sheets, ensembles, costumes, actions, expressions, and identity-safe edits              |
+| Scenes & Storytelling      |    21 |        0 |       1 | Narrative frames, cinematic scenes, suspense, triptychs, comics, and picture-book work             |
+| History & Classical Themes |    16 |        0 |       1 | Reconstruction, material culture, public-domain interpretation, and museum views                   |
+| Documents & Publishing     |    11 |        0 |       1 | Covers, spreads, guides, programs, instructions, editorial systems, and layouts                    |
+| Other Use Cases            |    28 |        0 |       1 | Patterns, craft sheets, game assets, restoration, removal, outpainting, AR, and multi-image boards |
 
 The [Prompt Card index](../prompt-cards/README.md) lists all 541 Cards. The [Recipe index](../skills/image-recipe-library/references/recipe-index.md) routes to all 16 workflows.
 
@@ -68,7 +71,7 @@ Snapshot taken 2026-08-30:
 | ---------------------------------- | -------------------------------------------: | ---------------------------------: |
 | Quick prompt records               |                             541 Prompt Cards |                          541 cases |
 | Per-category prompt distribution   | Exact numeric match across all 13 categories |       Exact reference distribution |
-| Card or case example-image records |                     0 Card-level generations |         541 cases with image paths |
+| Card or case example-image records |                   273 Card-level generations |         541 cases with image paths |
 | Deeper workflow layer              |                             16 draft Recipes | 22 packaged-skill template records |
 | Primary categories                 |                                        13/13 |                              13/13 |
 | Formal style facets                |                      Tags, no fixed taxonomy |                          19 styles |
@@ -77,10 +80,10 @@ Snapshot taken 2026-08-30:
 
 The upstream snapshot is commit [`c7d2939`](https://github.com/freestylefly/awesome-gpt-image-2/commit/c7d293963b21c60bf338003915438cc5c39dd3ca). Its machine-readable corpus declares 541 cases, 13 categories, 19 styles, and 10 scenes. Its packaged-skill [template index](https://github.com/freestylefly/awesome-gpt-image-2/blob/c7d293963b21c60bf338003915438cc5c39dd3ca/agents/skills/gpt-image-2-style-library/references/style-library.md#template-index) contains 22 records. See the pinned [`cases.json`](https://github.com/freestylefly/awesome-gpt-image-2/blob/c7d293963b21c60bf338003915438cc5c39dd3ca/data/cases.json) for the corpus counts and the separate [template collection](https://github.com/freestylefly/awesome-gpt-image-2/blob/c7d293963b21c60bf338003915438cc5c39dd3ca/docs/templates.md) for its human-facing examples.
 
-This repository now matches the upstream prompt corpus numerically and by category count. It does not yet match the upstream gallery's Card-level visual examples, 22-record packaged-skill template layer, or fixed style and scene facets. Those are separate gaps rather than hidden inside the 541-Card claim.
+This repository matches the upstream prompt corpus numerically and by category count. Its Card-level gallery now covers 273 of 541 records, so 268 example-image records remain before numeric gallery parity. It also does not yet match the upstream 22-record packaged-skill template layer or fixed style and scene facets. Those are separate gaps rather than hidden inside the 541-Card claim.
 
 ## Evidence status
 
-Every Recipe declares a conversational profile and a pinned GPT Image 2 API profile. The recorded images came from a built-in image tool whose exact model and request settings were not exposed. Each run stores its exact submitted prompt, local PNG, checksum, dimensions, inspection notes, and rights statement, with `promotion_evidence: false`.
+Every Recipe declares a conversational profile and a pinned GPT Image 2 API profile. The recorded Recipe and Card images came from a built-in image tool whose exact model and request settings were not exposed. Each public record stores its exact submitted prompt, derivative checksum, dimensions, inspection notes, known misses, and rights statement, with `promotion_evidence: false`.
 
 `recorded` means the run is inspectable. It does not mean the Recipe is a full rubric pass, repeatable, API-conformant, promoted, or publish-ready. Several retained samples disclose exact-count, topology, or requested-dimension misses in their run records. Promotion still requires four scored GPT Image 2 API runs across two materially different briefs plus one conversational smoke run.

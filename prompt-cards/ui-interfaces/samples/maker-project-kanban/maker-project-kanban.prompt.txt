@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop project interface for the fictional "Morrowfield Maker Project Kanban" concept. The concept is a cooperative maker-project kanban board.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make move one fictional maker task from build to review the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD MAKER BOARD; columns Ideas, Ready, Building, Review; cards Lantern Frame / Building / depends on Cut Panels; Cut Panels / Ready; Test Hinge / Review; Paint Sample / Ideas; selected Lantern Frame; fictional member aliases Moss, Wren; detail Due Friday / concept only. Use four workflow columns, concise fictional task cards, dependencies, and a selected-card detail panel. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Keep all members and projects fictional and do not imply real tool safety or delivery commitments. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

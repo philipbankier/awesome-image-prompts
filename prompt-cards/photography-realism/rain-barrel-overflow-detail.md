@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates water spilling from a fictional garden rain barrel during a shower. Check the assigned composition, then verify the specific direction: use realistic rainfall and material wear with no capacity, flood-control, installation, or environmental-benefit claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rain Barrel Overflow Detail](samples/rain-barrel-overflow-detail/rain-barrel-overflow-detail.webp)
 
-Expected result: water spilling from a fictional garden rain barrel during a shower organized around this plan: Crop around the overflow lip, downpipe, and rippling collection tray while the garden falls softly behind. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rain-barrel-overflow-detail.prompt.txt](samples/rain-barrel-overflow-detail/rain-barrel-overflow-detail.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `6f721253cb3e803834f1d001d67529b777dc077a0f297a3f28af7080a58a7474`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted close frame clearly shows rainwater spilling from the barrel's overflow lip into a shallow tray, with wet wood and surrounding greenery rendered naturally.
+- Known misses: The requested downpipe is not visibly established; the overflow spout, tray, falling water, and rain-darkened surfaces remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

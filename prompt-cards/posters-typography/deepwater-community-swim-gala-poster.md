@@ -49,12 +49,26 @@ Return one flat swim gala poster at {OUTPUT_SIZE} in 3:4. Do not place it in a w
 
 Confirm the result reads as one swim gala poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: gala title above four event categories and a clear check-in footer. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Deepwater Community Swim Gala Poster](samples/deepwater-community-swim-gala-poster/deepwater-community-swim-gala-poster.webp)
 
-Expected result: lane ropes turning into a simple wave notation. Layout: gala title above four event categories and a clear check-in footer. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:46:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [deepwater-community-swim-gala-poster.prompt.txt](samples/deepwater-community-swim-gala-poster/deepwater-community-swim-gala-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `c165c07dffad6fd943372400ac3bb30cd7eb1f4ed7c61cae3b10abe646b952dc`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four colored lane ropes turn into four wave marks, with four event labels aligned above the check-in footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

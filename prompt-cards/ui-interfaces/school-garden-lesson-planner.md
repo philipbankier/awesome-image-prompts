@@ -52,11 +52,26 @@ Return one 16:10 concept image with readable hierarchy and no unrequested screen
 
 Confirm the image communicates a fictional school-garden lesson planner. Check the assigned composition, then verify the specific direction: use bright garden accents and avoid curriculum, safety, or accessibility certification claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for School Garden Lesson Planner](samples/school-garden-lesson-planner/school-garden-lesson-planner.webp)
 
-Expected result: a fictional school-garden lesson planner organized around this plan: Arrange learning goals, activity cards, materials, and a printable sequence with no student records or faces. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:30:47Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [school-garden-lesson-planner.prompt.txt](samples/school-garden-lesson-planner/school-garden-lesson-planner.prompt.txt)
+- Output dimensions: `1586 x 992`
+- Output SHA-256: `794b4e4e538fa2bfe4635249e3324f5d0142d32d82f202bfde35768671fae284`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:10 School Garden Lesson Planner render makes "arrange a fictional garden lesson into a printable sequence" primary and keeps "CEDAR SCHOOL GARDEN LESSON", "goal Observe leaf shapes", "activities 1 Welcome 10 min, 2 Leaf hunt 20 min, 3 Dr…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed School Garden Lesson Planner manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

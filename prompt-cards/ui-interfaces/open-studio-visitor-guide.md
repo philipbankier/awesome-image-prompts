@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional open-studio visitor guide. Check the assigned composition, then verify the specific direction: use fictional artist names and avoid copying a real venue plan or branding. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Open Studio Visitor Guide](samples/open-studio-visitor-guide/open-studio-visitor-guide.webp)
 
-Expected result: a fictional open-studio visitor guide organized around this plan: Lead with today’s supplied rooms and times, then show an illustrated floor overview and etiquette notes. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:22:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [open-studio-visitor-guide.prompt.txt](samples/open-studio-visitor-guide/open-studio-visitor-guide.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `a8ef55814f66506bdfdbdd3e3d3d6cb4b1d1e55b856dd5b915bcf7a3acf4012f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Open Studio Visitor Guide render makes "find the next fictional open-studio room and time" primary and keeps "MORROWFIELD OPEN STUDIOS", "Today 14 Sep", "Room 1 Mira Vale / paper sculpture / 11:00-14:00" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Open Studio Visitor Guide manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

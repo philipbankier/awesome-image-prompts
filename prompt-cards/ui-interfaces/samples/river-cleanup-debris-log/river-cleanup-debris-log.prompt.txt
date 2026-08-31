@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile field log interface for the fictional "Morrowfield River Cleanup Debris Log" concept. The concept is a fictional river-cleanup debris logging screen.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make save one fictional debris observation with an approximate count the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only LANTERN RIVER CLEANUP; category Plastic pieces; approximate count 12; zone Reed Bend; photo status No photo; other categories Metal, Glass, Fabric; note Sample volunteer record; button SAVE LOG; no exact coordinates, scientific finding, or regulatory conclusion. Prioritize category, approximate count, location zone, and optional project-owned photo status in a short form. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use simple illustrated categories and avoid scientific or regulatory conclusions. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

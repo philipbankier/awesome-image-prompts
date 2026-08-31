@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates wet tactile paving and a rail edge at an invented empty tram stop after rain. Check the assigned composition, then verify the specific direction: use overcast dusk, restrained reflections, fine rain beads, and no signage, route information, or real transit branding. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rain-Darkened Tram Stop](samples/rain-darkened-tram-stop/rain-darkened-tram-stop.webp)
 
-Expected result: wet tactile paving and a rail edge at an invented empty tram stop after rain organized around this plan: Use a low, close viewpoint along the platform edge so tactile dots and steel rail form converging textures; keep any shelter outside frame. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:40:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rain-darkened-tram-stop.prompt.txt](samples/rain-darkened-tram-stop/rain-darkened-tram-stop.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `45a65141fb4af863b569a15462ab3fdb4fd7a75fd097a1645a17378e5d2c309a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted low-angle final uses wet paving and rail lines to converge toward small distant lights, with rain reflections carrying the foreground.
+- Known misses: No material visible miss; the stop remains unbranded and empty of readable schedules, route numbers, or transit claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an empty clay-dusted potter apron hanging beside a workbench. Check the assigned composition, then verify the specific direction: use soft workshop daylight, muted earth tones, and no identifiable maker, body, or studio brand. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Clay-Dusted Potter Apron](samples/clay-dusted-potter-apron/clay-dusted-potter-apron.webp)
 
-Expected result: an empty clay-dusted potter apron hanging beside a workbench organized around this plan: Let the apron fill the vertical frame with its pocket, folded strap, and powder marks clearly visible. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [clay-dusted-potter-apron.prompt.txt](samples/clay-dusted-potter-apron/clay-dusted-potter-apron.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `6d21051e98644acf772e89f1a0cc5a13e1d2b7e6a886bbed243471afc83eb3b7`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final fills the portrait frame with one empty hanging apron whose pocket, folded strap, seams, and clay-powder marks remain plainly visible beside the bench.
+- Known misses: No material visible miss; the muted workshop scene contains no body, maker identity, text, or branding.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one tablet scheduling interface for the fictional "Morrowfield Public Art Lighting Scheduler" concept. The concept is a fictional public-art lighting scheduler.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make preview one simulated lighting scene for a project-authored artwork the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD LIGHT STUDY; artwork zones Ribbon Arch, Glass Wall, River Steps; scenes Dusk Amber / 18:00-19:30, Deep Blue / 19:30-21:00, Quiet White / 21:00-22:00; selected Ribbon Arch / Dusk Amber; SIMULATED PREVIEW; no live control or approval claim. Arrange artwork zones, color scenes, supplied time blocks, and a clearly simulated preview panel. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Use project-authored artworks and do not imply electrical safety, public approval, or live control. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

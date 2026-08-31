@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 2:3 experimental theatre poster
+Card: Glass Orchard Experimental Theatre Poster
+Primary request: Promote a fictional experimental theatre production with one transparent fruit suspended inside a stark stage frame.
+Variable instantiations:
+SUBJECT_BRIEF: fictional stage production for adult theatre audiences.
+COPY_MANIFEST: render exactly and only "GLASS ORCHARD", "A NEW PLAY", and "05–17 MAY 2026".
+VISUAL_MOTIF: one translucent glass pear hanging by a nearly invisible thread inside one black rectangular stage frame.
+PALETTE: black, smoky violet, glass cyan, pale green, and white.
+TYPE_DIRECTION: original restrained uppercase grotesk with tiny supporting copy.
+COMPOSITION_RULES: 10 percent safe margins; oversized central pear and frame; title above; production line and date below; no crop.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly one pear and one frame; exact copy only; no other text, pseudo-writing, people, logos, signatures, wall mockups, or watermark.

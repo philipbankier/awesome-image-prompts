@@ -1,0 +1,22 @@
+Use case: ads-marketing
+Asset type: flat 4:5 fictional music-festival poster
+Card: Canopy Current Music Festival Poster
+Primary request: Create a polished portrait poster for a wholly fictional open-air music festival.
+Variable instantiations:
+FESTIVAL_NAME: CANOPY CURRENT.
+PLACE_EXACT: FERN QUAY.
+DATE_EXACT: 26 JUL 2026.
+CANOPY_CURRENT_SCENE: a riverbank stage beneath an abstract woven leaf canopy at blue hour, with no people.
+PRIMARY_MOTIF: three overlapping leaf-shaped sound waves flowing toward one circular stage light.
+LINEUP_EXACT: MOSS CIRCUIT; RIVER STATIC; PALE SIGNAL; JUNIPER ARC.
+LINEUP_HIERARCHY: MOSS CIRCUIT largest; the other three equal and smaller.
+STAGE_ASSIGNMENTS: one GROVE STAGE column containing MOSS CIRCUIT and PALE SIGNAL; one TIDE STAGE column containing RIVER STATIC and JUNIPER ARC. Each stage label appears exactly once.
+VISUAL_SYSTEM: forest green, electric cyan, warm amber, midnight navy; screen-printed texture.
+TYPE_DIRECTION: original bold condensed uppercase sans serif with clear size tiers.
+COMPOSITION: festival name top, central leaf-wave motif, lineup in two clean columns, place and date footer; 8 percent safe margins.
+LOGISTICS_TEXT: GATES 16:00.
+TICKET_ACTION: RESERVE.
+EXACT_TEXT_MANIFEST: render exactly and only, each exactly once: "CANOPY CURRENT", "26 JUL 2026", "FERN QUAY", "MOSS CIRCUIT", "RIVER STATIC", "PALE SIGNAL", "JUNIPER ARC", "GROVE STAGE", "TIDE STAGE", "GATES 16:00", and "RESERVE".
+OUTPUT_SIZE: 1024 x 1280.
+Targeted correction from attempt 1: render GROVE STAGE exactly once above both of its acts and TIDE STAGE exactly once above both of its acts. Do not duplicate either stage label.
+Constraints: every manifest item legible and spelled exactly; no other text, pseudo-writing, people, logos, signatures, sponsor marks, mockups, or watermark.

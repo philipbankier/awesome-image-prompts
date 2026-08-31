@@ -58,12 +58,29 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a small museum audio-tour player for a fictional exhibit. Check the assigned composition, then verify the specific direction: use restrained gallery typography and preserve only the authorized object crop and caption facts. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Museum Audio Tour Player](samples/museum-audio-tour-player/museum-audio-tour-player.webp)
 
-Expected result: a small museum audio-tour player for a fictional exhibit organized around this plan: Keep the object image, chapter progress, transcript toggle, and playback controls within one thumb-friendly screen. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:16:33Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [museum-audio-tour-player.prompt.txt](samples/museum-audio-tour-player/museum-audio-tour-player.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `be97d2815e9599de47732fc9df6ce6791485b1956e3e3b7b22cdfaef696c09f0`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Museum Audio Tour Player render makes "play the next chapter for the supplied fictional sculpture" primary and keeps "TIDELINE STUDY", "folded bronze ribbon on limestone", "project-owned fictional object" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 1 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Museum Audio Tour Player manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-sculpture.webp](samples/museum-audio-tour-player/input-01-sculpture.webp): project-authored fictional sculpture supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is evidence for this exact illustrative run only; it does not establish reference fidelity, identity preservation, repeatability, or promotion.

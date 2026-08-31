@@ -56,12 +56,28 @@ Return one clean exploded product view at {OUTPUT_SIZE} in 3:2, with the product
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: exploded sequence runs left to right with no invented components. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Whisper Desk Fan Exploded View](samples/whisper-desk-fan-exploded-view/whisper-desk-fan-exploded-view.webp)
 
-Expected result: guard, blades, hub, motor shell, stem, and base align on one assembly axis. Layout: exploded sequence runs left to right with no invented components. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:34:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [whisper-desk-fan-exploded-view.prompt.txt](samples/whisper-desk-fan-exploded-view/whisper-desk-fan-exploded-view.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `8390b9afd1ea13b7249229e0ce89865caee9be8df609b1a10b014f02caf20d34`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly six distinct assemblies, including five blades, a detached stem, and a detached base, are countable and aligned in a plausible sequence.
+- Known misses: The exploded view explains visible assembly relationships only and omits internal engineering by design.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-layout-sketch.webp](samples/whisper-desk-fan-exploded-view/input-01-layout-sketch.webp): project-authored fictional layout sketch input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The sketch must be owned or explicitly authorized and used only within the declared flexibility boundary.

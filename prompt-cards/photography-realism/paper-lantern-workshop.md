@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an empty worktable where original paper lanterns are being assembled. Check the assigned composition, then verify the specific direction: use warm side light, visible paper grain, and no copied festival motif or cultural attribution. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Paper Lantern Workshop](samples/paper-lantern-workshop/paper-lantern-workshop.webp)
 
-Expected result: an empty worktable where original paper lanterns are being assembled organized around this plan: Suspend two unfinished frames above a table of blank paper, wire, brushes, and one completed unbranded lantern. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:47Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [paper-lantern-workshop.prompt.txt](samples/paper-lantern-workshop/paper-lantern-workshop.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `3c9a6dcc85f7973c2232300eccf5ae64e232f4e1481169d49b8ffcb347a5c897`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows exactly two unfinished suspended wire frames and one completed lit paper lantern, with paper, wire, and brushes visible on the work surface.
+- Known misses: No material visible miss; the two-plus-one construction states and warm workshop light remain distinct without people or writing.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

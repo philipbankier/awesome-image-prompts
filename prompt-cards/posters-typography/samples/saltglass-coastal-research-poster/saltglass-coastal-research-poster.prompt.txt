@@ -1,0 +1,23 @@
+Use case: rendered sample for the Saltglass Coastal Research Poster Prompt Card.
+Asset type: one flat fictional research-symposium poster, no mockup.
+
+Create one 3:4 poster announcing SALTGLASS, a fictional coastal research symposium at the invented Tideline Hall.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE EIGHT LINES
+SALTGLASS
+COASTAL RESEARCH SYMPOSIUM
+OCTOBER 6
+TIDELINE HALL
+SESSION 01 • SHORELINE
+SESSION 02 • SALT
+SESSION 03 • CHANGE
+REGISTER
+
+VISUAL SYSTEM
+Place the two-line symposium title at top. In the center, draw one abstract shoreline transect as a measured horizontal line with exactly five vertical sampling bars. At each bar, grow one geometric salt-crystal cluster, increasing gently in size from left to right without showing real data. Put the date, venue, three session lines, and action below in a clear aligned grid. Use deep navy, sea blue, salt white, pale cyan, coral, and sand. Typography is original precise grotesque uppercase. Keep 8% margins and a title-diagram-data hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No real institution, researcher, scientific result, axis number, unit, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly five bars and five crystal clusters.
+
+OUTPUT INTENT
+Return one flat 3:4 research-symposium poster at 1024 x 1365 pixels.

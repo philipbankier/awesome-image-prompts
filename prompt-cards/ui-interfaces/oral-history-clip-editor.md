@@ -59,12 +59,31 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates an authorized oral-history clip selection workspace. Check the assigned composition, then verify the specific direction: keep every media role explicit and avoid inferring identity, biography, or consent beyond supplied records. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Oral History Clip Editor](samples/oral-history-clip-editor/oral-history-clip-editor.webp)
 
-Expected result: an authorized oral-history clip selection workspace organized around this plan: Pair supplied speaker-approved portraits or documents with a waveform, transcript excerpts, and rights markers. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:26:39Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [oral-history-clip-editor.prompt.txt](samples/oral-history-clip-editor/oral-history-clip-editor.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `8963bece68cd23b7bf472d3c0259b3351cda57a6aa365162478b5f6de028b171`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Oral History Clip Editor render makes "select one speaker-approved fictional clip and verify its rights markers" primary and keeps "MORROWFIELD TOOL CLUB ORAL HISTORY", "Clip 07", "Speaker A synthetic portrait / approved" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Oral History Clip Editor manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-portrait.webp](samples/oral-history-clip-editor/input-01-portrait.webp): project-authored fictional portrait supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-consent-card.webp](samples/oral-history-clip-editor/input-02-consent-card.webp): project-authored fictional consent card supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-letter.webp](samples/oral-history-clip-editor/input-03-letter.webp): project-authored fictional letter supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

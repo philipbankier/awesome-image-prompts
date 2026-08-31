@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional neighborhood energy-use snapshot. Check the assigned composition, then verify the specific direction: use clearly illustrative numbers and avoid financial, environmental-impact, or utility claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Community Energy Snapshot](samples/community-energy-snapshot/community-energy-snapshot.webp)
 
-Expected result: a fictional neighborhood energy-use snapshot organized around this plan: Combine supplied sample totals, a time comparison, category bars, and a methodology note in one page. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:59:25Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [community-energy-snapshot.prompt.txt](samples/community-energy-snapshot/community-energy-snapshot.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `79472db9479e786361a8996e92ad2a818329098d6e9ae9aeb6b377fd278a2334`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Community Energy Snapshot render makes "compare the fictional August and September sample energy totals" primary and keeps "LANTERN BLOCK ENERGY SNAPSHOT", "Illustrative data", "August 12,480 units" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Community Energy Snapshot manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

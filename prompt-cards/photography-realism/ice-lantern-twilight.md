@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a small ice lantern glowing at fictional twilight. Check the assigned composition, then verify the specific direction: use warm candle glow against blue ambient light, plausible melting edges, and no fire-safety claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ice Lantern at Twilight](samples/ice-lantern-twilight/ice-lantern-twilight.webp)
 
-Expected result: a small ice lantern glowing at fictional twilight organized around this plan: Center the lantern low with trapped bubbles visible and a soft snow field extending behind it. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:23:00Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ice-lantern-twilight.prompt.txt](samples/ice-lantern-twilight/ice-lantern-twilight.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `f5cc6d08bdbbad3aa4be68ecb3005a59b2650992b8eca9d4fee432c29eb78b31`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final isolates one low ice lantern in a blue twilight field, with trapped bubbles, translucent ice walls, and a small warm candle glow visible within.
+- Known misses: No material visible miss; the single-lantern composition and cold-warm separation remain clear without people or text.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

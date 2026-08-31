@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 home-fragrance catalog image for three fictional candles as one coordinated family. Use this independently authored concept: amber, stone, and smoke glass vessels share one label grid.
+
+PRODUCT
+Use the fictional Wick Library candle trio. Build exactly three identical low cylindrical glass vessels, each filled with unlit ivory wax and one centered trimmed cotton wick. Vessel one is translucent amber glass and is named DAYBREAK. Vessel two is opaque warm-stone glass and is named STILL. Vessel three is translucent smoke-gray glass and is named AFTERLIGHT. Apply the same small matte-cream rectangular label to each, with a fine four-cell grid and one centered name. Approved copy is limited to WICK LIBRARY / DAYBREAK / STILL / AFTERLIGHT. Show no lid, flame, match, smoke, botanicals, scent note, weight, burn-time claim, certification, package, or extra candle.
+
+PRESENTATION
+Use a level front three-quarter 75 mm catalog view. Place the three equal vessels in one evenly spaced row on a single narrow pale-oak shelf, labels aligned to the same baseline, with no overlap. Use a quiet warm-gray plaster background, broad diffused key from upper left, gentle amber bounce, controlled glass translucency, and grounded shadows. Render only the approved copy and no pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is fictional, project-authored packaging. Keep exactly three same-size vessels with invariant label geometry, wax height, wick position, camera angle, and lighting. Change only the declared glass color and name. No real brand, copied package, unsupported fragrance or performance claim, duplicate vessel, lit wick, lifestyle clutter, hand, or ecommerce interface.
+
+OUTPUT INTENT
+Return one polished candle-family catalog image at 1120 x 1400 in 4:5. All three complete vessels and all approved names must be fully visible and legible.

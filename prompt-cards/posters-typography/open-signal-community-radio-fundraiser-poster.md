@@ -49,12 +49,26 @@ Return one flat fundraiser poster at {OUTPUT_SIZE} in 4:5. Do not place it in a 
 
 Confirm the result reads as one fundraiser poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: fundraiser headline crosses the signal with exact time and support action below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Open Signal Community Radio Fundraiser Poster](samples/open-signal-community-radio-fundraiser-poster/open-signal-community-radio-fundraiser-poster.webp)
 
-Expected result: an antenna sends concentric lines through hand-cut neighborhood shapes. Layout: fundraiser headline crosses the signal with exact time and support action below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:26:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [open-signal-community-radio-fundraiser-poster.prompt.txt](samples/open-signal-community-radio-fundraiser-poster/open-signal-community-radio-fundraiser-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `65758a428b8bf5639d83f7b3efbf3522084b3aa066d4c491f8fc60dd4be82233`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Seven cut-paper houses surround the antenna and four signal rings beneath the title and above the event footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

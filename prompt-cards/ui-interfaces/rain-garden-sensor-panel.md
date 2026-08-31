@@ -52,11 +52,26 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a rain-garden sensor overview using fictional readings. Check the assigned composition, then verify the specific direction: use nature-led colors and do not claim live sensing, flood prediction, or maintenance readiness. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Rain Garden Sensor Panel](samples/rain-garden-sensor-panel/rain-garden-sensor-panel.webp)
 
-Expected result: a rain-garden sensor overview using fictional readings organized around this plan: Show zone cards, a simple water-level trend, observation notes, and a clearly nonfunctional alert area. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:32:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rain-garden-sensor-panel.prompt.txt](samples/rain-garden-sensor-panel/rain-garden-sensor-panel.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `2278ea90efdbb05db50627a2d4bf97328b3e02907687d7eb35c440aa70f79747`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Rain Garden Sensor Panel render makes "review one fictional rain-garden zone and its illustrative trend" primary and keeps "CEDAR RAIN GARDEN / FICTIONAL READINGS", "zones North Bed 42%, Basin 58%, Overflow 31%", "selected Basin" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Rain Garden Sensor Panel manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

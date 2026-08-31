@@ -49,12 +49,26 @@ Return one flat concrete poetry broadside at {OUTPUT_SIZE} in 2:3. Do not place 
 
 Confirm the result reads as one concrete poetry broadside, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: poem begins upper left, narrows through the center, and opens at the base. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for River Syntax Concrete Poetry Broadside](samples/river-syntax-concrete-poetry-broadside/river-syntax-concrete-poetry-broadside.webp)
 
-Expected result: lines bend around a dry river channel without becoming an illustration. Layout: poem begins upper left, narrows through the center, and opens at the base. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:00:36Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [river-syntax-concrete-poetry-broadside.prompt.txt](samples/river-syntax-concrete-poetry-broadside/river-syntax-concrete-poetry-broadside.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `1d68a747545b2489a0836645b6df15cb041878d59bd848f846a3a9a3c3a34103`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Five poem lines follow the narrowing and reopening river channel, with ONE WORD NARROWS held on one line at the pinch.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

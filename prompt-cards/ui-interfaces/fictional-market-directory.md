@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional weekend-market stall directory. Check the assigned composition, then verify the specific direction: use original vendor names and no real brands, endorsements, health claims, or payment promises. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fictional Market Directory](samples/fictional-market-directory/fictional-market-directory.webp)
 
-Expected result: a fictional weekend-market stall directory organized around this plan: Organize invented stalls by zone with a simple map, category filters, and supplied opening times. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:10:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fictional-market-directory.prompt.txt](samples/fictional-market-directory/fictional-market-directory.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `9c8c3e1487338ae7d6470ea02495831b54b5bce18da274cc9bb72d1b49ba1d39`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Fictional Market Directory render makes "find a fictional weekend-market stall by zone and category" primary and keeps "LANTERN WEEKEND MARKET", "zones A Courtyard, B River Walk, C Glass Hall", "stalls Fern & Flour / Bakery / A / 09:00-14:00" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Fictional Market Directory manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

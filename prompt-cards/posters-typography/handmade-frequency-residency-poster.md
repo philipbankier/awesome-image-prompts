@@ -57,12 +57,28 @@ Return one flat artist residency poster at {OUTPUT_SIZE} in 3:4. Do not place it
 
 Confirm the result reads as one artist residency poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: title in the upper field with dates and application details aligned beneath the crop. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Handmade Frequency Residency Poster](samples/handmade-frequency-residency-poster/handmade-frequency-residency-poster.webp)
 
-Expected result: the preserved artwork crop becomes a quiet frequency band across handmade paper. Layout: title in the upper field with dates and application details aligned beneath the crop. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:57:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [handmade-frequency-residency-poster.prompt.txt](samples/handmade-frequency-residency-poster/handmade-frequency-residency-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `ba2ad2da075eff9b862d128ba89be0f5549ad10a4e79a2787f45e9552d9731e2`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: A blue stitched waveform band crosses the handmade paper between the residency title and two date lines.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-artwork-detail.webp](samples/handmade-frequency-residency-poster/input-01-artwork-detail.webp): project-authored fictional artwork detail input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

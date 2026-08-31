@@ -1,0 +1,74 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-portrait.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: photorealistic-natural
+Asset type: project-owned fictional speaker portrait
+Primary request: a respectful documentary-style portrait of an entirely fictional older adult called "Speaker A" seated beside a sunlit workshop window
+Style/medium: photorealistic natural portrait with realistic skin and fabric texture
+Composition/framing: chest-up, neutral gaze, simple background
+Lighting/mood: soft window light, calm and unglamorized
+Constraints: synthetic fictional person, no resemblance to a public figure, no text, logo, signature, or watermark
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-consent-card.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned fictional rights-record input
+Primary request: one clean project card with fields labeled exactly "CLIP 07", "VOICE APPROVED", "PORTRAIT APPROVED", and "REVIEW 2030"
+Style/medium: photorealistic overhead document photography
+Composition/framing: single complete cream card centered on neutral gray
+Materials/textures: typed black text, two teal approval stamps
+Constraints: no personal name, signature, legal claim, real institution, logo, watermark, or extra page
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-letter.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned fictional oral-history document
+Primary request: one cream typewritten workshop note headed exactly "MORROWFIELD TOOL CLUB / SPRING 1976"
+Subject: three short project-authored paragraphs about repairing wooden stools, with no personal names
+Style/medium: photorealistic overhead archival-document photography
+Composition/framing: single full page, all corners visible
+Constraints: no signature, private data, real institution, logo, watermark, handwriting, or extra document
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-portrait.webp
+- input-02-consent-card.webp
+- input-03-letter.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop audio-editing interface for the fictional "Morrowfield Oral History Clip Editor" concept. The concept is an authorized oral-history clip selection workspace.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make select one speaker-approved fictional clip and verify its rights markers the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD TOOL CLUB ORAL HISTORY; Clip 07; Speaker A synthetic portrait / approved; rights card Voice approved, Portrait approved, Review 2030; workshop note Spring 1976 / project-created; waveform 00:00-02:40; excerpt We built the stools to last; markers PORTRAIT APPROVED and VOICE APPROVED; identity and biography not inferred. Pair supplied speaker-approved portraits or documents with a waveform, transcript excerpts, and rights markers. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Keep every media role explicit and avoid inferring identity, biography, or consent beyond supplied records. Apply soft stone, plum, dusty teal, and pale gold with clear hierarchy and modest surface depth without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, the synthetic Speaker A portrait; Image 2, the Clip 07 approval card; and Image 3, the Spring 1976 workshop note, a small set whose items are all authorized for this task. Follow Image 1 is the speaker-approved portrait; Image 2 is the rights marker; Image 3 is the project-created document thumbnail so each image has one declared purpose, and preserve only the portrait crop, approval fields, document heading, and distinct provenance of all three inputs without inferring biography. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

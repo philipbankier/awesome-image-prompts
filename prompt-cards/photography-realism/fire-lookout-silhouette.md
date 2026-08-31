@@ -51,12 +51,26 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates a fictional empty fire-lookout tower silhouetted at sunset. Check the assigned composition, then verify the specific direction: use a generic original structure, no person, and no location, emergency, access, or operational claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fire Lookout Silhouette](samples/fire-lookout-silhouette/fire-lookout-silhouette.webp)
 
-Expected result: a fictional empty fire-lookout tower silhouetted at sunset organized around this plan: Place the tower on a low ridge at one third of frame with layered haze and a broad amber sky. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:15:13Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fire-lookout-silhouette.prompt.txt](samples/fire-lookout-silhouette/fire-lookout-silhouette.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `95f468c9a06ba21f6be73c89b5a2533620da39066c56b06fe6cc8f65940071c0`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted wide frame isolates one empty lookout tower on a low ridge against amber sunset, with layered atmospheric haze carrying the background.
+- Known misses: No material visible miss; no person, place identity, text, or active-emergency cue appears.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

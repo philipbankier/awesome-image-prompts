@@ -49,12 +49,26 @@ Return one flat illuminated initial poster at {OUTPUT_SIZE} in 1:1. Do not place
 
 Confirm the result reads as one illuminated initial poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: single letter centered with only a short caption and edition line. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for North Initial Illuminated Letter Poster](samples/north-initial-illuminated-letter-poster/north-initial-illuminated-letter-poster.webp)
 
-Expected result: a geometric initial containing a winter garden of abstract leaves. Layout: single letter centered with only a short caption and edition line. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:17:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [north-initial-illuminated-letter-poster.prompt.txt](samples/north-initial-illuminated-letter-poster/north-initial-illuminated-letter-poster.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `542c1a62afc40ec621e74ea9d8db12d0716c216fb14dd305d10298c6f97b3574`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The decorated capital N fills the square while NORTH GARDEN and EDITION 04 remain centered below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

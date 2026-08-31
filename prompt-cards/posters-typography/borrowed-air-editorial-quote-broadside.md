@@ -49,12 +49,26 @@ Return one flat editorial quote broadside at {OUTPUT_SIZE} in 3:4. Do not place 
 
 Confirm the result reads as one editorial quote broadside, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: quote is the only large text with source descriptor and issue line below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Borrowed Air Editorial Quote Broadside](samples/borrowed-air-editorial-quote-broadside/borrowed-air-editorial-quote-broadside.webp)
 
-Expected result: quotation lines separated by translucent bands of open space. Layout: quote is the only large text with source descriptor and issue line below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:36:22Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [borrowed-air-editorial-quote-broadside.prompt.txt](samples/borrowed-air-editorial-quote-broadside/borrowed-air-editorial-quote-broadside.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `14836b0c457763b7e8ad5480b30d6058a7d7952a41e4592c3d85a6359b82163d`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The two-line quotation is centered across pale atmosphere bands, with FIELD NOTES 04 isolated at the foot.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

@@ -1,0 +1,14 @@
+Use case: ads-marketing
+Asset type: flat 4:5 audio-drama poster
+Card: Field Frequency Radio Drama Poster
+Primary request: Launch a fictional serialized radio drama with radio-wave contours passing through an empty rural gate.
+Variable instantiations:
+SUBJECT_BRIEF: fictional atmospheric radio drama for adult listeners.
+COPY_MANIFEST: render exactly and only "FIELD FREQUENCY", "EPISODE ONE", and "LISTEN 20:00".
+VISUAL_MOTIF: exactly five thin, clearly separated radio-wave contour lines flowing horizontally through one empty weathered gate.
+PALETTE: dusk violet, wheat gold, charcoal, and pale cyan.
+TYPE_DIRECTION: original condensed uppercase serif with a small monospaced detail line.
+COMPOSITION_RULES: 8 percent safe margins; title centered; gate and five-line wave baseline central; episode and listening details below; no crop.
+OUTPUT_SIZE: 1024 x 1280.
+Targeted correction from attempt 1: show exactly five separate continuous radio-wave lines, easy to count on both sides of the gate. Do not show four or six.
+Constraints: exactly one gate and exactly five wave lines; exact copy only; no other text, pseudo-writing, station logo, people, buildings, signatures, mockups, or watermark.

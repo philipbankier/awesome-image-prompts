@@ -49,12 +49,26 @@ Return one flat stencil alphabet sheet at {OUTPUT_SIZE} in 4:5. Do not place it 
 
 Confirm the result reads as one stencil alphabet sheet, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: uppercase rows aligned to a baseline with numerals and punctuation below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Signal Cut Stencil Alphabet Sheet](samples/signal-cut-stencil-alphabet-sheet/signal-cut-stencil-alphabet-sheet.webp)
 
-Expected result: consistent bridge cuts derived from a signal flag angle. Layout: uppercase rows aligned to a baseline with numerals and punctuation below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:14:58Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [signal-cut-stencil-alphabet-sheet.prompt.txt](samples/signal-cut-stencil-alphabet-sheet/signal-cut-stencil-alphabet-sheet.prompt.txt)
+- Output dimensions: `1003 x 1568`
+- Output SHA-256: `89760d5b6b270afee9b15abc0267578c0703ef0c34673fec40431c7759d9eff6`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The title, A-Z rows, 0-9 row, and punctuation row share one consistent diagonal stencil-bridge system.
+- Known misses: The period, comma, colon, and semicolon are highly abstracted by the bridge cuts and are difficult to distinguish at thumbnail size.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

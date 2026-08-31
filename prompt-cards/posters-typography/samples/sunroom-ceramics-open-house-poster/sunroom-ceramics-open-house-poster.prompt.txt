@@ -1,0 +1,21 @@
+COMMISSION
+Create one flat 4:5 poster announcing a fictional ceramics-studio open house at Sunroom Ceramics. This is an independently authored visual concept: exactly three vessel silhouettes catch rectangular panes of morning light.
+
+CONTENT
+The fictional event welcomes adult neighbors to observe pottery demonstrations at an invented, step-free studio. Render only this exact approved copy, preserving spelling, numerals, hierarchy, and line breaks:
+SUNROOM CERAMICS
+OPEN HOUSE
+THROWING 10:00
+GLAZING 12:00
+FIRING 14:00
+STEP-FREE ENTRY
+Do not render any other text, dates, prices, address, sponsor, claim, label, signature, or mark.
+
+VISUAL SYSTEM
+Use exactly three distinct vessel silhouettes: one low bowl, one tall narrow vase, and one rounded handled jug. Cast three rectangular panes of warm morning light across their surfaces and the floor. Palette: sunlit cream, terracotta, pale apricot, and dusty blue. Typography direction: original warm uppercase sans with gently irregular humanist curves. Place SUNROOM CERAMICS and OPEN HOUSE above the vessels. Place the three demonstration times as a clean list below, followed by STEP-FREE ENTRY as the footer. Keep an 8% safe margin, generous negative space, crisp silhouette separation, no clipping, and clear thumbnail hierarchy.
+
+CONSTRAINTS
+Exactly three vessels, one of each described form. No extra pottery, people, real studio, logos, unsupported claims beyond the fictional event brief, pseudo-writing, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1280 pixel studio open-house poster in 4:5 portrait orientation.

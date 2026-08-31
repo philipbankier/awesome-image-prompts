@@ -1,0 +1,26 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Images 1 through 3 are the distinct project-owned role references named in this prompt.
+
+Create one travel still-life photograph for the project-authored fictional "Atlas Field Notes: Folded Fictional Maps" editorial study depicting a set of project-authored fictional maps folded on a wooden table.
+
+SUBJECT
+Use exactly a set of project-authored fictional maps folded on a wooden table, realized as an original unbranded concept with physically plausible materials and a restrained palette of frost blue, graphite, and pale brass exactly; do not infer identity, ownership, brand, or unseen facts.
+
+EXACT COPY
+Render only the exact readable text in the three place labels "AVA", "BEX", and "CYR", each exactly once, with no other readable text; do not add, omit, paraphrase, or alter copy.
+
+SETTING AND COMPOSITION
+Use a project-built fictional set on a worn maple work surface against a warm-gray seamless background, with only the named objects present. Follow a 3:2 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Assign each authorized source a separate map region, then overlap three folds without blending their place systems or legends. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use invented labels, natural paper wear, side light, and no real route, border, navigation, or ownership claim. Apply soft north-window light from frame left with restrained bounce fill, natural contrast, and a palette of frost blue, graphite, and pale brass with natural tonal transitions and material response.
+
+AUTHORIZED IMAGE SET
+Use only Images 1 through 3, the attached project-owned supporting studies generated specifically for this Prompt Card, a small set whose items are all authorized for this task. Follow Image 1: fictional upland map region; Image 2: fictional river-valley map region; Image 3: fictional island-coast map region so each image has one declared purpose, and preserve only the brown contour rhythm from Image 1, the blue-green branching river from Image 2, and the three-island coastline from Image 3 without combining their legends. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 3:2 photographic concept with credible optics and no unrequested collage.

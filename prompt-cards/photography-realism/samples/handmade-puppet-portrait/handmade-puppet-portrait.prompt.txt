@@ -1,0 +1,23 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Image 1 is the project-owned reference named in this prompt.
+
+Create one object portrait photograph for the project-authored fictional "Atlas Field Notes: Handmade Puppet Portrait" editorial study depicting an authorized original handmade puppet posed for an object portrait.
+
+SUBJECT
+Use exactly an authorized original handmade puppet posed for an object portrait, realized as an original unbranded concept with physically plausible materials and a restrained palette of clay red, weathered oak, and soft gray exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a project-built fictional set on a worn maple work surface against a warm-gray seamless background, with only the named objects present. Follow a 4:5 portrait frame using a natural 70 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Frame the puppet from torso up against plain fabric with its declared face materials and costume details clearly visible. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Preserve approved features without inferring a performer or character franchise, and use soft theatrical side light. Apply soft north-window light from frame left with restrained bounce fill, natural contrast, and a palette of clay red, weathered oak, and soft gray with natural tonal transitions and material response.
+
+AUTHORIZED REFERENCE INPUT
+Use Image 1, the attached project-owned reference generated specifically for this Prompt Card only after confirming authority to use it for this task. Preserve only the visible silhouette, proportions, material pattern, declared wear, and composition-relevant geometry shown in Image 1; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 4:5 photographic concept with credible optics and no unrequested collage.

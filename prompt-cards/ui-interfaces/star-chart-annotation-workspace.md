@@ -59,12 +59,31 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a public-domain star-chart annotation workspace. Check the assigned composition, then verify the specific direction: preserve source roles and never imply observational accuracy, navigation utility, or ownership of public-domain material. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Star Chart Annotation Workspace](samples/star-chart-annotation-workspace/star-chart-annotation-workspace.webp)
 
-Expected result: a public-domain star-chart annotation workspace organized around this plan: Keep two authorized charts in separate synchronized views with layer toggles, supplied labels, and source notes. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:40:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [star-chart-annotation-workspace.prompt.txt](samples/star-chart-annotation-workspace/star-chart-annotation-workspace.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `c5b36ef14aad880b9fa42d93686d0fcfdf390b0fe5eb057e120b38c06c629bc6`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Star Chart Annotation Workspace render makes "compare two project-created charts and toggle one annotation layer" primary and keeps "MORROWFIELD STAR-CHART STUDY", "left NORTH WINDOW / PLATE A", "right EAST WINDOW / PLATE B" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Star Chart Annotation Workspace manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-chart-a.webp](samples/star-chart-annotation-workspace/input-01-chart-a.webp): project-authored fictional chart a supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-chart-b.webp](samples/star-chart-annotation-workspace/input-02-chart-b.webp): project-authored fictional chart b supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-legend.webp](samples/star-chart-annotation-workspace/input-03-legend.webp): project-authored fictional legend supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

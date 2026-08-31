@@ -1,0 +1,22 @@
+Use case: rendered sample for the Northglass Chamber Series Poster Prompt Card.
+Asset type: one flat fictional concert-series poster, no mockup.
+
+Create one 2:3 poster promoting a fictional four-concert chamber-music season at the invented Harbor Room.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+NORTHGLASS
+CHAMBER SERIES
+OCTOBER 11
+NOVEMBER 8
+DECEMBER 6
+JANUARY 17
+HARBOR ROOM
+
+VISUAL SYSTEM
+Center exactly four translucent generic instrument silhouettes crossing like panes of colored glass: one violin, one cello, one flute, and one clarinet. Keep every silhouette clearly distinct and non-branded. Use midnight blue, translucent cyan, magenta, amber, and violet over a warm-white field. Typography is original high-contrast serif uppercase. Place the two-line season name high, the visual quartet in the middle, and the four dates plus venue in one narrow aligned lower column. Keep 8% safe margins and a calm top-to-bottom hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No performer names, composer names, repertoire, sponsors, logos, staff lines, musical notation, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly four instrument silhouettes and keep every date exact.
+
+OUTPUT INTENT
+Return one flat 2:3 concert-series poster at 1024 x 1536 pixels.

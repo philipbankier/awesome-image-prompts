@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional cooperative budget snapshot. Check the assigned composition, then verify the specific direction: label every number as illustrative and provide no financial advice, audit, forecast, or legal conclusion. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Cooperative Budget Snapshot](samples/cooperative-budget-snapshot/cooperative-budget-snapshot.webp)
 
-Expected result: a fictional cooperative budget snapshot organized around this plan: Arrange supplied sample income, expense categories, cash timeline, and a plain methodology note in one page. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:06:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [cooperative-budget-snapshot.prompt.txt](samples/cooperative-budget-snapshot/cooperative-budget-snapshot.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `947be35aa83452721209740499cc199ca9ec275a632b0dfd842d07a107659d67`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Cooperative Budget Snapshot render makes "compare the fictional cooperative income and expense categories" primary and keeps "WILLOW HOUSE BUDGET SNAPSHOT", "Illustrative figures", "income Member dues 18,000 and Workshop 4,200" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Cooperative Budget Snapshot manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -49,12 +49,26 @@ Return one flat tabletop tournament poster at {OUTPUT_SIZE} in 4:5. Do not place
 
 Confirm the result reads as one tabletop tournament poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: event title nested in the grid with rounds and entry details in a side panel. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Hexgarden Tabletop Championship Poster](samples/hexgarden-tabletop-championship-poster/hexgarden-tabletop-championship-poster.webp)
 
-Expected result: hex tiles growing into a geometric garden. Layout: event title nested in the grid with rounds and entry details in a side panel. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:57:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [hexgarden-tabletop-championship-poster.prompt.txt](samples/hexgarden-tabletop-championship-poster/hexgarden-tabletop-championship-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `4f7f1934f338957efedb53a5dc1e9961ac50305d6dee86db19d322be1ea3cc5e`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Nineteen hex tiles form a symmetrical garden around one gold center tile, with the three round labels in a side panel.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

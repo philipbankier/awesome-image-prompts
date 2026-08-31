@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a whimsical fictional airship timetable. Check the assigned composition, then verify the specific direction: use an original retro-future visual system with no airline or transport brand references. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Airship Timetable Board](samples/airship-timetable-board/airship-timetable-board.webp)
 
-Expected result: a whimsical fictional airship timetable organized around this plan: Arrange invented destinations, gate glyphs, cloud-delay reasons, and local-clock labels in a crisp board. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:56:25Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [airship-timetable-board.prompt.txt](samples/airship-timetable-board/airship-timetable-board.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `970ec01921f39ab479561bc1cc66279f30e29f369f1f034f2be3104098c40cde`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Airship Timetable Board render makes "find the next fictional airship departure and its gate status" primary and keeps "BRACKEN QUAY AIR BOARD", "local time 08:12", "Cloudmere 08:40 Gate C ON TIME" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Airship Timetable Board manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

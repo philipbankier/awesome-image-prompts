@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional trailhead weather information display. Check the assigned composition, then verify the specific direction: state that all readings are fictional and avoid route-safety, emergency, or forecast-reliability claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Trailhead Weather Display](samples/trailhead-weather-display/trailhead-weather-display.webp)
 
-Expected result: a fictional trailhead weather information display organized around this plan: Place illustrative current conditions above a short trend, supplied notices, and a prominent source-and-time label. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:45:00Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [trailhead-weather-display.prompt.txt](samples/trailhead-weather-display/trailhead-weather-display.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `1c8f4f808407c7d6806381bec0a293ae891d988e4a407c18300da68e8f086f35`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Trailhead Weather Display render makes "scan fictional current conditions, trend, and supplied notices" primary and keeps "CEDAR TRAILHEAD / FICTIONAL READINGS", "14 Sep 08:00", "temperature 14 C, cloud 60%, wind 7 km/h" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Trailhead Weather Display manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

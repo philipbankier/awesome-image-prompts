@@ -51,12 +51,26 @@ Return one 21:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates a fictional footpath marked by small lanterns in quiet fog. Check the assigned composition, then verify the specific direction: use low contrast, restrained warm light, plausible mist, no people, and no real location or safety-guidance implication. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Lantern Path in Fog](samples/lantern-path-in-fog/lantern-path-in-fog.webp)
 
-Expected result: a fictional footpath marked by small lanterns in quiet fog organized around this plan: Let the path curve from the near corner through four warm lantern pools before disappearing among dark shrubs. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:31:39Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [lantern-path-in-fog.prompt.txt](samples/lantern-path-in-fog/lantern-path-in-fog.prompt.txt)
+- Output dimensions: `1858 x 846`
+- Output SHA-256: `c614fcfc6252b2984cbecee5896edff2f79fcc8d68d5ea51d6715744315c80a4`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final spaces exactly four lanterns along a fog-softened path, with four warm pools of light receding through otherwise cool depth.
+- Known misses: No material visible miss; count, spacing, atmosphere, and empty-path requirement remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

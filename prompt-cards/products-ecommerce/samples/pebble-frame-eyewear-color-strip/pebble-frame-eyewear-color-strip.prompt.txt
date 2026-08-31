@@ -1,0 +1,17 @@
+COMMISSION
+Create one 3:2 eyewear colorway strip showing one authorized fictional frame in four approved colors. Use this independently authored concept: identical front views sit on soft mineral-toned bands.
+
+REFERENCE INPUT
+Use the attached authorized project-authored image pebble-frame-eyewear-color-strip--input-01-product-reference.png only as the geometry, scale, material response, and viewing source. Preserve exactly the softly rounded panto lenses, low keyhole bridge, slim acetate rims, two round hinge pins at each outer corner, narrow straight temples, clear lenses, open-temple position, and straight-on front view.
+
+PRODUCT
+Show the same fictional Pebble Frame exactly four times. Change only the translucent acetate color in this left-to-right order: mineral gray, sea-glass green, warm amber, and smoke blue. Keep clear lenses and silver hinge pins invariant.
+
+PRESENTATION
+Create one horizontal row of four equal cells at fixed scale on a single 3:2 board. Give each cell one quiet mineral-toned background band that is lighter than its frame while maintaining equal luminance and contrast. Use identical symmetric diffused lighting, reflections, crop, margins, and shadows. Render no color names, captions, text, logo, pseudo-text, signature, watermark, face, case, cloth, or UI frame.
+
+CONSTRAINTS
+This reference and every colorway are fictional and project-authored. Keep exactly four complete frames, invariant lens and bridge geometry, identical temple angle, fixed camera, and ordered colors. No geometry drift, mirrored hinge, tinted lens, duplicate color, omitted frame, accessory, real brand, copied design, or claim.
+
+OUTPUT INTENT
+Return one precise eyewear color strip at 1536 x 1024 in 3:2. All four complete frames must be fully visible, equal in scale, and easy to compare.

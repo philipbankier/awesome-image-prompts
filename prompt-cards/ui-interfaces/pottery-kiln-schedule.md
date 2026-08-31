@@ -52,11 +52,26 @@ Return one 3:2 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a pottery-studio kiln schedule. Check the assigned composition, then verify the specific direction: keep temperatures illustrative and do not imply equipment-safe operating instructions. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Pottery Kiln Schedule](samples/pottery-kiln-schedule/pottery-kiln-schedule.webp)
 
-Expected result: a pottery-studio kiln schedule organized around this plan: Lay out firing slots, fictional load names, temperature-profile labels, and a conflict notice in one weekly view. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:21:33Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [pottery-kiln-schedule.prompt.txt](samples/pottery-kiln-schedule/pottery-kiln-schedule.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `126037e8d6c06d952886bf073087c0670306f08c3c1395149faa1d95006d2f6f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 3:2 Pottery Kiln Schedule render makes "resolve one fictional weekly kiln-slot conflict" primary and keeps "CEDAR KILN WEEK", "Monday Blue Cups / Cone 6 / 09:00-16:00", "Tuesday Fern Tiles / Cone 5 / 10:00-15:00" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Pottery Kiln Schedule manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

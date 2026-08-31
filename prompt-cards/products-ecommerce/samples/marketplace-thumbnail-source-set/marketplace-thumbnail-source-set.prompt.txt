@@ -1,0 +1,14 @@
+COMMISSION
+Create one 1:1 ecommerce thumbnail set from three authorized project-authored product photographs. Use this independently authored concept: each source product keeps its own geometry while sharing one light and crop system.
+
+SOURCE IMAGE SET
+Use only the three attached authorized project-authored images. Assign marketplace-thumbnail-source-set--input-01-desk-clock-reference.png only to the Stillhour clock cell; preserve its rounded-square ceramic body, recessed circular face, twelve ticks, 10:10 hands, center dot, materials, and front three-quarter identity. Assign marketplace-thumbnail-source-set--input-02-catchall-tray-reference.png only to the Lowtide tray cell; preserve its rounded rectangle, low height, oval depression, speckled dark surface, corner inlay, and front three-quarter identity. Assign marketplace-thumbnail-source-set--input-03-pencil-cup-reference.png only to the Tallmark cup cell; preserve its open tapered hexagonal form, six faces, sage finish, base ring, front rivet, and front three-quarter identity. Do not merge, swap, or duplicate products.
+
+PRESENTATION
+Create exactly three equal square thumbnail cells in one horizontal row within a 1:1 master board, with thin warm-gray gutters. Place one source product alone in each cell, left to right: clock, tray, pencil cup. Normalize only background, light, crop, and visual scale: one pale limestone seamless field, one broad soft key from upper left, soft frontal fill, one restrained contact shadow, and equal margins. Keep every product fully visible and near the same perceived visual weight. Render no text, captions, badges, logo, pseudo-text, signature, watermark, marketplace chrome, price, rating, or claim.
+
+CONSTRAINTS
+The three sources and products are fictional and project-authored. Preserve each product's own geometry, materials, color, identity, internal details, and camera-facing relationships. Do not invent an accessory, combine products into one scene, transfer a feature between sources, add a fourth cell, include a person or hand, or alter one product to resemble another.
+
+OUTPUT INTENT
+Return one clean coordinated thumbnail family at 1400 x 1400 in 1:1. All three source products must remain separate, fully visible, faithful, and immediately distinguishable.

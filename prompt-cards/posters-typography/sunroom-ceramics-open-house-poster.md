@@ -49,12 +49,26 @@ Return one flat studio open-house poster at {OUTPUT_SIZE} in 4:5. Do not place i
 
 Confirm the result reads as one studio open-house poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: studio title above the vessels with demonstration times and access details below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Sunroom Ceramics Open House Poster](samples/sunroom-ceramics-open-house-poster/sunroom-ceramics-open-house-poster.webp)
 
-Expected result: three vessel silhouettes catch rectangular panes of morning light. Layout: studio title above the vessels with demonstration times and access details below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:25:08Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [sunroom-ceramics-open-house-poster.prompt.txt](samples/sunroom-ceramics-open-house-poster/sunroom-ceramics-open-house-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `c84275f51a48a04ccb1283c629a0ce31fd9c92e42b7a8985276e1bd17d2bf90a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One bowl, one narrow vase, and one handled jug sit in three panes of warm light above the schedule and access line.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

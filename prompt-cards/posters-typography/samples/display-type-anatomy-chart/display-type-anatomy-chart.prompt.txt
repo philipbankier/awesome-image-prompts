@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 4:5 typographic anatomy chart
+Card: Display Type Anatomy Chart
+Primary request: Explain the anatomy of one wholly original display word using precise measurement lines.
+Variable instantiations:
+SUBJECT_BRIEF: fictional typography teaching chart for design students.
+COPY_MANIFEST: render exactly and only "DISPLAY ANATOMY", "FORM", "STEM", "BOWL", "COUNTER", and "TERMINAL".
+VISUAL_MOTIF: the large original word FORM with exactly four clean leader lines identifying one stem, one bowl, one counter, and one terminal.
+PALETTE: black, cream, cobalt, and coral.
+TYPE_DIRECTION: original heavy modular display sans with obvious internal counters.
+COMPOSITION_RULES: 8 percent safe margins; title at top; hero word centered; four labels around its perimeter; no crossing leaders or cropped text.
+OUTPUT_SIZE: 1024 x 1280.
+Constraints: exactly four labels and four leader lines; exact words only; no other text, pseudo-writing, alphabet rows, copied typeface, logos, signatures, mockups, or watermark.

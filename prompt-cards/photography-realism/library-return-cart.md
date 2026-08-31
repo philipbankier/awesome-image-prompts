@@ -56,12 +56,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an unoccupied library return cart holding fictional books. Check the assigned composition, then verify the specific direction: use calm neutral color, no patron data, no real publisher marks, and no recognizable library identity. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Library Return Cart](samples/library-return-cart/library-return-cart.webp)
 
-Expected result: an unoccupied library return cart holding fictional books organized around this plan: Angle the cart beside a pool of window light with spines turned away or carrying project-authored titles only. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:27:10Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [library-return-cart.prompt.txt](samples/library-return-cart/library-return-cart.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `5d5c7748564245c493e02e21f7a3f82f45c5a57e3cfd610cd7855c16ebc0e369`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows three upper-shelf books titled `MOSS`, `TIDE`, and `EMBER` exactly once each, with the cart's lower shelf visibly empty.
+- Known misses: No material visible miss; the title set, shelf state, cart structure, and quiet library light remain coherent without extra readable copy.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

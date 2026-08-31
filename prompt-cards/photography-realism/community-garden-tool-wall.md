@@ -51,12 +51,26 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates an unoccupied community-garden tool wall. Check the assigned composition, then verify the specific direction: use soft shed daylight, believable wear, no safety instruction, and no ownership or venue identity. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Community Garden Tool Wall](samples/community-garden-tool-wall/community-garden-tool-wall.webp)
 
-Expected result: an unoccupied community-garden tool wall organized around this plan: Arrange clean, unbranded hand tools by silhouette against painted plywood with one empty hook as a focal pause. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:11:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [community-garden-tool-wall.prompt.txt](samples/community-garden-tool-wall/community-garden-tool-wall.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `9ae371191d30229c7e6f6fcaba6fa660beb429328b7d52b3e5e45862b00dfad8`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final arranges clean unbranded hand tools by silhouette on blue plywood, with believable wear, soft side light, and one visible empty hook.
+- Known misses: No material visible miss; the wall remains unoccupied and carries no venue identity, writing, or safety instruction.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

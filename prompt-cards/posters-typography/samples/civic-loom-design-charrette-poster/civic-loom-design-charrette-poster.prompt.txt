@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 3:4 civic workshop poster
+Card: Civic Loom Design Charrette Poster
+Primary request: Announce a fictional public design charrette using street-grid strands woven around one open civic square.
+Variable instantiations:
+SUBJECT_BRIEF: fictional participatory design workshop for residents of an invented neighborhood.
+COPY_MANIFEST: render exactly and only "CIVIC LOOM", "LISTEN", "MAP", "BUILD", "SHARE", and "14 MAR 2026".
+VISUAL_MOTIF: four colored street-grid strands woven around one white central square.
+PALETTE: brick red, transit blue, mustard, sage, black, and warm white.
+TYPE_DIRECTION: original bold humanist uppercase sans serif.
+COMPOSITION_RULES: 8 percent safe margins; question-like title above; exactly four labeled schedule steps below the civic square; date in footer; clean reading order.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly four steps and one open square; exact copy only; no other text, pseudo-writing, real city map, logos, signatures, mockups, or watermark.

@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a group of unlabeled fictional apothecary bottles as a glass study. Check the assigned composition, then verify the specific direction: use side light through amber, cobalt, and clear glass, with realistic caustics and no health implication. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fictional Apothecary Glass Study](samples/fictional-apothecary-glass-study/fictional-apothecary-glass-study.webp)
 
-Expected result: a group of unlabeled fictional apothecary bottles as a glass study organized around this plan: Arrange five differently shaped bottles on frosted shelves with no contents identified and no readable labels. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:15:12Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fictional-apothecary-glass-study.prompt.txt](samples/fictional-apothecary-glass-study/fictional-apothecary-glass-study.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `3327691f651d5ffb801179443048e1ce4b033012029786df4ee82dc23218ecaa`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final visibly arranges exactly five differently shaped amber, cobalt, and clear glass bottles on frosted shelves with coherent side light and caustics.
+- Known misses: No material visible miss; the five-bottle count holds and no readable label, identified contents, or health implication appears.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

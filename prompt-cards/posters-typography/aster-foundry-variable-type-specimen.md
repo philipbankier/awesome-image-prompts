@@ -49,12 +49,26 @@ Return one flat variable type specimen at {OUTPUT_SIZE} in 3:4. Do not place it 
 
 Confirm the result reads as one variable type specimen, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: axis labels and exact sample text arranged in a measured specimen grid. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Aster Foundry Variable Type Specimen](samples/aster-foundry-variable-type-specimen/aster-foundry-variable-type-specimen.webp)
 
-Expected result: one word expanding across weight and width axes. Layout: axis labels and exact sample text arranged in a measured specimen grid. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:32:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [aster-foundry-variable-type-specimen.prompt.txt](samples/aster-foundry-variable-type-specimen/aster-foundry-variable-type-specimen.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `4676d2eb9417d3a214bb67ffdae94ddfaa170682b3473202942ebc5e48c82b0b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Four ASTER rows visibly widen and gain weight between the labeled WEIGHT and WIDTH axes.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

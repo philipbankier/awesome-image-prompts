@@ -1,0 +1,24 @@
+Targeted refinement for the Modular Alphabet Construction Sheet rendered sample.
+
+Edit the supplied first-attempt sheet. Preserve the warm-white gridded field, title MODULAR SYSTEM, the large hero glyphs A M R, the cobalt arc / vermilion bar / mustard joint construction language, the MODULE KEY area, all three module labels and shapes, margins, and flat 4:5 format.
+
+ONLY CORRECTION
+Replace the single compressed alphabet line with two larger, evenly spaced, fully legible rows in exact order:
+A B C D E F G H I J K L M
+N O P Q R S T U V W X Y Z
+
+Every letter must appear exactly once across these two rows. Use clear modular uppercase forms but make each letter unmistakable. Pay special attention that the first row includes both I and J, and the second row includes both U and V and then W. Do not merge neighboring glyphs.
+
+The complete allowed visible copy remains:
+MODULAR SYSTEM
+A M R
+A B C D E F G H I J K L M
+N O P Q R S T U V W X Y Z
+MODULE KEY
+ARC
+BAR
+JOINT
+
+No extra letter, missing letter, repeated letter, filler glyph, numeral, measurement, pseudo-writing, logo, signature, watermark, frame, wall, or other change.
+
+Return one corrected flat 4:5 construction sheet at 1024 x 1280 pixels.

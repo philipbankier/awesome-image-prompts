@@ -56,12 +56,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an invented geology field notebook beside unclassified rock samples. Check the assigned composition, then verify the specific direction: use dry highland light and avoid real coordinates, scientific identification, valuation, or expedition claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fictional Geologist Notebook](samples/fictional-geologist-notebook/fictional-geologist-notebook.webp)
 
-Expected result: an invented geology field notebook beside unclassified rock samples organized around this plan: Open the notebook to project-authored diagrams, place three numbered stones along its edge, and include a simple pencil. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:19:30Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fictional-geologist-notebook.prompt.txt](samples/fictional-geologist-notebook/fictional-geologist-notebook.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `b81538b4702b4e9260be9d48ff798bc49fcc21e87fceb9ed68eb2aa2a6dde628`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows one open notebook, one pencil, and three distinct stones marked with one, two, and three dots; `RIDGE 04` and `SAMPLE A` are each legible once.
+- Known misses: No material visible miss; the graphs retain lines and grids without numeric labels or other readable copy.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -1,0 +1,23 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Image 1 is the project-owned reference named in this prompt.
+
+Create one material-detail photograph for the project-authored fictional "Atlas Field Notes: Handwoven Basket Texture" editorial study depicting the weave and rim detail of an authorized handwoven basket.
+
+SUBJECT
+Use exactly the weave and rim detail of an authorized handwoven basket, realized as an original unbranded concept with physically plausible materials and a restrained palette of slate blue, oxidized copper, and chalk white exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a compact project studio with a matte charcoal support, a softly receding neutral background, and no secondary props. Follow a 1:1 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Crop tightly across the rim transition so the weave pattern changes from vertical stakes to a braided edge. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Preserve declared weave facts, use raking light, and avoid cultural attribution or maker identity not supplied. Apply controlled raking light from upper left with gentle neutral fill, precise micro-contrast, and a restrained palette of slate blue, oxidized copper, and chalk white with natural tonal transitions and material response.
+
+AUTHORIZED REFERENCE INPUT
+Use Image 1, the attached project-owned reference generated specifically for this Prompt Card only after confirming authority to use it for this task. Preserve only the visible silhouette, proportions, material pattern, declared wear, and composition-relevant geometry shown in Image 1; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 1:1 photographic concept with credible optics and no unrequested collage.

@@ -57,12 +57,28 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an authorized handmade bowl with a visible brass-toned repair seam. Check the assigned composition, then verify the specific direction: preserve bowl geometry and repair path only, use neutral studio light, and avoid cultural, historical, or conservation claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Repaired Ceramic Bowl](samples/repaired-ceramic-bowl/repaired-ceramic-bowl.webp)
 
-Expected result: an authorized handmade bowl with a visible brass-toned repair seam organized around this plan: Stand the bowl at a slight angle so the declared seam crosses the rim and catches a narrow highlight. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:13:50Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [repaired-ceramic-bowl.prompt.txt](samples/repaired-ceramic-bowl/repaired-ceramic-bowl.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `ce11c8f57ee19dea26caec698f57d4d1425b8d753fbdee67c4b77c6e7493e9e2`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final isolates one slightly angled ceramic bowl whose narrow brass-colored repair seam crosses the rim under soft side light.
+- Known misses: No material visible miss; the vessel remains singular, handmade-looking, and free of logos, text, or restoration claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-bowl-reference.webp](samples/repaired-ceramic-bowl/input-01-bowl-reference.webp): project-authored fictional bowl reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

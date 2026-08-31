@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional community-theater rehearsal call sheet. Check the assigned composition, then verify the specific direction: use stage-inspired accents and only fictional production names and people. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Theater Rehearsal Call Sheet](samples/theater-rehearsal-call-sheet/theater-rehearsal-call-sheet.webp)
 
-Expected result: a fictional community-theater rehearsal call sheet organized around this plan: Combine scene blocks, role labels, room assignments, and change notes without actor contact information. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:37:43Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [theater-rehearsal-call-sheet.prompt.txt](samples/theater-rehearsal-call-sheet/theater-rehearsal-call-sheet.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `914836d66531784e6fd9032ed17a0f407f93738cb30f6e67472ab8ba592376e6`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Theater Rehearsal Call Sheet render makes "review the next fictional rehearsal block and its change note" primary and keeps "LANTERN THEATER / MOTH HOUSE", "scenes 1 Ferry Bell / roles Mira and Boatkeeper / Stu…", "change note Scene 2 starts 19:15" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Theater Rehearsal Call Sheet manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

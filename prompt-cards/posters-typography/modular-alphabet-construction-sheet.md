@@ -49,12 +49,26 @@ Return one flat alphabet construction sheet at {OUTPUT_SIZE} in 4:5. Do not plac
 
 Confirm the result reads as one alphabet construction sheet, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: hero glyphs at top with a compact uppercase sequence and module key below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Modular Alphabet Construction Sheet](samples/modular-alphabet-construction-sheet/modular-alphabet-construction-sheet.webp)
 
-Expected result: letters built from one arc, one bar, and one square joint. Layout: hero glyphs at top with a compact uppercase sequence and module key below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:12:12Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [modular-alphabet-construction-sheet.prompt.txt](samples/modular-alphabet-construction-sheet/modular-alphabet-construction-sheet.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `4bf8707e10d537e2e18984df0abfbd16c7bd5643fcd4cc87d70bc75acb3c11ac`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The A, M, and R hero glyphs sit above complete A-M and N-Z rows and a three-part module key.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

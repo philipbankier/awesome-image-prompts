@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 food gift packaging image to present a fictional pastry gift box without nutrition or freshness claims. Use this independently authored concept: a folded berry-red carton opens to reveal six abstract wrapped pastries.
+
+PRODUCT
+Use a fictional Berryfold pastry gift box designed for a small-batch bakery gift counter: one low rectangular carton with a hinged lid and one removable closed sleeve. Build only the declared form, components, materials, finishes, and approved accessories in this manifest: one berry-red uncoated paperboard carton, one matching closed sleeve, one cream molded-pulp insert with exactly six wells, and exactly six individually wrapped abstract round pastries in unprinted translucent paper. Do not invent a feature, certification, ingredient, performance result, compatibility statement, or package content.
+
+PRESENTATION
+Use a slightly elevated front three-quarter camera view with a 60mm product-photography lens character, a large diffused key from upper left with soft frontal fill and a short grounded shadow, and a pale blush seamless surface and background. Arrange the product as follows: open box centered with closed sleeve behind and approved copy facing forward. Render only BERRYFOLD / SIX PIECES; render no other text or logo.
+
+CONSTRAINTS
+Use a fictional product or an authorized product brief. Keep declared geometry, part count, scale, color, and materials consistent. No real brand, copied package, unsupported claim, celebrity endorsement, signature, watermark, or unapproved accessory.
+
+OUTPUT INTENT
+Return one clean food gift packaging image at 1120 x 1400 in 4:5, with the product fully visible and no unrelated props.

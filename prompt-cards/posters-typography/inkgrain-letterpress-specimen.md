@@ -49,12 +49,26 @@ Return one flat letterpress specimen at {OUTPUT_SIZE} in 4:5. Do not place it in
 
 Confirm the result reads as one letterpress specimen, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: three scale tiers on a quiet sheet with generous unprinted margins. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Inkgrain Letterpress Specimen](samples/inkgrain-letterpress-specimen/inkgrain-letterpress-specimen.webp)
 
-Expected result: large wood-type forms with restrained ink spread and paper bite. Layout: three scale tiers on a quiet sheet with generous unprinted margins. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:57:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [inkgrain-letterpress-specimen.prompt.txt](samples/inkgrain-letterpress-specimen/inkgrain-letterpress-specimen.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `57fcd31d204e414d4ab03d377c3bd24c7ab171d661168b41e7d7d695227c8f1a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: INK GRAIN, PRINT, and PRESS form three separated tactile letterpress tiers with generous paper margins.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

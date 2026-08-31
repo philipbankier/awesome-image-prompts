@@ -1,0 +1,17 @@
+COMMISSION
+Create one 3:2 bicycle-helmet feature card for a fictional project-authored helmet. Use the attached authorized project-authored sketch slatewing-helmet-feature-callout--input-01-layout-sketch.png only for the low swept left-facing silhouette, short rear tail, dark lower rim, Y-strap, rear dial, and left-hero/right-callout page hierarchy. Ignore the sketch's ambiguous top marks and build the ventilation pattern from the exact manifest below.
+
+EXACT HELMET MANIFEST
+Show exactly one complete Slatewing helmet in satin slate-blue material. Across the upper shell, cut exactly five separate long black vent openings. Count them as five visible dark apertures: 1, 2, 3, 4, 5 from top to bottom. Every opening must be long, narrow, angled rearward, separated from the next by a solid slate-blue shell rib, and clearly countable in the large side profile. Include no sixth vent, no separate rear triangular opening, and no other black shell aperture. Add one continuous graphite lower rim, one simple charcoal Y-shaped side strap with a plain buckle, and one small graphite rear-fit dial visibly attached beneath the tail.
+
+FEATURE CARD
+Place the large level side-profile helmet on the left against a pale cool-gray technical-board background. Stack exactly three circular construction details on the right with thin leader lines to their correct landmarks. The top detail must repeat the same exact five-vent pattern and be labeled VENT CHANNEL. The middle detail shows only the shell-to-rim junction and is labeled LOWER RIM. The bottom detail shows only the attached rear dial and is labeled REAR FIT DIAL. Render these three labels exactly and no other text.
+
+LIGHT AND MATERIAL
+Use broad even light from upper left, soft frontal fill, controlled rim separation, and restrained product shadows. Render polished catalog visualization rather than pencil texture.
+
+CONSTRAINTS
+This is fictional visual construction communication, not safety evidence. No impact, ventilation, comfort, fit, protection, certification, or performance claim; no measurement, logo, real brand, copied silhouette, second helmet, rider, head, hand, floating part, decorative gear, pseudo-text, signature, or watermark.
+
+OUTPUT INTENT
+Return one polished helmet feature card at 1536 x 1024 in 3:2. The full helmet, exactly five long vent openings, three details, leader lines, and exact labels must all be visible and unambiguous.

@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile itinerary interface for the fictional "Morrowfield Accessible Festival Itinerary" concept. The concept is a fictional community-festival itinerary with supplied access notes.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make choose a time-ordered festival plan and locate organizer-supplied rest spaces the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only Lantern Commons Festival; Saturday 14 September; 10:00 Opening at Meadow Stage; 11:30 Quiet Hour at Cedar Room; 13:00 Clay Workshop at Courtyard; zones Meadow, Cedar, Courtyard; rest spaces Cedar Room and South Tent; notes Step-free entrance supplied, Seating available per organizer, Ask staff; concept only. Stack time-ordered events with venue zones, rest-space markers, and operator-provided access information. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use direct labels and never infer that a venue or route is compliant beyond supplied facts. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

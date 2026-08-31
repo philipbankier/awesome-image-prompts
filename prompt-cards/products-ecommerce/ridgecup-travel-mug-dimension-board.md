@@ -56,12 +56,28 @@ Return one clean dimension presentation board at {OUTPUT_SIZE} in 4:5, with the 
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: front elevation fills the page with dimension lines outside the silhouette. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ridgecup Travel Mug Dimension Board](samples/ridgecup-travel-mug-dimension-board/ridgecup-travel-mug-dimension-board.webp)
 
-Expected result: a straight elevation and lid detail share one exact measurement language. Layout: front elevation fills the page with dimension lines outside the silhouette. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:30:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ridgecup-travel-mug-dimension-board.prompt.txt](samples/ridgecup-travel-mug-dimension-board/ridgecup-travel-mug-dimension-board.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `773ee675ae24ef0ae76532fc0c79867b59276186649cdf23a0625e99653099b5`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the front elevation and lid detail preserve the sketch landmarks, and all four supplied fictional dimensions are visible and correctly associated.
+- Known misses: The dimensions are supplied specifications, not values measured from the generated image.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-layout-sketch.webp](samples/ridgecup-travel-mug-dimension-board/input-01-layout-sketch.webp): project-authored fictional layout sketch input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The sketch must be owned or explicitly authorized and used only within the declared flexibility boundary.

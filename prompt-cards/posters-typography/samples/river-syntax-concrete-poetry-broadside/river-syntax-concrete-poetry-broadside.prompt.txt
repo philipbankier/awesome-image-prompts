@@ -1,0 +1,17 @@
+Targeted refinement for the River Syntax Concrete Poetry Broadside rendered sample.
+
+Edit the supplied first-attempt broadside. Preserve the warm sand field, cream dry-river negative-space channel, original serif typography, all exact lowercase words, top-to-bottom order, margins, and overall spatial flow.
+
+ONLY CORRECTION
+The approved poem has exactly five lines, but the first attempt splits line three across three stacked rows. Reset the center phrase “one word narrows” as one single continuous horizontal line, using smaller type and tighter tracking so all three words fit together across the narrow center pinch. Keep every other poem line exactly as it is.
+
+The final poem must have exactly these five visible lines:
+stone after stone
+the dry bend listens
+one word narrows
+then opens
+into river
+
+No title, author, repeated word, extra punctuation, invented line, decorative alphabet noise, picture, logo, pseudo-writing, signature, watermark, frame, wall, or other change.
+
+Return one corrected flat 2:3 concrete-poetry broadside at 1024 x 1536 pixels.

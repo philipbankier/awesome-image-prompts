@@ -1,0 +1,22 @@
+Use case: rendered sample for the Red Clay Indoor Cup Poster Prompt Card.
+Asset type: one flat fictional sports-tournament poster, no mockup.
+
+Create one 4:5 poster promoting RED CLAY CUP, a fictional indoor football tournament for eight amateur teams at the invented Terracotta Hall.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+RED CLAY CUP
+INDOOR FOOTBALL
+SATURDAY, DECEMBER 5
+9 AM–6 PM
+TERRACOTTA HALL
+8 TEAMS
+FREE ENTRY
+
+VISUAL SYSTEM
+Place the two-line tournament name at top. In the middle, arrange exactly eight terracotta blocks as a simple abstract single-elimination bracket cue, four blocks narrowing to two and then one final clay platform. Carve one continuous curved ball path through the blocks and place one generic unbranded cream football at the path’s end. Put the five venue and date lines below. Use terracotta, rust, deep teal, cream, and charcoal. Typography is original heavy squared uppercase. Keep 8% margins and a strong title-bracket-footer hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No team name, score, player, crest, sponsor, brand, trophy text, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly eight blocks and one ball.
+
+OUTPUT INTENT
+Return one flat 4:5 sports-tournament poster at 1024 x 1280 pixels.

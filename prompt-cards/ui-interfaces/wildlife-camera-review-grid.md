@@ -59,12 +59,31 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates an authorized wildlife-camera review grid. Check the assigned composition, then verify the specific direction: keep source images separate, avoid definitive species claims, and show no location precise enough to expose wildlife. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Wildlife Camera Review Grid](samples/wildlife-camera-review-grid/wildlife-camera-review-grid.webp)
 
-Expected result: an authorized wildlife-camera review grid organized around this plan: Place the supplied images in a timestamped contact sheet with habitat tags and an uncertain-identification queue. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:48:06Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [wildlife-camera-review-grid.prompt.txt](samples/wildlife-camera-review-grid/wildlife-camera-review-grid.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `c5d2bcddf4ab2992cf085e193d89d15fa2f387ff5c71f6a643b5df25cb23663c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Wildlife Camera Review Grid render makes "route uncertain project-owned wildlife captures to human review" primary and keeps "REEDGLASS CAMERA REVIEW", "supplied images separate", "RC-01 / 01:12 / Fern path / small mammal? / Uncertain" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Wildlife Camera Review Grid manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-small-mammal.webp](samples/wildlife-camera-review-grid/input-01-small-mammal.webp): project-authored fictional small mammal supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-hoofed-silhouette.webp](samples/wildlife-camera-review-grid/input-02-hoofed-silhouette.webp): project-authored fictional hoofed silhouette supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-owl-like.webp](samples/wildlife-camera-review-grid/input-03-owl-like.webp): project-authored fictional owl like supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

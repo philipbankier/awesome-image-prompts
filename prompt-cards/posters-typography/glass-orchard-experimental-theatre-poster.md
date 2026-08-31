@@ -49,12 +49,26 @@ Return one flat theatre poster at {OUTPUT_SIZE} in 2:3. Do not place it in a wal
 
 Confirm the result reads as one theatre poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: tiny production details around an oversized image and a restrained title. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Glass Orchard Experimental Theatre Poster](samples/glass-orchard-experimental-theatre-poster/glass-orchard-experimental-theatre-poster.webp)
 
-Expected result: one transparent fruit suspended inside a stark stage frame. Layout: tiny production details around an oversized image and a restrained title. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:51:37Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [glass-orchard-experimental-theatre-poster.prompt.txt](samples/glass-orchard-experimental-theatre-poster/glass-orchard-experimental-theatre-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `0e86b426ac840ae0f905af135a8382a07cf97e851de6a18fc9d0cb4bbdd366f2`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One glass pear hangs inside one black stage frame, with the title above and production line and date below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

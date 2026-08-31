@@ -49,12 +49,26 @@ Return one flat grid-system poster at {OUTPUT_SIZE} in 3:4. Do not place it in a
 
 Confirm the result reads as one grid-system poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: grid key at top, controlled deviations in the center, exact notes below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Offset Logic Modular Grid Poster](samples/offset-logic-modular-grid-poster/offset-logic-modular-grid-poster.webp)
 
-Expected result: colored blocks displaced one unit from a strict baseline grid. Layout: grid key at top, controlled deviations in the center, exact notes below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:24:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [offset-logic-modular-grid-poster.prompt.txt](samples/offset-logic-modular-grid-poster/offset-logic-modular-grid-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `2155c56222287893d97be3584e8eab77287cef470a936d48b5c0ce6795d56b05`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Nine colored blocks form three aligned rows on the 8 × 12 grid, with the key and three mini diagrams clearly separated.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

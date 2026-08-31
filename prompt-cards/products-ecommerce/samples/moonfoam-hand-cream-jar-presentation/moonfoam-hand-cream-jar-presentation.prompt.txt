@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 cosmetic-packaging presentation for a fictional hand-cream jar without efficacy claims. Use this independently authored concept: a matte ivory jar sits beside a crescent-shaped paper plinth.
+
+PRODUCT
+Use the fictional Moonfoam hand cream. Build exactly one short 60 ml cylindrical jar with a matte ivory glass body, one matching wide screw lid, a narrow midnight-blue baseline around the lower jar, and one minimal centered label. Build exactly one freestanding crescent-shaped plinth from folded midnight-blue paper, slightly taller than the jar, with a clean cut edge. Approved copy is limited to MOONFOAM / HAND CREAM / 60 ML. Show no cream smear, open lid, flower, moon photograph, ingredient, applicator, carton, towel, mirror, certification, benefit statement, or extra product.
+
+PRESENTATION
+Use a straight-on, slightly elevated 75 mm product view. Place the front-facing jar low and just left of center, fully separated from the crescent paper plinth on its right, leaving generous open space above. Light with a large cool diffused key from upper left, a soft silver-blue rim, and one restrained crescent shadow on a pale pearl-gray seamless set. Render MOONFOAM / HAND CREAM / 60 ML clearly on the jar and render exactly MOONFOAM as a small headline in the open upper space. Render no other text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is fictional, project-authored packaging. Keep exactly one closed jar and one paper plinth, preserve the declared ivory and midnight-blue materials, and make no efficacy, dermatology, ingredient, sustainability, or certification claim. No real brand, copied package, duplicate jar, floating object, hand, face, unrelated prop, or marketplace interface.
+
+OUTPUT INTENT
+Return one polished cosmetic-packaging presentation at 1120 x 1400 in 4:5. The complete jar, crescent plinth, and approved copy must be fully visible, crisp, and uncropped.

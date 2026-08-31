@@ -57,12 +57,28 @@ Return one clean footwear material board at {OUTPUT_SIZE} in 4:5, with the produ
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: three-quarter shoe above an aligned sole, upper, and lace material rail. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Tide Sole Sneaker Material Board](samples/tide-sole-sneaker-material-board/tide-sole-sneaker-material-board.webp)
 
-Expected result: the preserved shoe is paired with three labeled material swatches. Layout: three-quarter shoe above an aligned sole, upper, and lace material rail. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:34:32Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [tide-sole-sneaker-material-board.prompt.txt](samples/tide-sole-sneaker-material-board/tide-sole-sneaker-material-board.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `f664603e96594b2daf11edba03b68397e913ddf4603a02c4f12b859a9031ea84`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one shoe preserves the authorized silhouette, lace path, overlay, sole groove, and heel pull, with three correctly labeled matching material swatches.
+- Known misses: The swatches document fictional visual material descriptions and do not prove composition, sourcing, or performance.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/tide-sole-sneaker-material-board/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.

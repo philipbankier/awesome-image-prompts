@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one macro product-style photograph for the project-authored fictional "Atlas Field Notes: Ceramic Button Macro" editorial study depicting a set of original handmade ceramic buttons showing glaze variation.
+
+SUBJECT
+Use exactly a set of original handmade ceramic buttons showing glaze variation, realized as an original unbranded concept with physically plausible materials and a restrained palette of amber, charcoal, and muted teal exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a compact project studio with a matte charcoal support, a softly receding neutral background, and no secondary props. Follow a 1:1 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Arrange seven buttons in a loose spiral with one edge-on piece revealing thickness and hand-finished holes. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use soft tent light, accurate glaze texture, subtle imperfections, and no maker mark. Apply controlled raking light from upper left with gentle neutral fill, precise micro-contrast, and a restrained palette of amber, charcoal, and muted teal with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 1:1 photographic concept with credible optics and no unrequested collage.

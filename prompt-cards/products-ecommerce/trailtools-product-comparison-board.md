@@ -49,12 +49,26 @@ Return one clean product comparison board at {OUTPUT_SIZE} in 16:9, with the pro
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: products across the top and a concise approved comparison matrix below. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Trailtools Product Comparison Board](samples/trailtools-product-comparison-board/trailtools-product-comparison-board.webp)
 
-Expected result: three silhouettes share a baseline while differences are isolated in aligned rows. Layout: products across the top and a concise approved comparison matrix below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:05:35Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [trailtools-product-comparison-board.prompt.txt](samples/trailtools-product-comparison-board/trailtools-product-comparison-board.prompt.txt)
+- Output dimensions: `1659 x 948`
+- Output SHA-256: `e57e79934952e6a0abccccc972cdd589fff51fdc4bbd1861ed493be2c9f83dfc`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly three trowel variants align on one baseline and every supplied grip, blade, and width value appears in the correct column.
+- Known misses: The displayed dimensions are supplied fictional specifications and are not measurements taken from the render.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

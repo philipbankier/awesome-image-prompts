@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional ferry-crew handoff training simulator. Check the assigned composition, then verify the specific direction: make the training fiction explicit and avoid real procedures, emergency instructions, certifications, or operational readiness claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ferry Crew Training Handoff](samples/ferry-crew-training-handoff/ferry-crew-training-handoff.webp)
 
-Expected result: a fictional ferry-crew handoff training simulator organized around this plan: Present a simulated watch summary, invented vessel zones, scenario notes, and a disabled acknowledgment control. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:04:58Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ferry-crew-training-handoff.prompt.txt](samples/ferry-crew-training-handoff/ferry-crew-training-handoff.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `d7ff8b1ec5630f9505303aea2d095ab7abf925f8af82f605f16884c4eca9c304`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Ferry Crew Training Handoff render makes "review the fictional watch summary without acknowledging it" primary and keeps "TRAINING FICTION / BRACKEN FERRY", "watch 18:00-22:00", "zones Upper Deck, Cabin, Service Bay" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Ferry Crew Training Handoff manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

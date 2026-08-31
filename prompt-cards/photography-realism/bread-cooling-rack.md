@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates two rustic fictional bakery loaves cooling on a wire rack. Check the assigned composition, then verify the specific direction: use warm side light, crisp crust texture, no label, and no freshness, nutrition, or allergen claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Bread Cooling Rack](samples/bread-cooling-rack/bread-cooling-rack.webp)
 
-Expected result: two rustic fictional bakery loaves cooling on a wire rack organized around this plan: Place one whole loaf behind a torn edge piece with crumbs and a folded plain cloth leading across frame. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:07:26Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [bread-cooling-rack.prompt.txt](samples/bread-cooling-rack/bread-cooling-rack.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `e9bb27d58f470d69b134b9789f7bb7adc30039d0d17fbe6904757e3f543fee5f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows one whole rustic loaf behind one torn loaf portion on a wire rack, with crumbs and a plain folded cloth under warm side light.
+- Known misses: No material visible miss; crust, crumb, rack, and cloth read naturally without packaging, labels, or food claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

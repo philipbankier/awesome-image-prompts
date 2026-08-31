@@ -51,12 +51,26 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates an invented empty community pool before opening. Check the assigned composition, then verify the specific direction: use pale dawn reflections, clean geometry, no people, and no health, safety, or facility-status implication. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Empty Community Pool at Dawn](samples/empty-community-pool-dawn/empty-community-pool-dawn.webp)
 
-Expected result: an invented empty community pool before opening organized around this plan: Frame calm lanes symmetrically from deck height with stacked unbranded kickboards at one edge. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:15:11Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [empty-community-pool-dawn.prompt.txt](samples/empty-community-pool-dawn/empty-community-pool-dawn.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `846331ccfd93a613b26e47d50abf5c3927a29aa7a5990187e81961cc530ff1b1`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final frames calm filled lanes symmetrically from deck height, with pale dawn reflections and stacked unbranded kickboards at the right edge.
+- Known misses: No material visible miss; the invented pool is empty of people and carries no signage or facility-status claim.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -1,0 +1,13 @@
+Use case: scientific-educational
+Asset type: flat 2:3 science lecture poster
+Card: Cloudledger Science Lecture Poster
+Primary request: Announce a fictional public lecture about cloud measurement using one gridded cloud cross-section with restrained arrows.
+Variable instantiations:
+SUBJECT_BRIEF: fictional introductory atmospheric-science lecture for adults; illustrative, not operational weather guidance.
+COPY_MANIFEST: render exactly and only "CLOUDLEDGER", "ALTITUDE", "DENSITY", "DROPLETS", and "08 APR 2026".
+VISUAL_MOTIF: one clean cloud cross-section over a measurement grid with exactly three labeled arrows.
+PALETTE: white, pale gray, cobalt blue, cyan, and charcoal.
+TYPE_DIRECTION: original compact uppercase technical sans serif.
+COMPOSITION_RULES: 8 percent safe margins; title above; diagram central; three labels on a side rail; date in footer; labels clear and uncropped.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly three arrows and three technical labels; exact copy only; no other text, pseudo-writing, weather alert, unsupported facts, logos, signatures, mockups, or watermark.

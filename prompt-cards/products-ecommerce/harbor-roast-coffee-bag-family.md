@@ -49,12 +49,26 @@ Return one clean packaging family image at {OUTPUT_SIZE} in 4:5, with the produc
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: three upright bags with equal scale, distinct names, and one family hierarchy. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Harbor Roast Coffee Bag Family](samples/harbor-roast-coffee-bag-family/harbor-roast-coffee-bag-family.webp)
 
-Expected result: a shared harbor grid changes one signal color per bag. Layout: three upright bags with equal scale, distinct names, and one family hierarchy. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:44:35Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [harbor-roast-coffee-bag-family.prompt.txt](samples/harbor-roast-coffee-bag-family/harbor-roast-coffee-bag-family.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `6a049a0226c82195253ab7c6d8831444eceddb36bec35e613813002b4991f394`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: exactly three same-structure bags retain one shared grid and hierarchy while the three signal colors and origin names remain distinct and legible.
+- Known misses: Small secondary WHOLE BEAN COFFEE copy is present as approved, with no tasting or sourcing claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

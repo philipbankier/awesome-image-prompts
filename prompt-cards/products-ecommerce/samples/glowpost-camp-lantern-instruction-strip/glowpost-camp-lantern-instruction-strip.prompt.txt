@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 product instruction strip showing three setup states for a fictional collapsible camp lantern. Use this independently authored concept: closed, extended, and lit states progress without changing core geometry.
+
+PRODUCT
+Use the fictional Glowpost collapsible lantern. The fixed product design has one squat graphite-anodized aluminum base, one frosted cylindrical silicone diffuser that telescopes upward in three visible accordion bands, one matching graphite top cap, and one thin fold-flat wire carry handle attached symmetrically to the top cap. Across all panels, preserve the same base diameter, cap, handle pivots, material colors, and camera-facing orientation. Add no charging cable, switch diagram, battery, hand, tool, tent, or accessory.
+
+PRESENTATION
+Create exactly three equal vertical panels separated by thin pale-gray rules on a clean warm-white instruction-card background. Use the same straight-on, slightly elevated 70 mm product view and fixed scale in every panel. Panel one shows the lantern fully collapsed and unlit, captioned exactly CLOSED. Panel two shows the diffuser fully extended and unlit, captioned exactly EXTEND. Panel three shows the identical extended lantern emitting a gentle warm amber glow, captioned exactly LIGHT. Place each one-word caption centered beneath its product. Render no other text, numerals, logo, signature, or watermark. Use broad soft studio illumination and one consistent faint contact shadow in each panel.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Keep exactly three panels and one lantern state in each. Only the telescoping diffuser height and final illumination may change. Do not alter the base, cap, handle, viewing angle, scale, crop, or materials. No impossible movement, detached part, extra lantern, arrows, unsupported runtime or brightness claim, decorative pseudo-text, or unrelated prop.
+
+OUTPUT INTENT
+Return one crisp instruction strip at 1120 x 1400 in 4:5. All three lanterns and all three exact captions must be fully visible and immediately readable.

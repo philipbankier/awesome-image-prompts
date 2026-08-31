@@ -56,12 +56,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates a fictional mushroom spore-print arrangement for visual study. Check the assigned composition, then verify the specific direction: use controlled overhead light and make clear that the setup provides no identification, edibility, or safety guidance. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Mushroom Spore Print Study](samples/mushroom-spore-print-study/mushroom-spore-print-study.webp)
 
-Expected result: a fictional mushroom spore-print arrangement for visual study organized around this plan: Place two abstract spore patterns beside unlabelled caps and a project-authored date card on dark paper. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:31:39Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [mushroom-spore-print-study.prompt.txt](samples/mushroom-spore-print-study/mushroom-spore-print-study.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `e34f039d1e4de3300b7c0b078d85e07fd8de1f4907f7e8c19befa3a8cd96f217`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted overhead study includes three caps, exactly two visible spore prints, markers `A`, `B`, and `C`, and a separate dot card with no writing.
+- Known misses: No material visible miss; the specimens, two-print count, marker set, and blank card remain separated without scientific claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

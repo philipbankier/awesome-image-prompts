@@ -49,12 +49,26 @@ Return one flat research symposium poster at {OUTPUT_SIZE} in 3:4. Do not place 
 
 Confirm the result reads as one research symposium poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: symposium title at top, transect diagram center, session and venue data below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Saltglass Coastal Research Poster](samples/saltglass-coastal-research-poster/saltglass-coastal-research-poster.webp)
 
-Expected result: salt crystals and shoreline transects share one measured visual language. Layout: symposium title at top, transect diagram center, session and venue data below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:06:59Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [saltglass-coastal-research-poster.prompt.txt](samples/saltglass-coastal-research-poster/saltglass-coastal-research-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `1a426652b0f8cf8df7983b3ac6ddb297496c5ad133ad83473f06bdbcb6080a5b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Five crystal clusters rise along five sampling bars above the date, venue, three session rows, and action.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

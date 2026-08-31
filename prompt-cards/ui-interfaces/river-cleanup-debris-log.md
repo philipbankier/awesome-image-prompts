@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional river-cleanup debris logging screen. Check the assigned composition, then verify the specific direction: use simple illustrated categories and avoid scientific or regulatory conclusions. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for River Cleanup Debris Log](samples/river-cleanup-debris-log/river-cleanup-debris-log.webp)
 
-Expected result: a fictional river-cleanup debris logging screen organized around this plan: Prioritize category, approximate count, location zone, and optional project-owned photo status in a short form. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:31:15Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [river-cleanup-debris-log.prompt.txt](samples/river-cleanup-debris-log/river-cleanup-debris-log.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `34bbd751893ea8b324aca69b16d9900d4c39b98071277f49e25e707f1c873740`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 River Cleanup Debris Log render makes "save one fictional debris observation with an approximate count" primary and keeps "LANTERN RIVER CLEANUP", "category Plastic pieces", "approximate count 12" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed River Cleanup Debris Log manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

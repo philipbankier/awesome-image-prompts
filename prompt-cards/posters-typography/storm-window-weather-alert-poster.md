@@ -51,12 +51,26 @@ Return one flat public weather alert poster at {OUTPUT_SIZE} in 3:4. Do not plac
 
 Confirm the result reads as one public weather alert poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: alert level first, action sequence second, official fictional contact last. This is only an obvious-failure check. Confirm the training-only notice is prominent.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Storm Window Weather Alert Poster](samples/storm-window-weather-alert-poster/storm-window-weather-alert-poster.webp)
 
-Expected result: three window panels show wind, rain, and safe shelter actions. Layout: alert level first, action sequence second, official fictional contact last. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:25:08Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [storm-window-weather-alert-poster.prompt.txt](samples/storm-window-weather-alert-poster/storm-window-weather-alert-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `89ed0c100038bad835cfef177421e8fed3fb13b894e61c1a06bbe5e8c77dceaa`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three window panels depict wind, rain, and shelter with the three numbered actions aligned directly below.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

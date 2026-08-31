@@ -49,12 +49,26 @@ Return one flat science exhibition poster at {OUTPUT_SIZE} in 3:4. Do not place 
 
 Confirm the result reads as one science exhibition poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: title occupies the undisturbed grid while exhibition details track the refracted rays. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Prism Field Geometry Science Poster](samples/prism-field-geometry-science-poster/prism-field-geometry-science-poster.webp)
 
-Expected result: one prism breaks a strict grid into measured color angles. Layout: title occupies the undisturbed grid while exhibition details track the refracted rays. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:41:38Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [prism-field-geometry-science-poster.prompt.txt](samples/prism-field-geometry-science-poster/prism-field-geometry-science-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `fd1d1edc07e7e2fce4681162840cdca01af373dd2fd6d3e02e6bb32b945b1118`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One triangular prism splits one incoming white ray into five colored rays across the measured grid.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

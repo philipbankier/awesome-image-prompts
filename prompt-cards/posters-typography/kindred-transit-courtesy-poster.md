@@ -49,12 +49,26 @@ Return one flat public courtesy poster at {OUTPUT_SIZE} in 3:4. Do not place it 
 
 Confirm the result reads as one public courtesy poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: short headline at eye level with three icon-led behaviors below. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Kindred Transit Courtesy Poster](samples/kindred-transit-courtesy-poster/kindred-transit-courtesy-poster.webp)
 
-Expected result: three interlocking handrail shapes illustrating shared space. Layout: short headline at eye level with three icon-led behaviors below. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:57:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [kindred-transit-courtesy-poster.prompt.txt](samples/kindred-transit-courtesy-poster/kindred-transit-courtesy-poster.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `8d5c95cf8d43a8f527f1cb35689e9f5b3eab348c87fe504e49fddec389d8cb75`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Three interlocking handrail rings frame the BOARD, RIDE, and EXIT icons between the headline and campaign footer.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

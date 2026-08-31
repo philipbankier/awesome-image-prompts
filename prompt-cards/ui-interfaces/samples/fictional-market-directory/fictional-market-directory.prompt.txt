@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one public kiosk directory for the fictional "Morrowfield Fictional Market Directory" concept. The concept is a fictional weekend-market stall directory.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make find a fictional weekend-market stall by zone and category the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only LANTERN WEEKEND MARKET; zones A Courtyard, B River Walk, C Glass Hall; stalls Fern & Flour / Bakery / A / 09:00-14:00; Copper Thread / Textiles / B / 10:00-16:00; Moss Press / Prints / C / 09:30-15:00; categories Food, Craft, Print; original names only. Organize invented stalls by zone with a simple map, category filters, and supplied opening times. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use original vendor names and no real brands, endorsements, health claims, or payment promises. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

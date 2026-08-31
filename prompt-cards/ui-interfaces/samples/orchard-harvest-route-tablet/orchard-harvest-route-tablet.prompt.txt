@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one tablet route interface for the fictional "Morrowfield Orchard Harvest Route Tablet" concept. The concept is a fictional orchard harvest route planner.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review the next fictional orchard block on the ordered route the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only WREN ORCHARD ROUTE; invented blocks North Bell, Cedar Row, Lantern Slope; route 1 North Bell / 12 crates, 2 Cedar Row / 8 crates, 3 Lantern Slope / 10 crates; selected Cedar Row; capacity sample 18 of 30; quantities illustrative; no agricultural performance claim. Place an illustrated orchard grid beside an ordered stop list and a small crate-capacity summary. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Use invented block names and quantities, with no operational or agricultural performance claim. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

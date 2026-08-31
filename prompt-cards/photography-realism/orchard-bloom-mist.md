@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates rows of fictional orchard blossoms emerging through light morning mist. Check the assigned composition, then verify the specific direction: use soft pink-white color, dew detail, subtle depth, and no crop-yield, location, or season guarantee. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Orchard Bloom Mist](samples/orchard-bloom-mist/orchard-bloom-mist.webp)
 
-Expected result: rows of fictional orchard blossoms emerging through light morning mist organized around this plan: Lead with one blossom branch near frame edge while parallel tree rows recede into pale fog. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:27:12Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [orchard-bloom-mist.prompt.txt](samples/orchard-bloom-mist/orchard-bloom-mist.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `436bdf62895afbf5bd8820ede7dc6033f461f5f81d88f9e35560b60549cd8e28`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted wide frame anchors on a near pink-white blossom branch while repeated orchard rows recede into pale morning mist.
+- Known misses: No material visible miss; bloom detail, soft depth, empty orchard, and restrained spring palette remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

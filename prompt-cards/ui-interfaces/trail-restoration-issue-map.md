@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a fictional trail-restoration issue map. Check the assigned composition, then verify the specific direction: pair each supplied symbol with a direct label, avoid real navigation or public-safety guidance, and require human accessibility review. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Trail Restoration Issue Map](samples/trail-restoration-issue-map/trail-restoration-issue-map.webp)
 
-Expected result: a fictional trail-restoration issue map organized around this plan: Pair a simplified project map with issue filters, severity labels, and an evidence-note panel using invented locations. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:44:22Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [trail-restoration-issue-map.prompt.txt](samples/trail-restoration-issue-map/trail-restoration-issue-map.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `e4d499889d91ac307a298e57109ddab2de139e74777388ae42df03ed428faabf`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Trail Restoration Issue Map render makes "filter fictional trail issues and read the selected evidence note" primary and keeps "CEDAR LOOP RESTORATION MAP / FICTIONAL", "invented zones Fern Bend, Stone Rise, Lantern Gap", "issues T-14 erosion / High, T-18 fallen branch / Medi…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Trail Restoration Issue Map manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

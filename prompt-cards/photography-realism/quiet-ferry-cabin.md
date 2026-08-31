@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an empty fictional ferry cabin between crossings. Check the assigned composition, then verify the specific direction: use cool daylight, subtle vibration cues, worn upholstery, no readable text, and no real operator or route identity. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Quiet Ferry Cabin](samples/quiet-ferry-cabin/quiet-ferry-cabin.webp)
 
-Expected result: an empty fictional ferry cabin between crossings organized around this plan: Look down one seat row toward rain-softened windows, with a folded blank route card on the nearest table. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:35:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [quiet-ferry-cabin.prompt.txt](samples/quiet-ferry-cabin/quiet-ferry-cabin.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `b4ca545389d7b3562d9d1a4f49d3f41623d4b007e7eff9d149b612e3f0128d16`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final frames an empty worn ferry cabin through rain-softened windows, with a blank route card and muted water beyond.
+- Known misses: No material visible miss; the cabin remains unoccupied and carries no route name, operator identity, or other readable text.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

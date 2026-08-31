@@ -51,12 +51,26 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates three handmade beeswax candles at different stages of use. Check the assigned composition, then verify the specific direction: use warm flame light with cool ambient fill, realistic wax edges, and no scent or health claim. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Beeswax Candle Study](samples/beeswax-candle-study/beeswax-candle-study.webp)
 
-Expected result: three handmade beeswax candles at different stages of use organized around this plan: Group one unlit taper, one recently extinguished candle, and one short lit candle on a plain ceramic plate. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:55Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [beeswax-candle-study.prompt.txt](samples/beeswax-candle-study/beeswax-candle-study.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `65c3ba0ca9ac5d21553a82de40826c2fa040b9362e0cdbde8e78746dda4f1919`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final clearly separates three beeswax candles: one tall unlit taper, one smoking recently extinguished candle, and one short lit candle on a plain plate.
+- Known misses: No material visible miss; wax texture, smoke, and flame states remain distinct without labels or claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

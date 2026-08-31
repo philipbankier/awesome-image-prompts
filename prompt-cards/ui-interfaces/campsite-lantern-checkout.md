@@ -52,11 +52,26 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates a fictional campsite lantern lending screen. Check the assigned composition, then verify the specific direction: use warm night colors and avoid equipment-safety or emergency-readiness claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Campsite Lantern Checkout](samples/campsite-lantern-checkout/campsite-lantern-checkout.webp)
 
-Expected result: a fictional campsite lantern lending screen organized around this plan: Show item cards, condition notes, return windows, and a confirmation summary with invented inventory. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [campsite-lantern-checkout.prompt.txt](samples/campsite-lantern-checkout/campsite-lantern-checkout.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `207742c2f8464afcc436c3153a3c58e306f7c04d272de417211ecd7377fb7894`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Campsite Lantern Checkout render makes "review one fictional lantern loan and its return window" primary and keeps "CEDAR NIGHT LANTERN LOAN", "Lantern L-04 / Available / scuffed handle", "Lantern L-09 / On loan" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Campsite Lantern Checkout manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

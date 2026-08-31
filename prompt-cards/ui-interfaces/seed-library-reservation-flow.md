@@ -52,11 +52,26 @@ Return one 9:16 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a neighborhood seed-library reservation journey. Check the assigned composition, then verify the specific direction: use botanical color cues, generous tap targets, and plain status language without implying inventory accuracy. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Seed Library Reservation Flow](samples/seed-library-reservation-flow/seed-library-reservation-flow.webp)
 
-Expected result: a neighborhood seed-library reservation journey organized around this plan: Arrange availability, seed details, pickup date, and confirmation in one calm vertical sequence. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:37:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [seed-library-reservation-flow.prompt.txt](samples/seed-library-reservation-flow/seed-library-reservation-flow.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `15bc8fa93fa74328aa55e30556125358a9e9f5441f22b793d2f83e2e74202828`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Seed Library Reservation Flow render makes "reserve a fictional seed packet for an illustrative pickup date" primary and keeps "CEDAR SEED LIBRARY", "Fern Bean / 12 packets sample, Moon Pea / 4 packets s…", "selected Moon Pea" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Seed Library Reservation Flow manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

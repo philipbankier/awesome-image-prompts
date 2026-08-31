@@ -49,12 +49,26 @@ Return one flat publishing fair poster at {OUTPUT_SIZE} in 4:5. Do not place it 
 
 Confirm the result reads as one publishing fair poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: dense publisher grid anchored beneath an open typographic sky. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Paper Harbor Small Press Fair Poster](samples/paper-harbor-small-press-fair-poster/paper-harbor-small-press-fair-poster.webp)
 
-Expected result: stacked pamphlets forming a harbor skyline. Layout: dense publisher grid anchored beneath an open typographic sky. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:31:48Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [paper-harbor-small-press-fair-poster.prompt.txt](samples/paper-harbor-small-press-fair-poster/paper-harbor-small-press-fair-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `a932f498c99ee39a524e81047f59df149e60352d20ba1370be56c7b1eec36d02`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Twelve blank pamphlet forms build the harbor skyline beneath the title and compact logistics grid.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

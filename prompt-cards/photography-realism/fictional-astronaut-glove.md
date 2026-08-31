@@ -57,12 +57,28 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an authorized original astronaut-glove prop shown as a fictional artifact. Check the assigned composition, then verify the specific direction: preserve approved prop geometry only and avoid agency marks, mission history, wearer identity, or spaceflight-performance claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fictional Astronaut Glove](samples/fictional-astronaut-glove/fictional-astronaut-glove.webp)
 
-Expected result: an authorized original astronaut-glove prop shown as a fictional artifact organized around this plan: Set the glove palm-up on dark fabric with the cuff, stitched panels, and declared wear visible in a narrow pool of light. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:04:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fictional-astronaut-glove.prompt.txt](samples/fictional-astronaut-glove/fictional-astronaut-glove.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `0d5918f7bf0971fff48490e60deb431817e9e78c3809aaf35a19966f25d63255`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted portrait keeps one palm-up glove with five coherent fingers, cuff, stitched panels, and restrained wear as the only focal object on dark fabric.
+- Known misses: No material visible miss; the prior brick is absent and no agency mark, insignia, text, or wearer cue appears.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-glove-reference.webp](samples/fictional-astronaut-glove/input-01-glove-reference.webp): project-authored fictional glove reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

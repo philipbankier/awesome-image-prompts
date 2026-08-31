@@ -49,12 +49,26 @@ Return one flat ligature study poster at {OUTPUT_SIZE} in 3:4. Do not place it i
 
 Confirm the result reads as one ligature study poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: large ligature row with source pairs and connection diagrams beneath. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Joined Forms Ligature Study](samples/joined-forms-ligature-study/joined-forms-ligature-study.webp)
 
-Expected result: five letter pairs joined by one repeatable hinge rule. Layout: large ligature row with source pairs and connection diagrams beneath. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:57:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [joined-forms-ligature-study.prompt.txt](samples/joined-forms-ligature-study/joined-forms-ligature-study.prompt.txt)
+- Output dimensions: `1086 x 1448`
+- Output SHA-256: `082272339ee2e6113be61fc0e23ee9cd56aefa8c350cfc3c5a154c43019665ec`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Five black ligatures align with coral hinges, pair labels, and matching construction diagrams.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. It bundles no third-party prompt, poster, type artwork, or image.

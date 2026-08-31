@@ -51,12 +51,26 @@ Return one 16:9 photographic concept with credible optics and no unrequested col
 
 Confirm the image communicates an empty reedland footbridge disappearing into morning fog. Check the assigned composition, then verify the specific direction: use muted olive reeds, silver fog, wet timber sheen, and gradual atmospheric falloff. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Fogbound Reed Footbridge](samples/fogbound-reed-footbridge/fogbound-reed-footbridge.webp)
 
-Expected result: an empty reedland footbridge disappearing into morning fog organized around this plan: Center the narrow boardwalk low in frame so its converging edges vanish before the horizon. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:15:13Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [fogbound-reed-footbridge.prompt.txt](samples/fogbound-reed-footbridge/fogbound-reed-footbridge.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `0f4665c748c52d9ea7d22f10f98e5aee69b35129262609c356e35f74dcfce75c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final centers a wet timber footbridge that narrows into silver fog between olive reeds, with the rails and boards providing strong converging lines.
+- Known misses: No material visible miss; the scene remains empty, softly lit, and free of signs or location claims.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

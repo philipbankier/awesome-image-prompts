@@ -52,11 +52,26 @@ Return one 16:9 concept image with readable hierarchy and no unrequested screens
 
 Confirm the image communicates a community-kitchen station assignment board. Check the assigned composition, then verify the specific direction: use clear zones and avoid food-safety certification, allergen clearance, or medical claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Community Kitchen Station Plan](samples/community-kitchen-station-plan/community-kitchen-station-plan.webp)
 
-Expected result: a community-kitchen station assignment board organized around this plan: Arrange fictional prep stations, task cards, equipment reservations, and handoff notes without personal or health data. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:01:35Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [community-kitchen-station-plan.prompt.txt](samples/community-kitchen-station-plan/community-kitchen-station-plan.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `f6a0639786cf5e5962e85ff4ecc42dc811eab7663b9bcbf91db6dc775f5f5f09`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Community Kitchen Station Plan render makes "review station assignments and the next fictional handoff" primary and keeps "LANTERN KITCHEN PLAN", "Prep A / Chop herbs / 09:00", "Prep B / Mix dough / 09:15" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Community Kitchen Station Plan manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

@@ -1,0 +1,24 @@
+Use case: rendered sample for the Open Faces Portrait Exhibition Poster Prompt Card.
+Asset type: one flat fictional portrait-exhibition poster made from the attached project-generated sitter reference, no mockup.
+
+REFERENCE INPUT
+Use the attached authorized, project-generated portrait only for the fictional sitter’s identity, face, glasses, short silver hair, direct gaze, indigo jacket, and calm front-facing pose. Preserve all facial features, age, expression, skin texture, eyewear shape, head orientation, and clothing identity. Do not alter identity, infer unseen anatomy, beautify, de-age, or resemble a real public figure. You may extend only the neutral wall and jacket background to fit the poster.
+
+SUBJECT BRIEF
+Create one 2:3 poster promoting OPEN FACES, a fictional exhibition of project-authored portrait studies at the invented North Room.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE FIVE LINES
+OPEN FACES
+PORTRAIT STUDIES
+SEPTEMBER 3–28
+NORTH ROOM
+FREE ENTRY
+
+VISUAL SYSTEM
+Keep the sitter’s entire face and glasses unobstructed. Place the two-line exhibition title above the head in transparent pale-cyan rectangles over extended neutral wall. Place the three detail lines below the portrait in transparent warm-gray rectangles over the lower jacket, without touching the face. Use indigo, concrete gray, pale cyan, cream, and one coral accent. Typography is original clear grotesque uppercase. Keep 8% margins and a strict top-to-bottom hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No sitter name, biography, quote, sponsor, logo, facial overlay, pseudo-writing, signature, watermark, frame, wall mockup, or extra option. Do not crop the head or change the preserved identity.
+
+OUTPUT INTENT
+Return one flat 2:3 portrait-exhibition poster at 1024 x 1536 pixels.

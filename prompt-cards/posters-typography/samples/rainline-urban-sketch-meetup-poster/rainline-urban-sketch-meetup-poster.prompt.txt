@@ -1,0 +1,22 @@
+Use case: rendered sample for the Rainline Urban Sketch Meetup Poster Prompt Card.
+Asset type: one flat fictional meetup poster, no mockup.
+
+Create one 4:5 poster inviting local illustrators to RAINLINE, a fictional urban sketch walk through the invented Awning Square district.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+RAINLINE
+URBAN SKETCH WALK
+SATURDAY, APRIL 11
+10 AM
+MEET AT AWNING SQUARE
+ROUTE: 2 KM
+BRING PEN • SMALL STOOL
+
+VISUAL SYSTEM
+Draw one continuous charcoal ink line that begins beneath the title and maps exactly three striped awnings, two oval puddles, and three folding stools before ending at the footer. Add restrained watercolor fills in rain blue, brick coral, mustard, and warm gray. Place the two-line title as a fluid city-line header. Nest the five route and supply lines below in a compact clear block. Typography is original casual condensed uppercase, not handwriting. Keep 8% safe margins and a calm top-to-bottom reading order.
+
+CONSTRAINTS
+Render only the exact manifest. No street name beyond the manifest, building sign, shop logo, person, vehicle, sponsor, map label, pseudo-writing, signature, watermark, frame, wall, or extra option. The ink motif must remain one continuous line.
+
+OUTPUT INTENT
+Return one flat 4:5 meetup poster at 1024 x 1280 pixels.

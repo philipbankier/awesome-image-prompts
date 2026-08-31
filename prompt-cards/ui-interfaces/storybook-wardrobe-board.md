@@ -59,12 +59,31 @@ Return one 4:3 concept image with readable hierarchy and no unrequested screens.
 
 Confirm the image communicates an original storybook-character wardrobe board. Check the assigned composition, then verify the specific direction: do not merge identities or copy protected characters; use only fictional characters and approved wardrobe references. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Storybook Wardrobe Board](samples/storybook-wardrobe-board/storybook-wardrobe-board.webp)
 
-Expected result: an original storybook-character wardrobe board organized around this plan: Keep authorized costume images in character-specific lanes with scene tags, palette notes, and continuity flags. This placeholder describes intent only; no recorded Card-level generation run supports it.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:39:50Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [storybook-wardrobe-board.prompt.txt](samples/storybook-wardrobe-board/storybook-wardrobe-board.prompt.txt)
+- Output dimensions: `1448 x 1086`
+- Output SHA-256: `b23e62299f40c381e739c4b25893fe982aca1c2582bf27487021856c3926afbe`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 4:3 Storybook Wardrobe Board render makes "check wardrobe continuity across three original fictional characters" primary and keeps "MOTH LANTERN WARDROBE", "Mira lane / teal cape, mustard boots, round satchel /…", "Oren lane / plum waistcoat, moss trousers, striped sc…" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed. All 3 linked role-specific supporting inputs remain distinct in the composition.
+- Known misses: No material miss was observed against the closed Storybook Wardrobe Board manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-mira-costume.webp](samples/storybook-wardrobe-board/input-01-mira-costume.webp): project-authored fictional mira costume supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-02-oren-costume.webp](samples/storybook-wardrobe-board/input-02-oren-costume.webp): project-authored fictional oren costume supporting input; reduced public WebP derivative of its staged lossless PNG master
+  - [input-03-tavi-costume.webp](samples/storybook-wardrobe-board/input-03-tavi-costume.webp): project-authored fictional tavi costume supporting input; reduced public WebP derivative of its staged lossless PNG master
 
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is evidence for this exact illustrative run only; it does not establish multi-image fidelity, continuity, reliable composition, repeatability, or promotion.

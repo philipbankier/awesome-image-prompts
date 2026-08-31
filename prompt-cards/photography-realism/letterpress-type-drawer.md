@@ -62,12 +62,28 @@ Return one 4:5 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an authorized drawer of public-domain letterpress type. Check the assigned composition, then verify the specific direction: preserve declared type arrangement, use soft archival light, and infer no foundry, date, value, or ownership. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Letterpress Type Drawer](samples/letterpress-type-drawer/letterpress-type-drawer.webp)
 
-Expected result: an authorized drawer of public-domain letterpress type organized around this plan: Look down at a shallow angle so compartments form a grid and a few supplied characters remain legible. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:09:29Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [letterpress-type-drawer.prompt.txt](samples/letterpress-type-drawer/letterpress-type-drawer.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `f47dadf5d70330997143d85a92a23ebfbf9d38d4c35fe7fe83e5ce247574d42a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted shallow-angle final holds the compartment grid under soft light and shows `A`, `M`, and `7` exactly once among the letterpress sorts.
+- Known misses: The supporting drawer input is approximately a 6 by 6 compartment grid rather than the support-generation prompt's requested 6 by 8 grid; the public Card does not require that count, and the accepted final shows A, M, and 7 exactly once.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-type-drawer-reference.webp](samples/letterpress-type-drawer/input-01-type-drawer-reference.webp): project-authored fictional type drawer reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

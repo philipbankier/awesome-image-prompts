@@ -51,12 +51,26 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an original toy sailboat floating in a shallow stone basin. Check the assigned composition, then verify the specific direction: use gentle daylight, project-authored sail markings, believable scale, and no child or brand presence. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Toy Sailboat Basin](samples/toy-sailboat-basin/toy-sailboat-basin.webp)
 
-Expected result: an original toy sailboat floating in a shallow stone basin organized around this plan: Set the small boat near the lower third with circular ripples and a reflection of blank sky. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:52:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [toy-sailboat-basin.prompt.txt](samples/toy-sailboat-basin/toy-sailboat-basin.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `00a68340997f5bc0cd10b65dfe1b432cba937d8a81a9b37e956bdc04da7b051f`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final centers one small toy sailboat with plain frost-blue sails in a shallow basin, surrounded by gentle concentric ripples.
+- Known misses: No material visible miss; the single-boat count, sail shape, water scale, and unbranded design remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one sculpture still-life photograph for the project-authored fictional "Atlas Field Notes: Wire Tree Sculpture" editorial study depicting an original small wire-tree sculpture on a stone base.
+
+SUBJECT
+Use exactly an original small wire-tree sculpture on a stone base, realized as an original unbranded concept with physically plausible materials and a restrained palette of frost blue, graphite, and pale brass exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a project-built fictional set on a worn maple work surface against a warm-gray seamless background, with only the named objects present. Follow a 1:1 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Center the trunk slightly low so branching copper-toned wire fills the square with asymmetric negative space. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use crisp side light, realistic wire twists, no artist signature, and no claim of cultural or botanical symbolism. Apply soft north-window light from frame left with restrained bounce fill, natural contrast, and a palette of frost blue, graphite, and pale brass with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 1:1 photographic concept with credible optics and no unrequested collage.

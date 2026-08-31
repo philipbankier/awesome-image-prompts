@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile preorder interface for the fictional "Morrowfield Quiet Cafe Preorder" concept. The concept is a fictional quiet-cafe preorder flow.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review a fictional cafe preorder and pickup window the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only WREN QUIET CAFE; menu Oat Scone 4.00, Pear Tea 3.50, Moss Toast 6.00; selected Pear Tea / warm / no modifier; pickup 10:30-10:45; summary 1 item / 3.50 illustrative; button REVIEW ORDER; no nutrition, allergen, payment-security, or availability claim. Stack supplied menu items, modifiers, pickup window, and order summary in a restrained one-column path. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use a fictional cafe and menu, with no nutrition, allergen, payment-security, or availability claims. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

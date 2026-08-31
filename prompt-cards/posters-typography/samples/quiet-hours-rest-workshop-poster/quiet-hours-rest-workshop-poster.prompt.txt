@@ -1,0 +1,18 @@
+Final targeted refinement for the Quiet Hours Rest Workshop Poster rendered sample.
+
+Edit the supplied second-attempt poster. Preserve all exact copy, typography, palette, folded clock, two hands, footer, margins, and all ten existing dark-indigo hour dots.
+
+ONLY CORRECTION
+Add exactly two more small dark-indigo hour dots on the cream folded pocket, bringing the visible total to exactly twelve. Add one dot at the lower-right edge of the implied clock circle, to the right of REST PLANNING WORKSHOP without touching text. Add the other at the bottom-center edge of the implied circle, directly above the indigo footer and below the title block. Do not move, delete, duplicate, or alter any existing dot or any other element.
+
+Keep the exact visible copy unchanged:
+QUIET HOURS
+REST PLANNING WORKSHOP
+SATURDAY, JANUARY 24
+2 PM
+CLOUDROOM HALL
+BRING A NOTEBOOK
+
+No numeral, extra text, medical claim, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, extra object, or other change.
+
+Return one corrected flat 3:4 poster at 1024 x 1365 pixels.

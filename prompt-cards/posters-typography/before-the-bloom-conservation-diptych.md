@@ -57,12 +57,30 @@ Return one flat conservation comparison poster at {OUTPUT_SIZE} in 3:2. Do not p
 
 Confirm the result reads as one conservation comparison poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: equal image areas with exact dates, location descriptor, and a restrained caption rail. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Before the Bloom Conservation Diptych](samples/before-the-bloom-conservation-diptych/before-the-bloom-conservation-diptych.webp)
 
-Expected result: paired seasonal views divided by a narrow field-note spine. Layout: equal image areas with exact dates, location descriptor, and a restrained caption rail. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:32:07Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [before-the-bloom-conservation-diptych.prompt.txt](samples/before-the-bloom-conservation-diptych/before-the-bloom-conservation-diptych.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `745fbe3508f1e566dc7be901d9b39d508c4701b9bd4d0581e5f3b3f9654cfaa5`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Equal marsh panels, a narrow field-note spine, and one circular flower inset preserve a clear diptych hierarchy.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-early-spring-view.webp](samples/before-the-bloom-conservation-diptych/input-01-early-spring-view.webp): project-authored fictional early spring view input
+  - [input-02-late-summer-view.webp](samples/before-the-bloom-conservation-diptych/input-02-late-summer-view.webp): project-authored fictional late summer view input
+  - [input-03-indicator-flower-detail.webp](samples/before-the-bloom-conservation-diptych/input-03-indicator-flower-detail.webp): project-authored fictional indicator flower detail input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. Every source image must be owned or explicitly authorized, with a declared role and preservation rule.

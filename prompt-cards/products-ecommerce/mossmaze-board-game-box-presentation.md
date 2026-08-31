@@ -49,12 +49,26 @@ Return one clean board-game packaging image at {OUTPUT_SIZE} in 3:2, with the pr
 
 Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: closed box left, controlled component fan right, exact title visible once. This does not establish preservation reliability or product readiness.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Mossmaze Board Game Box Presentation](samples/mossmaze-board-game-box-presentation/mossmaze-board-game-box-presentation.webp)
 
-Expected result: a moss-green maze motif links box lid, cards, tokens, and folded board. Layout: closed box left, controlled component fan right, exact title visible once. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:48:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [mossmaze-board-game-box-presentation.prompt.txt](samples/mossmaze-board-game-box-presentation/mossmaze-board-game-box-presentation.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `469fa13b08dbb2930abb5ea646edd2be14da3e396003176c6b3755da1d35175a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: one titled box, one four-panel folding board, exactly six cards, and exactly eight tokens share a coherent maze system and remain countable.
+- Known misses: The folding board is displayed partly opened in a stable zigzag so its four panels and artwork can be inspected.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

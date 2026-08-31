@@ -57,12 +57,28 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an authorized handmade paper kite being repaired on a worktable. Check the assigned composition, then verify the specific direction: preserve the declared kite geometry and markings, with soft window light and tactile paper fibers. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Paper Kite Repair Table](samples/paper-kite-repair-table/paper-kite-repair-table.webp)
 
-Expected result: an authorized handmade paper kite being repaired on a worktable organized around this plan: Place the kite diagonally with thread, tissue patches, and a small weight at the frame corners, viewed from a gentle overhead angle. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:13:44Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [paper-kite-repair-table.prompt.txt](samples/paper-kite-repair-table/paper-kite-repair-table.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `b569ca66fba02aa21545db1040315281d410af8860582c523e62b07818f7f138`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted overhead final places one red-and-blue paper kite diagonally across the repair table, with visible thread, paper patches, and a small weight nearby.
+- Known misses: No material visible miss; the kite remains handmade, unbranded, and fully separated from the repair materials.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-kite-reference.webp](samples/paper-kite-repair-table/input-01-kite-reference.webp): project-authored fictional kite reference input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. The Placeholder Preview is not evidence that reference fidelity or identity preservation is reliable.
+This Card is independently authored with `original` source posture. Use only a fictional, public-domain, project-owned, or otherwise authorized reference image. Record the authority and preservation scope before use. This Rendered Sample is illustrative evidence only; it does not establish reliable reference fidelity or identity preservation.

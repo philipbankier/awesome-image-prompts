@@ -58,12 +58,30 @@ Return one 3:2 photographic concept with credible optics and no unrequested coll
 
 Confirm the image communicates an authorized unbranded brass-instrument repair bench. Check the assigned composition, then verify the specific direction: preserve declared dents and parts only, use focused task lighting, and avoid maker, ownership, or repair-safety claims. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Brass Instrument Repair Bench](samples/brass-instrument-repair-bench/brass-instrument-repair-bench.webp)
 
-Expected result: an authorized unbranded brass-instrument repair bench organized around this plan: Use one source for the instrument’s visible geometry and separate sources for bench tools and room atmosphere, keeping roles distinct. This placeholder describes intent only; no recorded Card-level generation run supports it.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:03:17Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [brass-instrument-repair-bench.prompt.txt](samples/brass-instrument-repair-bench/brass-instrument-repair-bench.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `76f8276b2af9325cb70374ec1d5a24166531eeca620a78fd5ad770ca75264122`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final centers one unbranded brass horn under focused task light with five distinct bench items arrayed in front against a warm shadowed wall.
+- Known misses: The two declared dents are not clearly legible in the accepted final; the horn otherwise remains coherent and unbranded.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-instrument-geometry.webp](samples/brass-instrument-repair-bench/input-01-instrument-geometry.webp): project-authored fictional instrument geometry input
+  - [input-02-bench-tools.webp](samples/brass-instrument-repair-bench/input-02-bench-tools.webp): project-authored fictional bench tools input
+  - [input-03-room-atmosphere.webp](samples/brass-instrument-repair-bench/input-03-room-atmosphere.webp): project-authored fictional room atmosphere input
 ## Rights and provenance
 
-This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. The Placeholder Preview is not evidence of multi-image fidelity, continuity, or reliable composition.
+This Card is independently authored with `original` source posture. Every image in the set must be fictional, public-domain, project-owned, or otherwise authorized, with a recorded role and preservation scope. This Rendered Sample is illustrative evidence only; it does not establish reliable multi-image fidelity, continuity, or composition.

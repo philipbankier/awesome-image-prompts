@@ -57,12 +57,28 @@ Return one flat product launch poster at {OUTPUT_SIZE} in 4:5. Do not place it i
 
 Confirm the result reads as one product launch poster, verify the exact copy against the manifest, and check the intended arrangement at thumbnail size: product centered low with exact launch copy floating in open space. This is only an obvious-failure check.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Object Horizon Product Launch Poster](samples/object-horizon-product-launch-poster/object-horizon-product-launch-poster.webp)
 
-Expected result: the preserved product silhouette meets a single horizon of colored light. Layout: product centered low with exact launch copy floating in open space. This intended appearance is untested and has no Card-level evidence.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:24:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [object-horizon-product-launch-poster.prompt.txt](samples/object-horizon-product-launch-poster/object-horizon-product-launch-poster.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `b0bbb74a6eed6ed4f2c1b45091ccdd31cea844ea1a5522db5a2376a20db94a2a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The HALO ONE light sits low against one coral-to-cobalt horizon with all four copy lines floating above.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+- Supporting inputs:
+  - [input-01-product-reference.webp](samples/object-horizon-product-launch-poster/input-01-product-reference.webp): project-authored fictional product reference input
 ## Rights and provenance
 
 This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized text, subjects, images, and type direction. The attached reference image must be owned or explicitly authorized, and its preservation manifest must be honored.
