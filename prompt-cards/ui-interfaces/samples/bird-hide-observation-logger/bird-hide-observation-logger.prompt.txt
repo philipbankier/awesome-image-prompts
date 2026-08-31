@@ -1,0 +1,42 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-bird-crop.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: photorealistic-natural
+Asset type: project-owned wildlife reference for a logging-interface concept
+Primary request: a natural telephoto crop of one small brown-and-cream shore bird perched on a reed beside still marsh water
+Style/medium: photorealistic field photography with realistic feather detail
+Composition/framing: full bird in side profile, modest background blur, no location-identifying landmark
+Lighting/mood: soft overcast morning light
+Constraints: species-neutral visual reference; no leg band, nest, people, text, logo, signature, or watermark
+
+END CALL 01
+
+CALL 02
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-bird-crop.webp
+
+EXACT SUBMITTED PROMPT
+Design one tablet logging interface for the fictional "Morrowfield Bird Hide Observation Logger" concept. The concept is a bird-hide observation logging screen.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make save a species-neutral observation from the authorized crop the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only REEDGLASS HIDE LOG; 14 September; 08:42; habitat Reed margin; descriptors small, brown-and-cream, streaked chest, slender bill; confidence Not identified; note Perched on single reed; action SAVE OBSERVATION. Keep the authorized reference crop beside species-neutral descriptors, time, habitat notes, and a save control. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Avoid definitive species identification and preserve only visible features declared by the operator. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+AUTHORIZED REFERENCE INPUT
+Use the attached project-generated authorized reference, labeled Image 1 only after confirming authority to use it for this task. Preserve only the single small brown-and-cream bird, side profile, streaked chest, slender bill, reed perch, and neutral marsh crop; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 02

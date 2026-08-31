@@ -1,0 +1,22 @@
+Use case: rendered sample for the Midnight Meteor Film Poster Prompt Card.
+Asset type: one flat fictional cinematic poster, no mockup.
+
+SCENE
+Create one portrait poster for the fictional contemplative science-fiction film MIDNIGHT METEOR, set on an original black-sand plateau above the invented Orison Lake during one meteor crossing from upper left to lower right.
+
+SUBJECT
+Feature one small, non-identifiable cloaked surveyor silhouette beside a tripod radio instrument beneath one dominant meteor path. Convey awe, isolation, and urgent hope. The silhouette must be wholly original and not resemble a real performer.
+
+EXACT TEXT MANIFEST, RENDER ONLY THESE THREE LINES
+MIDNIGHT METEOR
+ONE LIGHT. ONE CHANCE.
+IN CINEMAS OCTOBER 24
+
+VISUAL SYSTEM
+Use a low horizon, vast negative-space sky, and one figure at 7% of poster height. Palette: blue-black, silver-white meteor, faint cyan lake reflection, and a restrained ember-red horizon. Lighting comes only from the meteor and horizon. Set the title in original narrow silver uppercase at bottom, tagline directly beneath, and release line smallest.
+
+CONSTRAINTS
+Show exactly one meteor, one figure, one tripod instrument, one lake, and no extra planet. Keep the meteor physically coherent and the silhouette clean. Render only the exact manifest. No actor likeness, franchise image, studio mark, laurels, critic quote, billing noise, pseudo-text, signature, watermark, frame, or unapproved copy.
+
+OUTPUT INTENT
+Return one finished 2:3 film poster at 1024 x 1536 pixels.

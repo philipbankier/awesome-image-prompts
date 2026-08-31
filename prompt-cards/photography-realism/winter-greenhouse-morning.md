@@ -53,12 +53,26 @@ Return one quiet documentary-style photograph at {ASPECT_RATIO}, with clear gree
 
 Count pots and tools, check plant-season fit, and verify that condensation, frost, daylight, and floor moisture agree with one temperature story.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Winter Greenhouse Morning](samples/winter-greenhouse-morning/winter-greenhouse-morning.webp)
 
-Expected result: a restrained greenhouse interior with cold glazing, soft morning light, and horticultural details that feel observed rather than staged.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [winter-greenhouse-morning.prompt.txt](samples/winter-greenhouse-morning/winter-greenhouse-morning.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `3224d1d9918604b944a709160071c6a648ea8734f4d123502f58eabc9c349a46`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted aisle view shows seven terracotta rosemary pots, two black-potted dormant fig saplings at the back, and one small metal watering can in pale winter light.
+- Known misses: The Card requests exactly six rosemary plants, but seven are visible; the two fig saplings and one watering can match their requested counts.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use a fictional or authorized greenhouse and independently specified plant arrangement. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

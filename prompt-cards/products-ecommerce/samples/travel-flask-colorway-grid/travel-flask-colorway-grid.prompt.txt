@@ -1,0 +1,17 @@
+REFERENCE INPUT
+Use the attached authorized project-authored image travel-flask-colorway-grid--input-01-product-reference.png as the sole source for product geometry, lid construction, material response, and camera-facing details.
+
+SCENE
+Create a controlled studio comparison grid on a uniform pale cool-gray background, lit identically in every cell by a large softbox from upper left, soft frontal fill, and one restrained contact shadow.
+
+SUBJECT
+Show the same fictional Meridian Flask exactly six times in a two-row by three-column grid, one instance for each ordered colorway. Top row left to right: SEAFOAM SATIN, CLAY MATTE, MUSTARD SATIN. Bottom row left to right: COBALT MATTE, PLUM SATIN, CHARCOAL MATTE.
+
+DETAILS
+Every flask must preserve the reference's tall 2.4-to-1 cylindrical body, subtle upper-third waist, flat circular base, narrow brushed-steel shoulder ring, low black screw lid with exactly six broad vertical grip facets, and small centered stainless-steel top disk. Preserve identical scale, front three-quarter angle, crop, silhouette, lid geometry, highlight placement, and spacing. Change only the declared powder-coat color and satin or matte surface response. Do not render colorway names.
+
+CONSTRAINTS
+This reference and all colorways are fictional and project-authored. Keep exactly six products in six equal cells. No extra product, missing variant, reordered colorway, geometry drift, handle, straw, spout, button, loop, label, swatch, caption, text, logo, signature, watermark, prop, hand, or comparison UI chrome.
+
+OUTPUT INTENT
+Return one precise 3:2 colorway grid at 1536 x 1024. All six complete flasks must be fully visible, equal in scale, and easy to compare.

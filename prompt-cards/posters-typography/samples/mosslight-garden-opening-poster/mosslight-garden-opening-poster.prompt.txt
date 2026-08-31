@@ -1,0 +1,21 @@
+Use case: rendered sample for the Mosslight Garden Opening Poster Prompt Card.
+Asset type: one flat fictional garden-opening poster, no mockup.
+
+Create one 4:5 poster announcing the opening of the fictional Mosslight shade garden at the invented Fernpool Court for local families and gardeners.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+MOSSLIGHT
+SHADE GARDEN OPENING
+SATURDAY, JUNE 20
+10 AM
+FERNPOOL COURT
+FREE ENTRY
+
+VISUAL SYSTEM
+Use one large original unfurling fern crossing diagonally through the center, interrupted by exactly three geometric pools of green shaped as a circle, a rounded rectangle, and a crescent. Use deep moss, bright fern, blue-green, cream, and one pale chartreuse accent. Typography is original slender organic uppercase. Hold the first two title lines in a quiet upper-left corner and the four event-detail lines in a quiet lower-right corner. Keep the center botanical, 8% safe margins, strong contrast, and clear reading order.
+
+CONSTRAINTS
+Render only the exact manifest, each line once. No plant labels, facts, sponsors, brand, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly one fern and exactly three geometric pools. Keep all type readable and uncropped.
+
+OUTPUT INTENT
+Return one flat 4:5 poster at 1024 x 1280 pixels.

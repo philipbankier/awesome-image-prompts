@@ -1,0 +1,5 @@
+Use case: precise-object-edit
+Asset type: public Prompt Card rendered sample refinement
+Input images: Image 1 is the project-owned first breakfast-still-life attempt.
+Primary request: Keep the scene, object count, materials, rain, color, lighting, focus, and 3:2 composition unchanged. Change only two framing details: widen the tabletop framing just enough that the entire butter knife, including its handle end, is visible with breathing room inside the lower frame; add one very faint physically plausible wisp of warmth rising directly above the croissant.
+Constraints: preserve exactly one croissant, one halved green pear on one off-white plate, one orange-juice tumbler, one butter knife, and one rust linen napkin. Do not add, remove, duplicate, restyle, or relight any object. No hands, people, packaging, labels, logos, watermarks, or readable text.

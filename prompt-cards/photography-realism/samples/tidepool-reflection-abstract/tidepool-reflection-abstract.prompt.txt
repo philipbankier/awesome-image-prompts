@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one abstract nature photograph for the project-authored fictional "Atlas Field Notes: Tidepool Reflection Abstract" editorial study depicting an abstract tidepool reflection made from sky, rock, and ripples.
+
+SUBJECT
+Use exactly an abstract tidepool reflection made from sky, rock, and ripples, realized as an original unbranded concept with physically plausible materials and a restrained palette of sage, dusty rose, and natural linen exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use an invented outdoor location with coherent ground plane, quiet atmospheric depth, and no buildings or props beyond those explicitly named. Follow a 1:1 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Exclude the horizon and frame three interlocking regions of dark stone, pale sky reflection, and concentric ripples. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use natural color, crisp wet edges, subtle motion, and no wildlife-identification claim. Apply soft directional early-morning light with open-sky fill, natural haze, and a restrained palette of sage, dusty rose, and natural linen with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 1:1 photographic concept with credible optics and no unrequested collage.

@@ -1,0 +1,28 @@
+Use case: rendered sample for the Library After Dark Event Poster Prompt Card.
+Asset type: one flat fictional library event poster, no mockup.
+
+SCENE
+Create one portrait poster for a fictional evening program inside the invented Moonglass Library: deep midnight shelving suggested only as quiet silhouettes.
+
+SUBJECT
+Build the composition around one open book whose pages become a crescent moon and a small field of stars. The exact headline is LIBRARY AFTER DARK.
+
+EXACT TEXT MANIFEST, RENDER ONLY THESE SIX LINES
+LIBRARY AFTER DARK
+SATURDAY, NOVEMBER 8
+7:30 PM
+MOONGLASS LIBRARY
+STORIES, STARS, AND SILENT READING
+RESERVE A SEAT
+
+TYPE HIERARCHY
+Headline large at the upper third. Date and time together below the motif. Venue next. Program line smaller but fully readable. Action in a pale-gold bottom capsule. Use original high-contrast serif capitals for the headline and clear humanist sans serif for all details.
+
+VISUAL SYSTEM AND COMPOSITION
+Midnight blue, pale gold, soft lavender, and cream. Refined cut-paper illustration with crisp silhouettes, no book-cover details. Centered crescent-book motif, controlled negative space, strict top-to-bottom reading order, broad print-safe margins.
+
+CONSTRAINTS
+Preserve every supplied character and line exactly. No invented sponsor, logo, book title, author, QR code, decorative pseudo-writing, duplicate text, clipped type, signature, watermark, frame, or unapproved copy.
+
+OUTPUT INTENT
+Return one finished 2:3 event poster at 1024 x 1536 pixels, with all exact information readable at thumbnail and print size.

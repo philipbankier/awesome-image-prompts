@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one tablet queue interface for the fictional "Morrowfield Telescope Observation Queue" concept. The concept is a fictional observatory telescope request queue.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review the next fictional telescope request without controlling equipment the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only REEDGLASS OBSERVATORY QUEUE; targets Glass Nebula / alias Wren-7 / 20 min / Approved; Copper Moon / alias Moss-2 / 15 min / Queued; Lantern Cluster / alias Fern-4 / 25 min / Review; fictional coordinates 14h20 +08 and 02h10 -11; selected Copper Moon; NOT CONNECTED TO EQUIPMENT. List approved targets, requester aliases, duration, and queue state beside a selected-request summary. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Use fictional coordinates and never present the screen as connected to real equipment. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

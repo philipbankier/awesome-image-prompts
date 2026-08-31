@@ -5,15 +5,30 @@ import json
 import re
 import struct
 import sys
+from datetime import datetime
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 EXPECTED_CATEGORY_COUNT = 13
-EXPECTED_PROMPT_CARD_COUNT = 65
+EXPECTED_PROMPT_CARD_COUNT = 541
 EXPECTED_RECIPE_COUNT = 16
-EXPECTED_CARDS_PER_CATEGORY = 5
+EXPECTED_CARDS_BY_CATEGORY = {
+    "ui-interfaces": 73,
+    "charts-infographics": 53,
+    "posters-typography": 90,
+    "products-ecommerce": 42,
+    "brand-logos": 27,
+    "architecture-spaces": 12,
+    "photography-realism": 78,
+    "illustration-art": 59,
+    "characters-people": 31,
+    "scenes-storytelling": 21,
+    "history-classical-themes": 16,
+    "documents-publishing": 11,
+    "other-use-cases": 28,
+}
 REQUIRED_CATEGORY_KEYS = {"id", "title"}
 REQUIRED_CATALOG_RECIPE_KEYS = {
     "id",
@@ -62,15 +77,36 @@ ALLOWED_POSTURES = {
 ALLOWED_EVIDENCE = {"placeholder", "recorded"}
 ALLOWED_INPUT_MODES = {"text", "reference-image", "multiple-images", "sketch"}
 ALLOWED_TEXT_DENSITY = {"none", "low", "medium", "high"}
-REQUIRED_CARD_HEADINGS = (
+ALLOWED_CARD_SAMPLE_STATUS = {"placeholder", "rendered"}
+REQUIRED_CARD_HEADINGS_BEFORE_SAMPLE = (
     "## Use this when",
     "## Required inputs",
     "## Prompt",
     "## Variables",
     "## Negative constraints",
     "## Quick check",
-    "## Placeholder Preview",
-    "## Rights and provenance",
+)
+CARD_SAMPLE_HEADINGS = {
+    "placeholder": "## Placeholder Preview",
+    "rendered": "## Rendered Sample",
+}
+CARD_SAMPLE_FIELD_LABELS = (
+    "Sample status",
+    "Generation surface",
+    "Generated at",
+    "Model",
+    "Model version",
+    "Seed",
+    "Request parameters",
+    "Request ID",
+    "Exact prompt",
+    "Output dimensions",
+    "Output SHA-256",
+    "Profile ID",
+    "Promotion evidence",
+    "Human inspection",
+    "Known misses",
+    "Rights and provenance",
 )
 REQUIRED_EVIDENCE_KEYS = {
     "schema_version",
@@ -114,6 +150,8 @@ PROMOTION_METADATA_KEYS = {
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 SHA256 = re.compile(r"[0-9a-f]{64}")
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+UNRESOLVED_VARIABLE = re.compile(r"\{[A-Z][A-Z0-9_]*\}")
+CARD_INPUT_DERIVATIVE = re.compile(r"input-([0-9]{2})-([a-z0-9]+(?:-[a-z0-9]+)*)\.webp")
 
 
 def fail(message: str) -> None:
@@ -177,11 +215,195 @@ def check_source_reference(record: dict, base: Path, label: str) -> None:
     require_relative_file(base, source_path, f"{label} source record")
 
 
+def require_card_sample_field(section: str, field: str, card_id: str) -> str:
+    matches = re.findall(
+        rf"^- {re.escape(field)}: (.+)$",
+        section,
+        re.MULTILINE,
+    )
+    if len(matches) != 1 or not matches[0].strip():
+        fail(f"{card_id} Rendered Sample must contain one non-empty {field} field")
+    return matches[0].strip()
+
+
+def check_webp(path: Path, label: str) -> tuple[int, int]:
+    data = path.read_bytes()
+    if len(data) < 20 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
+        fail(f"{label} is not a WebP: {path.relative_to(ROOT)}")
+    if struct.unpack("<I", data[4:8])[0] + 8 != len(data):
+        fail(f"{label} has an invalid WebP RIFF size: {path.relative_to(ROOT)}")
+
+    dimensions: tuple[int, int] | None = None
+    has_image_payload = False
+    offset = 12
+    while offset + 8 <= len(data):
+        chunk_type = data[offset : offset + 4]
+        chunk_size = struct.unpack("<I", data[offset + 4 : offset + 8])[0]
+        chunk_start = offset + 8
+        chunk_end = chunk_start + chunk_size
+        if chunk_end > len(data):
+            fail(f"{label} has a truncated WebP chunk: {path.relative_to(ROOT)}")
+        chunk = data[chunk_start:chunk_end]
+
+        if chunk_type == b"VP8X":
+            if len(chunk) < 10:
+                fail(f"{label} has an invalid WebP VP8X header: {path.relative_to(ROOT)}")
+            dimensions = (
+                int.from_bytes(chunk[4:7], "little") + 1,
+                int.from_bytes(chunk[7:10], "little") + 1,
+            )
+        elif chunk_type == b"VP8L":
+            if len(chunk) < 5 or chunk[0] != 0x2F:
+                fail(f"{label} has an invalid lossless WebP header: {path.relative_to(ROOT)}")
+            has_image_payload = True
+            if dimensions is None:
+                size_bits = int.from_bytes(chunk[1:5], "little")
+                dimensions = (
+                    (size_bits & 0x3FFF) + 1,
+                    ((size_bits >> 14) & 0x3FFF) + 1,
+                )
+        elif chunk_type == b"VP8 ":
+            if len(chunk) < 10 or chunk[3:6] != b"\x9d\x01\x2a":
+                fail(f"{label} has an invalid lossy WebP header: {path.relative_to(ROOT)}")
+            has_image_payload = True
+            if dimensions is None:
+                dimensions = (
+                    struct.unpack("<H", chunk[6:8])[0] & 0x3FFF,
+                    struct.unpack("<H", chunk[8:10])[0] & 0x3FFF,
+                )
+
+        offset = chunk_end + (chunk_size % 2)
+
+    if offset != len(data):
+        fail(f"{label} has invalid WebP chunk padding: {path.relative_to(ROOT)}")
+    if not has_image_payload or dimensions is None or min(dimensions) <= 0:
+        fail(f"{label} has no valid WebP dimensions: {path.relative_to(ROOT)}")
+    return dimensions
+
+
+def check_rendered_card_sample(card_id: str, card_path: Path, text: str) -> Path:
+    sample_relative = Path("samples") / card_id
+    sample_dir = card_path.parent / sample_relative
+    if not sample_dir.is_dir():
+        fail(f"{card_id} Rendered Sample directory is missing: {sample_dir.relative_to(ROOT)}")
+
+    output_name = f"{card_id}.webp"
+    prompt_name = f"{card_id}.prompt.txt"
+    output_path = require_relative_file(sample_dir, output_name, f"{card_id} Rendered Sample")
+    prompt_path = require_relative_file(sample_dir, prompt_name, f"{card_id} exact prompt")
+
+    try:
+        prompt_text = prompt_path.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        fail(f"{card_id} exact prompt must be UTF-8 text")
+    if not prompt_text.strip():
+        fail(f"{card_id} exact prompt must be non-empty")
+    unresolved = sorted(set(UNRESOLVED_VARIABLE.findall(prompt_text)))
+    if unresolved:
+        fail(f"{card_id} exact prompt has unresolved variables: {', '.join(unresolved)}")
+
+    sample_section = text.split("## Rendered Sample\n", 1)[1].split(
+        "\n## Rights and provenance",
+        1,
+    )[0]
+    fields = {
+        field: require_card_sample_field(sample_section, field, card_id)
+        for field in CARD_SAMPLE_FIELD_LABELS
+    }
+    unfinished_fields = [
+        field for field, value in fields.items() if re.search(r"<[^>]+>", value)
+    ]
+    if unfinished_fields:
+        fail(
+            f"{card_id} Rendered Sample has unfinished template fields: "
+            + ", ".join(unfinished_fields)
+        )
+    if fields["Sample status"] != "Rendered Sample.":
+        fail(f"{card_id} Rendered Sample status must be Rendered Sample.")
+    if fields["Generation surface"] in {"not_exposed", "`not_exposed`"}:
+        fail(f"{card_id} Rendered Sample must name its generation surface")
+
+    generated_at_match = re.fullmatch(r"`([^`]+)`", fields["Generated at"])
+    if generated_at_match is None:
+        fail(f"{card_id} Rendered Sample generated_at must be a code-formatted UTC timestamp")
+    try:
+        datetime.strptime(generated_at_match.group(1), "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        fail(f"{card_id} Rendered Sample generated_at must use YYYY-MM-DDTHH:MM:SSZ")
+
+    for field in ("Model", "Model version", "Seed", "Request parameters", "Request ID"):
+        if fields[field] != "`not_exposed`":
+            fail(f"{card_id} Rendered Sample {field} must be `not_exposed`")
+    if fields["Profile ID"] != "`null`":
+        fail(f"{card_id} Rendered Sample Profile ID must be `null`")
+    if fields["Promotion evidence"] != "`false`":
+        fail(f"{card_id} Rendered Sample Promotion evidence must be `false`")
+
+    expected_prompt_link = (
+        f"[{prompt_name}]({sample_relative.as_posix()}/{prompt_name})"
+    )
+    if fields["Exact prompt"] != expected_prompt_link:
+        fail(f"{card_id} Rendered Sample must link its deterministic exact prompt path")
+    expected_output_link = f"{sample_relative.as_posix()}/{output_name}"
+    if re.search(
+        rf"!\[[^\]\n]+\]\({re.escape(expected_output_link)}\)",
+        sample_section,
+    ) is None:
+        fail(f"{card_id} Rendered Sample must embed its deterministic output path")
+
+    dimensions_match = re.fullmatch(r"`([1-9][0-9]*) x ([1-9][0-9]*)`", fields["Output dimensions"])
+    if dimensions_match is None:
+        fail(f"{card_id} Rendered Sample Output dimensions must look like `1536 x 1024`")
+    recorded_dimensions = tuple(int(value) for value in dimensions_match.groups())
+    actual_dimensions = check_webp(output_path, f"{card_id} Rendered Sample")
+    if recorded_dimensions != actual_dimensions:
+        fail(f"{card_id} Rendered Sample dimensions do not match {output_path.relative_to(ROOT)}")
+
+    checksum_match = re.fullmatch(r"`([0-9a-f]{64})`", fields["Output SHA-256"])
+    if checksum_match is None:
+        fail(f"{card_id} Rendered Sample Output SHA-256 must be lowercase hexadecimal")
+    actual_checksum = hashlib.sha256(output_path.read_bytes()).hexdigest()
+    if checksum_match.group(1) != actual_checksum:
+        fail(f"{card_id} Rendered Sample SHA-256 does not match {output_path.relative_to(ROOT)}")
+
+    input_derivatives: list[tuple[int, Path]] = []
+    allowed_names = {output_name, prompt_name}
+    for path in sample_dir.iterdir():
+        if not path.is_file():
+            fail(f"{card_id} sample directory may contain files only: {path.relative_to(ROOT)}")
+        if path.name in allowed_names:
+            continue
+        input_match = CARD_INPUT_DERIVATIVE.fullmatch(path.name)
+        if input_match is None:
+            fail(f"{card_id} has an invalid public sample filename: {path.relative_to(ROOT)}")
+        input_number = int(input_match.group(1))
+        if input_number == 0:
+            fail(f"{card_id} supporting input numbering starts at 01")
+        input_path = require_relative_file(
+            sample_dir,
+            path.name,
+            f"{card_id} supporting input",
+        )
+        input_derivatives.append((input_number, input_path))
+
+    input_derivatives.sort(key=lambda value: value[0])
+    input_numbers = [number for number, _ in input_derivatives]
+    if len(input_numbers) != len(set(input_numbers)):
+        fail(f"{card_id} supporting input numbers must be unique")
+    for _, input_path in input_derivatives:
+        check_webp(input_path, f"{card_id} supporting input")
+        input_reference = f"{sample_relative.as_posix()}/{input_path.name}"
+        if input_reference not in MARKDOWN_LINK.findall(sample_section):
+            fail(f"{card_id} Rendered Sample must link supporting input: {input_reference}")
+
+    return sample_dir
+
+
 def check_prompt_card(
     entry: object,
     category_ids: set[str],
     recipe_ids: set[str],
-) -> tuple[str, Path]:
+) -> tuple[str, Path, Path | None]:
     card = require_keys(entry, REQUIRED_PROMPT_CARD_KEYS, "Prompt Card catalog entry")
     card_id = require_slug(card["id"], "Prompt Card id")
     title = require_nonempty_string(card["title"], f"{card_id} title")
@@ -220,8 +442,9 @@ def check_prompt_card(
         fail(f"{card_id} has invalid source_posture")
     if card["rights"] != "project-authored":
         fail(f"{card_id} rights must be project-authored in this release")
-    if card["sample_status"] != "placeholder":
-        fail(f"{card_id} sample_status must be placeholder in this release")
+    sample_status = card["sample_status"]
+    if sample_status not in ALLOWED_CARD_SAMPLE_STATUS:
+        fail(f"{card_id} sample_status must be placeholder or rendered")
 
     linked_recipe = card["linked_recipe"]
     if linked_recipe is not None:
@@ -239,12 +462,23 @@ def check_prompt_card(
     text = card_path.read_text(encoding="utf-8")
     if not text.startswith(f"# {title}\n"):
         fail(f"{card_id} Prompt Card must start with its catalog title")
+    sample_heading = CARD_SAMPLE_HEADINGS[sample_status]
+    other_sample_heading = CARD_SAMPLE_HEADINGS[
+        "rendered" if sample_status == "placeholder" else "placeholder"
+    ]
     heading_positions: list[int] = []
-    for heading in REQUIRED_CARD_HEADINGS:
+    required_headings = (
+        *REQUIRED_CARD_HEADINGS_BEFORE_SAMPLE,
+        sample_heading,
+        "## Rights and provenance",
+    )
+    for heading in required_headings:
         marker = f"{heading}\n"
         if text.count(marker) != 1:
             fail(f"{card_id} Prompt Card must contain heading exactly once: {heading}")
         heading_positions.append(text.index(marker))
+    if f"{other_sample_heading}\n" in text:
+        fail(f"{card_id} Prompt Card sample heading does not match sample_status")
     if heading_positions != sorted(heading_positions):
         fail(f"{card_id} Prompt Card headings are out of order")
 
@@ -264,11 +498,18 @@ def check_prompt_card(
             f"{card_id} prompt and Variables section differ: "
             f"prompt={sorted(prompt_variables)}, declared={sorted(declared_variables)}"
         )
-    if "Sample status: Placeholder Preview." not in text:
-        fail(f"{card_id} must visibly label its Placeholder Preview")
+    sample_dir: Path | None = None
+    expected_sample_dir = card_path.parent / "samples" / card_id
+    if sample_status == "placeholder":
+        if "Sample status: Placeholder Preview." not in text:
+            fail(f"{card_id} must visibly label its Placeholder Preview")
+        if expected_sample_dir.exists():
+            fail(f"{card_id} placeholder must not have a public sample directory")
+    else:
+        sample_dir = check_rendered_card_sample(card_id, card_path, text)
     if "[TODO:" in text:
         fail(f"{card_id} Prompt Card contains an unfinished TODO")
-    return card_id, card_path
+    return card_id, card_path, sample_dir
 
 
 def check_asset(base: Path, value: object, label: str) -> Path:
@@ -496,7 +737,8 @@ def check_local_markdown_links() -> None:
         if ignored_parts.intersection(relative.parts):
             continue
         text = markdown.read_text(encoding="utf-8")
-        for target in MARKDOWN_LINK.findall(text):
+        link_text = re.sub(r"```.*?```", "", text, flags=re.DOTALL)
+        for target in MARKDOWN_LINK.findall(link_text):
             if target.startswith(("http://", "https://", "mailto:", "#")):
                 continue
             local_target = target.split("#", 1)[0]
@@ -540,6 +782,9 @@ def main() -> None:
             fail(f"duplicate category title: {category_title}")
         category_ids.add(category_id)
         category_titles.add(category_title)
+
+    if category_ids != set(EXPECTED_CARDS_BY_CATEGORY):
+        fail("catalog categories differ from the expected Prompt Card distribution")
 
     recipes = catalog.get("recipes")
     if not isinstance(recipes, list) or not recipes:
@@ -628,10 +873,15 @@ def main() -> None:
         fail(f"catalog must contain exactly {EXPECTED_PROMPT_CARD_COUNT} Prompt Cards")
     seen_card_ids: set[str] = set()
     seen_card_paths: set[Path] = set()
+    seen_card_sample_dirs: set[Path] = set()
     cards_by_category = {category_id: 0 for category_id in category_ids}
     prompt_index_text = (ROOT / "prompt-cards/README.md").read_text(encoding="utf-8")
     for entry in prompt_cards:
-        card_id, card_path = check_prompt_card(entry, category_ids, seen_recipe_ids)
+        card_id, card_path, sample_dir = check_prompt_card(
+            entry,
+            category_ids,
+            seen_recipe_ids,
+        )
         relative_card_path = card_path.relative_to(ROOT)
         if card_id in seen_card_ids:
             fail(f"duplicate Prompt Card id: {card_id}")
@@ -639,6 +889,8 @@ def main() -> None:
             fail(f"duplicate Prompt Card path: {relative_card_path}")
         seen_card_ids.add(card_id)
         seen_card_paths.add(relative_card_path)
+        if sample_dir is not None:
+            seen_card_sample_dirs.add(sample_dir.relative_to(ROOT))
         cards_by_category[entry["category"]] += 1
         index_reference = relative_card_path.relative_to("prompt-cards").as_posix()
         if index_reference not in prompt_index_text:
@@ -654,15 +906,34 @@ def main() -> None:
             + ", ".join(sorted(path.as_posix() for path in orphan_card_paths))
         )
 
-    undersized_card_categories = sorted(
-        category_id
-        for category_id, count in cards_by_category.items()
-        if count != EXPECTED_CARDS_PER_CATEGORY
-    )
-    if undersized_card_categories:
+    unexpected_card_sample_entries = {
+        path.relative_to(ROOT)
+        for path in (ROOT / "prompt-cards").glob("*/samples/*")
+    } - seen_card_sample_dirs
+    if unexpected_card_sample_entries:
         fail(
-            f"catalog categories must contain exactly {EXPECTED_CARDS_PER_CATEGORY} Prompt Cards: "
-            + ", ".join(undersized_card_categories)
+            "Prompt Card sample paths do not match rendered catalog entries: "
+            + ", ".join(
+                sorted(path.as_posix() for path in unexpected_card_sample_entries)
+            )
+        )
+
+    prompt_card_json = sorted(
+        path.relative_to(ROOT).as_posix()
+        for path in (ROOT / "prompt-cards").rglob("*.json")
+    )
+    if prompt_card_json:
+        fail("Prompt Cards must not use JSON evidence records: " + ", ".join(prompt_card_json))
+
+    card_category_mismatches = sorted(
+        f"{category_id} ({count}/{EXPECTED_CARDS_BY_CATEGORY[category_id]})"
+        for category_id, count in cards_by_category.items()
+        if count != EXPECTED_CARDS_BY_CATEGORY[category_id]
+    )
+    if card_category_mismatches:
+        fail(
+            "catalog category Prompt Card counts differ from the expected distribution: "
+            + ", ".join(card_category_mismatches)
         )
 
     check_skill()

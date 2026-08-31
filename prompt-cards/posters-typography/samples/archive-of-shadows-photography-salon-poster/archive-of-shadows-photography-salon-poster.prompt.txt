@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 2:3 photography salon poster
+Card: Archive of Shadows Photography Salon Poster
+Primary request: Create one 2:3 poster for a wholly fictional experimental photography salon. Show exactly three abstract exposure windows moving from deep black through charcoal to silver gray.
+Variable instantiations:
+SUBJECT_BRIEF: fictional experimental-photography salon for adult arts audiences; illustrative event promotion only.
+COPY_MANIFEST: render exactly and only these three lines: "ARCHIVE OF SHADOWS" / "17 OCT 2026" / "SILVER ROOM".
+VISUAL_MOTIF: exactly three adjacent rectangular exposure windows, black, charcoal, and silver gray.
+PALETTE: carbon black, charcoal, silver gray, and warm white.
+TYPE_DIRECTION: original condensed uppercase sans serif, crisp and restrained.
+COMPOSITION_RULES: 10 percent safe margins; title aligned to the three exposure steps; date and venue small but legible below; strong top-to-bottom hierarchy; no crop of text.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: flat poster only; exact copy once each; no other text, pseudo-writing, people, photographs, logos, signatures, frames, mockups, or watermark.

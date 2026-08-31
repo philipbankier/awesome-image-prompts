@@ -1,0 +1,14 @@
+COMMISSION
+Create one 1:1 component layout showing how a fictional stackable lunchbox separates and nests. Use this independently authored concept: lid, tray, divider, seal, and base form a precise vertical sequence.
+
+PRODUCT
+Use the fictional Nestfold lunchbox. Build exactly five separate, compatible components: one shallow rounded-rectangle bamboo-fiber lid in warm sand; one translucent sage silicone perimeter seal; one low removable stainless-steel food tray; one slim removable stainless-steel divider that slots across the tray; and one deep rounded-rectangle base in matte sage polypropylene. The lid, seal, tray, and base share the same footprint and corner radii; the divider matches the tray width. Show no utensil, strap, food, sauce cup, vent, latch, bag, measurement, material claim, certification, or extra part.
+
+PRESENTATION
+Use an orthographic-style front three-quarter technical product view with a restrained 70 mm perspective. Center one exploded vertical stack on a pale warm-gray seamless background, ordered from top to bottom: lid, seal, tray containing the divider in its correct slot relationship, then base. Use equal air gaps, exact axial alignment, a broad soft key from upper left, crisp rim separation, and faint shadows that clarify depth. Add one concise caption line centered beneath the stack: LID / SEAL / TRAY + DIVIDER / BASE. Render no other text, logo, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Keep exactly five components and make every geometry visibly compatible when nested. The divider remains a distinct fifth part, shown slightly raised within the tray relationship. No floating fastener, impossible fit, duplicated piece, hidden component, exploded arrows, unsupported food-safety or sustainability claim, real brand, hand, or unrelated prop.
+
+OUTPUT INTENT
+Return one crisp component layout at 1400 x 1400 in 1:1. All five pieces and the exact caption must be fully visible, aligned, and easy to inspect.

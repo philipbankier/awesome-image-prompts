@@ -1,0 +1,19 @@
+COMMISSION
+Create one flat 2:3 lettering contrast poster for a fictional student exhibition titled Soft / Hard. This is an independently authored concept in which paired words alternate inflated curves with machined corners.
+
+CONTENT
+The audience is typography students studying contrasting letter construction. Render only this exact approved copy, preserving spelling, punctuation, hierarchy, and line breaks:
+CURVE STUDY
+SOFT
+HARD
+FORM / COUNTERFORM
+Do not render any other text, labels, alphabet characters, captions, signatures, or marks.
+
+VISUAL SYSTEM
+Use one vertical construction axis and subtle registration dots as the central motif. Palette: powder pink and cream for SOFT, near-black and electric blue for HARD, on a warm gray field. Typography direction: SOFT is an original bold inflated uppercase word with pillowy curves; HARD is an original bold uppercase word made of precise machined corners, equal in visual weight. Center the paired words as the dominant focus, stacked with generous separation. Place CURVE STUDY as a small note above and FORM / COUNTERFORM as a small note below. Keep a 9% safe margin, rigorous alignment, no clipping, and unmistakable contrast at thumbnail size.
+
+CONSTRAINTS
+Show each approved phrase exactly once. No additional construction annotations, measurements, pseudo-writing, copied typeface artwork, real brands, logos, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1536 pixel lettering-study poster in 2:3 portrait orientation.

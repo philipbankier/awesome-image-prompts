@@ -54,12 +54,26 @@ Return one premium gift-box mockup at {ASPECT_RATIO}, with the package fully vis
 
 Count the soaps, inspect the box folds and insert fit, and compare every visible character with the approved text list.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Botanical Soap Gift Box Mockup](samples/botanical-soap-gift-box-mockup/botanical-soap-gift-box-mockup.webp)
 
-Expected result: a credible, neatly constructed gift set with restrained botanical styling and no unsupported claims.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:29:49Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [botanical-soap-gift-box-mockup.prompt.txt](samples/botanical-soap-gift-box-mockup/botanical-soap-gift-box-mockup.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `b2172ae732ee80a641406e59e0824c538dfd98a8f8cb58f11750fa17350dfd56`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Confirmed one plausible open box, exactly four plain soap bars in the four requested colors, one rosemary sprig, two calendula heads, exact FERNFOLD and BOTANICAL SOAP SET copy, and no claims, seals, or watermark.
+- Known misses: The box embossing and molded-pulp tolerances are illustrative; package dieline accuracy and print production readiness are not established.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use only fictional or authorized packaging, names, copy, and botanical assets. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

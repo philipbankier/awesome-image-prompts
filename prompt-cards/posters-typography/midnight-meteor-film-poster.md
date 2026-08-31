@@ -53,12 +53,26 @@ Return one finished 2:3 film poster at {OUTPUT_SIZE}, with cinematic scale, a cl
 
 Confirm one original focal silhouette, one declared meteor event, a readable title, and no visible text beyond the exact fictional manifest.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Midnight Meteor Film Poster](samples/midnight-meteor-film-poster/midnight-meteor-film-poster.webp)
 
-Expected result: a spare nocturnal film poster with one meteor arc, an original small-scale subject, and a confident title lockup.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:08:57Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [midnight-meteor-film-poster.prompt.txt](samples/midnight-meteor-film-poster/midnight-meteor-film-poster.prompt.txt)
+- Output dimensions: `1024 x 1536`
+- Output SHA-256: `fc4116b991d598d142c401c8753e9bea7e3d6d3dd882ae9a472b9cb3a29f3105`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: One meteor crosses above one small figure, one tripod, and one lake, with the three film lines anchored at the bottom.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use fictional film, text, characters, and art direction with no real-person likeness. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt, key art, logo, or image.

@@ -1,0 +1,21 @@
+Use case: rendered sample for the Prism Field Geometry Science Poster Prompt Card.
+Asset type: one flat fictional science-exhibition poster, no mockup.
+
+Create one 3:4 poster announcing PRISM FIELD, a fictional exhibition about light geometry at the invented East Lab.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+PRISM FIELD
+LIGHT GEOMETRY
+JULY 9–30
+EAST LAB
+ANGLES • COLOR • GRID
+FREE ENTRY
+
+VISUAL SYSTEM
+Use one transparent triangular prism near the center of a strict pale-gray square grid. One narrow white ray enters from left and exits as exactly five measured color rays: cyan, blue, violet, coral, and amber. Let those rays bend the grid locally at five crisp angles. Keep the two-line title in an undisturbed upper grid zone. Track the four detail lines beside the refracted rays but keep each horizontal and readable. Use white, charcoal, pale gray, spectral accents, and deep navy. Typography is original precise monospaced uppercase. Keep 7% safe margins.
+
+CONSTRAINTS
+Render only the exact manifest. No numeric angle, scientific claim, formula, wavelength label, extra prism, extra ray, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly one prism, one incoming ray, and five outgoing rays.
+
+OUTPUT INTENT
+Return one flat 3:4 science-exhibition poster at 1024 x 1365 pixels.

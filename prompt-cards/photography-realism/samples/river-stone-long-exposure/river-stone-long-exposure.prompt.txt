@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one fine-art landscape photograph for the project-authored fictional "Atlas Field Notes: River Stone Long Exposure" editorial study depicting smooth fictional river stones beneath softly moving water.
+
+SUBJECT
+Use exactly smooth fictional river stones beneath softly moving water, realized as an original unbranded concept with physically plausible materials and a restrained palette of slate blue, oxidized copper, and chalk white exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use an invented outdoor location with coherent ground plane, quiet atmospheric depth, and no buildings or props beyond those explicitly named. Follow a 3:2 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Anchor three stones in a shallow diagonal while water blurs into fine ribbons around their edges. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use natural cool color, controlled long-exposure motion, no location clues, and no environmental-quality claim. Apply soft directional early-morning light with open-sky fill, natural haze, and a restrained palette of slate blue, oxidized copper, and chalk white with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 3:2 photographic concept with credible optics and no unrequested collage.

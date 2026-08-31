@@ -1,0 +1,22 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+SCENE
+Create one portrait mobile checkout screen for Moon Atlas Evening at the fictional Vesper Hall on 14 September 2030, presented in a 6.7-inch portrait mobile frame.
+
+SUBJECT
+Show the selected tickets 2 General tickets at 18.00 each, attendee section Name and Email, both empty and clearly required, and a final total of $40.00, with one dominant action labeled REVIEW ORDER.
+
+DETAILS
+Arrange Moon Atlas Evening; 2 General; 14 Sep 2030; Vesper Hall, Tickets $36.00; Service fee $4.00; Total $40.00, Fictional event; review before submission, and Payment not entered in a trustworthy hierarchy using midnight blue, warm cream, violet accent, clear card hierarchy, and calm sans-serif type. Render only MOON ATLAS EVENING; VESPER HALL; 14 SEP 2030; 2 GENERAL; NAME; EMAIL; REQUIRED; TICKETS $36.00; SERVICE FEE $4.00; TOTAL $40.00; PAYMENT NOT ENTERED; REVIEW ORDER; FICTIONAL EVENT and make every required field state explicit.
+
+CONSTRAINTS
+Keep quantities, subtotals, fees, and total mathematically consistent. Use fictional details only; show no real card number, security code, payment-provider mark, dark pattern, preselected donation, tiny pseudo-text, logo, watermark, or unapproved copy.
+
+OUTPUT INTENT
+Return one credible 9:16 mobile checkout interface at 1152 x 2048 pixels, with the purchase summary and final action clear before submission.
+
+END CALL 01

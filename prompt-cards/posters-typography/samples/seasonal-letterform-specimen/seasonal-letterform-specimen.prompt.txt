@@ -1,0 +1,25 @@
+Use case: rendered sample for the Seasonal Letterform Specimen Prompt Card.
+Asset type: one flat square project-authored letterform specimen, no mockup.
+
+SCENE
+Create one square letterform specimen on a subtly textured deep-midnight felt field, inspired by early winter’s low blue light and a material motif of thin copper wire with restrained frost beads. Do not depict a landscape.
+
+EXACT CHARACTER SET
+A B C D E F G H 0 1 2 ! ?
+
+EXACT SPECIMEN WORDS
+FROST
+BRANCH
+NORTH
+
+LETTER CONSTRUCTION
+Build a wholly original uppercase display alphabet from consistent monoline copper-wire stems, half-round bowls, and 45-degree diagonal cuts. Frost beads may appear only at stroke terminals and joins, never over counters.
+
+GRID AND HIERARCHY
+Place the exact 13-character set in one orderly two-row grid across the upper half, each character once. In the lower half, place FROST largest, BRANCH medium, and NORTH smallest, each word once and on its own baseline. Use ice blue, copper, silver white, and deep midnight. Maintain consistent baseline, cap height, spacing, terminal beads, and monoline stroke weight. Keep 7% safe margins.
+
+CONSTRAINTS
+Preserve every approved character and word exactly. No extra alphabet, lowercase, extra numeral, lorem ipsum, font name, foundry name, copied typeface, named-designer imitation, illegible ornament, photographic mockup, logo, signature, watermark, or unapproved text.
+
+OUTPUT INTENT
+Return one 1:1 letterform specimen at 1024 x 1024 pixels.

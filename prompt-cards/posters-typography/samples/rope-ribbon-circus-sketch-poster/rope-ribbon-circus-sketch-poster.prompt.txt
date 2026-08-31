@@ -1,0 +1,26 @@
+Use case: rendered sample for the Rope and Ribbon Circus Sketch Poster Prompt Card.
+Asset type: one flat fictional contemporary-circus poster refined from the attached project-owned layout sketch, no mockup.
+
+SKETCH INPUT
+Use the attached authorized project-generated composition sketch only as a structural guide. Protect its broad top header zone, central circular rope loop crossed by one lower-left to upper-right ribbon slash, small lower footer zone, and generous negative space. Redraw all elements cleanly. You may refine scale, centering, colors, and alignment. Do not trace sketch texture or add performers, apparatus details, or text from the sketch.
+
+SUBJECT BRIEF
+Create one 2:3 poster for ROPE & RIBBON, a fictional contemporary-circus program at the invented Northloop Tent.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+ROPE & RIBBON
+CONTEMPORARY CIRCUS
+SEPTEMBER 18–20
+8 PM
+NORTHLOOP TENT
+AERIAL • BALANCE • MOTION
+BOOK A SEAT
+
+VISUAL SYSTEM
+Place the two-line title in the protected top header. In the center, show exactly one thick charcoal rope loop crossed once by exactly one broad coral ribbon slash with a thin cobalt shadow edge. Keep the motif purely abstract and balanced. Place the remaining five detail lines in the protected lower footer. Use warm cream, charcoal, coral, cobalt, and one mustard accent. Typography is original high-contrast condensed uppercase. Keep 8% safe margins and preserve the sketch’s hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No performer, face, body, animal, circus brand, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly one loop and one ribbon slash.
+
+OUTPUT INTENT
+Return one flat 2:3 circus poster at 1024 x 1536 pixels.

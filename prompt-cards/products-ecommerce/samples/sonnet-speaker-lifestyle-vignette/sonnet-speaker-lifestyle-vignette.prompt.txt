@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 consumer-electronics lifestyle image placing a fictional compact speaker in a quiet reading-room vignette. Use this independently authored concept: a woven speaker enclosure echoes the texture of one nearby chair.
+
+PRODUCT
+Use the fictional Sonnet compact speaker. Build exactly one 22 cm-tall rounded-rectangle speaker with softly radiused vertical edges, a warm charcoal woven-fabric enclosure, one pale-oak top plate, and exactly three small flush brass controls centered on top. Add one tiny unlit status dot only. Show no cable, charger, phone, display, voice-assistant symbol, second speaker, package, product logo, or performance claim.
+
+PRESENTATION
+Use a quiet contemporary reading-room set. Place the speaker as the nearest, sharpest object on a low pale-oak side table at lower left, fully visible in front three-quarter view. In the restrained soft-focus background, include exactly one oatmeal bouclé lounge chair whose weave echoes the speaker, one simple floor lamp, and one short stack of three closed books with blank spines. Use late-afternoon window light from camera left, soft warm practical fill, realistic gentle shadows, and a muted plaster wall. No people. Render no text, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored product and set. Keep the speaker dominant and the context secondary. Do not imply audio power, connectivity, voice control, smart-home compatibility, or materials beyond the declared finishes. No real brand, copied industrial design, visible cord, open book text, plant, beverage, duplicate electronic, body part, or decorative clutter.
+
+OUTPUT INTENT
+Return one polished lifestyle image at 1536 x 1024 in 3:2. The complete speaker must be immediately identifiable and unobstructed within a calm, believable reading-room context.

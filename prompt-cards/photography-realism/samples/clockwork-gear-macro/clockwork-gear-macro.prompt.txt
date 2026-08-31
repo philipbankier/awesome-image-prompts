@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one macro mechanism photograph for the project-authored fictional "Atlas Field Notes: Clockwork Gear Macro" editorial study depicting an original fictional clockwork mechanism at macro scale.
+
+SUBJECT
+Use exactly an original fictional clockwork mechanism at macro scale, realized as an original unbranded concept with physically plausible materials and a restrained palette of moss green, warm umber, and parchment cream exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a compact project studio with a matte charcoal support, a softly receding neutral background, and no secondary props. Follow a 1:1 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Focus on two meshing brass-toned gears and one ruby-colored bearing while outer parts fall out of focus. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use controlled highlights, plausible machining marks, no brand or antique claim, and no functional-accuracy assertion. Apply controlled raking light from upper left with gentle neutral fill, precise micro-contrast, and a restrained palette of moss green, warm umber, and parchment cream with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 1:1 photographic concept with credible optics and no unrequested collage.

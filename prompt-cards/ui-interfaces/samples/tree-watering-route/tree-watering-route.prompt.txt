@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile route interface for the fictional "Morrowfield Tree Watering Route" concept. The concept is a volunteer tree-watering route concept.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make complete the next fictional tree-watering stop the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD TREE ROUTE; invented blocks Cedar Lane, Lantern Row, Willow Court; stops 1 Cedar-04 / 2 cans / complete, 2 Lantern-07 / 3 cans / next, 3 Willow-02 / 2 cans / pending; selected Lantern-07; tree note Young maple / supplied sample; checklist Fill, Water, Note; not navigation or plant-health guidance. Show an invented block map, ordered stops, supplied tree notes, and a completion checklist. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use clear progress markers and avoid real navigation, plant-health, or municipal claims. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

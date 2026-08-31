@@ -1,0 +1,23 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Image 1 is the project-owned reference named in this prompt.
+
+Create one architectural interior photograph for the project-authored fictional "Atlas Field Notes: Authorized Industrial Greenhouse" editorial study depicting an authorized empty industrial greenhouse interior.
+
+SUBJECT
+Use exactly an authorized empty industrial greenhouse interior, realized as an original unbranded concept with physically plausible materials and a restrained palette of sage, dusty rose, and natural linen exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a fully fictional unoccupied interior with coherent architecture, clean circulation space, and only the approved fixtures named in the prompt. Follow a 16:9 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Look down the central aisle so repeated frames and benches form strict perspective toward a bright end wall. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Preserve declared structure only, use diffuse daylight, and infer no owner, crop, technology, output, or safety status. Apply soft directional daylight with one subtle practical accent, realistic shadow falloff, and a restrained palette of sage, dusty rose, and natural linen with natural tonal transitions and material response.
+
+AUTHORIZED REFERENCE INPUT
+Use Image 1, the attached project-owned reference generated specifically for this Prompt Card only after confirming authority to use it for this task. Preserve only the visible silhouette, proportions, material pattern, declared wear, and composition-relevant geometry shown in Image 1; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 16:9 photographic concept with credible optics and no unrequested collage.

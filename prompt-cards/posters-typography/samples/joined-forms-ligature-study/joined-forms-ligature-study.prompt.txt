@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 3:4 ligature study poster
+Card: Joined Forms Ligature Study
+Primary request: Show an original set of exactly five experimental ligatures joined by one repeatable circular hinge rule.
+Variable instantiations:
+SUBJECT_BRIEF: fictional typography study for lettering students.
+COPY_MANIFEST: render exactly and only "JOINED FORMS", "FI", "FL", "TT", "ST", and "TH".
+VISUAL_MOTIF: five large black ligature marks, each with one small coral circular hinge at the join.
+PALETTE: black, cream, cobalt construction lines, and coral hinges.
+TYPE_DIRECTION: original geometric uppercase sans serif with visibly custom joins.
+COMPOSITION_RULES: 8 percent safe margins; title top; five ligatures in one row; matching source-pair labels and simple connection diagrams below; no crop.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly five ligatures and five source-pair labels; exact copy only; no other text or glyphs, pseudo-writing, copied typeface, logos, signatures, mockups, or watermark.

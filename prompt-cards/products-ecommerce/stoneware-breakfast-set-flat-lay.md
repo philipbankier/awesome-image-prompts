@@ -51,12 +51,26 @@ Return one refined flat-lay catalog image at {ASPECT_RATIO}, with even spacing, 
 
 Count every item against the manifest, inspect rims and handles, and confirm all props and shadows remain secondary and physically grounded.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Stoneware Breakfast Set Flat Lay](samples/stoneware-breakfast-set-flat-lay/stoneware-breakfast-set-flat-lay.webp)
 
-Expected result: an orderly overhead composition whose glaze and clay variation read as one coherent collection.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:24:28Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [stoneware-breakfast-set-flat-lay.prompt.txt](samples/stoneware-breakfast-set-flat-lay/stoneware-breakfast-set-flat-lay.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `7ffc108d05f8d08dd1edd507b428e01ddcfca7f2a576d1f012bb3dfe912a1625`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Confirmed exactly four ceramic pieces, one secondary linen napkin, distinct grounded vessels, intact rims, coherent glaze treatment, even separation, and no text or watermark.
+- Known misses: The stated physical diameters and volume were not measured from the image; subtle glaze variation is illustrative rather than a production specification.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use only fictional or authorized product designs and props. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

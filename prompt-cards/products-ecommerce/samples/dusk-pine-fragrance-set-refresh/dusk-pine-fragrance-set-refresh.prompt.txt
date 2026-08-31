@@ -1,0 +1,17 @@
+COMMISSION
+Create one 4:5 seasonal product-set image for the fictional Dusk Pine fragrance. Use this independently authored concept: the preserved bottle rests on dark cork with a single pine-shadow plane.
+
+REFERENCE INPUT
+Use the attached authorized project-authored image dusk-pine-fragrance-set-refresh--input-01-product-reference.png only as the identity and geometry source for the bottle. Preserve exactly the short rectangular clear-glass form, softly rounded vertical edges, thick transparent base, muted forest-green liquid at two-thirds fill, narrow brushed-brass collar, low rectangular dark-cork cap with the shoulder footprint, centered ivory label, and exact label copy DUSK PINE / EAU DE PARFUM. Do not infer unseen detail or change the product.
+
+PRODUCT AND SET
+Show exactly one unchanged bottle. Build a new restrained seasonal set from exactly one low rectangular plinth made of dark natural cork and exactly one vertical warm-gray paper plane behind it. Cast one soft, recognizable pine-bough shadow across the paper plane using off-frame light; do not include an actual branch. Add no package, second bottle, loose cap, ingredient, rock, moss, water, fabric, smoke, claim, certification, or accessory.
+
+PRESENTATION
+Use a level front three-quarter 85 mm catalog view matching the reference's product angle. Center the bottle on the cork plinth, fully visible and dominant. Use a narrow warm key from upper left to form the single pine shadow, controlled cool fill, precise glass edges, and a deep forest-gray seamless background beyond the paper. Render only the protected label copy already on the bottle and no other text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This reference, product, and set are fictional and project-authored. Change only the background, set, support surface, and lighting. Preserve protected product geometry, materials, fill level, cap, collar, label placement, copy, scale relationship, and identity. No real brand, copied packaging, unsupported fragrance or performance claim, distorted bottle, duplicate object, person, hand, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished seasonal set image at 1120 x 1400 in 4:5. The complete unchanged bottle, cork plinth, and single pine-shadow plane must be fully visible and uncropped.

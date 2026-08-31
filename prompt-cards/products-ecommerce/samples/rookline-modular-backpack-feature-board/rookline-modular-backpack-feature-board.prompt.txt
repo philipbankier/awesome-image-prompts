@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 product feature board showing the modular organization of a fictional commuter backpack. Use this independently authored concept: the closed pack anchors three detached pocket modules.
+
+PRODUCT
+Use the fictional Rookline modular commuter backpack. Build exactly one closed 22 L backpack with a tall rectangular profile, softly rounded top corners, one front vertical weather flap, two padded shoulder straps visible behind, and a flat reinforced base. Use matte charcoal recycled-nylon-look fabric, black webbing, graphite zipper pulls, and one restrained rust-orange bartack accent. Build exactly three detachable modules from the same fabric system: one slim vertical phone pocket, one square organizer pouch, and one low horizontal cable pouch. Each module has one visible twin-tab attachment rail that corresponds to three empty rails on the bag front. Show no laptop, phone, cable, bottle, key, clothing, carabiner, package, extra pouch, person, or claim.
+
+PRESENTATION
+Use a straight-on, slightly elevated 75 mm technical catalog view. Center the fully closed primary bag in the upper two-thirds. Create one ordered feature rail along the lower third with the three detached modules aligned left to right, fully separated and at consistent scale. Use thin neutral leader lines from each module to its corresponding empty front rail, without arrows or measurements. Light with a broad diffused key from upper left, cool rim separation, and clean contact shadows on a pale concrete-gray background. Render exactly ROOKLINE as a small heading above the bag and no other text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Keep exactly one bag and three modules, preserve plausible strap and rail construction, and do not imply waterproofing, capacity performance, compatibility, sustainability, or durability. No real brand, copied design, floating decorative gear, duplicate module, opened compartment, body part, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished modular-backpack feature board at 1120 x 1400 in 4:5. The full bag, all three modules, and every leader-line relationship must be visible and easy to inspect.

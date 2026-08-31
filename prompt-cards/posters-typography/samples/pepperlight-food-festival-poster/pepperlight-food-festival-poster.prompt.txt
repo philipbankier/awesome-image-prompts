@@ -1,0 +1,22 @@
+Use case: rendered sample for the Pepperlight Food Festival Poster Prompt Card.
+Asset type: one flat fictional food-festival poster, no mockup.
+
+Create one 4:5 poster promoting PEPPERLIGHT, a fictional regional food festival at the invented Ember Field.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+PEPPERLIGHT
+FOOD FESTIVAL
+SATURDAY, SEPTEMBER 12
+NOON–8 PM
+EMBER FIELD
+24 VENDORS
+FREE ENTRY
+
+VISUAL SYSTEM
+Center one simple round shared table viewed from above, with the two-line festival name inside it. Around it, orbit exactly four bold paper-cut food shapes: one red pepper, one orange citrus wheel, one gold grain sheaf, and one green herb sprig. Place the five remaining information lines along a clean outer ring in clockwise reading order, each line horizontal and fully legible. Use tomato red, citrus orange, grain gold, herb green, aubergine, and cream. Typography is original friendly rounded uppercase. Keep 8% safe margins and generous spacing.
+
+CONSTRAINTS
+Render only the exact manifest. No dish name, menu, cuisine claim, sponsor, logo, utensil label, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly four orbiting food shapes and one table.
+
+OUTPUT INTENT
+Return one flat 4:5 food-festival poster at 1024 x 1280 pixels.

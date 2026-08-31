@@ -1,0 +1,22 @@
+Use case: rendered sample for the Offset Logic Modular Grid Poster Prompt Card.
+Asset type: one flat fictional grid-system poster, no mockup.
+
+Create one 3:4 poster demonstrating the wholly fictional Offset Logic modular layout system for design students.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+OFFSET LOGIC
+GRID: 8 × 12
+UNIT: 24
+SHIFT: +1
+ALIGN
+OFFSET
+RETURN
+
+VISUAL SYSTEM
+At top, show the title and a small exact grid key using the GRID, UNIT, and SHIFT lines. In the center, draw a visible pale-gray 8-column by 12-row baseline grid. Place exactly nine solid blocks: three cobalt, three vermilion, and three mustard. In each color group, the first block aligns to the grid, the second is displaced exactly one grid unit right, and the third returns to alignment. At bottom, place the exact notes ALIGN, OFFSET, RETURN below three corresponding mini diagrams. Use warm white, charcoal, pale gray, cobalt, vermilion, and mustard. Typography is original monospaced uppercase. Keep 7% safe margins and crisp editorial alignment.
+
+CONSTRAINTS
+Render only the exact manifest. No extra measurements, coordinates, letters, numerals, labels, pseudo-writing, logo, signature, watermark, frame, wall, or alternate option. Show exactly nine colored blocks.
+
+OUTPUT INTENT
+Return one flat 3:4 grid-system poster at 1024 x 1365 pixels.

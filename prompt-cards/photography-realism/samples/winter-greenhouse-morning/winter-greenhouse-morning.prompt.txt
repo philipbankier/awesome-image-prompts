@@ -1,0 +1,17 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+SCENE
+Create a photoreal narrow project-authored Victorian-style greenhouse with white-painted metal ribs, clear glass panes, a damp brick aisle, and roof vents greenhouse on a cold clear January morning just after sunrise, with light frost outside and a pale blue sky, viewed from center-aisle chest-height 35 mm view toward the far door in 16:9 landscape.
+
+SUBJECT
+Center the composition on six compact rosemary plants with realistic narrow leaves and modest winter growth, arranged across two parallel waist-high galvanized benches running along the aisle.
+
+DETAILS
+Include exactly six rosemary plants and two dormant dwarf fig saplings, all distinct and correctly scaled, six small terracotta pots for the rosemary and two larger charcoal clay pots for the fig saplings, and one unbranded galvanized watering can resting on the floor near the front bench. Render fine condensation on lower panes, sparse feather frost along exterior frame edges, and clear upper glass, cool sunrise entering from frame right with one faint warm work lamp at the far door, and believable cool-to-warm transitions across glass, soil, leaves, metal, and damp floor surfaces.
+
+CONSTRAINTS
+Keep plant species, season, scale, gravity, condensation, and shadows coherent. No tropical abundance unless declared, extra tools, duplicated pots, floating leaves, heavy snow indoors, people, labels, product packaging, logos, watermarks, or readable text.
+
+OUTPUT INTENT
+Return one quiet documentary-style photograph at 16:9 landscape, with clear greenhouse depth and a believable winter morning atmosphere.

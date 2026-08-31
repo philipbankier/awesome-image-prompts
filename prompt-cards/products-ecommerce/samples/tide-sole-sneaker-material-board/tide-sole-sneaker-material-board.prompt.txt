@@ -1,0 +1,17 @@
+COMMISSION
+Create one 4:5 footwear material board documenting authorized fictional sneaker materials without redesigning the shoe. Use this independently authored concept: the preserved shoe is paired with three labeled material swatches.
+
+REFERENCE INPUT
+Use the attached authorized project-authored image tide-sole-sneaker-material-board--input-01-product-reference.png only as the geometry, material, color, scale, and camera-view source. Preserve exactly the left-shoe lateral front three-quarter silhouette, rounded toe, low padded collar, six-pair hidden lace-loop path, flat cream laces, sea-glass-blue woven upper, curved heel-to-midfoot stitched overlay, cream textured cupsole, shallow cobalt side groove, and cream heel pull.
+
+PRODUCT AND MATERIAL RAIL
+Show exactly one unchanged shoe in the upper two-thirds. In the lower third, show exactly three separate rectangular macro swatches aligned in one row: cream textured rubber matching the cupsole; sea-glass-blue woven textile matching the upper; and flat cream lace weave matching the laces. Label them exactly SOLE / TEXTURED RUBBER; UPPER / WOVEN TEXTILE; LACE / FLAT WEAVE. These are supplied fictional visual material descriptions, not sourcing, composition, or performance evidence.
+
+PRESENTATION
+Use a pale mineral-gray technical-board background, the same 85 mm three-quarter view and broad neutral light as the reference, thin slate dividers, and restrained shadows. Keep the complete shoe dominant and the material rail aligned below without overlap. Render only the three approved labels and no brand name, logo, pseudo-text, signature, watermark, or interface chrome.
+
+CONSTRAINTS
+Preserve the authorized shoe design exactly. No second shoe, redesigned overlay, changed sole groove, altered lace path, missing pull, real brand, copied sneaker, sustainability or performance claim, foot, person, box, accessory, or unrelated prop.
+
+OUTPUT INTENT
+Return one clean footwear material board at 1120 x 1400 in 4:5. The complete preserved shoe, all three swatches, and every approved material label must be visible and legible.

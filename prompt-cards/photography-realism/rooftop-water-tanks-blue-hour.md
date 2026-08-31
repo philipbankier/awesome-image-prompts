@@ -1,0 +1,76 @@
+# Rooftop Water Tanks at Blue Hour
+
+## Use this when
+
+Use this card for a fictional rooftop silhouette with small water tanks at blue hour. It is a fictional, public-domain, or authorized photographic concept, not documentary proof or Card-level generation evidence. Use a Recipe when identity, product geometry, continuity, or repeatability must be evaluated.
+
+## Required inputs
+
+- A fictional, public-domain, or authorized subject and project context.
+- The exact subject details, setting, viewpoint, and allowed props.
+- Lighting, color, camera-character, and output intent.
+- The visual risks, claims, and content that must not appear.
+
+## Prompt
+
+```text
+Create one architectural city photograph for {PROJECT_CONTEXT} depicting a fictional rooftop silhouette with small water tanks at blue hour.
+
+SUBJECT
+Use {SUBJECT_DETAILS} exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use {SETTING_DETAILS}. Follow {VIEWPOINT_AND_OUTPUT}. Layer the tanks against a pale sky while low parapets and vents create a quiet foreground rhythm. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use realistic scale, cool ambient light, sparse warm windows, and no recognizable skyline or property. Apply {LIGHT_AND_COLOR} with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid {MUST_AVOID}.
+
+OUTPUT
+Return one 16:9 photographic concept with credible optics and no unrequested collage.
+```
+
+## Variables
+
+- `{PROJECT_CONTEXT}`: the fictional or authorized editorial, archive, or creative context
+- `{SUBJECT_DETAILS}`: the exact approved subject, condition, materials, and distinguishing features
+- `{SETTING_DETAILS}`: the approved location, surfaces, background, props, and weather
+- `{VIEWPOINT_AND_OUTPUT}`: the camera viewpoint, lens character, depth treatment, crop, and intended output use
+- `{LIGHT_AND_COLOR}`: the lighting direction, time, palette, contrast, and camera character
+- `{MUST_AVOID}`: additional prohibited content, artifacts, or unsupported implications
+
+## Negative constraints
+
+- No real brand, inferred real-person likeness, medical or legal claim, signature, or watermark.
+- No false documentary implication, copied living-photographer style, or invented provenance.
+- Do not break the photographic plan: Layer the tanks against a pale sky while low parapets and vents create a quiet foreground rhythm.
+
+## Quick check
+
+Confirm the image communicates a fictional rooftop silhouette with small water tanks at blue hour. Check the assigned composition, then verify the specific direction: use realistic scale, cool ambient light, sparse warm windows, and no recognizable skyline or property. Reject invented content, unsupported claims, or any mismatch between supplied inputs and the visible result.
+
+## Rendered Sample
+
+![Rendered sample for Rooftop Water Tanks at Blue Hour](samples/rooftop-water-tanks-blue-hour/rooftop-water-tanks-blue-hour.webp)
+
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:40:18Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [rooftop-water-tanks-blue-hour.prompt.txt](samples/rooftop-water-tanks-blue-hour/rooftop-water-tanks-blue-hour.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `b39931c527eb50f595dbc5ea9037df8ef89e1d82d7856838ba5e17d8e05c11ef`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted wide frame shows two rooftop water tanks among parapets and vents beneath a cool blue-hour sky, with one warm doorway or practical light below.
+- Known misses: The requested sparse warm windows are not visibly present; the two-tank rooftop silhouette and cool-warm separation otherwise remain clear.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+## Rights and provenance
+
+This Prompt Card is independently authored with `original` source posture. Use only fictional, public-domain, or properly authorized subjects, names, data, locations, and brand materials. It bundles no third-party prompt or image.

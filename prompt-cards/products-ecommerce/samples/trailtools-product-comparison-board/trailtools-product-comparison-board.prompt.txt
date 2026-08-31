@@ -1,0 +1,14 @@
+COMMISSION
+Create one 16:9 product comparison board for three fictional planting-trowel variants using supplied factual specifications. Use this independently authored concept: three silhouettes share a baseline while differences are isolated in aligned rows.
+
+PRODUCT
+Use the fictional Trailtools planting-trowel family. Build exactly three trowels with the same forged one-piece stainless-steel blade-and-tang construction, matte sage oval grip, rust-orange end cap, and centered hanging hole. Variant MINI has a 9 cm grip, 12 cm blade, and 6 cm blade width. Variant FIELD has an 11 cm grip, 15 cm blade, and 8 cm blade width. Variant DEEP has a 13 cm grip, 18 cm blade, and 7 cm blade width with a slightly narrower pointed tip. Treat these dimensions as supplied fictional specifications, not measured evidence. Show no sheath, soil, plant, hand, package, ruler, performance claim, certification, or extra tool.
+
+PRESENTATION
+Use a straight-on orthographic-style product view on a pale warm-gray comparison board. Align the three complete trowels vertically across the upper half, blades down, tips on one shared baseline, with equal cell width and stable scale. Place one concise comparison matrix across the lower half. Render only this exact copy: TRAILTOOLS; MINI; FIELD; DEEP; GRIP 9 CM; GRIP 11 CM; GRIP 13 CM; BLADE 12 CM; BLADE 15 CM; BLADE 18 CM; WIDTH 6 CM; WIDTH 8 CM; WIDTH 7 CM. Use a broad even key, soft frontal fill, small controlled shadows, thin slate rules, and no decorative graphics.
+
+CONSTRAINTS
+This is a fictional, project-authored product family. Keep exactly three variants and make only the declared dimensions and tip profile differ. The matrix must align each set of values beneath the correct product. No real brand, copied tool design, unsupported strength or ergonomics claim, pseudo-text, extra row, repeated label, signature, watermark, person, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one clean comparison board at 1792 x 1024 in 16:9. All three trowels and every approved matrix value must be fully visible and legible.

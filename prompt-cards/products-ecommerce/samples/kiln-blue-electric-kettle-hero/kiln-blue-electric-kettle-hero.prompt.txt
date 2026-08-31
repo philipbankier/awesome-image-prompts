@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 restrained catalog hero for a fictional countertop electric kettle. Use this independently authored concept: a cobalt ceramic-coated body balanced against one warm steam arc.
+
+PRODUCT
+Use the fictional Kiln Blue electric kettle. Build exactly one 1.2 L kettle with a low rounded cylindrical stainless-steel body, seamless cobalt-blue ceramic coating, one short tapered brushed-steel spout, one arched matte-black phenolic handle, one flush cobalt lid with a small black tab, and one thin circular black power base. Include one tiny unlit amber indicator dot near the base, but no visible cord, buttons, measurement window, cup, tray, ingredient, or extra appliance. Use no product logo.
+
+PRESENTATION
+Use a slightly low front three-quarter 65 mm product view, with the spout facing left and the handle clearly separated at right. Center the kettle above a narrow cream copy strip at the bottom. Add one delicate warm-white steam arc rising from the spout, clearly atmospheric rather than a graphic. Light with a large diffused key from upper left, soft frontal fill, and a warm rim that traces the steam. Use a quiet warm-gray seamless surface and background. Render exactly KILN BLUE in the bottom copy strip, and no other text, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored appliance. Keep the kettle mechanically plausible, fully grounded on its single base, and free of unsupported speed, capacity, safety, or performance claims. No detached lid, impossible spout, duplicated handle, visible heating coil, pouring action, hand, unrelated prop, real brand, copied design, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished small-appliance hero at 1120 x 1400 in 4:5. The entire kettle, base, steam arc, and exact copy must be visible and uncropped.

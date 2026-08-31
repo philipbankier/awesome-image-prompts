@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 3:4 maker-market poster
+Card: Cinderquay Maker Market Poster
+Primary request: Promote a fictional local maker market with simple tool silhouettes orbiting a woven canopy.
+Variable instantiations:
+SUBJECT_BRIEF: fictional neighborhood maker market for families and independent craftspeople.
+COPY_MANIFEST: render exactly and only "CINDERQUAY", "MAKER MARKET", "09 MAY 2026", and "OLD FERRY YARD".
+VISUAL_MOTIF: one woven striped canopy encircled by exactly five clean tool silhouettes: scissors, mallet, needle, brush, and carving knife.
+PALETTE: brick red, mustard, marine blue, black, and cream.
+TYPE_DIRECTION: original blocky uppercase slab serif.
+COMPOSITION_RULES: 9 percent safe margins; canopy emblem centered; date on left edge and location on right edge; title above; all text upright and uncropped.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly five recognizable tool silhouettes; exact copy once each; no other text, pseudo-writing, brands, signatures, stalls, people, mockups, or watermark.

@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 label-wrap presentation for a fictional condiment bottle beside its flat label artwork. Use this independently authored concept: a red meadow line drawing wraps continuously around a clear bottle.
+
+PRODUCT
+Use the fictional Redmeadow tomato relish package. Build exactly one clear 250 ml cylindrical glass bottle with gently sloped shoulders, filled with smooth brick-red relish, and closed with one low matte-cream metal cap. Apply one cream paper wrap label carrying a continuous single-weight crimson line drawing of grasses, seed heads, and a low horizon. Beside it show exactly one unrolled rectangular version of that same label, including two narrow dashed seam markers at the left and right edges. Approved copy is limited to REDMEADOW / TOMATO RELISH. Show no ingredient list, nutrition panel, barcode, certification, claim, loose tomato, spoon, drip, second bottle, carton, or extra label.
+
+PRESENTATION
+Use a level front three-quarter 70 mm technical-packaging view. Place the upright bottle on the left, label front facing, and the flat unrolled artwork on the right at compatible visual scale. Align matching crimson seam markers on the bottle's label edge and flat artwork with two thin neutral guide lines. Use a broad diffused key from upper left, soft fill, controlled glass reflections, and restrained contact shadows on a pale warm-gray seamless surface. Render only the approved copy, with no extra text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is fictional, project-authored packaging. Keep one bottle and one flat label, with the same meadow artwork and exact copy on both representations. The guide lines explain the wrap relationship but contain no measurements. No real brand, copied package, food-quality or health claim, duplicated object, open cap, hand, unrelated prop, or ecommerce interface.
+
+OUTPUT INTENT
+Return one polished label-wrap board at 1536 x 1024 in 3:2. The full bottle, complete flat artwork, seam relationship, and approved copy must be visible and legible.

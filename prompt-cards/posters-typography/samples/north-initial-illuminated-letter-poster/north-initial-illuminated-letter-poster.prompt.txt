@@ -1,0 +1,18 @@
+Use case: rendered sample for the North Initial Illuminated Letter Poster Prompt Card.
+Asset type: one flat square illuminated-initial poster, no mockup.
+
+Create one 1:1 poster featuring a wholly project-authored decorative initial for a fictional winter print edition.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE THREE LINES
+N
+NORTH GARDEN
+EDITION 04
+
+VISUAL SYSTEM
+Center one enormous geometric capital N, occupying about 62% of the square. Its thick deep-indigo strokes contain an original winter garden of abstract pale-blue leaves, white berry dots, and angular silver stems. Surround it with a thin square border and generous snowy negative space. Place the short caption NORTH GARDEN centered below the letter and the smaller edition line EDITION 04 beneath it. Use original crisp transitional serif lettering for the two caption lines, with silver, indigo, ice blue, white, and one copper accent.
+
+CONSTRAINTS
+The large N appears exactly once. Render only the exact manifest. No other letter, decorative alphabet, plant label, monogram, logo, pseudo-writing, signature, watermark, frame mockup, wall, or extra option. Keep caption and edition line exact, readable, centered, and uncropped.
+
+OUTPUT INTENT
+Return one flat 1:1 illuminated initial poster at 1024 x 1024 pixels.

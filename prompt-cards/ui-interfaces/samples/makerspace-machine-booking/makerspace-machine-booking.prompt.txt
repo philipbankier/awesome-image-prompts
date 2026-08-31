@@ -1,0 +1,43 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-layout-sketch.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: ui-mockup
+Asset type: project-authored low-fidelity layout sketch
+Primary request: a grayscale desktop wireframe for a makerspace booking screen
+Subject: narrow resource list on the left, hour-by-hour day timeline in the center, booking-summary drawer on the right, compact eligibility note above the timeline
+Style/medium: clean black pencil and gray marker sketch on white grid paper
+Composition/framing: one complete 16:9 interface sketch viewed straight on
+Text (verbatim): "RESOURCES", "DAY", "BOOKING", "ELIGIBILITY"
+Constraints: preserve only layout blocks; no color, photos, logos, protected design system, signatures, watermark, or extra screens
+
+END CALL 01
+
+CALL 02
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-layout-sketch.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop booking interface for the fictional "Morrowfield Makerspace Machine Booking" concept. The concept is a makerspace machine-booking calendar.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make select a fictional machine and review one available booking slot the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR MAKERSPACE BOOKING; resources Laser A, Mill B, Sewing C; day Tuesday; Laser A slots 10:00-11:00 available and 14:00-15:00 reserved; eligibility note Orientation record required / status supplied, not certified; selected Laser A 10:00; summary 60 min; button REVIEW BOOKING. Pair a resource list with a day timeline, eligibility notes, and a booking summary drawer. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use fictional machine names and avoid safety certification or operator-qualification claims. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+AUTHORIZED SKETCH INPUT
+Use the attached project-authored layout sketch, labeled Image 1 only as an authorized guide for the declared arrangement. Preserve the left resource list, central day timeline, top eligibility note, and right booking-summary drawer; do not copy a protected design language, named living artist style, signature, logo, or detail that the sketch does not establish.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 02

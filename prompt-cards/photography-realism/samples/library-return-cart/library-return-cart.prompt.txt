@@ -1,0 +1,22 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one quiet interior photograph for the project-authored fictional "Atlas Field Notes: Library Return Cart" editorial study depicting an unoccupied library return cart holding fictional books.
+
+SUBJECT
+Use exactly an unoccupied library return cart holding fictional books, realized as an original unbranded concept with physically plausible materials and a restrained palette of slate blue, oxidized copper, and chalk white exactly; do not infer identity, ownership, brand, or unseen facts.
+
+EXACT COPY
+Render only the exact readable text in the three fictional spine titles "MOSS", "TIDE", and "EMBER", each exactly once, with no other readable text; do not add, omit, paraphrase, or alter copy.
+
+SETTING AND COMPOSITION
+Use a project-built fictional set on a worn maple work surface against a warm-gray seamless background, with only the named objects present. Follow a 3:2 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Angle the cart beside a pool of window light with spines turned away or carrying project-authored titles only. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use calm neutral color, no patron data, no real publisher marks, and no recognizable library identity. Apply soft north-window light from frame left with restrained bounce fill, natural contrast, and a palette of slate blue, oxidized copper, and chalk white with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 3:2 photographic concept with credible optics and no unrequested collage.

@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 packaging-family image for a fictional three-origin coffee line. Use this independently authored concept: a shared harbor grid changes one signal color per bag.
+
+PRODUCT
+Use the fictional Harbor Roast whole-bean coffee family. Build exactly three identical 340 g flat-bottom coffee bags in matte charcoal paper laminate, each with the same squared base, folded top, centered degassing valve, and cream geometric harbor-grid label. Distinguish the bags only with one signal color and one origin name: amber with NORTH QUAY, coral with RED HARBOR, and teal with BLUE SOUND. Approved package copy is limited to HARBOR ROAST / NORTH QUAY / RED HARBOR / BLUE SOUND / WHOLE BEAN COFFEE. Show no tasting notes, roast level, origin country, certification, weight, seal, loose beans, cup, scoop, or outer box.
+
+PRESENTATION
+Use a level front three-quarter 70 mm catalog view. Arrange the three upright bags at equal scale in a shallow, evenly spaced arc, with every front label unobstructed and the shared hierarchy obvious. Light with one broad softbox from upper left, subtle warm edge light, clean frontal fill, and controlled contact shadows. Use a pale limestone seamless background and surface. Render only the approved copy, with no extra text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is fictional, project-authored packaging. Keep exactly three bags with identical structure, label grid, typography scale, and camera angle. Change only the declared signal color and origin name. No real brand, copied package, ingredient or sourcing claim, duplicated bag, missing name, unrelated prop, person, or mock marketplace interface.
+
+OUTPUT INTENT
+Return one polished packaging-family image at 1120 x 1400 in 4:5. All three bags and every approved name must be fully visible and legible.

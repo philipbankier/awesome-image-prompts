@@ -55,11 +55,26 @@ Return one information-dense 16:9 desktop dashboard at {OUTPUT_SIZE}, with netwo
 
 Trace each vessel to one route, compare all summary counts with the table, confirm the priority alert is dominant, and verify that service states remain understandable without color alone.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Ferry Network Operations Dashboard](samples/ferry-network-operations-dashboard/ferry-network-operations-dashboard.webp)
 
-Expected result: a credible fictional dispatch view with one central network map, aligned status panels, and a clearly prioritized disruption.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:10:10Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [ferry-network-operations-dashboard.prompt.txt](samples/ferry-network-operations-dashboard/ferry-network-operations-dashboard.prompt.txt)
+- Output dimensions: `1672 x 941`
+- Output SHA-256: `08ab9f5d261f9f6ec54e4238f4796792b991813f80c664132ad787726a24cbf7`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 16:9 Ferry Network Operations Dashboard render makes "the declared primary task" primary and keeps "BRACKEN QUAY NETWORK", "2 LINES", "3 TERMINALS" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Ferry Network Operations Dashboard manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

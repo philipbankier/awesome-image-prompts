@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 3:4 editorial quote broadside
+Card: Borrowed Air Editorial Quote Broadside
+Primary request: Set one short project-authored quotation as the sole large text, with translucent bands of open space separating its lines.
+Variable instantiations:
+SUBJECT_BRIEF: fictional environmental-literary journal broadside for general readers.
+COPY_MANIFEST: render exactly and only "WE BORROW AIR" / "FROM TOMORROW" / "FIELD NOTES 04".
+VISUAL_MOTIF: three translucent horizontal atmosphere bands interrupting a quiet paper field.
+PALETTE: cloud white, pale cyan, smoke blue, and charcoal.
+TYPE_DIRECTION: original elegant high-contrast serif in uppercase, with a small sans-serif issue line.
+COMPOSITION_RULES: 12 percent safe margins; quotation centered as two large lines; issue line small below; spacious and balanced; no clipped text.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exact copy once each; no quotation marks, author name, other text, pseudo-writing, imagery, logos, signature, frame, mockup, or watermark.

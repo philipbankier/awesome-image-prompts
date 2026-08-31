@@ -1,0 +1,43 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-crankset.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: authorized reference input for a tablet parts-finder concept
+Primary request: create a project-owned studio reference photo of one unbranded silver bicycle crankset with a five-arm spider and black chainring
+Style/medium: photorealistic catalog photography
+Composition/framing: complete component centered at a slight three-quarter angle, all teeth and both crank arms visible
+Lighting/mood: soft neutral studio light
+Materials/textures: brushed aluminum, matte black steel, light honest wear
+Constraints: plain light-gray backdrop; no bicycle, hands, packaging, brand marks, labels, watermark, or extra parts
+
+END CALL 01
+
+CALL 02
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-crankset.webp
+
+EXACT SUBMITTED PROMPT
+Design one tablet catalog interface for the fictional "Morrowfield Bicycle Parts Finder" concept. The concept is an authorized bicycle-component matching aid.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make compare three fictional crankset candidates against the supplied visible geometry the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CRANKSET MATCH; supplied dimensions Arm 170 mm, ring 46 teeth, five-arm spider; fictional candidates Alder 46 / visual match, Wren 44 / compare, Moss 48 / compare; tray Alder 46 and Wren 44; geometry review only, no fit claim. Place the reference image beside operator-supplied dimensions, compatible fictional parts, and a comparison tray. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Preserve declared geometry only and avoid fit, repair-safety, or manufacturer claims. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+AUTHORIZED REFERENCE INPUT
+Use the attached project-generated authorized reference, labeled Image 1 only after confirming authority to use it for this task. Preserve only the five-arm silver crank geometry, black chainring, complete teeth, and both crank arms; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 02

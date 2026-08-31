@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 gift-set presentation for a fictional trio of loose-leaf tea tins. Use this independently authored concept: three cylindrical tins use leaf, ember, and mist color systems.
+
+PRODUCT
+Use the fictional Leaf & Ember loose-leaf tea gift set. Build exactly three identical cylindrical 90 g metal tins with flat slip lids and matte paper labels, plus exactly one closed rectangular gift sleeve behind them. Tin one is deep fern with a pale leaf-line motif and is named LEAF. Tin two is ember orange with a restrained rising-spark motif and is named EMBER. Tin three is mist blue-gray with a fine drifting-line motif and is named MIST. The sleeve is warm uncoated cream board with a small three-color band. Approved copy is limited to LEAF & EMBER / LEAF / EMBER / MIST / LOOSE LEAF TEA. Show no ingredients, tea leaves, cup, strainer, ribbon, certification, weight, flavor claim, or outer packaging.
+
+PRESENTATION
+Use a level, slightly elevated front three-quarter 70 mm catalog view. Arrange the three equal tins in a shallow arc, fully separated and label-forward, with the single closed sleeve centered behind them. Light with a broad softbox from upper left, warm bounce from right, and restrained grounded shadows on a pale oat seamless background. Render only the approved copy, with no extra text, decorative pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is fictional, project-authored packaging. Keep exactly three same-size tins and one sleeve. Preserve the shared label hierarchy while changing only the declared name, signal color, and abstract motif. No real brand, copied package, health or sourcing claim, duplicate tin, extra accessory, person, or mock marketplace UI.
+
+OUTPUT INTENT
+Return one polished gift-set presentation at 1536 x 1024 in 3:2. Every tin, the sleeve, and all declared names must be fully visible and legible.

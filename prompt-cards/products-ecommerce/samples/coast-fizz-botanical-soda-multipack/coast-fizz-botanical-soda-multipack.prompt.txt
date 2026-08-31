@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 beverage multipack image for a fictional botanical soda without health or performance claims. Use this independently authored concept: four slim cans emerge from a wave-cut carton.
+
+PRODUCT
+Use a fictional Coast Fizz botanical soda multipack containing exactly one open-top paperboard carrier and exactly four identical 250 ml slim aluminum cans. Build only this manifest: matte sea-glass-green cans with cream wave bands, silver tops, one coral accent line, and a matching uncoated carton with a single wave-shaped front cutout. Declare one flavor, Citrus Tide, as a fictional lemon-and-rosemary soda. No loose fruit, ice, glass, straw, droplets, or extra can.
+
+PRESENTATION
+Use a slightly low front three-quarter product view with a 65mm lens, a crisp diffused key from upper left with soft aqua bounce and controlled highlights, and a pale sand seamless surface and background. Arrange the product as follows: carton centered with one can forward and approved flavor copy kept legible. Render only COAST FIZZ / CITRUS TIDE / BOTANICAL SODA; render no other text or logo.
+
+CONSTRAINTS
+Use a fictional product brief. Keep declared geometry, part count, scale, color, and materials consistent. No real brand, copied package, health claim, ingredient benefit, certification, signature, watermark, or unapproved accessory.
+
+OUTPUT INTENT
+Return one clean beverage multipack image at 1120 x 1400 in 4:5, with the carton and all four cans fully visible and no unrelated props.

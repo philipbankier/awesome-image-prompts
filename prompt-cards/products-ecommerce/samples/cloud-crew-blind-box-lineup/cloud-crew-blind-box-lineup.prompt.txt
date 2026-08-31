@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 collectible-toy lineup image for a fictional blind-box series. Use this independently authored concept: sun, drizzle, gust, fog, frost, and thunder characters share one body system.
+
+PRODUCT
+Use a fictional Cloud Crew series containing exactly six small vinyl figures and one closed blind-box package. Every figure has the same rounded capsule body, two short legs, two mitten-like arms, and simple dot eyes; distinguish them only by an original weather headpiece and one color: Sun with a yellow ray crown, Drizzle with a blue droplet hood, Gust with a mint spiral tuft, Fog with a pale-gray cloud cap, Frost with an ice-blue crystal cap, and Thunder with a violet zigzag cap. Use matte painted vinyl, no movable parts, no accessories, and one white paperboard box with a six-color band.
+
+PRESENTATION
+Use a level front view with a 70mm product lens, broad softbox light and even fill with small grounded shadows, and a pale sky-gray seamless background. Arrange the product as follows: six equal figures in a row above one fictional blind-box package. Render only CLOUD CREW on the package; render no character names or other text.
+
+CONSTRAINTS
+Use a fictional product brief. Keep declared geometry, part count, scale, color, and materials consistent. Do not resemble an existing toy franchise. No real brand, copied package, unsupported claim, celebrity likeness, signature, watermark, duplicate figure, or unapproved accessory.
+
+OUTPUT INTENT
+Return one clean collectible-toy lineup image at 1536 x 1024 in 3:2, with all six figures and the package fully visible and no unrelated props.

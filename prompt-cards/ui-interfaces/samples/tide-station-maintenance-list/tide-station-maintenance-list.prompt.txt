@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one tablet checklist interface for the fictional "Morrowfield Tide Station Maintenance List" concept. The concept is a fictional tide-station maintenance checklist.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review one fictional inspection card while sign-off stays disabled the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only BRACKEN TIDE STATION / SAMPLE CHECKLIST; cards Housing / 14 Sep / Review seal, Sensor arm / 14 Sep / Visual check, Cable tray / 15 Sep / Note abrasion; selected Housing; equipment labels H-04, S-02, C-07; issue note Paint wear; SIGN-OFF DISABLED; no engineering, marine-safety, or regulatory assertion. Show scheduled inspection cards, supplied equipment labels, issue notes, and a disabled sign-off state. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Use sample data only and avoid marine-safety, engineering, or regulatory assertions. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 miniature-vehicle view sheet showing four consistent views of a fictional tram collectible. Use this independently authored concept: the same rounded tram model rotates through front, side, rear, and three-quarter views.
+
+PRODUCT
+Use the fictional Tiny Transit tram, one original palm-sized die-cast model. Fix this geometry in every view: a short rounded rectangular body, gently domed roof, two axles with four small black wheels, five equal side windows, one wide front windshield split by a central mullion, one narrower rear window, one roof-mounted low oval destination housing with no text, and two small circular lamps at each end. Use satin seafoam body paint, cream roof and lower skirt, smoked charcoal glazing, and tiny brushed-silver bumpers. Show no tracks, pantograph, overhead wire, driver, passenger, route number, words, logo, package, stand, or extra vehicle.
+
+PRESENTATION
+Create exactly four equal cells in a two-by-two grid on one neutral pale-gray studio board. Keep fixed scale, lens character, horizon, lighting, and vertical position. Cell order is front view, exact left-side profile, rear view, then front three-quarter view. Use a 90 mm product lens, broad diffused key from upper left, soft fill, and the same small contact shadow in every cell. Separate cells with thin warm-gray rules. Render no labels, text, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored miniature. Every cell must depict the same design with invariant body length, roof, window count, wheelbase, lamp placement, materials, and colors. Rotate the model only. No geometry drift, mirrored detail, omitted wheel, extra door, duplicate vehicle in a cell, real transit livery, copied design, person, or prop.
+
+OUTPUT INTENT
+Return one precise miniature-vehicle view sheet at 1536 x 1024 in 3:2. All four complete views must be fully visible, equal in scale, and easy to compare.

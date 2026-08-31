@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 2:3 recreational map poster
+Card: Bluehour Trail Map Poster
+Primary request: Show a fictional evening walking trail as one luminous route winding through abstract elevation bands.
+Variable instantiations:
+SUBJECT_BRIEF: fictional Bluehour Loop recreational map for adult walkers; illustrative, non-operational route concept only.
+COPY_MANIFEST: render exactly and only "BLUEHOUR TRAIL", "4.2 KM", "NORTH GATE", and "FICTIONAL ROUTE".
+VISUAL_MOTIF: one continuous luminous cyan loop crossing exactly five nested elevation bands.
+PALETTE: midnight blue, cyan, violet, and warm white.
+TYPE_DIRECTION: original compact uppercase grotesk with tabular numerals.
+COMPOSITION_RULES: 8 percent safe margins; map fills lower two thirds; narrow right-side legend; title above; clear route start marker; all text level and uncropped.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exact copy once each; no other labels or pseudo-writing; no real geography, road names, safety guidance, logos, signatures, mockups, or watermark.

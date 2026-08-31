@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 3:4 archive exhibition poster
+Card: Freshwater Archive Exhibition Poster
+Primary request: Promote a fictional exhibition of river records with catalog labels drifting between translucent water-sample rectangles.
+Variable instantiations:
+SUBJECT_BRIEF: fictional archive exhibition about an invented river system.
+COPY_MANIFEST: render exactly and only "FRESHWATER ARCHIVE", "SOURCE", "CURRENT", "MOUTH", and "11 AUG 2026".
+VISUAL_MOTIF: three translucent blue water-sample rectangles descending like a river, each paired with one label.
+PALETTE: pale aqua, deep river blue, silver, black, and warm white.
+TYPE_DIRECTION: original compact uppercase archival sans serif with tabular spacing.
+COMPOSITION_RULES: 9 percent safe margins; title at top source; three labeled sample blocks downstream; date at base; no crop.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly three rectangles and three labels; exact copy only; no other text, pseudo-writing, real records, logos, signatures, mockups, or watermark.

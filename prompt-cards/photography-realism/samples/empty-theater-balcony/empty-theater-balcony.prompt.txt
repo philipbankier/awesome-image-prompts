@@ -1,0 +1,23 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Image 1 is the project-owned reference named in this prompt.
+
+Create one interior documentary-style photograph for the project-authored fictional "Atlas Field Notes: Empty Theater Balcony" editorial study depicting an authorized empty community-theater balcony after rehearsal.
+
+SUBJECT
+Use exactly an authorized empty community-theater balcony after rehearsal, realized as an original unbranded concept with physically plausible materials and a restrained palette of moss green, warm umber, and parchment cream exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a fully fictional unoccupied interior with coherent architecture, clean circulation space, and only the approved fixtures named in the prompt. Follow a 16:9 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Look across the front rail toward rows of vacant seats and a softly lit stage far below. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Preserve declared architectural features only, use practical work lights, and include no people, logos, or production artwork. Apply soft directional daylight with one subtle practical accent, realistic shadow falloff, and a restrained palette of moss green, warm umber, and parchment cream with natural tonal transitions and material response.
+
+AUTHORIZED REFERENCE INPUT
+Use Image 1, the attached project-owned reference generated specifically for this Prompt Card only after confirming authority to use it for this task. Preserve only the visible silhouette, proportions, material pattern, declared wear, and composition-relevant geometry shown in Image 1; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 16:9 photographic concept with credible optics and no unrequested collage.

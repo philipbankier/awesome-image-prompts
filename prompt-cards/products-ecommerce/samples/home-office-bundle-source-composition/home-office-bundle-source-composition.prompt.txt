@@ -1,0 +1,32 @@
+COMMISSION
+Create one 3:2 multi-product bundle photograph from the four attached, project-owned fictional source images. The result is a coordinated home-office product bundle for a clean editorial commerce hero. Four preserved products form a tidy stepped desktop arrangement.
+
+SOURCE IMAGE SET AND ROLES
+1. input-01-lamp.png is the task lamp. Preserve its single circular warm-gray base, slim stem, short elbow, round brass pivot, asymmetric oval shade, charcoal cord, silhouette, and material finishes.
+2. input-02-organizer.png is the desktop organizer. Preserve its single oval ash base, exactly three warm-gray dividers, exactly two paper compartments, one integrated brass pencil cup, proportions, and finishes.
+3. input-03-tray.png is the catchall tray. Preserve its single reddish cork rounded-rectangle body, empty interior, thin warm-gray inset rim, one flush brass front-left detail, proportions, and finishes.
+4. input-04-clock.png is the analog desk clock. Preserve its single circular warm-gray body, ash cradle with two short feet, off-white face, twelve brass dot markers, two brass hands at 10:08, one charcoal seconds hand, top brass crown, proportions, and finishes.
+Use every source image exactly once. Keep all four products separate and recognizable. Do not merge, duplicate, omit, relabel, redesign, or transfer parts between products.
+
+PRODUCT AND MATERIAL MANIFEST
+This fictional bundle contains exactly one lamp, one organizer, one tray, and one clock. Coordinate them through their existing warm-gray, ash, cork, brass, off-white, and charcoal materials. Add no accessory and put nothing inside the organizer or tray. Render no text, logo, packaging, or campaign copy.
+
+PRESENTATION
+Arrange the lamp at rear-left as the tallest object, the organizer at rear-center, the clock at rear-right on its own cradle, and the tray at front-right. Use a tidy stepped composition with a little open surface between products. Keep every complete product visible, correctly scaled relative to a compact desk setup, and uncropped. The lamp may overlap the background space behind the organizer but must not obscure another product's defining geometry.
+
+CAMERA, LIGHTING, AND BACKGROUND
+Photorealistic studio product photography. Slightly elevated three-quarter camera view, 50mm lens character, moderate depth of field with every product sharply legible. Use a pale warm-gray seamless surface and background. Large softbox from upper left, gentle frontal fill, restrained contact shadows falling rear-right, subtle bounce from the surface. Maintain material realism: powder-coated metal, ash grain, cork pores, brushed brass, and fabric cord.
+
+CONSTRAINTS
+No people, hands, plant, book, computer, stationery, paper, decorative prop, real brand, copied package, trademark, signature, watermark, certification, claim, invented feature, extra product, duplicated part, warped geometry, pseudo-text, or marketplace interface. Do not imitate any recognizable commercial product campaign.
+
+OUTPUT INTENT
+Return one clean 1536 x 1024 image in 3:2. All four products are fully visible with generous outer margins and no unrelated objects.
+
+--- REFINEMENT 01 ---
+
+Edit the first attached image, final-attempt-01.png. The second attached image is only the authorized lamp reference.
+
+Make exactly one localized correction: reroute the lamp's charcoal fabric power cord so the entire cord is visible inside the frame. It should emerge from behind the lamp base, form one short relaxed loop on the surface immediately behind and to the left of the base, and end in a small plain charcoal two-prong plug. Leave generous margin between the plug and the left image edge.
+
+Preserve everything else in final-attempt-01.png exactly: the 3:2 canvas, camera, crop, background, lighting, shadows, lamp geometry and position, organizer with three dividers and one brass cup, empty cork tray, clock geometry and markers, product scale, spacing, materials, and colors. Do not add, remove, move, duplicate, merge, relabel, or redesign any product. No text, logos, people, hands, props, packaging, or watermark.

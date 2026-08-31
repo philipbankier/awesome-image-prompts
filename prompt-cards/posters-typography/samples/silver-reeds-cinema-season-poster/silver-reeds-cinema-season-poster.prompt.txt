@@ -1,0 +1,9 @@
+Make a final count correction to the supplied fictional SILVER REEDS poster. Keep its exact text, flat 2:3 format, silver-water reflection, charcoal/silver/reed-green palette, typography, film list, and overall refinement. Replace the current three film strips with exactly FOUR unmistakable complete film-strip rectangles of equal width. From left to right: rectangle 1, rectangle 2, rectangle 3, rectangle 4. Leave a narrow black gutter between every rectangle so a viewer can count 1, 2, 3, 4. All four must have a complete top, bottom, left edge, and right edge. Let only the far-right edge of rectangle 4 begin dissolving into reeds; keep its outline countable. Do not show three rectangles. Do not show five. Preserve exactly this text and no other text:
+SILVER REEDS
+AUTUMN CINEMA SEASON
+THE STILL CURRENT
+MIRROR MARSH
+NIGHT FERRY
+PALE HORIZON
+LANTERN QUAY CINEMA
+Return one flat 1024x1536 pixel poster. No people, real brands, logos, dates, prices, pseudo-writing, signature, watermark, mockup, frame, wall, hands, or extra option.

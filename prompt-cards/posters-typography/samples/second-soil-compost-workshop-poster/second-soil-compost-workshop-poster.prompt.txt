@@ -1,0 +1,22 @@
+Use case: rendered sample for the Second Soil Compost Workshop Poster Prompt Card.
+Asset type: one flat fictional educational-workshop poster, no mockup.
+
+Create one 4:5 poster advertising SECOND SOIL, a fictional introductory home-compost workshop at the invented Rootroom Hall.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+SECOND SOIL
+HOME COMPOST WORKSHOP
+SATURDAY, APRIL 4
+1 PM
+ROOTROOM HALL
+ACCEPTED: LEAVES • PEELS • GROUNDS
+BRING A SMALL BUCKET
+
+VISUAL SYSTEM
+Center a clean visual cycle where exactly three horizontal material layers, green leaves, orange peels, and brown grounds, curl clockwise into one dark-soil spiral. Place the two-line title above. Put the date, time, and venue in one pale band, and the accepted-materials and bucket lines in a separate cream band below. Use forest green, peel orange, soil brown, cream, and one sky-blue accent. Typography is original friendly rounded uppercase. Keep 8% safe margins and clear separation among cycle, timing, and materials.
+
+CONSTRAINTS
+Render only the exact manifest. No performance claim, compost time estimate, forbidden-material list, sponsor, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly three material layers and one spiral.
+
+OUTPUT INTENT
+Return one flat 4:5 educational-workshop poster at 1024 x 1280 pixels.

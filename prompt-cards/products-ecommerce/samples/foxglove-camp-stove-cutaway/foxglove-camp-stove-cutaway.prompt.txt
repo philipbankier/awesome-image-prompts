@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 product cutaway board that clearly explains the four principal parts of a fictional compact camping stove. Use this independently authored concept: a clean half-cutaway reveals burner, valve, wind shield, and folding supports.
+
+PRODUCT
+Use the fictional Foxglove compact canister-top camp stove. It has one low circular burner head with concentric flame ports, one knurled side valve connected to a short rigid fuel stem, one three-segment perforated wind shield surrounding the burner, and exactly three identical folding pot supports radiating at 120-degree intervals. Materials are bead-blasted stainless steel for burner and supports, dark graphite anodized aluminum for the wind shield, and one small burnt-orange valve knob. Show the product alone with no fuel canister, hose, flame, cookware, tools, fasteners floating loose, or extra component.
+
+PRESENTATION
+Use a clean orthographic-style front three-quarter technical product view with a restrained 65 mm perspective. Place one large, mechanically coherent half-cutaway hero on the left. On the right, show four small circular detail views stacked vertically. Connect them with thin charcoal leader lines to the correct location on the hero. Label the four details exactly: 01 BURNER / 02 VALVE / 03 WIND SHIELD / 04 FOLDING SUPPORTS. Render no other text or logo. Light with a broad neutral key from upper left, crisp rim separation, and modest grounded shadows on a pale warm-gray technical-board background.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Keep the burner, valve, wind shield, and all three supports mechanically connected and plausible. The cutaway may remove only the near half of the wind shield so the internal relationship remains legible. No impossible hinge, duplicated support, unsupported load or safety claim, dimension, certification, hand, person, landscape, signature, watermark, decorative pseudo-text, or unrelated prop.
+
+OUTPUT INTENT
+Return one polished product cutaway board at 1536 x 1024 in 3:2. The hero stove and all four component callouts must be fully visible, clearly associated, and easy to inspect.

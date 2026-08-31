@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one tablet studio log interface for the fictional "Morrowfield Darkroom Exposure Log" concept. The concept is a fictional darkroom print exposure log.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make compare two fictional test-strip records and save the selected settings the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR DARKROOM LOG; negative aliases Fern-07 and Window-12; selected Fern-07; test A 8 sec / f8 / grade 2; test B 11 sec / f8 / grade 2; paper batch M-14; note Softer sky; thumbnails placeholders; action SAVE LOG; values fictional, no chemical guidance. Show project-owned negative aliases, test-strip notes, exposure settings, paper batch, and comparison thumbnails as placeholders. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Use fictional values and avoid chemical-safety instructions or claims of repeatable print results. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

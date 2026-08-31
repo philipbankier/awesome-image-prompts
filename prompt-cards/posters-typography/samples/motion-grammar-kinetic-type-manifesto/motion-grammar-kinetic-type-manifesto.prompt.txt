@@ -1,0 +1,20 @@
+Use case: rendered sample for the Motion Grammar Kinetic Type Manifesto Prompt Card.
+Asset type: one flat project-authored kinetic type manifesto, no mockup.
+
+Create one 2:3 kinetic type manifesto for a fictional movement workshop. The complete project-authored manifesto is the exact five-line copy below.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE FIVE LINES
+MOVE WITH PURPOSE
+TILT INTO CHANGE
+STRETCH THE MOMENT
+PAUSE FOR SIGNAL
+RETURN TO RHYTHM
+
+VISUAL SYSTEM
+Set all five lines along one continuous top-to-bottom directional path. Make MOVE lean gently forward, TILT rotate 8 degrees, STRETCH widen horizontally, PAUSE sit compact and level beside a single solid dot, and RETURN settle into a steady baseline. Use original bold grotesque uppercase with controlled transformations that never impair reading. Palette: warm white, charcoal, cobalt, vermilion, and mustard. Preserve broad 8% margins, unmistakable top-to-bottom order, and a strong final baseline.
+
+CONSTRAINTS
+Render every word exactly once. No title, numbering, arrows with labels, extra verb, decorative alphabet noise, pseudo-writing, logo, signature, watermark, frame, wall, or other option. No misspelling, paraphrase, duplication, clipping, or illegible overlap.
+
+OUTPUT INTENT
+Return one flat 2:3 manifesto at 1024 x 1536 pixels.

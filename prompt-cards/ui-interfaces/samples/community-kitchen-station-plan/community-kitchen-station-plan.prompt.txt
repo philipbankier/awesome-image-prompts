@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one wall planning interface for the fictional "Morrowfield Community Kitchen Station Plan" concept. The concept is a community-kitchen station assignment board.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review station assignments and the next fictional handoff the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only LANTERN KITCHEN PLAN; Prep A / Chop herbs / 09:00; Prep B / Mix dough / 09:15; Oven / Reserved 10:00; Wash / Reset trays / 10:30; equipment Mixer reserved by Team Moss; handoff Dough to Oven at 09:55; no personal or health data. Arrange fictional prep stations, task cards, equipment reservations, and handoff notes without personal or health data. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use clear zones and avoid food-safety certification, allergen clearance, or medical claims. Apply near-white, deep slate, cyan, and warm orange with high state contrast and minimal decoration without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

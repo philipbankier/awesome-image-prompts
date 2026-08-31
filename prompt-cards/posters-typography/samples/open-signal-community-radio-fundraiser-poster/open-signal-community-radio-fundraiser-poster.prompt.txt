@@ -1,0 +1,18 @@
+Targeted refinement for the Open Signal Community Radio Fundraiser Poster rendered sample.
+
+Edit the supplied first-attempt poster. Preserve the exact copy, handmade paper style, cream/plum/coral/blue/mustard palette, central antenna, four concentric signal lines, typography, margins, and all six existing house shapes.
+
+ONLY CORRECTION
+The first attempt contains six house shapes. Add exactly one seventh simple hand-cut house shape in the open space immediately to the left of the central antenna, slightly behind the lower signal line. Make it a small sky-blue house with a plum roof and no text. The corrected poster must contain exactly seven houses total. Do not add or remove any other object.
+
+Keep the exact visible copy unchanged and fully readable:
+OPEN SIGNAL
+COMMUNITY RADIO NIGHT
+FRIDAY, AUGUST 7
+8 PM
+BRAMBLE SQUARE
+SUPPORT LOCAL VOICES
+
+No extra text, frequency, call sign, station claim, sponsor, donation amount, QR code, phone number, logo, pseudo-writing, signature, watermark, frame, wall, or other change.
+
+Return one corrected flat 4:5 poster at 1024 x 1280 pixels.

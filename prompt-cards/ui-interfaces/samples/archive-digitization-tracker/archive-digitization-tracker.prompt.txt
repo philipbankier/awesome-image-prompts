@@ -1,0 +1,80 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-box-cover.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned archival input for a UI concept
+Primary request: create a fictional 1940s community garden logbook cover photographed flat on a neutral conservation-gray surface
+Subject: one worn sage-green clothbound ledger labeled exactly "BOX 14 / GARDEN LOG / 1948"
+Style/medium: photorealistic overhead archival-document photography
+Composition/framing: single complete ledger centered with all edges visible and generous padding
+Lighting/mood: soft diffuse copy-stand lighting, neutral color
+Materials/textures: aged book cloth, small paper call-number label, honest wear
+Constraints: entirely fictional project-authored object; exact title once; no hands, people, real institutions, logos, signatures, watermark, or extra documents
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-typed-page.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned archival input for a UI concept
+Primary request: create a fictional typewritten meeting-minutes page from a neighborhood garden committee
+Subject: one cream paper sheet headed exactly "GARDEN COMMITTEE / 12 MAY 1948" with three short typed sections and a small blue archival stamp reading "BOX 14"
+Style/medium: photorealistic overhead document photography
+Composition/framing: single full page centered on a neutral conservation-gray surface, all corners visible
+Lighting/mood: soft diffuse copy-stand lighting
+Materials/textures: slightly aged paper, monospaced type, light fold lines
+Constraints: project-authored fictional text; keep body text short and legible; no names, signatures, real institutions, logos, hands, watermark, or extra pages
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-index-card.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned archival input for a UI concept
+Primary request: create a fictional archival index card for one garden-log collection
+Subject: one buff index card with ruled fields labeled exactly "COLLECTION", "BOX", "DATE", and "RIGHTS", filled with "MORROWFIELD GARDENS", "14", "1948", and "PROJECT-OWNED"
+Style/medium: photorealistic overhead document photography
+Composition/framing: single complete card centered on a neutral conservation-gray surface with all edges visible
+Lighting/mood: soft diffuse copy-stand lighting
+Materials/textures: card stock, typed labels, red pencil divider marks
+Constraints: exact supplied words only; no handwriting, signatures, people, real institutions, logos, watermark, or extra objects
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-box-cover.webp
+- input-02-typed-page.webp
+- input-03-index-card.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop workflow interface for the fictional "Morrowfield Archive Digitization Tracker" concept. The concept is an authorized archive-box digitization tracker.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review Box 14 capture progress and route the flagged item to quality review the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only Morrowfield Garden Archive; Box 14; three supplied assets; Cover CAPTURED / project-owned; Minutes NEEDS REVIEW / project-owned; Index Card CAPTURED / project-owned; quality flag Skew check; progress 2 of 3; no private records. Keep sample document images grouped by box with capture status, rights notes, and quality-review flags. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Preserve source separation, show provenance, and avoid exposing private records or inferring missing metadata. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, the green Box 14 ledger cover; Image 2, the Garden Committee typed page; and Image 3, the project-owned index card, a small set whose items are all authorized for this task. Follow Image 1 is the box cover thumbnail; Image 2 is the captured page thumbnail; Image 3 is the rights-and-metadata thumbnail so each image has one declared purpose, and preserve only each source's complete edges, distinct format, visible color, and readable project-authored headings while keeping all three separate. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 catalog collection image for a fictional set of five ceramic planters. Use this independently authored concept: five low-relief textures progress from grove lines to smooth clay.
+
+PRODUCT
+Use a fictional Claygrove planter collection comprising exactly five empty, low cylindrical planters with the same diameter and height, each on a small integrated foot ring. Build only this manifest: warm terracotta stoneware; matte mineral slips in pine, moss, lichen, sand, and raw clay; five surface treatments progressing from dense vertical grove lines, medium grove lines, sparse grove lines, one shallow horizon line, to completely smooth clay. No drainage saucers, plants, soil, or accessories.
+
+PRESENTATION
+Use a slightly elevated front three-quarter view with a 65mm product lens, a large diffused key from upper left and soft fill with restrained contact shadows, and a warm chalk seamless background and surface. Arrange the product as follows: staggered group with clear silhouettes, consistent scale cues, and no plants. Render no text or logo.
+
+CONSTRAINTS
+Use a fictional product brief. Keep declared geometry, part count, scale, color, and materials consistent. No real brand, copied package, unsupported claim, celebrity endorsement, signature, watermark, or unapproved accessory.
+
+OUTPUT INTENT
+Return one clean catalog collection image at 1120 x 1400 in 4:5, with every planter fully visible and no unrelated props.

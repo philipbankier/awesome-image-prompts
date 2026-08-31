@@ -1,0 +1,5 @@
+Edit the existing fictional geologist-notebook still life while preserving the open notebook, three distinct rock samples, one simple pencil, worn maple table, project-authored geological line drawings, 3:2 landscape framing, soft directional light, and physically plausible materials.
+
+Preserve exactly the heading "RIDGE 04" once and the line "SAMPLE A" once, spelled exactly as shown. Remove every other readable character, numeral, tick label, axis label, word, or letter from the image. Replace the metal numeral markers on the three stones with non-text abstract markers containing respectively one, two, and three small circular dots, so the stones remain ordered without adding readable text. Remove all numeric labels from the graph while retaining its unlabeled lines and grid.
+
+Do not add, remove, duplicate, obscure, resize, or alter any other object. No logo, brand, signature, watermark, barcode, or extra text.

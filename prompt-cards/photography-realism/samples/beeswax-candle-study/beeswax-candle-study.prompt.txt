@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one warm still-life photograph for the project-authored fictional "Atlas Field Notes: Beeswax Candle Study" editorial study depicting three handmade beeswax candles at different stages of use.
+
+SUBJECT
+Use exactly three handmade beeswax candles at different stages of use, realized as an original unbranded concept with physically plausible materials and a restrained palette of clay red, weathered oak, and soft gray exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a project-built fictional set on a worn maple work surface against a warm-gray seamless background, with only the named objects present. Follow a 4:5 portrait frame using a natural 70 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Group one unlit taper, one recently extinguished candle, and one short lit candle on a plain ceramic plate. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use warm flame light with cool ambient fill, realistic wax edges, and no scent or health claim. Apply soft north-window light from frame left with restrained bounce fill, natural contrast, and a palette of clay red, weathered oak, and soft gray with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 4:5 photographic concept with credible optics and no unrequested collage.

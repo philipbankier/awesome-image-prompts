@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one winter architecture photograph for the project-authored fictional "Atlas Field Notes: Snowy Greenhouse Ribs" editorial study depicting snow tracing the ribs of an empty greenhouse.
+
+SUBJECT
+Use exactly snow tracing the ribs of an empty greenhouse, realized as an original unbranded concept with physically plausible materials and a restrained palette of clay red, weathered oak, and soft gray exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use an invented cold-weather setting with clean undisturbed surfaces, believable moisture, and only the named subject. Follow a 3:2 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Look upward from one corner so repeated frames arc toward a translucent roof with uneven snow bands. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use diffuse white light, accurate condensation, restrained contrast, and no structural-performance claim. Apply low cool morning light from frame left with soft open-sky fill, crisp material detail, and a restrained palette of clay red, weathered oak, and soft gray with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 3:2 photographic concept with credible optics and no unrequested collage.

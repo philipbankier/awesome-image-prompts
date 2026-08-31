@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one departure board interface for the fictional "Morrowfield Airship Timetable Board" concept. The concept is a whimsical fictional airship timetable.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make find the next fictional airship departure and its gate status the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only BRACKEN QUAY AIR BOARD; local time 08:12; Cloudmere 08:40 Gate C ON TIME; Sable Reach 09:15 Gate A CLOUD FOG; Wrenfall 10:05 Gate D DELAY 20 MIN; gate glyphs C, A, D; illustrative timetable. Arrange invented destinations, gate glyphs, cloud-delay reasons, and local-clock labels in a crisp board. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use an original retro-future visual system with no airline or transport brand references. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

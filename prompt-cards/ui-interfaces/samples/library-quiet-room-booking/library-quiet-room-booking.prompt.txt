@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile booking interface for the fictional "Morrowfield Library Quiet Room Booking" concept. The concept is a library quiet-room booking flow.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make choose a fictional quiet room, duration, and sample time the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR LIBRARY QUIET ROOMS; Room Fern / 2 seats / table / available 14:00 and 15:00; Room Wren / 1 seat / lamp / available 15:30; selected Room Fern; date 14 Sep; duration 60 min; button REVIEW BOOKING; no personal data; availability illustrative. Present room features, a compact availability calendar, duration choice, and confirmation without collecting personal data. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use calm neutral surfaces and avoid implying enforceable policy or guaranteed availability. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

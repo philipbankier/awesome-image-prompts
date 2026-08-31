@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 2:3 anthology promotion poster
+Card: First Light Drop-Cap Anthology Poster
+Primary request: Promote a fictional anthology through one wholly original monumental drop cap opening onto a pale dawn landscape.
+Variable instantiations:
+SUBJECT_BRIEF: fictional literary anthology about beginnings for adult readers.
+COPY_MANIFEST: render exactly and only "FIRST LIGHT" and "AN ANTHOLOGY".
+VISUAL_MOTIF: one enormous original letter A whose counter contains a minimal pale dawn horizon.
+PALETTE: dawn peach, pale yellow, mist blue, charcoal, and cream.
+TYPE_DIRECTION: original sculptural serif drop cap paired with small uppercase sans serif.
+COMPOSITION_RULES: 10 percent safe margins; quiet anthology copy in upper margin; letter A fills lower field; no crop.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly one large letter A; exact copy once each; no other letters, text, pseudo-writing, author names, logos, signatures, frame, mockup, or watermark.

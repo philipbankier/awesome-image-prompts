@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 3:4 community swim-gala poster
+Card: Deepwater Community Swim Gala Poster
+Primary request: Promote a fictional community swim gala with lane ropes turning into a simple wave notation.
+Variable instantiations:
+SUBJECT_BRIEF: fictional inclusive community swim gala for local families; illustrative event only.
+COPY_MANIFEST: render exactly and only "DEEPWATER", "SPRINT", "RELAY", "FLOAT", "FAMILY", and "CHECK-IN 17:00".
+VISUAL_MOTIF: four colored lane ropes curving into four rhythmic wave marks.
+PALETTE: deep blue, pool cyan, coral, lemon, and white.
+TYPE_DIRECTION: original bold rounded uppercase sans serif.
+COMPOSITION_RULES: 8 percent safe margins; title above; exactly four event categories in one clean row; check-in footer; no crop.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly four category labels and four lane-wave marks; exact copy only; no other text, pseudo-writing, real venue, safety claim, swimmers, logos, signatures, mockups, or watermark.

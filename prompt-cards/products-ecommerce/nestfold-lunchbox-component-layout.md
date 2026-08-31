@@ -1,0 +1,74 @@
+# Nestfold Lunchbox Component Layout
+
+## Use this when
+
+Use this card when you need to show how a fictional stackable lunchbox separates and nests. Use a Recipe when exact geometry preservation, claims review, repair, repeated comparison, or evidence matters.
+
+## Required inputs
+
+- A fictional or authorized product brief with exact form, components, and intended channel.
+- Material, finish, color, package-content, and accessory manifest.
+- Approved copy or explicit `none`, plus camera view, lighting, background, and output size.
+
+## Prompt
+
+```text
+COMMISSION
+Create one 1:1 component layout to show how a fictional stackable lunchbox separates and nests. Use this independently authored concept: lid, tray, divider, seal, and base form a precise vertical sequence.
+
+PRODUCT
+Use {PRODUCT_BRIEF} and build only the declared form, components, materials, finishes, and approved accessories in {MATERIAL_MANIFEST}. Do not invent a feature, certification, ingredient, performance result, compatibility statement, or package content.
+
+PRESENTATION
+Use {CAMERA_VIEW}, {LIGHTING}, and {BACKGROUND}. Arrange the product as follows: centered exploded stack with equal spacing and one concise caption line. Render only {APPROVED_COPY}; if it says `none`, render no text or logo.
+
+CONSTRAINTS
+Use a fictional product or an authorized product brief. Keep declared geometry, part count, scale, color, and materials consistent. No real brand, copied package, unsupported claim, celebrity endorsement, signature, watermark, or unapproved accessory.
+
+OUTPUT INTENT
+Return one clean component layout at {OUTPUT_SIZE} in 1:1, with the product fully visible and no unrelated props.
+```
+
+## Variables
+
+- `{PRODUCT_BRIEF}`: fictional or authorized product identity, geometry, purpose, and channel
+- `{MATERIAL_MANIFEST}`: exact components, counts, materials, finishes, colors, and allowed accessories
+- `{CAMERA_VIEW}`: camera height, angle, lens character, crop, and scale relationship
+- `{LIGHTING}`: declared studio or environmental lighting and shadow behavior
+- `{BACKGROUND}`: surface, set, or plain field allowed behind the product
+- `{APPROVED_COPY}`: complete allowed product and campaign text, or `none`
+- `{OUTPUT_SIZE}`: final pixel dimensions
+
+## Negative constraints
+
+- No real brand, copied packaging, trademark, celebrity likeness, signature, watermark, or unlicensed design feature.
+- No invented component, material, accessory, package content, label copy, certification, performance result, or product claim.
+- No duplicated product, warped geometry, unreadable approved copy, unrelated prop, decorative pseudo-text, or mock marketplace UI.
+
+## Quick check
+
+Count the declared products and components, compare form and materials with the manifest, and check the intended arrangement: centered exploded stack with equal spacing and one concise caption line. This does not establish preservation reliability or product readiness.
+
+## Rendered Sample
+
+![Rendered sample for Nestfold Lunchbox Component Layout](samples/nestfold-lunchbox-component-layout/nestfold-lunchbox-component-layout.webp)
+
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:48:27Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [nestfold-lunchbox-component-layout.prompt.txt](samples/nestfold-lunchbox-component-layout/nestfold-lunchbox-component-layout.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `3509e6d3b26721686d6df1aad73ae5879c61bcc07ec5afe7fbe8af50d5e2aad1`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed: the lid, seal, tray, distinct divider, and base form one compatible five-part vertical sequence, with the exact caption legible.
+- Known misses: The divider is shown seated slightly above the tray rather than as a fully detached horizontal layer.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
+## Rights and provenance
+
+This Prompt Card is independently authored with `original` source posture. Use only fictional or properly authorized product geometry, packaging, copy, names, and images. It bundles no third-party prompt, product design, package artwork, or image.

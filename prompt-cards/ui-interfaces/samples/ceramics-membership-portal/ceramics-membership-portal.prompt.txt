@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one responsive account interface for the fictional "Morrowfield Ceramics Membership Portal" concept. The concept is a fictional ceramics-studio membership portal.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make use one fictional class credit to start a studio booking the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR KILN CLUB; member alias Clay Finch; class credits 2; next class Handbuilding Basics / 18 Sep / 18:30; shortcuts BOOK STUDIO, VIEW CLASSES, MY PROJECTS; notice North sink unavailable Saturday; no billing details; concept only. Show an account summary, class credits, booking shortcuts, and supplied studio notices without payment details. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a responsive 1440-pixel landscape web canvas that also supports touch. Use invented members and avoid billing, waiver, equipment-safety, or certification claims. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 3:2 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

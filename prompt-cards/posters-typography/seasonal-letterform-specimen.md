@@ -53,12 +53,26 @@ Return one 1:1 letterform specimen at {OUTPUT_SIZE}, with enough scale to compar
 
 Count and transcribe every requested character, compare repeated strokes and terminals, and verify that seasonal details do not obstruct glyph recognition.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Seasonal Letterform Specimen](samples/seasonal-letterform-specimen/seasonal-letterform-specimen.webp)
 
-Expected result: a square, orderly letterform study with a consistent construction system and a restrained seasonal material accent.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-31T00:06:59Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [seasonal-letterform-specimen.prompt.txt](samples/seasonal-letterform-specimen/seasonal-letterform-specimen.prompt.txt)
+- Output dimensions: `1254 x 1254`
+- Output SHA-256: `54b89f4b8f83ef06e08948058f160e69fcfde95e3828f8126a368a41fb85c66a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The A-H and 0, 1, 2, !, ? character grid sits above FROST, BRANCH, and NORTH in three scale tiers.
+- Known misses: None observed at the reviewed master resolution.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use only project-authored letterform direction and exact text. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt, typeface artwork, specimen, or image.

@@ -51,12 +51,26 @@ Return one photoreal material study at {ASPECT_RATIO}, with the vessel and noon 
 
 Confirm one vessel, one light direction, a grounded base, coherent rim and foot geometry, and a shadow that matches the declared sun angle.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Noon-Shadow Ceramic Study](samples/noon-shadow-ceramic-study/noon-shadow-ceramic-study.webp)
 
-Expected result: a disciplined ceramic portrait with tactile glaze detail and one geometrically convincing hard shadow.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:54Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [noon-shadow-ceramic-study.prompt.txt](samples/noon-shadow-ceramic-study/noon-shadow-ceramic-study.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `d7e1740c940e65f6240ad41e09efa123e1cb097053264a238b18f6d346007d4a`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted square frame isolates one asymmetrical ceramic pitcher with an oval rim, single handle, and small foot, casting a hard noon shadow down and right.
+- Known misses: No material visible miss; vessel geometry, clay surface, and shadow direction remain coherent without decoration or text.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use an independently described or authorized ceramic design. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

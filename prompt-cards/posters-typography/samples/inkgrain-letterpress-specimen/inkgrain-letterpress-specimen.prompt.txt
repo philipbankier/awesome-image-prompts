@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 4:5 letterpress specimen
+Card: Inkgrain Letterpress Specimen
+Primary request: Present original lettering through a tactile letterpress treatment with large wood-type forms, restrained ink spread, and visible paper bite.
+Variable instantiations:
+SUBJECT_BRIEF: fictional print-studio specimen for design students.
+COPY_MANIFEST: render exactly and only "INK GRAIN", "PRINT", and "PRESS".
+VISUAL_MOTIF: three typographic scale tiers printed from original blocky wood-type forms.
+PALETTE: black, oxblood red, warm cream, and a small indigo accent.
+TYPE_DIRECTION: original sturdy uppercase slab serif with imperfect ink edges.
+COMPOSITION_RULES: 12 percent unprinted margins; INK GRAIN largest, PRINT medium, PRESS small; three separated tiers on a quiet sheet; no crop.
+OUTPUT_SIZE: 1024 x 1280.
+Constraints: exact copy once each; no other letters, text, pseudo-writing, logos, signatures, press machinery, frames, mockups, or watermark.

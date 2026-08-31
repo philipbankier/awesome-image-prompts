@@ -1,0 +1,23 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Image 1 is the project-authored sketch named in this prompt.
+
+Create one miniature macro photograph for the project-authored fictional "Atlas Field Notes: Paper Model City Macro" editorial study depicting an original paper-model city block seen at tabletop scale.
+
+SUBJECT
+Use exactly an original paper-model city block seen at tabletop scale, realized as an original unbranded concept with physically plausible materials and a restrained palette of sage, dusty rose, and natural linen exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a compact project studio with a matte charcoal support, a softly receding neutral background, and no secondary props. Follow a 3:2 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Use the authorized sketch for street and massing relationships, then focus across three folded-paper buildings toward a tiny plaza. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Preserve approved layout only, use warm desk light, show paper edges, and avoid copying a real city or architect. Apply controlled raking light from upper left with gentle neutral fill, precise micro-contrast, and a restrained palette of sage, dusty rose, and natural linen with natural tonal transitions and material response.
+
+AUTHORIZED SKETCH INPUT
+Use Image 1, the attached project-authored sketch generated specifically for this Prompt Card only as an authorized guide for the declared arrangement. Preserve exactly three building masses, the triangular plaza, the curved lower-left street, and the rear alley relationship; do not copy a protected design language, named living artist style, signature, logo, or detail that the sketch does not establish.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 3:2 photographic concept with credible optics and no unrequested collage.

@@ -1,0 +1,17 @@
+COMMISSION
+Create one 4:5 dimensional product board refining an authorized project-authored mug sketch. Use this independently authored concept: a straight elevation and lid detail share one exact measurement language.
+
+SKETCH INPUT
+Use the attached authorized sketch ridgecup-travel-mug-dimension-board--input-01-layout-sketch.png only as a structural and layout guide. Protect the tapered cylindrical silhouette, slightly narrower base, three shallow lower grip ridges, narrow steel rim, low flush lid, dominant front elevation, upper-right lid inset, and outside dimension-line hierarchy. Refine the sketch into a clean product visualization without reproducing sketch marks or inventing a function.
+
+PRODUCT
+Use the fictional Ridgecup travel mug: exactly one closed mug with a satin sea-glass-blue stainless-steel body, three integral shallow horizontal grip ridges, brushed-steel rim, and one low matte charcoal circular lid with one centered oval sliding tab and one narrow drinking slot near the edge. The supplied fictional dimensions are height 18 cm, maximum body diameter 8 cm, base diameter 7 cm, and lid diameter 8.2 cm. Show no handle, straw, loop, sleeve, liquid, internal mechanism, package, or extra product.
+
+PRESENTATION
+Create a pale warm-gray technical board. The large straight front elevation fills the left and center, with a smaller true top-view lid detail at upper right. Keep all thin charcoal dimension lines outside the silhouettes. Render only RIDGECUP / HEIGHT 18 CM / BODY Ø 8 CM / BASE Ø 7 CM / LID Ø 8.2 CM. Use one cobalt accent rule, broad even studio light, soft fill, and restrained shadows.
+
+CONSTRAINTS
+Treat every dimension as supplied fictional specification rather than measured evidence. Keep exactly one mug plus one detail representation, preserve declared geometry and materials, and do not add capacity, thermal, leak, safety, sustainability, or performance claims. No real brand, copied product, pseudo-text, extra dimension, signature, watermark, hand, or unrelated prop.
+
+OUTPUT INTENT
+Return one clean dimension presentation board at 1120 x 1400 in 4:5. The full elevation, lid detail, exact labels, and all dimension lines must be visible and legible.

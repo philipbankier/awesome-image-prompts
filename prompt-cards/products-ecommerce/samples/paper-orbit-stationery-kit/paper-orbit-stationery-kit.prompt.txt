@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 stationery product flat lay for a fictional notebook, memo pad, pencil, clips, and envelope set. Use this independently authored concept: fine orbital rules connect otherwise quiet paper surfaces.
+
+PRODUCT
+Use the fictional Paper Orbit stationery kit. Build exactly one A5 thread-bound notebook with a warm-white cloth cover, exactly one square pale-blue memo pad, exactly one natural-cedar graphite pencil with a midnight-blue dipped end, exactly three small brushed-brass paper clips, and exactly two C6 envelopes, one warm gray and one soft coral. Apply an original system of thin midnight-blue orbital arcs and tiny brass dots across the notebook, memo pad, and envelope flaps, without forming letters. Approved copy is limited to PAPER ORBIT on the notebook only. Show no pen, eraser, ruler, scissors, loose sheet, plant, mug, hand, postal mark, sticker, or package.
+
+PRESENTATION
+Use a true orthographic overhead view. Arrange every item on a strict, airy modular grid over a matte pale-stone paper background: notebook dominant at left, memo pad upper center, two envelopes stacked with both colors visible at right, pencil horizontal below, and three separate clips aligned in one row. Use large diffuse top light with subtle directional shadows and tactile paper detail. Render PAPER ORBIT once and no other text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored product. Preserve exact counts, materials, colors, and orbital graphic continuity. Keep every object separate enough to count and fully within frame. No real brand, copied stationery design, duplicate item, unrelated desk prop, body part, perspective distortion, or mock ecommerce interface.
+
+OUTPUT INTENT
+Return one polished stationery flat lay at 1536 x 1024 in 3:2. All eight declared objects must be fully visible, sharply resolved, and neatly aligned.

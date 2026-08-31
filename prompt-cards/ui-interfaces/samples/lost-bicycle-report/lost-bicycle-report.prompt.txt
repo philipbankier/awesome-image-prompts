@@ -1,0 +1,42 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-bicycle.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned bicycle reference for a privacy-aware report concept
+Primary request: one fictional unbranded city bicycle with a teal step-through frame, cream fenders, front basket, and brown saddle
+Style/medium: photorealistic catalog-style outdoor photography
+Composition/framing: complete bicycle in clean side profile against a plain brick courtyard, both wheels fully visible
+Lighting/mood: soft open shade
+Constraints: no rider, lock, serial number, address, readable signage, brand marks, logo, or watermark
+
+END CALL 01
+
+CALL 02
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-bicycle.webp
+
+EXACT SUBMITTED PROMPT
+Design one mobile report interface for the fictional "Morrowfield Lost Bicycle Report" concept. The concept is a privacy-aware lost-bicycle report form.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make preview a privacy-bounded report for the supplied bicycle the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD LOST BICYCLE; appearance Teal step-through frame, cream fenders, wire basket, brown saddle; last-seen zone Cedar Square; date 13 Sep; preview excludes contacts, serial numbers, addresses, and faces; status DRAFT; action REVIEW REPORT; ownership not verified. Keep the authorized bicycle image beside broad appearance fields, last-seen zone, and a preview that excludes personal contacts. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Preserve declared bike features only and avoid serial numbers, addresses, faces, ownership certainty, or police branding. Apply soft stone, plum, dusty teal, and pale gold with clear hierarchy and modest surface depth without borrowing a real product or brand system.
+
+AUTHORIZED REFERENCE INPUT
+Use the attached project-generated authorized reference, labeled Image 1 only after confirming authority to use it for this task. Preserve only the teal step-through frame, cream fenders, wire basket, brown saddle, and complete side-profile silhouette; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 02

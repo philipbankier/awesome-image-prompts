@@ -1,0 +1,17 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+SCENE
+Create a minimal studio corner with a pale sand lime-plaster wall meeting a matte terracotta microcement floor in a clean right-angle corner under hard upper-left 38-degree noon light.
+
+SUBJECT
+Show exactly one low asymmetrical stoneware pitcher with a narrow oval rim, one compact pulled handle, a stable trimmed foot, and an iron-gray body ceramic vessel, positioned in the lower center with the handle turned three-quarters toward frame right and clear margin on every side and viewed from a waist-height 70 mm three-quarter view with the whole vessel and its shadow visible.
+
+DETAILS
+Render dark speckled stoneware with a satin oat glaze covering the upper two-thirds and leaving the foot raw, including subtle throwing rings, sparse iron speckles, and two small glaze pinholes. Form one crisp but physically plausible shadow with a single diagonal shadow extending down-right for roughly one vessel width with a crisp core and lightly softened terminal edge.
+
+CONSTRAINTS
+Keep the vessel watertight, stable, fully visible, and consistent in perspective and material response. No second vessel, flowers, liquid, cracks, melted rim, floating base, multiple suns, softbox reflections, logos, labels, watermarks, or text.
+
+OUTPUT INTENT
+Return one photoreal material study at 4:5 portrait, with the vessel and noon shadow forming a balanced, spare composition.

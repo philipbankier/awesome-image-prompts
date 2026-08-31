@@ -1,0 +1,20 @@
+SCENE
+Create a refined tabletop packaging scene on a pale limestone slab, viewed from a slightly elevated front three-quarter angle with a 65mm product lens, with a warm off-white seamless background and a large softbox from upper left plus restrained frontal fill.
+
+SUBJECT
+Show one fictional Fernfold botanical soap gift box in an open presentation state with its hinged lid upright, containing exactly four rectangular soap bars: one sage green, one clay pink, one oat cream, and one charcoal gray.
+
+DETAILS
+Use an uncoated deep-forest-green rigid paperboard box with a natural kraft interior and blind-debossed linework; a fitted molded-pulp insert with four separate wells; and restrained botanical accents from exactly one small rosemary sprig and two dried calendula heads placed outside the box. Render only this approved package text: FERNFOLD / BOTANICAL SOAP SET.
+
+CONSTRAINTS
+Keep the box construction plausible, every soap distinct and correctly counted, and all text legible and unchanged. No extra products, loose labels, duplicated botanicals, cosmetic claims, certification seals, prices, real logos, watermarks, or unapproved copy.
+
+OUTPUT INTENT
+Return one premium gift-box mockup at 4:5, with the package fully visible and the soaps presented as a coherent set.
+
+--- REFINEMENT 01 ---
+
+Edit the attached Fernfold botanical soap gift-box image. Make exactly one localized correction: remove every embossed leaf, fern, flower, letter, and symbol from the four soap bars so all four bar faces are plain, smooth, and unmarked while keeping their natural handmade texture.
+
+Preserve everything else exactly: the open deep-forest-green rigid box, natural kraft four-well insert, exactly four rectangular bars in sage green, clay pink, oat cream, and charcoal gray, the lid's blind-debossed botanical linework, the exact legible package text FERNFOLD and BOTANICAL SOAP SET, one rosemary sprig and two calendula heads outside the box, camera, crop, limestone surface, lighting, colors, and shadows. Do not add or remove products, props, text, claims, seals, logos, or watermarks. Keep the complete package inside the 4:5 frame.

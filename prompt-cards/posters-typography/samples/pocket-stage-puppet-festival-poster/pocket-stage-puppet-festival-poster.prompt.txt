@@ -1,0 +1,22 @@
+Use case: rendered sample for the Pocket Stage Puppet Festival Poster Prompt Card.
+Asset type: one flat fictional puppet-festival poster, no mockup.
+
+Create one 3:4 poster promoting POCKET STAGE, a fictional all-ages puppetry festival at the invented Threadlight Theatre.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+POCKET STAGE
+PUPPET FESTIVAL
+SATURDAY, FEBRUARY 21
+11 AM–6 PM
+THREADLIGHT THEATRE
+SHADOWS • PAPER • STRINGS
+ALL AGES
+
+VISUAL SYSTEM
+Create one paper-cut proscenium with coral stage curtains opening onto exactly three wholly abstract puppet silhouettes: one round accordion form on two strings, one angular folded-bird form on one rod, and one tall spiral form on three strings. They must not resemble known characters. Place the two-line festival name on the proscenium. Stack the five program and logistics lines in a clean block below the stage. Use midnight plum, coral, mustard, turquoise, and warm cream. Typography is original playful slab serif uppercase. Keep 7% margins and strong stage-to-details hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No character names, performer names, sponsor, logo, face, branded puppet, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly three distinct puppet silhouettes.
+
+OUTPUT INTENT
+Return one flat 3:4 puppet-festival poster at 1024 x 1365 pixels.

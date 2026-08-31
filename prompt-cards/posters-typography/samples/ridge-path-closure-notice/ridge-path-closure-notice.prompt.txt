@@ -1,0 +1,22 @@
+Use case: rendered sample for the Ridge Path Closure Notice Prompt Card.
+Asset type: one flat fictional training-only closure notice, never for live use, no mockup.
+
+Create one 4:5 training graphic for a wholly fictional trail-closure exercise. The invented path and dates do not correspond to any real place. Make the training-only limitation visually dominant.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SEVEN LINES
+TRAINING ONLY
+RIDGE PATH CLOSED
+MAY 4–6
+FICTIONAL ROUTE
+DETOUR: BLUE MARKER LOOP
+CONTACT: TRAINING DESK
+NOT FOR LIVE SAFETY USE
+
+VISUAL SYSTEM
+Place TRAINING ONLY in a high-contrast amber band across the very top and NOT FOR LIVE SAFETY USE in a matching full-width band at bottom. Between them, show the closure name and dates above one broken charcoal contour line that stops at a clear coral X symbol. Below it, place the fictional-route, detour, and contact lines in a disciplined grid. Use cream, charcoal, amber, coral, and muted blue. Typography is original bold utilitarian uppercase. Keep 7% safe margins and unambiguous hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No real route, facility, emergency authority, operational instruction, safety assurance, sponsor, government mark, phone number, URL, QR code, logo, pseudo-writing, signature, watermark, frame, wall, or extra option. This is visibly a training simulation only.
+
+OUTPUT INTENT
+Return one flat 4:5 fictional training notice at 1024 x 1280 pixels.

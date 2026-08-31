@@ -1,0 +1,25 @@
+Use case: rendered sample for the Pulse Diagram Dance Sketch Poster Prompt Card.
+Asset type: one flat fictional dance-campaign poster refined from the attached project-owned gesture sketch, no mockup.
+
+SKETCH INPUT
+Use the attached authorized project-generated sketch only as a structural guide. Protect the empty title rectangle at upper left and the diagonal lower-left to upper-right sweep. Preserve exactly three S-curved gesture arcs with three circular head marks, but redraw them as clean abstract lines rather than tracing the charcoal. You may refine spacing, weight, and alignment. Do not add anatomy, facial features, identities, or sketch texture.
+
+SUBJECT BRIEF
+Create one 4:5 poster for PULSE DIAGRAM, a fictional three-night contemporary dance series at the invented Riverlight Studio.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+PULSE DIAGRAM
+DANCE SERIES
+OCTOBER 2–4
+8 PM
+RIVERLIGHT STUDIO
+THREE NIGHTS
+
+VISUAL SYSTEM
+Place the two-line title in the protected open upper-left zone. Turn the three abstract body arcs into a restrained pulse diagram: each cobalt gesture arc intersects one continuous coral pulse line at one mustard node. Preserve the sketch’s rising direction. Put the four detail lines in a compact lower-right block. Use warm white, cobalt, coral, mustard, and charcoal. Typography is original narrow geometric uppercase. Keep 8% safe margins and the sketch’s open-space balance.
+
+CONSTRAINTS
+Render only the exact manifest. No dancer face, realistic body, company name, sponsor, logo, notation labels, pseudo-writing, signature, watermark, frame, wall, or extra option. Show exactly three gesture arcs, three head circles, one pulse line, and three nodes.
+
+OUTPUT INTENT
+Return one flat 4:5 dance-campaign poster at 1024 x 1280 pixels.

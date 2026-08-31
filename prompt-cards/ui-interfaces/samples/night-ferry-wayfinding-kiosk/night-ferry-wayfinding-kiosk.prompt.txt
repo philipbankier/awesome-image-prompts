@@ -1,0 +1,42 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-terminal-map.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: infographic-diagram
+Asset type: project-authored terminal-map reference
+Primary request: an original simplified floor plan for the fictional Bracken Quay night-ferry terminal
+Subject: three connected zones labeled exactly "PIER HALL", "LANTERN GATE", and "RIVER DECK", plus one central YOU ARE HERE dot
+Style/medium: clean flat schematic on a navy background with cream lines and cyan, amber, and coral zone blocks
+Composition/framing: portrait map card with all paths visible
+Constraints: fictional and non-navigational; no real geography, emergency guidance, brands, logos, watermarks, or extra labels
+
+END CALL 01
+
+CALL 02
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-terminal-map.webp
+
+EXACT SUBMITTED PROMPT
+Design one public kiosk interface for the fictional "Morrowfield Night Ferry Wayfinding Kiosk" concept. The concept is a fictional night-ferry terminal wayfinding screen.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make choose one of three fictional terminal destinations and return to start the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only BRACKEN QUAY NIGHT FERRY; map source supplied; destinations PIER HALL, LANTERN GATE, RIVER DECK; selected LANTERN GATE; arrows map to gate; button BACK TO START; notice FICTIONAL ROUTE CONCEPT; no real transport accuracy. Anchor the route map above three large destination choices and a persistent back-to-start control. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Use luminous high-contrast route colors, simple arrows, and no claim of real transport accuracy. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+AUTHORIZED REFERENCE INPUT
+Use the attached project-generated authorized reference, labeled Image 1 only after confirming authority to use it for this task. Preserve only the three connected fictional zones, navy background, cream route lines, cyan Pier Hall, amber Lantern Gate, coral River Deck, and central location dot; do not infer identity, ownership, authorship, brand affiliation, unseen geometry, or facts outside the supplied image.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 02

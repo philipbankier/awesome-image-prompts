@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one minimal interior photograph for the project-authored fictional "Atlas Field Notes: Windblown Curtain Room" editorial study depicting an empty sunlit room with one curtain lifted by a breeze.
+
+SUBJECT
+Use exactly an empty sunlit room with one curtain lifted by a breeze, realized as an original unbranded concept with physically plausible materials and a restrained palette of sage, dusty rose, and natural linen exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a fully fictional unoccupied interior with coherent architecture, clean circulation space, and only the approved fixtures named in the prompt. Follow a 4:5 portrait frame using a natural 70 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Keep the window outside frame while the curtain arcs across a bare wall and a simple stool anchors the floor. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use bright natural light, plausible fabric motion, no identifiable property, and no hidden person or story claim. Apply soft directional daylight with one subtle practical accent, realistic shadow falloff, and a restrained palette of sage, dusty rose, and natural linen with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 4:5 photographic concept with credible optics and no unrequested collage.

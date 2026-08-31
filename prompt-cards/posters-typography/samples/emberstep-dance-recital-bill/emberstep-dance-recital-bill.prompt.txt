@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 2:3 dance recital bill
+Card: Emberstep Dance Recital Bill
+Primary request: Present a fictional contemporary dance recital with overlapping footfall arcs resembling sparks on a dark stage.
+Variable instantiations:
+SUBJECT_BRIEF: fictional contemporary dance recital for an adult arts audience.
+COPY_MANIFEST: render exactly and only "EMBERSTEP", "DANCE RECITAL", "21 JUN 2026", and "NORTH HALL".
+VISUAL_MOTIF: exactly six luminous copper footfall arcs sweeping diagonally through the center.
+PALETTE: near-black, ember orange, copper, and warm white.
+TYPE_DIRECTION: original elegant uppercase sans serif with wide spacing.
+COMPOSITION_RULES: 10 percent safe margins; diagonal visual motion; title high; date and venue anchored to a stable baseline; no crop.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly six abstract footfall arcs; exact copy once each; no bodies, other text, pseudo-writing, logos, signatures, mockups, or watermark.

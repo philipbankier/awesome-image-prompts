@@ -55,12 +55,26 @@ Return one polished product-listing hero image at {ASPECT_RATIO}, with the lamp 
 
 Confirm there is one complete lamp, every joint connects plausibly, the base can support the pose, and no unapproved text or object appears.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Modular Desk Lamp Listing Hero](samples/modular-desk-lamp-listing-hero/modular-desk-lamp-listing-hero.webp)
 
-Expected result: a restrained listing hero with one legible, physically coherent modular lamp on a quiet studio field.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T22:26:03Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [modular-desk-lamp-listing-hero.prompt.txt](samples/modular-desk-lamp-listing-hero/modular-desk-lamp-listing-hero.prompt.txt)
+- Output dimensions: `1122 x 1402`
+- Output SHA-256: `e756fba5e2a151b5df3fa2ed1da9391aea0c39420be4a89efff35b32c2f0450b`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Confirmed one complete lamp, two brass-capped pivots, one recessed control, exact ARCWELL ONE copy, a contained cord and plug, stable hardware, and no extra product or watermark.
+- Known misses: The image does not establish manufacturable joint tolerances or electrical compliance; the warm light pool is illustrative.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use only fictional or authorized product designs, names, and text. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

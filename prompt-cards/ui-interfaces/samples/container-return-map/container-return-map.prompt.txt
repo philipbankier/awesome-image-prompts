@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one mobile location interface for the fictional "Morrowfield Container Return Map" concept. The concept is a fictional reusable-container return map.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make choose a nearby fictional return point and check accepted container types the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD RETURN MAP; invented map zones Cedar, Lantern, Willow; Cedar Pantry / 0.4 km / jars and cups / 09:00-17:00; Lantern Hall / 0.8 km / cups / 10:00-18:00; Willow Kiosk / 1.1 km / jars / 12:00-20:00; illustrative locations and hours. Place an invented neighborhood map above nearby return points, accepted container types, and supplied hours. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 6.7-inch portrait mobile or kiosk concept with touch input and generous safe areas. Avoid real location, environmental-impact, refund, or service-availability claims. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 9:16 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

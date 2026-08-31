@@ -53,12 +53,26 @@ Return one atmospheric editorial photograph at {ASPECT_RATIO}, with the bicycle 
 
 Trace the bicycle frame and drivetrain, count wheels and pedals, and verify the cool sky and warm fixtures produce consistent reflections and shadows.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Blue-Hour Bicycle Courtyard](samples/blue-hour-bicycle-courtyard/blue-hour-bicycle-courtyard.webp)
 
-Expected result: a natural blue-hour courtyard photograph with one mechanically coherent bicycle and restrained ambient warmth.
-
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:00:55Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [blue-hour-bicycle-courtyard.prompt.txt](samples/blue-hour-bicycle-courtyard/blue-hour-bicycle-courtyard.prompt.txt)
+- Output dimensions: `1536 x 1024`
+- Output SHA-256: `d4ae95d24a568dfcc9ce6d71c4f6477105dfa5a5f59cf2856e64231b812a5a5c`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: The accepted final shows one ochre step-through bicycle with two grounded wheels, basket, fenders, saddle, kickstand, and plausible drivetrain geometry in the wet courtyard.
+- Known misses: A second dark door is visible through the arch even though the exact prompt allows only one; the bicycle, three windows, two lanterns, planters, and watering can otherwise remain coherent.
+- Rights and provenance: The concept, exact prompt, accepted image, and public WebP derivative are project-authored. Lossless masters and rejected attempts are retained privately with checksums. The public derivative may be reused under this repository's license; this record is illustrative evidence only.
 ## Rights and provenance
 
 Use a fictional setting and independently described or authorized bicycle. This Prompt Card is independently authored, has source posture `original`, and includes no third-party prompt or image.

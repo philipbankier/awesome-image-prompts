@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one service desk dashboard for the fictional "Morrowfield Repair Cafe Intake Queue" concept. The concept is a repair-cafe intake and queue overview.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make open the next anonymized fictional repair ticket the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD REPAIR CAFE; queue T-14 Lamp / Waiting, T-15 Toaster / Review, T-16 Chair / In progress, T-17 Radio / Parts check; selected T-15; item note Does not warm / visual report only; categories Electrical, Furniture, Audio; no personal data; no promise of safe repair. Show anonymized item tickets, repair categories, wait states, and one selected ticket without personal data. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use clear status chips and avoid promises that any item can be repaired safely. Apply soft stone, plum, dusty teal, and pale gold with clear hierarchy and modest surface depth without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

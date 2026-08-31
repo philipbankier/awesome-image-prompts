@@ -1,0 +1,73 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-folio-a.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-created public-domain-inspired folio input
+Primary request: one fictional medieval herbal manuscript page labeled exactly "FOLIO 12R"
+Subject: cream parchment with a painted blue thistle, three short blocks of invented uncial marks, and a red ruled border
+Style/medium: photorealistic overhead manuscript photography
+Composition/framing: single full page with all corners visible
+Constraints: original fictional page, no real manuscript, names, signatures, modern logo, watermark, or extra page
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-folio-b.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-created public-domain-inspired folio input
+Primary request: one fictional medieval herbal manuscript page labeled exactly "FOLIO 12V"
+Subject: cream parchment with a painted green fern, two short columns of invented uncial marks, and a blue ruled border
+Style/medium: photorealistic overhead manuscript photography
+Composition/framing: single full page with all corners visible
+Constraints: visibly distinct companion to FOLIO 12R, original fictional page, no real manuscript, names, signatures, logo, watermark, or extra page
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-margin-detail.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-created manuscript detail input
+Primary request: one close archival crop of a fictional parchment margin showing a small gold moth motif, red guide dots, and a blue border fragment
+Style/medium: photorealistic manuscript macro photography
+Composition/framing: square close detail with crisp pigment and parchment grain
+Constraints: original fictional detail; no readable body copy, signatures, real manuscript, logo, watermark, or extra objects
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-folio-a.webp
+- input-02-folio-b.webp
+- input-03-margin-detail.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop comparison interface for the fictional "Morrowfield Manuscript Comparison Viewer" concept. The concept is a public-domain manuscript comparison viewer.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make compare the supplied fictional folios at synchronized zoom the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD FOLIO VIEWER; left FOLIO 12R / blue thistle / project-created; right FOLIO 12V / green fern / project-created; detail input Gold moth margin; zoom 125%; notes Border color differs and Motif placement; annotation A-03; source roles visible; no historical claim. Place two authorized page images in synchronized panes with zoom, folio notes, and a difference-annotation rail. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use archival neutrals and keep provenance and source roles visible for every page. Apply soft stone, plum, dusty teal, and pale gold with clear hierarchy and modest surface depth without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, FOLIO 12R; Image 2, FOLIO 12V; and Image 3, the gold-moth margin detail, a small set whose items are all authorized for this task. Follow Image 1 fills the left synchronized pane; Image 2 fills the right pane; Image 3 appears only as a separate annotation-detail thumbnail so each image has one declared purpose, and preserve only the separate page borders, blue thistle, green fern, folio labels, gold moth detail, and source separation. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

@@ -1,0 +1,13 @@
+Use case: ads-marketing
+Asset type: flat 4:5 tabletop tournament poster
+Card: Hexgarden Tabletop Championship Poster
+Primary request: Promote a fictional strategy-game championship with hex tiles growing into a geometric garden.
+Variable instantiations:
+SUBJECT_BRIEF: fictional original tabletop strategy tournament for adult hobby players; no real game.
+COPY_MANIFEST: render exactly and only "HEXGARDEN", "ROUND 1", "ROUND 2", "FINAL", and "ENTRY 12".
+VISUAL_MOTIF: exactly nineteen hex tiles forming one symmetrical abstract garden around a central gold tile.
+PALETTE: forest green, moss, violet, gold, black, and cream.
+TYPE_DIRECTION: original angular uppercase sans serif.
+COMPOSITION_RULES: 8 percent safe margins; title nested in upper grid; central hex garden; three round labels and entry line in side panel; no crop.
+OUTPUT_SIZE: 1024 x 1280.
+Constraints: exact copy only; no other text, pseudo-writing, real game pieces, logos, characters, signatures, mockups, or watermark.

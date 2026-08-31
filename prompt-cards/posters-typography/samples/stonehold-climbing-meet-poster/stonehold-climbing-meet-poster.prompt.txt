@@ -1,0 +1,20 @@
+COMMISSION
+Create one flat 2:3 poster announcing the fictional Stonehold Bouldering Meet. This is an independently authored visual concept: one angular climbing handhold is enlarged into a mountain-like form.
+
+CONTENT
+The fictional community meet is for adult recreational climbers at the invented Quarry Nine gym. Render only this exact approved copy, preserving spelling and hierarchy:
+STONEHOLD
+BOULDERING MEET
+OPEN / INTERMEDIATE / ADVANCED
+QUARRY NINE
+18 OCTOBER
+Do not render any other text, grades, sponsors, claims, labels, signatures, or marks.
+
+VISUAL SYSTEM
+Use one monumental faceted handhold, clearly recognizable as an indoor bouldering hold yet composed like a mountain peak, with a tiny abstract route line crossing it. Palette: limestone gray, mineral orange, chalk white, and deep forest green. Typography direction: original compressed uppercase sans, sturdy and slightly angular. Let the single hold dominate the upper two-thirds. Set the three categories as one compact line and the venue/date as a clean base lockup. Keep a 7% safe margin, decisive top-to-bottom hierarchy, clear negative space, no clipping, and strong thumbnail impact.
+
+CONSTRAINTS
+Exactly one enlarged handhold. No climber or human figure, no real gym or sports brand, no logo, copied event system, unsupported claim, pseudo-writing, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1536 pixel climbing-meet poster in 2:3 portrait orientation.

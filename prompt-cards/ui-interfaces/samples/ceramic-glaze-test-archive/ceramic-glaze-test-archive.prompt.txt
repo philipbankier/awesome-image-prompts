@@ -1,0 +1,74 @@
+CALL 01
+Purpose: generate project-authored supporting input input-01-cobalt-tile.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned glaze-test reference
+Primary request: one square ceramic test tile coated in a deep cobalt glaze with subtle iron speckles
+Style/medium: photorealistic studio macro photography
+Composition/framing: single complete tile centered and photographed straight on
+Lighting/mood: soft raking light that reveals gloss and surface variation
+Constraints: neutral gray background; no labels, hands, pottery, text, logo, or watermark
+
+END CALL 01
+
+CALL 02
+Purpose: generate project-authored supporting input input-02-copper-tile.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned glaze-test reference
+Primary request: one rectangular ceramic test tile coated in a mottled copper-green glaze with a darker lower edge
+Style/medium: photorealistic studio macro photography
+Composition/framing: single complete tile centered and photographed straight on
+Lighting/mood: soft raking light that reveals satin texture and color pooling
+Constraints: neutral gray background; visually distinct from a cobalt tile; no labels, hands, pottery, text, logo, or watermark
+
+END CALL 02
+
+CALL 03
+Purpose: generate project-authored supporting input input-03-cream-tile.webp
+Referenced images: none
+
+EXACT SUBMITTED PROMPT
+Use case: product-mockup
+Asset type: project-owned glaze-test reference
+Primary request: one hexagonal ceramic test tile coated in warm cream glaze with fine brown speckles and faint crackle
+Style/medium: photorealistic studio macro photography
+Composition/framing: single complete tile centered and photographed straight on
+Lighting/mood: soft raking light that reveals matte texture
+Constraints: neutral gray background; visually distinct from blue and green tiles; no labels, hands, pottery, text, logo, or watermark
+
+END CALL 03
+
+CALL 04
+Purpose: accepted final render
+Referenced supporting inputs:
+- input-01-cobalt-tile.webp
+- input-02-copper-tile.webp
+- input-03-cream-tile.webp
+
+EXACT SUBMITTED PROMPT
+Design one desktop visual archive for the fictional "Morrowfield Ceramic Glaze Test Archive" concept. The concept is a ceramic-studio glaze test archive.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make filter and compare the three supplied project-owned glaze tiles the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only MORROWFIELD GLAZE ARCHIVE; Cobalt Square / stoneware / Cone 6 / glossy; Copper Rectangle / stoneware / Cone 6 / satin; Cream Hex / porcelain / Cone 5 / matte; filters Clay, Firing, Surface; selected Copper Rectangle; illustrative records, not performance claims. Display authorized tile images in a filterable grid with supplied clay, firing, and note fields. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 13-inch landscape desktop viewport with mouse and keyboard input. Keep every image role explicit and avoid materials-safety or firing-performance claims. Apply warm cream, deep pine, soft sage, and one coral action accent with restrained sans-serif typography without borrowing a real product or brand system.
+
+AUTHORIZED IMAGE SET
+Use only Image 1, the cobalt square tile; Image 2, the copper-green rectangular tile; and Image 3, the cream hexagonal tile, a small set whose items are all authorized for this task. Follow each image is one separate glaze-test record and must occupy its own archive card so each image has one declared purpose, and preserve only each tile's distinct shape, color, texture, and complete silhouette without blending the surfaces. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:10 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 04

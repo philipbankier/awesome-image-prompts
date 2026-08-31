@@ -1,0 +1,27 @@
+Use case: rendered sample for the Night Platform Departure Board Graphic Prompt Card.
+Asset type: one flat fictional 16:9 departure-board graphic, no mockup.
+
+Create one late-night rail departure board for the wholly fictional Night Platform network. Treat it as clean editorial typography inspired only by generic split-flap rhythm.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE TWELVE LINES
+NIGHT PLATFORM
+DESTINATION
+DEPARTS
+BRIAR BAY
+23:14
+LANTERN QUAY
+23:42
+MOSSFIELD
+00:05
+ORISON LAKE
+00:31
+SERVICE ALERT • TRACK 2 FOR ALL TRAINS
+
+VISUAL SYSTEM
+Place NIGHT PLATFORM as a compact header. Below, make a strict two-column grid with DESTINATION and DEPARTS column heads, then exactly four paired rows: BRIAR BAY with 23:14, LANTERN QUAY with 23:42, MOSSFIELD with 00:05, and ORISON LAKE with 00:31. Add exactly one full-width service alert band at bottom containing the final manifest line. Use near-black navy, cream flap tiles, pale cyan type, and one amber alert band. Typography is original monospaced uppercase with generous tracking. Keep 5% safe margins and exact row alignment.
+
+CONSTRAINTS
+Render only the exact manifest. No train numbers, status terms, extra destinations, icons, arrows, operator brand, logo, pseudo-writing, signature, watermark, frame, station scene, or extra option. Preserve every name and time exactly once.
+
+OUTPUT INTENT
+Return one flat 16:9 departure-board graphic at 1536 x 864 pixels.

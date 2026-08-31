@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one fine-art object photograph for the project-authored fictional "Atlas Field Notes: Windowlit Chess Pieces" editorial study depicting a public-domain chess set paused midgame in window light.
+
+SUBJECT
+Use exactly a public-domain chess set paused midgame in window light, realized as an original unbranded concept with physically plausible materials and a restrained palette of moss green, warm umber, and parchment cream exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a project-built fictional set on a worn maple work surface against a warm-gray seamless background, with only the named objects present. Follow a 5:4 frame using a natural 65 mm lens character, with the focal subject fully legible and deliberate edge clearance for an open-license prompt-library sample. Frame a small cluster of worn wooden pieces with one empty square carrying a sharp rectangle of light. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use restrained monochrome wood tones, visible grain, long shadows, and no branded board. Apply soft north-window light from frame left with restrained bounce fill, natural contrast, and a palette of moss green, warm umber, and parchment cream with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 5:4 photographic concept with credible optics and no unrequested collage.

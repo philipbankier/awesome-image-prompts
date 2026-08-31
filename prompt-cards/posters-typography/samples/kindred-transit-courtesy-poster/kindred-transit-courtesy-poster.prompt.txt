@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 3:4 fictional transit courtesy poster
+Card: Kindred Transit Courtesy Poster
+Primary request: Explain one fictional transit courtesy campaign with three interlocking handrail shapes illustrating shared space.
+Variable instantiations:
+SUBJECT_BRIEF: fictional courtesy concept for an invented transit system; illustrative and non-operational.
+COPY_MANIFEST: render exactly and only "KINDRED TRANSIT", "MAKE ROOM", "BOARD", "RIDE", and "EXIT".
+VISUAL_MOTIF: three interlocking curved handrail shapes framing exactly three simple behavior icons.
+PALETTE: transit blue, warm yellow, coral, charcoal, and cream.
+TYPE_DIRECTION: original friendly uppercase sans serif.
+COMPOSITION_RULES: 8 percent safe margins; short headline at eye level; exactly three icon-led behaviors below; campaign name in small footer; no crop.
+OUTPUT_SIZE: 1024 x 1365.
+Constraints: exactly three behaviors; exact copy only; no other text, pseudo-writing, real transit marks, safety assurance, people, logos, signatures, mockups, or watermark.

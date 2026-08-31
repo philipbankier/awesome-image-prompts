@@ -1,0 +1,14 @@
+COMMISSION
+Create one 4:5 ecommerce listing hero for fictional over-ear headphones. Use this independently authored concept: soft graphite ear cups hover just above a pale acoustic-felt plane.
+
+PRODUCT
+Use the fictional Quietwave over-ear headphones. Build exactly one complete headphone set with two symmetrical oval ear cups in soft-touch graphite polymer, deep charcoal memory-foam cushions covered in fine woven fabric, one slender adjustable matte-aluminum headband with a padded underside, and two short concealed yokes. Add one tiny unlit status dot and one flush oval control on the rear-facing right cup. Show no cable, case, adapter, charger, microphone boom, model, package, phone, stand, duplicate product, or detached part. Use no logo or product claim.
+
+PRESENTATION
+Use a front three-quarter 85 mm product view from slightly above. Pose the headphones as one coherent product with the headband rising behind and both cups fully visible, hovering only a few millimeters above one rectangular plane of pale warm-gray acoustic felt. Keep generous clean copy-safe space in the upper third. Light with a large softbox from upper left, a narrow cool rim, soft frontal fill, and a precise felt shadow. Use a pale mineral-gray seamless background. Render no text, pseudo-text, logo, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored design. Preserve plausible hinges, paired yokes, equal cup geometry, continuous headband, declared materials, and stable spatial relationships. No real brand, copied industrial design, unsupported noise-cancellation or audio claim, floating detached cup, duplicate control, person, hand, decorative prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished headphone listing hero at 1120 x 1400 in 4:5. The entire product and felt plane must be fully visible, sharply detailed, and uncropped.

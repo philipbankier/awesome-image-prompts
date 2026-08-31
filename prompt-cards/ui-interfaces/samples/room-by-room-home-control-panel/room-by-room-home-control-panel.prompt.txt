@@ -1,0 +1,22 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+SCENE
+Create one landscape tablet control panel for the fictional Willow House Demo at Sunday at 19:40, using a quiet residential visual system.
+
+SUBJECT
+Organize Living Room, Kitchen, Studio, and Bedroom as clearly separated room summaries, with the selected room Studio and its primary action TURN STUDIO LIGHT OFF given priority.
+
+DETAILS
+Show only Living Room light ON; Kitchen light OFF; Studio light ON; Bedroom light OFF, Living Room 21 C; Kitchen 20 C; Studio 22 C; Bedroom 19 C, Evening scene paused, and Studio window open; sample status only. Use quiet warm gray surfaces, moss-green active states, amber alerts, direct labels, and consistent line icons, consistent device icons, visible on-off states, and only WILLOW HOUSE DEMO; SUNDAY 19:40; LIVING ROOM; KITCHEN; STUDIO; BEDROOM; ON; OFF; 21 C; 20 C; 22 C; 19 C; EVENING SCENE PAUSED; STUDIO WINDOW OPEN; TURN STUDIO LIGHT OFF; SAMPLE STATUS ONLY.
+
+CONSTRAINTS
+Respect a 12.9-inch landscape tablet frame safe areas, large touch targets, state contrast, and room-to-device ownership. No controls for undeclared devices, no real address, no surveillance feed, no security codes, no tiny pseudo-text, logos, watermarks, or unapproved labels.
+
+OUTPUT INTENT
+Return one polished 4:3 tablet interface at 1600 x 1200 pixels, with every room state scannable and the selected control unambiguous.
+
+END CALL 01

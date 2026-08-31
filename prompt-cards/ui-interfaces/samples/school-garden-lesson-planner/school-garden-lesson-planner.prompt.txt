@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop planning interface for the fictional "Morrowfield School Garden Lesson Planner" concept. The concept is a fictional school-garden lesson planner.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make arrange a fictional garden lesson into a printable sequence the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR SCHOOL GARDEN LESSON; goal Observe leaf shapes; activities 1 Welcome 10 min, 2 Leaf hunt 20 min, 3 Draw and compare 15 min, 4 Share 10 min; materials clipboards, pencils, sample leaves; printable sequence; no student records or faces; no curriculum or safety certification. Arrange learning goals, activity cards, materials, and a printable sequence with no student records or faces. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 13-inch landscape desktop viewport with mouse and keyboard input. Use bright garden accents and avoid curriculum, safety, or accessibility certification claims. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:10 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

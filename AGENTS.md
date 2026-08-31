@@ -23,9 +23,12 @@ Before material changes, read:
 ## Content boundaries
 
 - Treat each `prompt-cards/<category-id>/<card-id>.md` file as the canonical copy-ready prompt content for one Prompt Card.
-- Keep all Prompt Card metadata in `catalog.json`. Do not add frontmatter, a per-Card JSON record, or an evidence manifest.
+- Keep Prompt Card routing metadata in `catalog.json`. Do not add frontmatter, a per-Card JSON record, or an evidence manifest.
 - Give every Prompt Card the mandatory headings defined in `docs/PROMPT_CARD_FORMAT.md`.
-- Keep every first-wave Prompt Card at `sample_status: placeholder` and visibly label its `Placeholder Preview`. A Prompt Card and its Quick check are not generation evidence or a Production Candidate workflow.
+- Keep each Prompt Card at `sample_status: placeholder` with a visible `Placeholder Preview` until an accepted public derivative and its exact prompt are recorded in the Card. A recorded Card uses `sample_status: rendered` and a `Rendered Sample` section.
+- Keep Card sample evidence in the canonical Card Markdown. Do not add a per-Card JSON record or a shared Card evidence manifest.
+- Store public Card sample files only under `prompt-cards/<category-id>/samples/<card-id>/`: `<card-id>.webp`, `<card-id>.prompt.txt`, and optional `input-NN-<role>.webp` supporting derivatives.
+- Keep rendered Card samples illustrative and non-promotional when provider metadata is hidden. Record unavailable model and request fields as `not_exposed`, use `profile_id: null`, and set `promotion_evidence: false`.
 - Treat `RECIPE.md` as the canonical workflow and prompt content for one Recipe.
 - Keep `recipe.json` as small machine-readable routing metadata. Do not duplicate full prompts there.
 - Keep the packaged skill thin. It routes quick prompting to canonical Prompt Cards and production work to canonical Recipes without copying their prompt text.

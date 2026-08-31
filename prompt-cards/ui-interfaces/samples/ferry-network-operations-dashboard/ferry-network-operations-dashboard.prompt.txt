@@ -1,0 +1,22 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+SCENE
+Create one desktop operations dashboard for the fictional Bracken Quay Ferry Network during the illustrative evening service window from 18:00 to 22:00 on 14 September, viewed in a controlled dispatch room.
+
+SUBJECT
+Show the network map across three invented terminals named Bracken Quay, Lantern Pier, and Alder Reach, with Amber Line from Bracken Quay to Lantern Pier and Blue Line from Bracken Quay to Alder Reach, Lark 03 on Amber Line and Sable 07 on Blue Line, and the priority incident Lantern Pier Gate 2 closed; next action REASSIGN LARK 03 TO GATE 1 clearly distinguished.
+
+DETAILS
+Arrange 2 lines, 3 terminals, and 2 vessels; Amber delayed and Blue normal, Lark 03 at 18:20 DELAY 12 MIN; Sable 07 at 18:32 ON TIME, Gate 2 closed; Amber delay; Crew check pending, and ILLUSTRATIVE WEATHER: light rain and crosswind 12 km/h around the map using a deep navy dispatch system with cyan routes, amber disruption states, direct white labels, and restrained grid lines. Render only BRACKEN QUAY NETWORK; 2 LINES; 3 TERMINALS; AMBER DELAYED; BLUE NORMAL; BRACKEN QUAY; LANTERN PIER; ALDER REACH; LARK 03; SABLE 07; DELAY 12 MIN; ON TIME; GATE 2 CLOSED; REASSIGN LARK 03 TO GATE 1; ILLUSTRATIVE WEATHER; LIGHT RAIN; CROSSWIND 12 KM/H; use redundant color, shape, and label encoding for every service state.
+
+CONSTRAINTS
+Keep route lines, vessel positions, terminal names, timestamps, and status counts internally consistent. No real navigation data, invented safety advice, decorative charts, map-provider branding, tiny pseudo-text, logos, watermarks, or unapproved labels.
+
+OUTPUT INTENT
+Return one information-dense 16:9 desktop dashboard at 1600 x 900 pixels, with network health, disruptions, and the next dispatch action readable without changing screens.
+
+END CALL 01

@@ -1,0 +1,26 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+Input images: Images 1 through 3 are the distinct project-owned role references named in this prompt.
+
+Create one cinematic street photograph for the project-authored fictional "Atlas Field Notes: Fictional Night Market Steam" editorial study depicting an invented night-market food stall seen through rising steam.
+
+SUBJECT
+Use exactly an invented night-market food stall seen through rising steam, realized as an original unbranded concept with physically plausible materials and a restrained palette of moss green, warm umber, and parchment cream exactly; do not infer identity, ownership, brand, or unseen facts.
+
+EXACT COPY
+Render only the exact readable text in the single sign "MOON BROTH", exactly once, with no other readable text; do not add, omit, paraphrase, or alter copy.
+
+SETTING AND COMPOSITION
+Use a purpose-built unoccupied night set with deep spatial layers, restrained practical fixtures, and only the objects named in the prompt. Follow a 21:9 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Use separate authorized sources for unbranded stall structure, cookware, and color atmosphere without merging people or signage. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Keep the scene unoccupied, use warm steam against cool night, and make all visible menu copy fictional. Apply cool cobalt ambient light balanced with one warm amber practical source, low glare, moderate contrast, and a restrained palette of moss green, warm umber, and parchment cream with natural tonal transitions and material response.
+
+AUTHORIZED IMAGE SET
+Use only Images 1 through 3, the attached project-owned supporting studies generated specifically for this Prompt Card, a small set whose items are all authorized for this task. Follow Image 1: unbranded stall structure; Image 2: cookware arrangement; Image 3: cool-night and warm-steam color atmosphere so each image has one declared purpose, and preserve only the narrow timber canopy and counter from Image 1, the single stockpot and three shallow bowls from Image 2, and the cyan-night plus amber-steam palette from Image 3. Do not merge identities, brands, provenance, or hidden details across the sources.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 21:9 photographic concept with credible optics and no unrequested collage.

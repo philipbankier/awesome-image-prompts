@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one desktop message interface for the fictional "Morrowfield Platform Alert Composer" concept. The concept is a fictional train-platform alert composer.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make preview a supplied fictional platform message while publish remains disabled the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only BRACKEN RAIL ALERT CONCEPT; station Lantern Cross; platform 2; message Trains pause here for 10 minutes; channels Board, Mobile, Audio; timing 18:20-18:35; previews supplied text only; PUBLISH DISABLED; notice NOT CONNECTED TO TRANSPORT SYSTEM; no real operational claim. Place a supplied-message editor beside channel previews, timing, and a clearly disabled publish action. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 1440-pixel landscape desktop or wall-display concept with mouse or glance-scale interaction as appropriate. Use invented stations and state that the mockup is not connected to a transport system. Apply paper white, charcoal, moss green, and muted ochre with generous spacing and sturdy rounded cards without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 16:9 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

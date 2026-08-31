@@ -1,0 +1,19 @@
+Use case: photorealistic-natural
+Asset type: public Prompt Card rendered sample
+
+Create one urban night photograph for the project-authored fictional "Atlas Field Notes: Bus Shelter Night Reflection" editorial study depicting an empty fictional bus shelter reflected in rain-dark pavement.
+
+SUBJECT
+Use exactly an empty fictional bus shelter reflected in rain-dark pavement, realized as an original unbranded concept with physically plausible materials and a restrained palette of clay red, weathered oak, and soft gray exactly; do not infer identity, ownership, brand, or unseen facts.
+
+SETTING AND COMPOSITION
+Use a purpose-built unoccupied night set with deep spatial layers, restrained practical fixtures, and only the objects named in the prompt. Follow a 3:2 landscape frame using a natural 45 mm lens character, with the focal subject fully legible, level geometry, and deliberate edge clearance for an open-license prompt-library sample. Place the shelter in the upper third while its colored light reflection stretches toward camera. Keep scale, reflections, depth, and edges plausible.
+
+LIGHT AND REALISM
+Use invented unreadable poster shapes, realistic wet surfaces, and no real route, brand, or live-service implication. Apply cool cobalt ambient light balanced with one warm amber practical source, low glare, moderate contrast, and a restrained palette of clay red, weathered oak, and soft gray with natural tonal transitions and material response.
+
+CONSTRAINTS
+Do not present a fictional setup as documentary proof. Add no real brand, real-person likeness, medical or legal claim, signature, or watermark. Do not imitate a named living photographer. Avoid duplicated or missing named elements, clipped focal details, warped geometry, impossible reflections or shadows, accidental writing, oversaturated color, and synthetic plastic texture.
+
+OUTPUT
+Return one 3:2 photographic concept with credible optics and no unrequested collage.

@@ -1,0 +1,14 @@
+SCENE
+Create a top-down tabletop scene on a lightly textured natural oat-linen surface, illuminated by broad north-window light from the upper-left edge and a soft white bounce from the lower-right.
+
+SUBJECT
+Arrange one coordinated fictional Tidepool Morning stoneware breakfast set containing exactly one 24 cm dinner plate, one 15 cm breakfast bowl, one handleless 250 ml cup, and one 13 cm saucer: four ceramic pieces total.
+
+DETAILS
+Use warm speckled buff clay with a translucent celadon glaze fading irregularly near each foot ring, thin exposed-clay rims with gently hand-finished variation, and an orderly diagonal arrangement: plate lower-left, bowl upper-left, cup centered on the saucer at upper-right, all pieces separate with even breathing room. Add only one folded undyed linen napkin, kept secondary to the ceramics.
+
+CONSTRAINTS
+Keep every listed vessel distinct, correctly counted, undamaged, and grounded. No duplicate pieces, warped rims, fused handles, floating cutlery, food spills, logos, labels, watermarks, or extra text.
+
+OUTPUT INTENT
+Return one refined flat-lay catalog image at 1:1, with even spacing, clear product separation, and the complete set inside the frame.

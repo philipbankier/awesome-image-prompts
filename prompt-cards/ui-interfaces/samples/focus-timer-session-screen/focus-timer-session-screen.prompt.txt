@@ -1,0 +1,22 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+SCENE
+Create one portrait mobile session screen used in a fictional neighborhood writing nook during a quiet rainy evening, with a quiet background in a soft charcoal-to-sage gradient with subtle paper grain.
+
+SUBJECT
+Center an active focus timer for Maple Draft, showing exactly 24:18 and progress 61% complete.
+
+DETAILS
+Use a thick circular progress ring with crisp tabular numerals, one primary control labeled PAUSE, and secondary controls End and Sound. Show Deep Focus, Bell muted, and Session 3 of 4 with warm cream, muted sage, and a single coral accent; keep the time as the strongest element and render only Maple Draft; 24:18; 61% complete; PAUSE; End; Sound; Deep Focus; Bell muted; Session 3 of 4.
+
+CONSTRAINTS
+Respect a 6.1-inch portrait mobile frame with generous top and bottom safe areas, large tap targets, consistent spacing, and accessible contrast. No task list, analytics dashboard, extra navigation, fake notifications, tiny pseudo-text, logos, watermarks, or unapproved labels.
+
+OUTPUT INTENT
+Return one focused 9:16 session interface at 1152 x 2048 pixels, with the remaining time and pause-or-resume action readable immediately.
+
+END CALL 01

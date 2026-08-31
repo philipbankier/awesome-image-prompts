@@ -1,0 +1,25 @@
+Use case: rendered sample for the Open Wall Architecture Tour Sketch Poster Prompt Card.
+Asset type: one flat fictional architecture-tour poster refined from the attached project-owned layout sketch, no mockup.
+
+SKETCH INPUT
+Use the attached authorized project-generated sketch only as a structural guide. Protect its three zones: a shallow full-width header at top, one large square map window in the middle, and a shallow full-width footer at bottom. Inside the map window, preserve the single stepped wall route with four right-angle turns and the general tree-island placement. Clean alignment and redraw all forms; do not reproduce sketch marks or add functional architectural details. No sketch text exists to preserve.
+
+SUBJECT BRIEF
+Create one 3:4 poster for OPEN WALL, a fictional guided architecture walk through the invented Lantern Court.
+
+EXACT COPY MANIFEST, RENDER ONLY THESE SIX LINES
+OPEN WALL
+ARCHITECTURE WALK
+SATURDAY, MAY 23
+11 AM
+MEET AT LANTERN COURT
+RESERVE A PLACE
+
+VISUAL SYSTEM
+Set the two-line title in the retained header. Redraw the central map window as a clean sectional wall route in cobalt with coral joint blocks, surrounded by six simple circular tree islands on warm cream. Use the route itself as the focal motif. Put the remaining four detail lines in the retained footer. Typography is original compact architectural sans serif uppercase. Keep 7% margins, precise alignment, and the sketch’s header-map-footer hierarchy.
+
+CONSTRAINTS
+Render only the exact manifest. No street names, dimensions, north arrow, route labels, sponsor, logo, pseudo-writing, signature, watermark, frame, wall mockup, or invented building detail.
+
+OUTPUT INTENT
+Return one flat 3:4 architecture-tour poster at 1024 x 1365 pixels.

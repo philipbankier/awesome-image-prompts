@@ -1,0 +1,20 @@
+SCENE
+Create a clean e-commerce studio set on a seamless pale warm-gray surface and backdrop, lit by a large diffused key from upper left, soft frontal fill, and a restrained grounded shadow to rear-right.
+
+SUBJECT
+Show exactly one fictional Arcwell One modular desk lamp in matte mineral blue, viewed from a slightly elevated front three-quarter angle with a 70mm product-photography lens character.
+
+DETAILS
+The lamp has one low oval base, one slim vertical stem, two short articulated arms forming a shallow zigzag, and one small cylindrical downlight head; exactly two visible round pivot joints with brushed-brass caps; a stable oval weighted base with one recessed charcoal power button; and restrained material separation between powder-coated aluminum, brushed brass, and a charcoal fabric cord. Keep the power state on, with a soft warm pool visible beneath the head. Render only this approved text: ARCWELL ONE.
+
+CONSTRAINTS
+Preserve plausible hardware, stable balance, clean edges, and a complete silhouette. No extra lamps, floating parts, duplicated joints, invented controls, logos beyond the approved fictional name, watermarks, price badges, lifestyle props, or unapproved text.
+
+OUTPUT INTENT
+Return one polished product-listing hero image at 4:5, with the lamp dominant, fully inside the frame, and surrounded by useful negative space.
+
+--- REFINEMENT 01 ---
+
+Edit the attached Arcwell One lamp product image. Make exactly one localized correction: route the entire charcoal fabric power cord inside the frame. It must emerge from the rear-left of the oval base, form one short relaxed loop on the studio surface, and end in one small plain charcoal two-prong plug with clear margin from the left and bottom image edges.
+
+Preserve everything else exactly: one mineral-blue lamp, oval weighted base, recessed power button, vertical stem, two articulated arms, exactly two round brass-capped pivots, cylindrical lit head, legible approved text ARCWELL ONE, camera, crop, negative space, light pool, background, materials, and color. Do not add or remove controls, joints, arms, text, props, logos, packaging, or watermarks. Keep the complete lamp and complete cord fully inside the 4:5 frame.

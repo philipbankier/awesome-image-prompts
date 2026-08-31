@@ -1,0 +1,24 @@
+CALL 01
+Purpose: accepted final render
+Referenced supporting inputs:
+none
+
+EXACT SUBMITTED PROMPT
+Design one tablet monitoring concept for the fictional "Morrowfield Rain Garden Sensor Panel" concept. The concept is a rain-garden sensor overview using fictional readings.
+
+USER AND GOAL
+The primary audience is operators and volunteers in the fictional Morrowfield Commons program. Make review one fictional rain-garden zone and its illustrative trend the unmistakable main action.
+
+INFORMATION AND STRUCTURE
+Use only CEDAR RAIN GARDEN / FICTIONAL READINGS; zones North Bed 42%, Basin 58%, Overflow 31%; selected Basin; sample water-level trend 44, 51, 58, 46; observation note Standing water near stone; alert area NONFUNCTIONAL; no sensing, flood prediction, or readiness claim. Show zone cards, a simple water-level trend, observation notes, and a clearly nonfunctional alert area. Keep hierarchy, states, and navigation legible.
+
+VISUAL DIRECTION
+Design for a 12.9-inch landscape tablet concept with touch input. Use nature-led colors and do not claim live sensing, flood prediction, or maintenance readiness. Apply cool fog gray, midnight navy, river blue, and one amber action accent with crisp compact typography without borrowing a real product or brand system.
+
+CONSTRAINTS
+Treat every name, metric, status, and message as fictional or supplied. Do not imply functional testing, accessibility certification, legal compliance, medical advice, financial advice, or operational readiness. Add no real brand, unauthorized real-person likeness, signature, or watermark. Avoid cropped device frames, illegible or misspelled labels, duplicate controls, added screens, unsupported data, decorative stock photos, and text outside the supplied manifest.
+
+OUTPUT
+Return one 4:3 concept image with readable hierarchy and no unrequested screens.
+
+END CALL 01

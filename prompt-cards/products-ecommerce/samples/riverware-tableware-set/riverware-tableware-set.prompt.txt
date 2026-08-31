@@ -1,0 +1,14 @@
+COMMISSION
+Create one 3:2 tableware catalog image for a fictional stoneware place setting. Use this independently authored concept: plate, bowl, cup, and small dish share one hand-painted blue river line.
+
+PRODUCT
+Use the fictional Riverware stoneware set. Build exactly four empty pieces: one 27 cm dinner plate, one 16 cm low bowl, one 300 ml handleless cup, and one 10 cm shallow condiment dish. Use warm off-white speckled stoneware with satin glaze, subtly irregular handmade rims, and one continuous-looking cobalt-blue brush line that meanders once around the interior or exterior of each piece. The pieces must share the same clay, glaze, cobalt stroke width, and restrained craft character. Show no cutlery, napkin, food, beverage, flower, tray, package, extra dish, logo, or text.
+
+PRESENTATION
+Use a slightly elevated front three-quarter 65 mm catalog view. Arrange all four pieces separately in a balanced loose diamond: plate back left, bowl front center, cup back right, small dish front right. Prevent overlap that hides any silhouette or interior. Light with a broad soft key from upper left, warm frontal bounce, gentle ceramic highlights, and grounded shadows on a pale sand seamless surface and background. Render no text, pseudo-text, signature, or watermark.
+
+CONSTRAINTS
+This is a fictional, project-authored tableware design. Keep exactly four pieces at plausible relative scale, preserve each declared form, and apply the same original river-line identity without copying a known ceramic pattern. No duplicated handle, extra saucer, warped rim, unsupported handmade or food-safety claim, hand, lifestyle scene, unrelated prop, or marketplace UI.
+
+OUTPUT INTENT
+Return one polished tableware catalog image at 1536 x 1024 in 3:2. Every complete piece and its cobalt line must be fully visible, crisp, and uncropped.

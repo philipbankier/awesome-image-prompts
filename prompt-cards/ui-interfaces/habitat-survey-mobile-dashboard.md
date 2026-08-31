@@ -56,11 +56,26 @@ Return one polished 9:16 mobile interface at {OUTPUT_SIZE}, with the current sur
 
 Confirm one screen is shown, the active plot and progress agree, the primary action is dominant, all exact labels are legible, and offline status cannot be mistaken for a successful sync.
 
-## Placeholder Preview
+## Rendered Sample
 
-Sample status: Placeholder Preview. No recorded generation run.
+![Rendered sample for Habitat Survey Mobile Dashboard](samples/habitat-survey-mobile-dashboard/habitat-survey-mobile-dashboard.webp)
 
-Expected result: a calm field-ready dashboard with a readable survey summary, compact habitat cue, and one unmistakable next action.
+- Sample status: Rendered Sample.
+- Generation surface: built-in image generation tool
+- Generated at: `2026-08-30T23:09:19Z`
+- Model: `not_exposed`
+- Model version: `not_exposed`
+- Seed: `not_exposed`
+- Request parameters: `not_exposed`
+- Request ID: `not_exposed`
+- Exact prompt: [habitat-survey-mobile-dashboard.prompt.txt](samples/habitat-survey-mobile-dashboard/habitat-survey-mobile-dashboard.prompt.txt)
+- Output dimensions: `941 x 1672`
+- Output SHA-256: `9c0afad3e934345b33e5b57663c667e1b2595efb9330b441110fdc271eba0bfc`
+- Profile ID: `null`
+- Promotion evidence: `false`
+- Human inspection: Passed at full resolution: the accepted 9:16 Habitat Survey Mobile Dashboard render makes "RECORD OBSERVATION" primary and keeps "MARSH EDGE SURVEY", "PLOT R-07", "6 OF 10 PLOTS" readable in a complete frame; no material count, crop, watermark, or unsafe-resemblance defect was observed.
+- Known misses: No material miss was observed against the closed Habitat Survey Mobile Dashboard manifest; this single illustrative render does not establish interaction behavior, repeatability, or production readiness.
+- Rights and provenance: The concept, exact prompts, accepted image, and any supporting inputs are fictional and project-authored. The linked final is a quality-88 public WebP derivative; private archival storage retains the lossless PNG masters and exact call prompts with checksums. The public derivatives may be reused under this repository's license; this record is illustrative evidence only.
 
 ## Rights and provenance
 

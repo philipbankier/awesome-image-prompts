@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: flat 2:3 ecology conference poster
+Card: Canopy Codes Ecology Conference Poster
+Primary request: Announce a fictional ecology conference using branching canopy veins as a clear three-track session network.
+Variable instantiations:
+SUBJECT_BRIEF: fictional ecology conference for researchers and community scientists.
+COPY_MANIFEST: render exactly and only "CANOPY CODES", "SOIL", "WATER", "CANOPY", and "03 OCT 2026".
+VISUAL_MOTIF: one stylized leaf canopy whose veins divide into exactly three color-coded branches.
+PALETTE: forest green, moss, river blue, soil ochre, and cream.
+TYPE_DIRECTION: original sturdy humanist sans serif in uppercase.
+COMPOSITION_RULES: 8 percent safe margins; conference title above; three branch labels aligned to their tracks; date in a clean footer; no text over busy lines.
+OUTPUT_SIZE: 1024 x 1536.
+Constraints: exactly three labeled tracks; exact copy only; no scientific claims, other text, pseudo-writing, sponsor logos, signatures, mockups, or watermark.

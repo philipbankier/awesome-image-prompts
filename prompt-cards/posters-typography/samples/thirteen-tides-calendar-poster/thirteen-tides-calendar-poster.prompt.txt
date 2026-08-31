@@ -1,0 +1,22 @@
+COMMISSION
+Create one flat 3:4 wall-calendar poster for a fictional thirteen-cycle tidal calendar titled Thirteen Tides. This is an independently authored visualization, not real tidal guidance: alternating high and low arcs organize exactly thirteen cycle blocks.
+
+CONTENT
+The fictional calendar is a decorative study for the invented Moonbar Archive. Render only this exact approved copy, preserving spelling, sequence, and line breaks:
+THIRTEEN TIDES
+FICTIONAL CYCLE CALENDAR
+HIGH / LOW
+01 02 03 04
+05 06 07 08
+09 10 11 12 13
+NOT FOR NAVIGATION
+Do not render any other text, dates, times, locations, water levels, labels, claims, signatures, or marks.
+
+VISUAL SYSTEM
+Use exactly thirteen equal rectangular calendar blocks arranged in three rows of 4, 4, and 5. Each block contains one simple tide arc, alternating high then low across the sequence. Palette: midnight navy, tidepool teal, moon white, and muted coral. Typography direction: original narrow uppercase sans with clear monospaced numerals. Place the narrow title and fictional subtitle at the top, a compact HIGH / LOW legend directly beneath, the 13-block grid below, and NOT FOR NAVIGATION at the foot. Keep a 7% safe margin, strict left-to-right sequence, clear gutters, no clipping, and strong thumbnail readability.
+
+CONSTRAINTS
+Exactly thirteen countable blocks labeled once each from 01 through 13 in correct order. No real tide data, calendar dates, ports, navigation guidance, extra numerals, pseudo-writing, logos, watermark, mockup, frame, wall, hands, or extra option.
+
+OUTPUT INTENT
+Return one flat 1024x1365 pixel decorative calendar poster in 3:4 portrait orientation.
